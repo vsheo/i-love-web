@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* vh of vw is 1% van de hoogte of breedte */
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.6s;
+    padding: 1em 2em;
+    background-color: rgba(52, 70, 92, 0.836);
+    z-index: 100000;
+}
+
+header .home a{
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+article dl {
+    display: grid;
+    /* 2 kolommen */
+    grid-template-columns: repeat(2, 1fr);
+    /* Ruimte tussen de items */
+    gap: 5em;
+    /* grootte van de items */
+    height: 65vh;
+    width: 80vw;
+  }
+
+.item-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* Zet de dt en dd onder elkaar */
+  flex-direction: column; 
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+}
+/* grid indelen */
+.item1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: center;
+}
+.item2{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  align-self: center;
+}
+.item3{
+  align-self: center;
+}
