@@ -10,3 +10,7 @@ fetch('../txt_bestanden/day_journal/sprint_1/8_9_24.txt') // Het pad naar je tek
         document.getElementById('text-container').textContent = data; // Plaats de opgehaalde tekst in de div
       })
       .catch(error => console.error('Fout bij het laden van het bestand:', error));
+
+
+
+// werkt alleen als ik vscode loive server aan heb staan

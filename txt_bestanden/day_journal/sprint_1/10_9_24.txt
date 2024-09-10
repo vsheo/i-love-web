@@ -1,0 +1,15 @@
+3 dingen geleerd?
+ik heb meer geleerd over grid
+
+
+2 dingen interessant?
+ik heb voorheen alleen met grid-template-columns grid-template-rows gewerkt.
+en daarna heb ik alles individuëel ingedeelt.
+maar nu weet ik dat ik met grid-template-areas hetzelfde makkelijker kan doen.
+
+Ik ging heel vaak div gebruiken in mijn code,
+Maar ik heb nu door dat dat bijna hemaal niet nodig is.
+i.p.v een div te gebruiken geeft ik nu een class aan de tag waar ik mee werk.
+
+
+1 ding waar je vragen over hebt?

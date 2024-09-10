@@ -1,10 +1,11 @@
-vandaag heb ik gewerkt aan mijn I love web 
-ik heb de structuur ingedeelt
-ik wil niet teveel zetten omdat ik weet dat ik beter ga worden in html en css.
+Vandaag heb ik gewerkt aan mijn I love web 
+Ik heb de structuur ingedeelt
+Ik wil nog niet teveel zetten omdat ik weet dat ik meer zal leren over html en css.
+Ik wil niet vanaf het begin iets hebben dat moeilijk te lezen is,
 daarom heb ik het voor nu simpel gehouden.
 
-ik heb nu een home pagina, en een semester pagina waar alle sprints voor semester 1 staan
-ik kan  nu mijn day journal bijhouden en foto's toevoegen.
+Ik heb nu een home pagina, en een semester pagina waar alle sprints voor semester 1 staan
+Ik kan nu mijn day journal bijhouden en foto's toevoegen.
 
-ik ben van plan om elke dag screenshots te maken voor een time vault,
+Ik ben van plan om elke dag screenshots te maken voor een time vault,
 zodat ik kan zien hoe de website door de dagen heen veranderd.

@@ -1,0 +1,41 @@
+body {
+    height: 160vh;
+}
+
+/* alle articles onder elkaar */
+div {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+/* grid waar de daily check out in komt te staan */
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    grid-template-areas: 
+    "title1 title2"
+    "area1 area1"
+    "area2 area2"
+    ;
+    
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    gap: 1em;
+
+    margin-top: 5em;
+    /* height: 65vh; */
+    width: 80vw;
+}
+
+h1 {
+    grid-area: title1;
+}
+h2 {
+    grid-area: title2;
+}
+p {
+    grid-area: area1;
+}
