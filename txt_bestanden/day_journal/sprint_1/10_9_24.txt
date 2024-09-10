@@ -11,5 +11,6 @@ Ik ging heel vaak div gebruiken in mijn code,
 Maar ik heb nu door dat dat bijna hemaal niet nodig is.
 i.p.v een div te gebruiken geeft ik nu een class aan de tag waar ik mee werk.
 
-
-1 ding waar je vragen over hebt?
+wat wil ik nog doen?
+een pagina maken waar ik al mijn foto's kan laten zien.
+en dan kan ik vanuit mijn journal naar de foto's linken, waar dat nodig is.
