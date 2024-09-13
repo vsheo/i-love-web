@@ -1,0 +1,3 @@
+journal page dat chronogisch alle daily check outs heeft
+- als ik, bijvoorbeeld, op sprint 2 click gaat het in  de journal naar waar sprint 2 begint
+
