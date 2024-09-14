@@ -1,0 +1,6 @@
+Vandaag heb ik gewerkt aan de opmaak van mijn squad page
+Ik had met de html checker 2 problemen gevonden in mijn code, die heb ik ook gelijk opgelost.
+
+Wat wil ik nog doen?
+Ik wil mijn css voor I love web aanpassen, zodat alles aangepast wordt met class naam i.p.v de tag naam.
+Ik will ook aan mijn afbeeldingen page beginnen.

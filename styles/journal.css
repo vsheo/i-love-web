@@ -1,15 +1,26 @@
-body {
-    height: 260vh;
+/* css code voor journal.html */
+
+
+.journal_body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* positie van de articles in de body */
+    padding-left: 8vw;
+    padding-bottom: 2em;
+
+    /* turn off side scrolling */
+    overflow-x: hidden;
+
 }
 
 /* alle articles onder elkaar */
-div {
+.article_position {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
 
 /* grid waar de daily check out in komt te staan */
-article {
+.daily_checkout {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: min-content 1fr min-content;
@@ -30,12 +41,15 @@ article {
     width: 80vw;
 }
 
-h1 {
+.title {
     grid-area: title1;
 }
-h2 {
+.date {
     grid-area: title2;
 }
-p {
+.article_inhoud {
     grid-area: area1;
+}
+.article_footer {
+    grid-area: area2;
 }

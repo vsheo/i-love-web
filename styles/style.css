@@ -1,5 +1,8 @@
+/* css voor de index.html */
+/* en css voor body, header, a, ul, ol, li */
 
-body {
+
+.index_body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,7 +16,7 @@ body {
   width: 100vw;
 }
 
-header {
+.header_style {
   position: fixed;
   top: 0;
   left: 0;
@@ -26,7 +29,7 @@ header {
   z-index: 100000;
 }
 
-header .home a{
+.header_style .home .a_style{
   font-weight: 700;
   color: #ffffff;
   font-size: 2em;
@@ -36,27 +39,28 @@ header .home a{
 }
 
 /* style anchor tags */
-a {
+.a_style {
   text-decoration: none;
   color: black;
 }
-a:hover {
+.a_style:hover {
   text-decoration: underline; /* Onderstreept de link wanneer je erover hovert */
 }
 
 /* style lists */
-ul, ol{
+.ul_style {
   list-style-type: none;
 }
-ol{
+.ol_style{
+  list-style-type: none;
   text-align: left;
 }
-li{
+.li_style{
   margin-bottom: 1em;
 }
 
 /* grid met 2 vakken */
-article ul {
+.article_style .ul_style {
   list-style-type: none;
   display: grid;
   /* 2 gelijke kolommen */
