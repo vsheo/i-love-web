@@ -1,0 +1,38 @@
+
+
+.vault_container {
+    gap: 5em;
+}
+
+
+
+.foto_slider{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /* height en width van de vault */
+    max-width: 80vw;
+    height: 75vh;
+    padding: 2em;
+    gap: 2em;
+    background-color: #f0f0f0;
+
+    /* wel links rechts scrollen, maar niet naar boven en beneden */
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.foto {
+    /* background-color: rgb(89, 165, 231); */
+
+    box-sizing: border-box;
+    height: 38vw;
+    width: 50vw;
+    padding: 0.5em;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}

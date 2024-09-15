@@ -1,8 +1,17 @@
-journal page dat chronogisch alle daily check outs heeft
-- als ik, bijvoorbeeld, op sprint 2 click gaat het in  de journal naar waar sprint 2 begint
+domme ideen
 
 stick man die komt en zegt
 viresh heeft dit wel gemaakt maar wilt het niet laten zien
 daarom ben ik hier.
 niet omdat hij het was vergeten ofzo
 
+
+
+functionaliteit
+
+journal page dat chronogisch alle daily check outs heeft
+- als ik, bijvoorbeeld, op sprint 2 click gaat het in  de journal naar waar sprint 2 begint
+
+
+picture vault
+een hover met uitleg wat ik dacht toen ik die pagina ging maken.
