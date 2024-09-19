@@ -1,0 +1,13 @@
+Vandaag heb ik de campus pagina voor onze squad page af gemaakt.<br>
+Er was een klein probleem in mijn grid, waardoor een stuk tekst niet te zien was. Dat is nu opgelost.<br>
+Ik had ook een probleem met de foto's, ze waren niet allemaal even groot.<br>
+Dat heb ik kunnen oplossen met min-width, min-height en object-fit: cover.<br><br>
+
+Ik heb ook aan de tabellen op de detailpagina gewerkt, die zijn ook af.<br><br>
+
+Als laatst had ik vandaag de campus pagina ook responsive gemaakt.<br><br>
+
+Wat wil ik nog doen?<br>
+Er zijn een paar foto's op de detailpagina die in de breedte zijn gemaakt.<br>
+Op die plekken hebben we portretfoto's nodig.<br>
+Morgen zal ik een paar nieuwe foto's maken.<br><br>
