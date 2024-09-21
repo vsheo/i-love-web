@@ -1,0 +1,5 @@
+Ik heb vandaag nieuwe fotopagina's gemaakt.
+In plaats van één pagina met alle foto's, heb ik nu één pagina per opdracht (visitekaart, I love web, squad page).
+
+Ik heb ook meteen de links van mijn journalpagina naar de foto's gemaakt. Hiervoor heb ik 'id' tags gebruikt.
+
