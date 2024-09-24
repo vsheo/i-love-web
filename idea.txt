@@ -1,10 +1,5 @@
 domme ideen
 
-stick man die komt en zegt
-viresh heeft dit wel gemaakt maar wilt het niet laten zien
-daarom ben ik hier.
-niet omdat hij het was vergeten ofzo
-
 distraction mode
 als youtube shorts, subway surfers underaan de scherm.
 
@@ -13,6 +8,8 @@ functionaliteit
 
 journal page dat chronogisch alle daily check outs heeft
 - als ik, bijvoorbeeld, op sprint 2 click gaat het in  de journal naar waar sprint 2 begint
+- als je scrollt "disintegrate" de section die van het scherm af gaat
+- de nieuwe section onstaat van onder uit
 
 
 picture vault
@@ -24,7 +21,3 @@ picture vault per sprint, om te voorkomen dat de pagina traag wordt
 video van de website
 
 
-
-to do vrijdag
-foto links
-id links
