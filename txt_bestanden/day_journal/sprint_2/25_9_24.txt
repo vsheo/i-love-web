@@ -1,0 +1,19 @@
+prototypes maken
+dit is onderverdeelt in
+sitemaps
+wireframe en wireflows
+en daarna High Fidelity(HiFi) prototypes, die kunnen gemaakt worden met programma's als figma
+
+wat moet ik doen voor aanstaande vrijdan
+een sematiek correcte HTMl file voor de website doie ik wil bouwen
+
+wat wil ik zelf nog doen
+mijn HiFi prototype in figma afmaken
+en breakdown schetsen maken in mijn wireframes.
+
+
+** voeg links toe naar foto's
+
+link naar uitleg:
+https://github.com/fdnd-task/the-client-website/blob/main/docs/prototyping.md
+

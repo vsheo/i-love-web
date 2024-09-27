@@ -1,0 +1,20 @@
+Documenteer wat je vandaag hebt gedaan
+voeg links naar voorbeelden, bronnen en bijvoorbeeld issues met schetsen
+
+stel 3 vragen over wat je hebt geleerd over HTML
+
+
+werk je project board bijvoorbeeld
+verwerkj de issues en feedback die je vandaag hebt gekregen
+fix de kleintjes meteen
+plan de groote voor volgend week
+
+
+vandaag heb ik een code review geschreven voor
+link naar issues
+
+ik heb geleerd dat een Section en Article verplicht een <h> element nodig hebben
+
+ik heb ook geleerd dat ik niet overal bepaald element nodig heb. meestal is de parent al genoeg,
+en in mijn geval heb ik dan geen section nodig om mijn articles in te delen
+

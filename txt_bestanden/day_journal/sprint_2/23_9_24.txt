@@ -13,3 +13,19 @@ wat een debriefing is en hoe ik dat moet aanpakken
 
 formuleer 2 leervragen voor deze week
 Hoe kan ik deze week de website van Veronica, een zender van Mediahuis, op een semantisch correcte manier namaken?
+
+
+
+
+
+Checkout - Prototyping woensdag
+Voor de checkout van vandaag kun je bijvoorbeeld dit doen.
+De checkout moet een routine worden, vlak voordat je weggaat schrijf je dit even op, activeer je je hersenen, 
+stop je wat je hebt geleerd in je lange termijn geheugen en stel je een plannetje op voor wat je zometeen gaat doen en morgen ...
+
+ 
+
+Documenteer wat je vandaag hebt gedaan. Voeg links naar voorbeelden, bronnen en bijvoorbeeld issues met schetsen toe.
+Noem drie dingen die je vandaag hebt geleerd.
+Schrijf op wat je nu gaat doen.
+
