@@ -1,0 +1,5 @@
+kort wat je vandaag hebt gedaan en geleerd
+ - er zijn regels voor websites, deze regels zorgen ervoor dat assesibility tools kunnen werken op de website
+
+schrijf op wat je nog moet doen voor wcag van woensdag
+ - ik moet de handmatige testen nog doen en opschrijven wat mijn vindingen zijn

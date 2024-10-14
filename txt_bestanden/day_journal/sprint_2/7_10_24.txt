@@ -1,0 +1,12 @@
+beschrijf 3 code conventies van vandaag
+indents in de HTML dit deed ik al
+CSS selectors nesten
+css op dezelfde volgorde als html, dit deed ik al
+media queries nesten dit deed ik al
+
+schrijf 2 punten waarmee je leesbaarheid van je HTML en CSS kunt verbeteren
+
+
+schrijf op welke conventies je vanaf nu over gaat nemen in je eigen code.
+vanaf nu zal ik CSS selectors nesten.
+het zorgt ervoor dat ik makkelijker kan lezen wat mijn  code aan het doen is.

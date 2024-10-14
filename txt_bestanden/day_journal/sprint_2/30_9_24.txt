@@ -1,0 +1,12 @@
+ verschillen tussen flow, grid, flrxbox positioned, float, multi_column en table layout.
+
+
+ ikheb ge oefend met layouts
+ grid float en flow
+
+ voor de opdracht gever heb ik grid en flex nodig
+ 
+
+ https://github.com/vsheo/layout-in-css/issues?q=is%3Aissue+is%3Aclosed
+
+ 
