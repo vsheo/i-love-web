@@ -1,0 +1,197 @@
+
+/* scroll bar met items
+https://codepen.io/cbolson/pen/OJeaYgZ */
+
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+    list-style-type: none;
+    list-style: none;
+
+    font-family: sans-serif;
+
+    object-fit: cover;
+
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    background-image:
+    linear-gradient(
+        143deg,
+        green calc(100%* 7/20),
+        yellow 0 calc(100%* 9/20),
+        black 0 calc(100%* 12/20),
+        yellow 0 calc(100%* 14/20),
+        blue 0
+    );
+}
+
+main, section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10em;
+
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+
+ 
+    article {
+        background-color: white;
+        border: 2px solid black;
+        box-shadow: 7px 7px 0 rgb(189, 187, 187);
+        border-radius: 10px;
+        padding: 1em;
+        margin-left: 5em;
+        margin-right: 5em;
+        width: 50vw;
+    }
+}
+
+/* https://codepen.io/Andrew-Neely-82/pen/qBzmYNr?editors=1100 */
+
+/* key frames laat weten hoe de animatie uitgevoerd moet worden */
+@keyframes left_slide_in {
+    from {
+        translate: -150%;
+    }
+    to {
+        translate: 0;
+    }
+}
+
+@keyframes right_slide_in {
+    from {
+        translate: 150%;
+    }
+    to {
+        translate: 0;
+    }
+}
+
+@keyframes scale_in {
+    from {
+        scale: 0;
+    }
+    to {
+        scale: 1;
+    }
+}
+
+@keyframes scale_rotate_in {
+    from {
+        scale: 0;
+    }
+    to {
+        rotate: 360deg;
+        scale: 1;
+    }
+}
+
+@keyframes scale2_rotate_in {
+    from {
+        scale: 0;
+    }
+    to {
+        rotate: 360deg;
+        scale: 1;
+    }
+}
+
+/* op de article wordt de animatie uitgevoerd */
+#sprint1 {
+    article:nth-of-type(1) {
+        position: relative;
+        animation: left_slide_in 2s;
+    }
+
+    article:nth-of-type(2) {
+        position: relative;
+        animation: right_slide_in 2s;
+    }
+
+    article:nth-of-type(3) {
+        position: relative;
+        animation: scale_in 2s;
+    }
+
+    article:nth-of-type(4) {
+        position: relative;
+        animation: scale_rotate_in 2s;
+    }
+
+    article:nth-of-type(5) {
+        position: relative;
+        animation: scale2_rotate_in 2s;
+    }
+
+    article:nth-of-type(6) {
+        position: relative;
+        animation: left_slide_in 2s;
+    }
+
+    article:nth-of-type(7) {
+        position: relative;
+        animation: right_slide_in 2s;
+    }
+
+    article:nth-of-type(8) {
+        position: relative;
+        animation: scale_in 2s;
+    }
+
+    article:nth-of-type(9) {
+        position: relative;
+        animation: scale_rotate_in 2s;
+    }
+
+    article:nth-of-type(10) {
+        position: relative;
+        animation: scale2_rotate_in 2s;
+    }
+
+    article:nth-of-type(11) {
+        position: relative;
+        animation: left_slide_in 2s;
+    }
+
+    article:nth-of-type(12) {
+        position: relative;
+        animation: right_slide_in 2s;
+    }
+
+    article:nth-of-type(13) {
+        position: relative;
+        animation: scale_in 2s;
+    }
+
+    article:nth-of-type(14) {
+        position: relative;
+        animation: scale_rotate_in 2s;
+    }
+
+    article:nth-of-type(15) {
+        position: relative;
+        animation: scale2_rotate_in 2s;
+    }
+
+    article:nth-of-type(16) {
+        position: relative;
+        animation: scale2_rotate_in 2s;
+    }
+}
+
