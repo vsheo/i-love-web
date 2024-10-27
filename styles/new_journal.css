@@ -68,6 +68,7 @@ section {
 }
 
 #sprint1 {
+    /* met to bottom gaat de eerste kleur over naar de tweede kleur */
     background: linear-gradient(to bottom, rgb(1, 94, 255), rgb(0, 255, 255));
 }
 
