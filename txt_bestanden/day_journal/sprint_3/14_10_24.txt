@@ -1,5 +1,8 @@
 kort wat je vandaag hebt gedaan en geleerd
  - er zijn regels voor websites, deze regels zorgen ervoor dat assesibility tools kunnen werken op de website
+ - ik heb geleerd wat een lighthouse test is, en hoe ik die kan uitvoeren.
+ - de lighthouse test kan niet alles testen, daarvoor zijn er ook handmatige testen. ik heb de a11ly test gebruikt
+ om verder te kijken als mijn website wel of niet toegangkelijk is.
 
 schrijf op wat je nog moet doen voor wcag van woensdag
  - ik moet de handmatige testen nog doen en opschrijven wat mijn vindingen zijn

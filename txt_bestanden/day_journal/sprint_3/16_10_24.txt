@@ -1,7 +1,7 @@
 wat heb je vandaag gedaan?
 ik heb een wcag audit gepresenteerd over de koffie salon, de cafe waar ik werk
 ik heb een user experiance workshop gedaan
-en ik heb gewerkt aan mijn i love web, ik b en begonnen met een nieuwe HTML. deze zal ik beter schrijven dan de eerste keer.
+en ik heb gewerkt aan mijn i love web, ik ben begonnen met een nieuwe HTML. deze zal ik beter schrijven dan de eerste keer.
 
 3 dingen die je hebt geleerd
 ik heb geleerd hoe een website toegankelijker gemaakt kan worden door goeie html(met een label, alt attribute, heading structuur)
@@ -41,3 +41,4 @@ h3 gaat dieper op h2 in
 h2 een ander onderdeel van h1
 
 ik kan links afbeeldingen en headings toepassen in de website van de opdrachtgever
+

@@ -2,13 +2,8 @@ Documenteer wat je vandaag hebt gedaan
 voeg links naar voorbeelden, bronnen en bijvoorbeeld issues met schetsen
 
 stel 3 vragen over wat je hebt geleerd over HTML
-
-
-werk je project board bijvoorbeeld
-verwerk de issues en feedback die je vandaag hebt gekregen
-fix de kleintjes meteen
-plan de groote voor volgend week
-
+waarom wil je geen div in je HTML?
+Waarvoor zou je wel een div kunnen gebruiken?
 
 vandaag heb ik met Dylan een code reviews geschreven voor:
 code review Amber: https://github.com/ambersr/the-client-website/issues/1#issuecomment-2378742366
@@ -21,5 +16,12 @@ Wat heb ik geleerd over HTML:
 Een Section en Article hebben verplicht een <h> element nodig hebben.
 
 Ik heb niet overal bepaald element nodig. Meestal is de parent element al genoeg.
-In mijn geval heb ik dan geen section nodig om mijn articles in te delen
+In mijn geval heb ik dan geen section nodig om mijn articles in te delen.
+(De articles kunnen in de main staan.)
 
+
+
+werk je project board bijvoorbeeld
+verwerk de issues en feedback die je vandaag hebt gekregen
+fix de kleintjes meteen
+plan de groote voor volgend week

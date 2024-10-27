@@ -1,0 +1,15 @@
+3 dingen die je vandaag hebt gedaan
+- laptop gebruikt zonder een muis of trackpad, en keyboard shortcuts opgezocht.
+- een sprint review voorbereid, voor morgen met de opdrachtgever
+- uitgezocht wat JavaScript Intersection Observer is en doet
+
+beschrijf 2 verbeteringen die je in je readme hebt gemaakt
+ik heb een qr code toegevoegd waardoor het makkelijker is om te bekijken op een telefoon.'
+uitgelegd hoe de website werkt
+
+schrijf 1 ding die je anders gaat aanpakken tijdens de komende sprint
+op 1 issue afmaken, niks ernaast doen.
+ik heb vaker gehad waar ik een nieuw probleem tegen komt terwijl ik bezig ben met een issue.
+en dan probeer ik dat eerst op te lossen, daarna ga ik verder met mn issue.
+als ik daarna een commit push, en de issue eraan link, is er veel veranderd dat niet met die issue te maken had.
+ik zal komende sprint nieuwe issues maken i.p.v het gelijk op te lossen.

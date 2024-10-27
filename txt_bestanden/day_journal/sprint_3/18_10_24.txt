@@ -1,0 +1,21 @@
+wat heb ik gedaan?
+ik heb code reviews geschreven samen met Amber voor:
+Robin: https://github.com/Robinwouterson/all-human-accessible-website/issues/5
+Colin: https://github.com/ColindeGroot/all-human-accessible-website/issues/1
+
+Fatima:https://github.com/fatimahilali/all-human-accessible-website/issues/3
+Iris: https://github.com/irisvw/all-human-accessible-website/issues/8
+
+ik heb ook voor feedback op mn design gevraagd aan de 2 mentoren
+mijn designs waaren duidelijk, ik heb weinig verbeter punten meegekregen.
+
+neem de uitbreiding van de checklist code-review toegangelijkheid over in je learning log en leg kort uit hoe je deze getest hebt.
+
+contrast tussen achtergrond en tekst.
+ik heb witte tekst op een lightblauwe achtergrond, voor mij ziet het er duidelijk uit.
+maar met een contrast checker zie ik nu dat er weinig contrast is.
+
+sommige html elementen hebben verplicht een soort child elementen
+zoals:
+section en article moeten een h element bevatten
+ul en ol hebben li elementen nodig

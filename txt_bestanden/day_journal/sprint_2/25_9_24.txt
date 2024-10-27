@@ -1,11 +1,12 @@
+wat heb ik vandaag gedaan
 prototypes maken
 dit is onderverdeelt in
 sitemaps
 wireframe en wireflows
 en daarna High Fidelity(HiFi) prototypes, die kunnen gemaakt worden met programma's als figma
 
-wat moet ik doen voor aanstaande vrijdan
-een sematiek correcte HTMl file voor de website doie ik wil bouwen
+wat moet ik doen voor aanstaande vrijdag
+een sematiek correcte HTMl code voor de website die ik wil gaan bouwen
 
 wat wil ik zelf nog doen
 mijn HiFi prototype in figma afmaken

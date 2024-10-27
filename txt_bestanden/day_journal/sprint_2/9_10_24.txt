@@ -1,8 +1,15 @@
 wat is het doel van de sprint review?
+het doel van een sprint review is om de opdrachtgever te laten zien wat je deze sprint gedaan hebt.
+en hierop feedback te krijgen.
+en ook om de opdrachtgever op de hoogte brengen van wat je komende sprint zal doen.
 
+3 leervragen over de les van vandaag:
 Hoe verwerk je feedback van een sprint review?
-
-
 wat laat je zien tijdens een sprint review?
 hoe schrijf je een ReadMe?
+
+
 wat doe je na een sprint review?
+je verwerkt je feedback door nieuwe issues aan te maken.
+
+

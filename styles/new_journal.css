@@ -2,6 +2,10 @@
 /* scroll bar met items
 https://codepen.io/cbolson/pen/OJeaYgZ */
 
+/* https://codepen.io/shooft/pen/WNVZYeZ */
+
+/* https://blog.webdevsimplified.com/2022-01/intersection-observer/ */
+
 /* RESET */
 * {
     box-sizing: border-box;
@@ -19,7 +23,7 @@ https://codepen.io/cbolson/pen/OJeaYgZ */
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(24, 56, 214);
 }
 
 
@@ -28,23 +32,11 @@ header {
     justify-content: center;
 }
 
-article {
-    background-image:
-    linear-gradient(
-        143deg,
-        green calc(100%* 7/20),
-        yellow 0 calc(100%* 9/20),
-        black 0 calc(100%* 12/20),
-        yellow 0 calc(100%* 14/20),
-        blue 0
-    );
-}
 
-main, section {
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10em;
 
     scroll-behavior: smooth;
     overflow-y: hidden;
@@ -58,8 +50,33 @@ main, section {
         padding: 1em;
         margin-left: 5em;
         margin-right: 5em;
+        margin-bottom: 5em;
         width: 50vw;
+
+        p {
+             margin-top: 0.5em;
+        }
     }
+
+    article:first-child {
+        margin-top: 10em;
+    }
+
+    article:last-child {
+        margin-bottom: 10em;
+    }
+}
+
+#sprint1 {
+    background: linear-gradient(to bottom, rgb(1, 94, 255), rgb(0, 255, 255));
+}
+
+#sprint2 {
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgb(47, 255, 0));
+}
+
+#sprint3 {
+    background: linear-gradient(to bottom, rgb(47, 255, 0), rgb(246, 255, 0));
 }
 
 /* https://codepen.io/Andrew-Neely-82/pen/qBzmYNr?editors=1100 */
@@ -107,18 +124,23 @@ main, section {
         scale: 0;
     }
     to {
-        rotate: 360deg;
+        
         scale: 1;
     }
 }
 
-/* op de article wordt de animatie uitgevoerd */
-#sprint1 {
-    article:nth-of-type(1) {
-        position: relative;
-        animation: left_slide_in 2s;
-    }
+/* article is niet te zien */
+article {
+    opacity: 0;
+}
+/* de animation brengt de article in beeld */
+.animation1 {
+    position: relative;
+    opacity: 1;
+    animation: right_slide_in 2s;
+}
 
+/* #sprint1 {
     article:nth-of-type(2) {
         position: relative;
         animation: right_slide_in 2s;
@@ -193,5 +215,5 @@ main, section {
         position: relative;
         animation: scale2_rotate_in 2s;
     }
-}
+} */
 
