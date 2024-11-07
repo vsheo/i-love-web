@@ -9,7 +9,7 @@ const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         // de class wordt aan de article toegevoegd, of weg gehaald, zodra het eerste gedeelte van de article op beeld komt.
         entry.target.classList.toggle("animation1", entry.isIntersecting)
-        // nadat de article in beelkd is gaat het niet meer weg
+        // nadat de article in beeld is gaat het niet meer weg
         if (entry.isIntersecting) observer.unobserve(entry.target)
     })
 }, {

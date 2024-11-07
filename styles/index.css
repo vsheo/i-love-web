@@ -1,0 +1,222 @@
+
+/* scroll bar met items
+https://codepen.io/cbolson/pen/OJeaYgZ */
+
+/* https://codepen.io/shooft/pen/WNVZYeZ */
+
+/* https://blog.webdevsimplified.com/2022-01/intersection-observer/ */
+
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+    list-style-type: none;
+    list-style: none;
+
+    font-family: sans-serif;
+
+    object-fit: cover;
+
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(24, 56, 214);
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+
+ 
+    article {
+        background-color: white;
+        border: 2px solid black;
+        box-shadow: 7px 7px 0 rgb(189, 187, 187);
+        border-radius: 10px;
+        padding: 1em;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 5em;
+        width: 50vw;
+
+        p {
+             margin-top: 0.5em;
+        }
+    }
+
+    article:first-child {
+        margin-top: 10em;
+    }
+
+    article:last-child {
+        margin-bottom: 10em;
+    }
+}
+
+#sprint1 {
+    /* met to bottom gaat de eerste kleur over naar de tweede kleur */
+    background: linear-gradient(to bottom, rgb(1, 94, 255), rgb(0, 255, 255));
+}
+
+#sprint2 {
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgb(47, 255, 0));
+}
+
+#sprint3 {
+    background: linear-gradient(to bottom, rgb(47, 255, 0), rgb(138, 143, 9));
+}
+
+/* https://codepen.io/Andrew-Neely-82/pen/qBzmYNr?editors=1100 */
+
+/* key frames laat weten hoe de animatie uitgevoerd moet worden */
+@keyframes left_slide_in {
+    /* de article wordt eerst uit beeld gehaald */
+    from {
+        translate: -150%;
+    }
+    /* de article wordt terug naar de begin positie gebracht */
+    to {
+        translate: 0;
+    }
+}
+
+@keyframes right_slide_in {
+    from {
+        translate: 150%;
+    }
+    to {
+        translate: 0;
+    }
+}
+
+@keyframes scale_in {
+    from {
+        scale: 0;
+    }
+    to {
+        scale: 1;
+    }
+}
+
+@keyframes scale_rotate_in {
+    from {
+        scale: 0;
+    }
+    to {
+        rotate: 360deg;
+        scale: 1;
+    }
+}
+
+@keyframes scale2_rotate_in {
+    from {
+        scale: 0;
+    }
+    to {
+        
+        scale: 1;
+    }
+}
+
+/* article is niet te zien */
+article {
+    opacity: 0;
+}
+/* de animation brengt de article in beeld */
+.animation1 {
+    position: relative;
+    opacity: 1;
+    animation: right_slide_in 2s;
+}
+
+/* #sprint1 {
+    article:nth-of-type(2) {
+        position: relative;
+        animation: right_slide_in 2s;
+    }
+
+    article:nth-of-type(3) {
+        position: relative;
+        animation: scale_in 2s;
+    }
+
+    article:nth-of-type(4) {
+        position: relative;
+        animation: scale_rotate_in 2s;
+    }
+
+    article:nth-of-type(5) {
+        position: relative;
+        animation: scale2_rotate_in 2s;
+    }
+
+    article:nth-of-type(6) {
+        position: relative;
+        animation: left_slide_in 2s;
+    }
+
+    article:nth-of-type(7) {
+        position: relative;
+        animation: right_slide_in 2s;
+    }
+
+    article:nth-of-type(8) {
+        position: relative;
+        animation: scale_in 2s;
+    }
+
+    article:nth-of-type(9) {
+        position: relative;
+        animation: scale_rotate_in 2s;
+    }
+
+    article:nth-of-type(10) {
+        position: relative;
+        animation: scale2_rotate_in 2s;
+    }
+
+    article:nth-of-type(11) {
+        position: relative;
+        animation: left_slide_in 2s;
+    }
+
+    article:nth-of-type(12) {
+        position: relative;
+        animation: right_slide_in 2s;
+    }
+
+    article:nth-of-type(13) {
+        position: relative;
+        animation: scale_in 2s;
+    }
+
+    article:nth-of-type(14) {
+        position: relative;
+        animation: scale_rotate_in 2s;
+    }
+
+    article:nth-of-type(15) {
+        position: relative;
+        animation: scale2_rotate_in 2s;
+    }
+
+    article:nth-of-type(16) {
+        position: relative;
+        animation: scale2_rotate_in 2s;
+    }
+} */
+
