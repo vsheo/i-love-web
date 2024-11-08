@@ -19,83 +19,108 @@ https://codepen.io/cbolson/pen/OJeaYgZ */
     object-fit: cover;
 
     overflow-x: hidden;
-}
 
-a {
     text-decoration: none;
-    color: rgb(24, 56, 214);
+
+}
+/* ----------------------------------------------------------------- */
+
+:root {
+    --sprint1: rgb(1, 94, 255);
+    --sprint2: rgb(0, 255, 255);
+    --sprint3: rgb(47, 255, 0);
+    --sprint4: rgb(138, 143, 9);
+
+    --article: white;
+
+    --a: black;
+    --a_hover: white;
 }
 
+body {
+    header {
+        display: flex;
+        justify-content: center;
+    }
 
-header {
-    display: flex;
-    justify-content: center;
-}
+    main {
+        #sprint1 {
+            /* met to bottom gaat de eerste kleur over naar de tweede kleur */
+            background: linear-gradient(to bottom, var(--sprint1), var(--sprint2));
+        }
+        
+        #sprint2 {
+            background: linear-gradient(to bottom, var(--sprint2), var(--sprint3));
+        }
+        
+        #sprint3 {
+            background: linear-gradient(to bottom, var(--sprint3), var(--sprint4));
+        }
 
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+            scroll-behavior: smooth;
+            overflow-y: hidden;
 
-    scroll-behavior: smooth;
-    overflow-y: hidden;
+            article {
+                background-color: var(--article);
+                box-shadow: 7px 7px 0 rgb(189, 187, 187);
+                border: 2px solid black;
+                border-radius: 10px;
+                padding: 1em;
+                margin-bottom: 5em;
+                width: 50vw;
 
- 
-    article {
-        background-color: white;
-        border: 2px solid black;
-        box-shadow: 7px 7px 0 rgb(189, 187, 187);
-        border-radius: 10px;
-        padding: 1em;
-        margin-bottom: 5em;
-        width: 50vw;
+                p {
+                    strong {
+                        display: inline-block;
+                    }
 
-        p {
-            margin-top: 0.7em;
-            padding: 0.5em;
+                    a {
+                        display: inline-block;
+                        text-align: center;
+                        vertical-align: middle;
+                        white-space: nowrap;
+                        background-color: rgb(150, 150, 150);
+                        color: var(--a);
+                        border-radius: 15px;
+                        max-width: max-content;
+                        margin: 0.2em;
+                        padding: 0.3em;
+                    }
 
-            strong {
-                margin: 0.5em;
+                    a:hover {
+                        background-color: var(--a);
+                        color: var(--a_hover);
+                    }
+                }
+            }
+            /* article is niet te zien */
+            article {
+                opacity: 0;
             }
 
-            a {
-                border-radius: 15px;
-                background-color: rgb(150, 150, 150);
-                color: rgb(0, 0, 255);
-                margin: 0.5em;
-                padding: 0.3em;
-                text-align: center;
+            /* de animation brengt de article in beeld */
+            .animation1 {
+                position: relative;
+                opacity: 1;
+                animation: right_slide_in 2s;
             }
 
-            a:hover {
-                background-color: rgb(0, 0, 255);
-                color: white;
+            article:first-child {
+                margin-top: 10em;
+            }
+
+            article:last-child {
+                margin-bottom: 10em;
             }
         }
     }
-
-    article:first-child {
-        margin-top: 10em;
-    }
-
-    article:last-child {
-        margin-bottom: 10em;
-    }
 }
 
-#sprint1 {
-    /* met to bottom gaat de eerste kleur over naar de tweede kleur */
-    background: linear-gradient(to bottom, rgb(1, 94, 255), rgb(0, 255, 255));
-}
-
-#sprint2 {
-    background: linear-gradient(to bottom, rgb(0, 255, 255), rgb(47, 255, 0));
-}
-
-#sprint3 {
-    background: linear-gradient(to bottom, rgb(47, 255, 0), rgb(138, 143, 9));
-}
 
 /* https://codepen.io/Andrew-Neely-82/pen/qBzmYNr?editors=1100 */
 
@@ -148,92 +173,3 @@ section {
         scale: 1;
     }
 }
-
-/* article is niet te zien */
-article {
-    opacity: 0;
-}
-/* de animation brengt de article in beeld */
-.animation1 {
-    position: relative;
-    opacity: 1;
-    animation: right_slide_in 2s;
-}
-
-/* #sprint1 {
-    article:nth-of-type(2) {
-        position: relative;
-        animation: right_slide_in 2s;
-    }
-
-    article:nth-of-type(3) {
-        position: relative;
-        animation: scale_in 2s;
-    }
-
-    article:nth-of-type(4) {
-        position: relative;
-        animation: scale_rotate_in 2s;
-    }
-
-    article:nth-of-type(5) {
-        position: relative;
-        animation: scale2_rotate_in 2s;
-    }
-
-    article:nth-of-type(6) {
-        position: relative;
-        animation: left_slide_in 2s;
-    }
-
-    article:nth-of-type(7) {
-        position: relative;
-        animation: right_slide_in 2s;
-    }
-
-    article:nth-of-type(8) {
-        position: relative;
-        animation: scale_in 2s;
-    }
-
-    article:nth-of-type(9) {
-        position: relative;
-        animation: scale_rotate_in 2s;
-    }
-
-    article:nth-of-type(10) {
-        position: relative;
-        animation: scale2_rotate_in 2s;
-    }
-
-    article:nth-of-type(11) {
-        position: relative;
-        animation: left_slide_in 2s;
-    }
-
-    article:nth-of-type(12) {
-        position: relative;
-        animation: right_slide_in 2s;
-    }
-
-    article:nth-of-type(13) {
-        position: relative;
-        animation: scale_in 2s;
-    }
-
-    article:nth-of-type(14) {
-        position: relative;
-        animation: scale_rotate_in 2s;
-    }
-
-    article:nth-of-type(15) {
-        position: relative;
-        animation: scale2_rotate_in 2s;
-    }
-
-    article:nth-of-type(16) {
-        position: relative;
-        animation: scale2_rotate_in 2s;
-    }
-} */
-
