@@ -13,8 +13,8 @@ const observer = new IntersectionObserver(entries => {
         if (entry.isIntersecting) observer.unobserve(entry.target)
     })
 }, {
-    // alleen als de heele article op beeld past wordt de class aan de article toegevoegd
-    threshold: 1,
+    // alleen als de helft van de article op beeld past wordt de class aan de article toegevoegd
+    threshold: 0.5,
 }
 );
 

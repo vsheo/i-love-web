@@ -26,21 +26,79 @@ https://codepen.io/cbolson/pen/OJeaYgZ */
 /* ----------------------------------------------------------------- */
 
 :root {
-    --sprint1: rgb(1, 94, 255);
+    --header: rgb(17, 255, 0);
+
+    --sprint1: rgb(0, 94, 255);
     --sprint2: rgb(0, 255, 255);
     --sprint3: rgb(47, 255, 0);
-    --sprint4: rgb(138, 143, 9);
+    --sprint4: rgb(135, 140, 0);
 
     --article: white;
 
+    --box_shadow: rgb(189, 187, 187);
+
     --a: black;
+    --a_background: rgb(129, 129, 129);
     --a_hover: white;
+    --a_box_shadow:rgb(178, 178, 178);
+    --a_box_shadow_hover: rgb(99, 99, 99);
 }
 
 body {
     header {
+        background-color: var(--header);
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+
+        z-index: 100;
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-height: 4em;
+        max-height: 10em;
+        width: 100%;
+
+        h1 {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .nav_container {
+            position: relative;
+
+            .hamburger {
+                font-size: 30px;
+                margin-right: 1em;
+            }
+
+            .menu {
+                display: none;
+
+                .sub_menu {
+                    display: none;
+                }
+
+                li.active > .sub_menu {
+                    display: block;
+                }
+            }
+        }
+
+        .nav_container.active .menu{
+            display: block;
+        }
+    }
+
+    .scroll-up {
+        transform: translateY(0);
+        transition: 0.5s;
+    }
+
+    .scroll-down {
+        transform: translateY(-100%);
+        transition: 0.5s;
     }
 
     main {
@@ -67,7 +125,7 @@ body {
 
             article {
                 background-color: var(--article);
-                box-shadow: 7px 7px 0 rgb(189, 187, 187);
+                box-shadow: 7px 7px 0 var(--box_shadow);
                 border: 2px solid black;
                 border-radius: 10px;
                 padding: 1em;
@@ -84,8 +142,9 @@ body {
                         text-align: center;
                         vertical-align: middle;
                         white-space: nowrap;
-                        background-color: rgb(150, 150, 150);
+                        background-color: var(--a_background);
                         color: var(--a);
+                        box-shadow: 3px 3px 0 var(--a_box_shadow);
                         border-radius: 15px;
                         max-width: max-content;
                         margin: 0.2em;
@@ -95,9 +154,11 @@ body {
                     a:hover {
                         background-color: var(--a);
                         color: var(--a_hover);
+                        box-shadow: 2.5px 2px 0 var(--a_box_shadow_hover);
                     }
                 }
             }
+
             /* article is niet te zien */
             article {
                 opacity: 0;
@@ -109,14 +170,14 @@ body {
                 opacity: 1;
                 animation: right_slide_in 2s;
             }
+        }
 
-            article:first-child {
-                margin-top: 10em;
-            }
+        section:first-of-type article:first-of-type {
+            margin-top: 10em;
+        }
 
-            article:last-child {
-                margin-bottom: 10em;
-            }
+        section:last-child article:last-child {
+            margin-bottom: 10em;
         }
     }
 }

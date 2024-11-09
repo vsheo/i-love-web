@@ -9,7 +9,31 @@
 <body>
     <header>
         <h1>Journal</h1>
+        <nav class="nav_container">
+            <a href="#" class="hamburger" onclick="menuAppear()">&#9776;</a>
+    
+            <ul class="menu">
+                <li>
+                    <a href="#" onclick="toggleSubmenu(this)">Sprint</a>
+                    <ul class="sub_menu">
+                        <li><a href="#sprint1">Sprint 1</a></li>
+                        <li><a href="#sprint2">Sprint 2</a></li>
+                        <li><a href="#sprint3">Sprint 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" onclick="toggleSubmenu(this)">Picture Pages</a>
+                    <ul class="sub_menu">
+                        <li><a href="./html/p_iloveweb.html">I Love Web</a></li>
+                        <li><a href="./html/p_visitekaart.html">Visitekaart</a></li>
+                        <li><a href="./html/p_squadpage.html">Squad page</a></li>
+                        <li><a href="./html/p_mediahuis.html">Mediahuis</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </header>
+
     <main>
         <!-- sprint 1 -->
         <section id="sprint1">
@@ -654,5 +678,7 @@
         </section>
     </main>
     <script src="./scripts/inter_ob.js"></script>
+    <script src="./scripts/hamburger.js"></script>
+    <script src="./scripts/header_scroll.js"></script>
 </body>
 </html>
