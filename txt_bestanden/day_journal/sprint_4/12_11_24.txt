@@ -1,0 +1,17 @@
+
+vandaag heb ik breakdowmn schetsen gemaakt voor een nieuwe mobiele en desktop website.
+in deze nieuwe designs heb ik rekening gehouden met wat de opdrachtgever als feedback had gegeven tijdens de laaste sprint.
+mobiel:
+- alle radiozenders in 1 oogopzicht
+desktop:
+- 1 list voor de tijd lijn
+- 1 list voor de week dagen
+
+ik heb vandaag ook een figma workshop gehad.
+hier hebben we een bestaande template aangepast.
+dit heb ik na de workshop ook gedaan voor mijn website.
+ik heb de figma van Triple genomenen elementen verplaatst, toegevoegd en veranderd.
+ik had door dat in dit figma gewerkt werd met frames en daarin nog meer frames, ik kon die elementen niet aanpassen(text en kleur)
+ik heb voor nu de elementen binnen de frames gekopieert en geplakt op een figuur, en het daarna tot een group gemaakt.
+
+morgen ga ik beginnen met het bouwen van mijn HTML

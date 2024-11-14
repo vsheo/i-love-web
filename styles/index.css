@@ -1,3 +1,9 @@
+/* to do */
+/* a altijd op een nieuwe regel */
+/* na stronge altijd een br */
+/* dmv display flex op de p */
+
+
 
 /* scroll bar met items
 https://codepen.io/cbolson/pen/OJeaYgZ */
@@ -32,6 +38,7 @@ https://codepen.io/cbolson/pen/OJeaYgZ */
     --sprint2: rgb(0, 255, 255);
     --sprint3: rgb(47, 255, 0);
     --sprint4: rgb(135, 140, 0);
+    --sprint5: rgb(140, 84, 0);
 
     --article: white;
 
@@ -76,6 +83,21 @@ body {
             .menu {
                 display: none;
 
+                li {
+                    position: fixed;
+                    transform: translate(-15em, 15em);
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    a {
+                        position: relative;
+                        top: 16em;
+
+                        background-color: black;
+                        padding: 5em;
+                    }
+                }
+
                 .sub_menu {
                     display: none;
                 }
@@ -115,6 +137,10 @@ body {
             background: linear-gradient(to bottom, var(--sprint3), var(--sprint4));
         }
 
+        #sprint4 {
+            background: linear-gradient(to bottom, var(--sprint4), var(--sprint5));
+        }
+
         section {
             display: flex;
             flex-direction: column;
@@ -133,6 +159,9 @@ body {
                 width: 50vw;
 
                 p {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 1em;
                     strong {
                         display: inline-block;
                     }
