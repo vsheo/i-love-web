@@ -1,0 +1,18 @@
+
+vandaag heb ik samen met Julia en Aria code reviews gedaan op de styleguide en stylesheet van bieb in bloei en drop & heal.
+dit hebben we gedaan voor squad G en squad H, dus 4 reviews in tottaal.
+
+github van bieb in bloei squad 1G style guide: https://github.com/kimnikitaschijf/look-and-feel-styleguide
+github van bieb in bloei squad 1H style guide: https://github.com/Sidopjescherm/look-and-feel-styleguide
+
+github van drop and heal squad 1G style guide: https://github.com/Matthijs217/look-and-feel-styleguide
+github van drop and heal squad 1H style guide: https://github.com/RickFDND/look-and-feel-styleguide
+
+
+1 read me
+2 Indeling van de stylesheet
+3 consistente & begrijpelijk Naamgeving
+4 Volledigheid Stylesheet
+5 Custom properties op juiste element
+6 Herhaling code
+
