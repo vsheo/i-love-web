@@ -51,6 +51,17 @@ https://codepen.io/cbolson/pen/OJeaYgZ */
     --a_box_shadow_hover: rgb(99, 99, 99);
 }
 
+@font-face {
+    font-family: pixel_font;
+    src: url(../assets/fonts/custom_pixel_font-Regular.otf);
+}
+
+.custom_pixel_font {
+    font-family: pixel_font;
+}
+
+/* ----------------------------------------------------------------- */
+
 body {
     header {
         background-color: var(--header);
@@ -162,8 +173,14 @@ body {
                     display: flex;
                     flex-direction: column;
                     margin-top: 1em;
+
                     strong {
                         display: inline-block;
+                    }
+
+                    span {
+                        display: inline-block;
+                        margin-top: 0.5em;
                     }
 
                     a {
