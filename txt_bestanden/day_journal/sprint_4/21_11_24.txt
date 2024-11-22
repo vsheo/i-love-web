@@ -1,0 +1,11 @@
+wat heb ik gedaan?
+
+- de layout voor mobiele de website afgemaakt
+- javaScript om alle details op display none zetten als 1 open gaat
+- javaScript om de tijd, week dagen player en de nav op beeld te bregen als 1 details open gaat
+- javascript om met een button een nav op beeld te sliden.
+
+Ik heb een start gemaakt aan de desktop layout
+
+wat wil ik morgen doen?
+verder gaan met de desktop layout, en proberen dat af te maken.
