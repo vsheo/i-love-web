@@ -1,0 +1,12 @@
+wat heb ik gedaan?
+scroll snap van sanne toe gepast section scroll snap javaScript
+als er op een radiozender geklikt wordt dan gaat het open en naar het midden
+
+de desktop layout af gemaakt
+
+wat wil ik nog doen
+scroll sanp nog beter maken
+de scroll snap gaat nu naar het midden. ik wil dat het vlak onder de tijdlijn terecht komt
+
+De tekst in de programma kaartjes wil ik invullen zodat het overeen komt met wat er nu is op de website van de radiozender
+

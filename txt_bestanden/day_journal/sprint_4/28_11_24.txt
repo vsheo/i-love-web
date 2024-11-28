@@ -1,0 +1,14 @@
+wat heb je vandaag gedaan
+Ik heb een readme gemaakt.
+Hier in heb ik uitgelgd hoe de website nu werkt
+link: https://github.com/vsheo/look-and-feel-corporate-identity/blob/main/README.md
+
+Ik heb ook een website gemaakt voor het uitleggen van onze gezaamelijke stylesheet.
+Dit heeft niet veel tekst omdat het bedoelt is om tijdens een presentatie uit te leggen.
+link: https://vsheo.github.io/look-and-feel-corporate-identity/stylesheet_uitleg/uitleg.html
+
+
+
+wat was je code vraag 
+hoe heb je die opgelost
+links
