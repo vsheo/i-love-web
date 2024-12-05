@@ -1,0 +1,16 @@
+
+
+JS workshop
+https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/programming-user-interaction.md
+
+HTML first af
+mobile first af, zonder JS
+
+wil beginnen met JS 
+
+Hoever ben je gekomen met de workshop van deze sprint
+ik heb de comments geplaatst
+maar nog geen js geschrven, ik wil eerst de html en css hebben
+en daarna js op de lementen toepassen
+
+met welke js les ben je bezig
