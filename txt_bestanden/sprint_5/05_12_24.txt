@@ -1,9 +1,12 @@
 
 ik heb mobile css af gemaakt en ook de classes van de gedeelde stylesheet in de HTML toegevoegd.
+https://github.com/vsheo/fix-the-flow-interactive-website/issues/3
 
 ik heb je javascript gechreven die de week dagen, tijdlijn, radio nav en de player op beeld brengen.
+https://github.com/vsheo/fix-the-flow-interactive-website/issues/5
 
 ik heb JavaScript geschreven voor het verwisselen van radiozender, maar er is nog een bug, waar soms de class 'hidden' niet werg gehaald wordt.
 als dit gebeurt dan is ert geen programma te zien.
+https://github.com/vsheo/fix-the-flow-interactive-website/issues/4
 
 voor nu ben ik klaar met de mobiele versie, ik ga nu concentreren op CSS en javaScript voor de desktop versie.

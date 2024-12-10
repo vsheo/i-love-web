@@ -1,0 +1,10 @@
+de les
+https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/code-design-review-programming-user-interaction.md
+
+code & design reviews:
+https://github.com/Ravirkt/fix-the-flow-interactive-website/issues/8
+https://github.com/Ravirkt/fix-the-flow-interactive-website/issues/9
+https://github.com/Matthijs217/fix-the-flow-interactive-website/issues/3
+https://github.com/Matthijs217/fix-the-flow-interactive-website/issues/4
+https://github.com/irisvw/fix-the-flow-interactive-website/issues/3
+https://github.com/irisvw/fix-the-flow-interactive-website/issues/4
