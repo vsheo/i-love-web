@@ -1,0 +1,10 @@
+sprint review
+Ik heb vandaag de sprint review gehad, het ging best wel goed. ik heb een issue gemaakt met de feedback  van de opdrachtgever
+https://github.com/vsheo/fix-the-flow-interactive-website/issues/18
+
+
+Ik heb ook een Lighthouse-test en een screenreader-test uitgevoerd.
+Een aantal van de problemen die daarbij naar voren kwamen, heb ik direct geprobeerd op te lossen.
+link issue
+https://github.com/vsheo/fix-the-flow-interactive-website/issues/16
+

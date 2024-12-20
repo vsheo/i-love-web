@@ -1,0 +1,14 @@
+readme geanalyseert 
+gekeken wat goed is en wat beter kan
+
+anne: https://github.com/Annevd/user-needs
+Amber: https://github.com/ambersr/all-human-accessible-website
+tygo: https://github.com/TygoWolven/Sprint5-Interactive-Website
+
+whiteboard foto
+
+read me gemaakt
+aan issue 13 15 en 8 gewerkt
+
+testen issue
+https://github.com/vsheo/fix-the-flow-interactive-website/issues/16

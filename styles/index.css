@@ -39,6 +39,7 @@ https://codepen.io/cbolson/pen/OJeaYgZ */
     --sprint3: rgb(47, 255, 0);
     --sprint4: rgb(135, 140, 0);
     --sprint5: rgb(140, 84, 0);
+    --sprint6: rgb(140, 28, 0);
 
     --article: white;
 
@@ -150,6 +151,10 @@ body {
 
         #sprint4 {
             background: linear-gradient(to bottom, var(--sprint4), var(--sprint5));
+        }
+
+        #sprint5 {
+            background: linear-gradient(to bottom, var(--sprint5), var(--sprint6));
         }
 
         section {

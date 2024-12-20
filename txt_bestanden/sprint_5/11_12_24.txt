@@ -1,0 +1,23 @@
+
+workshop JS forms and states: https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/form-states.md
+
+download Firefox, Chrome, Arc, Edge, Vivaldi, Samsung Internet, Polypane, Opera, Dolphin, Zen Browser
+Maar ook Safari Technology Preview, Firefox Nightly, Chrome Canary en Edge Canary
+
+
+
+Wat heb je vandaag geleerd over HTML?
+
+HTML heeft het attribuut required, zodat de gebruiker verplicht is om de velden in te vullen.
+Je kunt HTML-elementen strategisch gebruiken om je JavaScript-code eenvoudiger te maken.
+
+Wat heb je vandaag geleerd over CSS?
+Met CSS-selectoren kun je specifiek de eigenschappen van HTML-elementen aanpassen en bepalen hoe ze eruitzien of zich gedragen.
+
+Wat ga je voor vrijdag nog toevoegen?
+De functionaliteit van "section snap" verder verbeteren.
+"Same-time scroll" implementeren.
+
+Welke functionaliteit wil je vrijdag laten testen?
+Section snap.
+Same-time scroll.
