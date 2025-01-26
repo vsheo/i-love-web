@@ -238,10 +238,11 @@ body {
                     vertical-align: middle;
                     white-space: nowrap;
                     background-color: var(--a_background);
-                    color: var(--a);
+                    color: white;
                     border-radius: 15px;
                     max-width: max-content;
                     padding: 0.3em;
+                    margin-bottom: 0.8em;
                 }
 
                 a:hover {

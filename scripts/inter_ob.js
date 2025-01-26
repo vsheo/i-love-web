@@ -14,7 +14,7 @@ const observer = new IntersectionObserver(entries => {
     })
 }, {
     // alleen als de helft van de article op beeld past wordt de class aan de article toegevoegd
-    threshold: 0.5,
+    threshold: 0.3,
 }
 );
 
