@@ -1,0 +1,112 @@
+Code/Design User Testing
+https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/code-design-review-user-testing.md
+
+voorbereiding testen
+https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/code-design-review-user-testing.md
+
+user test issue
+https://github.com/vsheo/the-startup-responsive-interactive-website/issues/18
+
+
+
+I love web met Dave Bitter
+rise of AI powered voice interfaces on the web
+- werkt bij IO, een digitalo design agency (detatieeer gedeelte)
+hebt bedrijveb met design
+
+
+doet veel presentaties
+bij google developer programma
+
+wat onderzoek wat hij eigenlijk met Ai kan doen op het web
+
+presiparrot app
+https://presi-parrot.davebitter.com/
+wat je zegt wordt omgezet naar tekst
+7 jaar geleden gemaakt. toen was het iets dat nog niet veel bestond.
+
+1950 de eerste poging op voice recognition
+toen kon het nog alleen bv de letter 4 herkennen
+
+1980
+ibm by voice
+
+2000
+google in search bar, zoek opdracht uitspreken
+
+2010
+smart assistent
+alexa, siri
+
+het komt steeds vaker voor, zoals in microsoft teams kan je script genereren
+
+er is een verandering over hoe we informatie op zoeken
+
+dave vraagt eerder vragen ipv berichten sturen
+we praten liever ipv een bericht sturen
+
+hij heeft dit gebouwd met zijn bedrijf
+aiva.davebitter.com
+
+wat begeurt hier
+hij vraagt iets aan de ai
+speach recognition om het omtezetten in tekst  (SpeechRecognition Web API)
+met chatgpt wordt een antwoord gegenereed in tekst
+teskt wordt dan omgezet in audio.   (SpeechSynthesis Web API)
+en wordt uit gelezen
+
+speachSynthesis demo
+https://codepen.io/davebitter/pen/QWYPpax
+
+speachSynthesis wordt gebruikt om de audio beter te laten praten. zodat het makkelijker te gebruiken is
+
+
+gratis Ai-powered speachSynthesis met elevenLabs
+https://elevenlabs.io/?utm_source=google&utm_medium=cpc&utm_campaign=t1_brandsearch_brand_english&utm_id=21809606381&utm_term=elevenlabs&utm_content=brand_exact&gad_source=1&gclid=CjwKCAiAnKi8BhB0EiwA58DA4SrQXHRWsq9srbZvkFEqGmGnP_hzavVb1b5ZnNdGH8C3WKs7Qm-rhhoCI7AQAvD_BwE
+
+
+
+audio wordt nu bter maar er zijn meer stappen.
+desktop naar chatgpt
+terug naar latop
+naat elevenlabs
+terug naar laptop
+
+
+dit zorgt voor latency
+hoe langer het antwoordt hoe meer latency
+en latency verpeest de user ervaring
+
+bv
+fetch 1, play 1
+fetch 2, play 2
+fetch 3, play 3
+enz
+
+om dit te versnellen kan je fetch terwijl het op play is
+fetch 1, play 1, fetch 2
+play 2, fetch 3
+play 3, fetch 4
+
+performance over anything
+nothing breaks the illusion than more than high latency
+
+voor dave
+ai is just another data source
+its the UX that creates the experiance
+
+project fugu
+https://www.chromium.org/teams/web-capabilities-fugu/
+
+meer uitleg over hoe hij het heeft gemaakt
+https://techhub.iodigital.com/tags/voice
+
+
+eigen chatgpt gemaakt zodat hij weet wat er met de informatie in de backend gebeurt
+
+
+Dave Bitter, werkzaam bij het digitale bureau IO, onderzoekt AI-gedreven spraakinterfaces voor het web. 
+Hij heeft projecten zoals Presiparrot en AIVA gebouwd, waarbij spraakherkenning (SpeechRecognition API) en tekst-naar-spraak (SpeechSynthesis API) 
+worden gecombineerd om gebruikersinteracties te verbeteren. AI wordt als een extra databron gezien, waarbij gebruikerservaring centraal staat, 
+vooral door het verminderen van latency. Hij gebruikt tools zoals ElevenLabs voor betere spraakoutput en benadrukt het belang van prestaties om de 
+gebruikerservaring te verbeteren. Meer informatie over zijn werk is te vinden op Project Fugu en Techhub.

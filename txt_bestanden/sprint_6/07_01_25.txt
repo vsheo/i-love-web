@@ -1,0 +1,10 @@
+ik he de JS challenge gevolgd
+https://github.com/vsheo/manipulate-dom-and-cssom
+
+ik heb deze schetsen gemaakt
+in issue prototype naar html
+
+ik ben begonnen met HTMl first
+issue prototype naar html
+https://github.com/vsheo/the-startup-responsive-interactive-website/issues/3
+

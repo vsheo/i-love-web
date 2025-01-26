@@ -1,0 +1,4 @@
+als je in figma de icon selecteerd (vector) dan kan je het aan de rechterkant exporteren naar een svg
+
+hieraan gewerkt
+https://github.com/vsheo/the-startup-responsive-interactive-website/issues/9

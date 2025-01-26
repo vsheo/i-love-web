@@ -49,9 +49,6 @@ Inspiratie:
 
 
 
-
-groep werken
-code conventies
-style guide
-
-
+TO DO
+- zet de screenshots bij de bijbehorende repository ipv de i love web repository
+- link naar de fotos

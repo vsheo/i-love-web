@@ -1,0 +1,14 @@
+workshop: mobile first
+https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/mobile-first.md
+
+media queeries features
+https://www.w3.org/TR/mediaqueries-5/#mf-interaction
+
+figma design van de opdrachtgever
+https://www.figma.com/design/jk7gjHw03a0DnXfNAR2PMh/FDND-AccessDash-opdracht-januari-2025?node-id=0-1&t=XxqUdShybcfxe3nd-1
+
+interface inventory en styleguide gemaakt in figma
+https://www.figma.com/design/1kkuJrXMQLT35zcuAUyZ4U/styleguide-Future-Ready-Design?node-id=1-2&t=ztasI5EpLMXGMAJD-1
+
+
+

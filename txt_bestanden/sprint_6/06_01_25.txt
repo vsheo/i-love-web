@@ -1,0 +1,72 @@
+les van vandaag
+https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/sprint-planning.md
+
+indicatroren waaraan ik extra aandacht wil betseden in deze sprint
+1.1.3 - testen: wcag keyboard, lighthouse, screen reader
+1.3.1 & 1.4.1 - samenwerken: briefing
+
+briefing maken: https://github.com/fdnd-task/the-client-website/blob/main/docs/briefing-debriefing.md
+
+sprint planning in project board
+https://github.com/users/vsheo/projects/8/views/4
+
+wat heb ik vandaag gedaan?
+https://github.com/vsheo/the-startup-responsive-interactive-website/issues/2
+
+individuele debriefing geschreven
+
+afgesproken om de individuele debriefing voor 8 uur op te sturen, daarna een samengevoegde versie gemaakt
+
+
+checkout
+wat zijn je voornemens voor dit jaar?
+60 studie punten behaalen
+
+FDND is een soort bedrijf, waar je van elkaar kan leeren en elkaar kan helpen.
+de plek om de beste frontender te worden .....
+studenten gaan soms vroeg weg en op dinsdag en donderdag zijn er weinig mensen.
+wat heb jij nodig om langer te blijven werken bij FDND?
+
+
+
+
+
+
+mindmap
+
+communicatie
+hoe?
+waar?
+wanneer?
+
+achtergrond info
+concentreert op humane technology,
+real life ervaringen verrijkt ipv vervangt, hoe doen jullie dat?
+Wij ontwerpen daarom met empathie en volgens de visie dat technologie zich moet aanpassen aan de behoeften van de eindgebruiker en niet andersom
+
+opdracht omschrijving
+future ready design wilt ..... om .... te voorkomen
+
+aanleiding
+wat is de rede waarom zij dit opdracht krijgen en waarom op dit moment?
+waarom doen wij dit?
+wat willen jullie hieruit krijgen.
+
+doelstelling
+
+oplevering
+wat moet ik opleveren
+bepaalde huistijl die gebruikt moet worden
+wat moet ert op de website komen? teksten, forms, foto's?
+
+randvoorwaarden
+wat hoort niet bij de oplevering
+wat is de planning van het project
+wat is noodzaakelijk om te starten aan de opdracht
+
+gebruikers van het eindresultaat
+wie is de doelgroep: voor wie is deze website bedoelt?
+waarom willen zij deze website gebrukken? watvoor informatie willen zij hier vinden
+
+relatie met andere projecten
+is dit een website van een groter website?

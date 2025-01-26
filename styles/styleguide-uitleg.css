@@ -1,0 +1,223 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+    list-style: none;
+
+    object-fit: cover;
+
+    color: black;
+
+    font-family: sans-serif;
+}
+
+
+/* LAYOUT */
+main {
+    display: flex;
+
+    section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        color: white;
+
+        h2 {
+            font-size: 2em;
+            margin-top: 1em;
+        }
+
+        h3 {
+            margin-top: 2em;
+        }
+
+        h3:first-child {
+            margin-top: 0.5em;
+        }
+
+        p {
+            margin-top: 1em;
+        }
+
+        h3, p, h4{
+            text-align: left;
+            margin-left: 4em;
+        }
+
+        .tekst {
+            max-width: 40em;
+            margin-bottom: 2em;
+        }
+
+        article:last-child {
+            margin-bottom: 4em;
+        }
+
+        pre {
+            background-color: white;
+            border-radius: 10px;
+
+            text-align: left;
+            position: relative;
+            width: 40dvw;
+            left: 50%;
+            transform: translate(-50%, 0);
+
+            margin-top: 1em;
+            margin-bottom: 1em;
+
+
+            code {
+                background-color: white;
+            }
+        }
+    }
+}
+
+/* SECTIONS */
+/* 1 class */
+.single {
+    background-color: bisque;
+
+    /* kleuren van alle radiozenders */
+    article {
+        --veronica-primary: #0091FF;
+        --veronica-secondary: #E60063;
+        --veronica-neutral: #ffffff;
+
+        --slam-primary: #000000;
+        --slam-secondary: #E60063;
+        --slam-neutral: #222222;
+
+        --sublime-primary: #1A1E1D;
+        --sublime-secondary: #CCFFA3;
+        --sublime-neutral: #1A1E1D;
+
+        --honderdp-primary: #000000; 
+        --honderdp-secondary: #10A637;
+        --honderdp-neutral: #FAFAFA;
+    }
+
+    /* BUTTONS */
+    /* veronica */
+    .veronica-button {
+        background-color: var(--veronica-secondary);
+        border: 1px solid var(--veronica-secondary);
+
+        cursor: pointer;
+    }
+    .veronica-button:hover {
+        background-color: var(--veronica-neutral);
+        color: var(--veronica-secondary);
+    }
+
+    /* Slam */
+    .slam-button {
+        background-color: var(--slam-secondary);
+        border: 1px solid var(--slam-secondary);
+
+        cursor: pointer;
+    }
+    .slam-button:hover {
+        background-color: var(--slam-neutral);
+        color: var(--slam-secondary);
+    }
+
+    /* Sublime */
+    .sublime-button {
+        background-color: var(--sublime-secondary);
+        border: 1px solid var(--sublime-secondary);
+
+        cursor: pointer;
+    }
+    .sublime-button:hover {
+        background-color: var(--sublime-neutral);
+        color: var(--sublime-secondary);
+    }
+
+    /* 100%.nl */
+    .honderdp-button {
+        background-color: var(--honderdp-secondary);
+        border: 1px solid var(--honderdp-secondary);
+
+        cursor: pointer;
+    }
+    .honderdp-button:hover {
+        background-color: var(--honderdp-neutral);
+        color: var(--honderdp-secondary);
+    }
+}
+
+
+
+/* 2 classes */
+.double {
+    background-color: coral;
+    
+    /* radiozenders */
+    .veronica-primary {
+        --brand-primary: #0091FF;
+    }
+    .veronica-secondary {
+        --brand-secondary: #E60063;
+    }
+    .veronica-neutral {
+        --brand-neutral: #ffffff;
+    }
+
+    .slam-primary {
+        --brand-primary: #000000;
+    }
+    .slam-secondary {
+        --brand-secondary: #E60063;
+    }
+    .slam-neutral {
+        --brand-neutral: #222222;
+    }
+
+    .sublime-primary {
+        --brand-primary: #1A1E1D;
+    }
+    .sublime-secondary {
+        --brand-secondary: #CCFFA3; 
+    }
+    .sublime-neutral {
+        --brand-neutral: #1A1E1D; 
+    }
+
+    .honderdp-primary {
+        --brand-primary: #000000; 
+    }
+    .honderdp-secondary {
+        --brand-secondary: #10A637;
+    }
+    .honderdp-neutral {
+        --brand-neutral: #FAFAFA;
+    }
+
+    /* nieuwe hover kleur */
+    .btn-highlight {
+        --brand-neutral: #ffffff;
+    }
+
+
+    /* button en link als button */
+    .button-highlight {
+        background-color: var(--brand-secondary);
+        border: 1px solid var(--brand-secondary);
+
+        cursor: pointer;
+    }
+
+    .button-highlight:hover {
+        background-color: var(--brand-neutral);
+        color: var(--brand-secondary);
+    }
+}
+
+

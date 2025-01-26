@@ -1,0 +1,12 @@
+workshop van vandaag:
+https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/interaction-design.md
+
+deze animaties/ transitions geanalyseerd
+https://www.dreamerux.com/articles/35y5fyrr4pifhbondc7r636nkvyoqg
+
+tips & tricks
+how to style progress element
+https://verpex.com/blog/website-tips/how-to-style-a-progress-bar-using-css
+
+bezig geweest met responsiveness
+https://github.com/vsheo/the-startup-responsive-interactive-website/issues/10

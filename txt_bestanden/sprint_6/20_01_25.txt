@@ -1,0 +1,11 @@
+Workshop Refactoring en Code Conventions
+https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/refactoring-code-conventions.md
+
+HTML ademruimte en inspringen
+https://github.com/fdnd-task/the-client-website/blob/main/docs/code-conventies.md#geef-je-html-ademruimte
+
+Volgorde en nesten van CSS selectors
+https://github.com/fdnd-task/the-client-website/blob/main/docs/code-conventies.md#schrijf-je-css-selectors-in-dezelfde-volgorde-als-de-html
+
+
+HTML refactored en CSS beter/ meer genest

@@ -1,0 +1,15 @@
+voor nav menu kan je inert gebruiken om ervoor te zorgen dat je niet met tab op elementen terecht komt die niet op screen zijn.
+bijvoorbeeld een nav die je van scherm weg schijf, om het later met een transitie terug te brengen.
+als het menu niet op screen is dan wil je dat de gebruiker niet perongeluk erbij komt.
+
+wat doet inert:
+haalt het element weg van de accessibilioty terecht
+zorgt ervoor dat er niet naar het element getabbed kan worden
+het element wordt niet doorzichtig of gaat weg uit de DOM (het gaat niet op display: none)
+
+menu gemaakt die ook werkt zonder js.
+js geeft alle classes die het nodig heeft om op scherm te komen en om ervan weg te gaan.
+js geeft ook inert voor betere toegankelijkheid.
+ik heb een skip link button toegevoegd voor screen readers, zodat het gelijk naar de main content kan, en de nav skipt.
+hover op de linkjes en buttons gezet.
+

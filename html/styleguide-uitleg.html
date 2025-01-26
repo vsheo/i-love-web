@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shared stylesheet</title>
+    <link rel="stylesheet" href="../styles/styleguide-uitleg.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+</head>
+<body>
+    <main>
+        <section class="single">
+            <h2>1 class</h2>
+            <!-- variabelen voor Kleuren -->
+            <article>
+                <h4>variabelen voor Kleuren</h4>
+                <pre>
+                    <code class="language-css">
+        body {
+            --veronica-primary: #0091FF;
+            --veronica-secondary: #E60063;
+            --veronica-neutral: #ffffff;
+
+            --slam-primary: #000000;
+            --slam-secondary: #E60063;
+            --slam-neutral: #222222;
+
+            --sublime-primary: #1A1E1D;
+            --sublime-secondary: #CCFFA3;
+            --sublime-neutral: #1A1E1D;
+
+            --honderdp-primary: #000000; 
+            --honderdp-secondary: #10A637;
+            --honderdp-neutral: #FAFAFA;
+        }
+                    </code>
+                </pre>
+            </article>
+
+            <h3>buttons voor elke radiozender</h3>
+            <!-- button voor elke radiozender -->
+            <!-- veronica -->
+            <article>
+                <h4>Veronica</h4>
+                <pre>
+                    <code class="language-css">
+        .veronica-button {
+            background-color: var(--veronica-secondary);
+            border: 1px solid var(--veronica-secondary);
+    
+            cursor: pointer;
+        }
+        
+        .veronica-button:hover {
+            background-color: var(--veronica-neutral);
+            color: var(--veronica-secondary);
+        }
+                    </code>
+                </pre>
+            </article>
+
+            <!-- slam -->
+            <article>
+                <h4>Slam</h4>
+                <pre>
+                    <code class="language-css">
+        .slam-button {
+            background-color: var(--slam-secondary);
+            border: 1px solid var(--slam-secondary);
+    
+            cursor: pointer;
+        }
+
+        .slam-button:hover {
+            background-color: var(--slam-neutral);
+            color: var(--slam-secondary);
+        }
+                    </code>
+                </pre>
+            </article>
+
+            <!-- sublime -->
+            <article>
+                <h4>Sublime</h4>
+                <pre>
+                    <code class="language-css">
+        .sublime-button {
+            background-color: var(--sublime-secondary);
+            border: 1px solid var(--sublime-secondary);
+    
+            cursor: pointer;
+        }
+
+        .sublime-button:hover {
+            background-color: var(--sublime-neutral);
+            color: var(--sublime-secondary);
+        }
+                    </code>
+                </pre>
+            </article>
+
+            <!-- 100%.nl -->
+            <article>
+                <h4>100%.nl</h4>
+                <pre>
+                    <code class="language-css">
+        .honderdp-button {
+            background-color: var(--honderdp-secondary);
+            border: 1px solid var(--honderdp-secondary);
+    
+            cursor: pointer;
+        }
+
+        .honderdp-button:hover {
+            background-color: var(--honderdp-neutral);
+            color: var(--honderdp-secondary);
+        }
+                    </code>
+                </pre>
+            </article>
+
+            <!-- buttons voorbeeld -->
+            <article>
+                <h4>Voorbeeld in werking</h4>
+                <button class="veronica-button"> veronica</button>
+                <button class="slam-button">slam</button>
+                <button class="sublime-button">sublime</button>
+                <button class="honderdp-button">100%.nl</button>
+            </article>
+        </section>
+<!-- -------------------------------------------------------------------------------------------------- -->
+        <section class="double">
+            <h2>2 classes</h2>
+            <h3>Classes maken en gebruiken</h3>
+            <p>Dit zijn de CSS classes die alleen de kleuren hebben</p>
+            <!-- classes die kleuren hebben -->
+            <article>
+                <h4>classes voor veronica</h4>
+                <pre>
+                    <code class="language-css">
+        .veronica-primary {
+            --brand-primary: #0091FF;
+        }
+        
+        .veronica-secondary {
+            --brand-secondary: #E60063;
+        }
+
+        .veronica-neutral {
+            --brand-neutral: #ffffff;
+        }
+                    </code>
+                </pre>
+
+                <h4>classes voor slam</h4>
+                <pre>
+                    <code class="language-css">
+        .slam-primary {
+            --brand-primary: #000000;
+        }
+        
+        .slam-secondary {
+            --brand-secondary: #E60063;
+        }
+
+        .slam-neutral {
+            --brand-neutral: #222222;
+        }
+                    </code>
+                </pre>
+
+                <h4>classes voor sublime</h4>
+                <pre>
+                    <code class="language-css">
+        .sublime-primary {
+            --brand-primary: #1A1E1D;
+        }
+        
+        .sublime-secondary {
+            --brand-secondary: #CCFFA3; 
+        }
+
+        .sublime-neutral {
+            --brand-neutral: #1A1E1D; 
+        }
+                    </code>
+                </pre>
+
+                <h4>classes voor 100%.nl</h4>
+                <pre>
+                    <code class="language-css">
+        .honderdp-primary {
+            --brand-primary: #000000; 
+        }
+        
+        .honderdp-secondary {
+            --brand-secondary: #10A637;
+        }
+
+        .honderdp-neutral {
+            --brand-neutral: #FAFAFA;
+        }
+                    </code>
+                </pre>
+            </article>
+
+            <!-- classes met CSS properties -->
+            <p>Dit zijn de classes met CSS properties om de HTML elementen aan te passen</p>
+            <article>
+                <h4>classes met CSS properties</h4>
+                <pre>
+                    <code class="language-css">
+        .primary {
+            background-color: var(--brand-primary);
+        }
+        
+        .secondary {
+            background-color: var(--brand-secondary);
+        }
+
+        .neutral {
+            background-color: var(--brand-neutral);
+        }
+                    </code>
+                </pre>
+            </article>
+
+            <!-- hoe geef je een achtergrond kleur aan een element  -->`
+            <p>Hoe geef je een achter grond kleur aan een element?</p>
+            <article>
+                <h4>2 classes in gebruik</h4>
+                <pre>
+                    <code class="language-css">
+        /*primaire achtergrond kleur*/
+        &lt;header class="primary veronica-primary"&gt;
+        &lt;/header&gt;
+
+        /*Secundair achtergrond kleur*/
+        &lt;div class="secondary veronica-secondary"&gt;
+        &lt;/div&gt;
+                    </code>
+                </pre>
+            </article>
+
+            <!-- hoe werkt dit -->
+            <article class="tekst">
+                <h3>Hoe werkt dit?</h3>
+                <p>De classes die eindigen op 'primary' hebben allemaal dezelfde variabelenamen, maar hebben allemaal een andere kleur opgeslagen.
+                    de classes <b><i>primary</i></b>, <b><i>secondary</i></b> en <b><i>neutral</i></b> hebben alleen een CSS property, 'background-color'
+                </p>
+                <p>- classes met de benaming <b><i>veronica-primary, slam-primary, honderdp-primary en sublime-primary.</i></b> hebben alleen de kleuren opgeslagen</p>
+                <p>- en de classes <b><i>primary</i></b>, <b><i>secondary</i></b> en <b><i>neutral</i></b> hebben alleen een CSS property</p>
+                <p>- Om een achtergrond kleur aan te passen moet de class <b><i>primary</i></b> aanwezig zijn. De tweede class kan dan <b><i>veronica-primary, slam-primary, honderdp-primary of sublime-primary</i></b> zijn.</p>
+            </article>
+
+            <!-- Waarom werkt dit -->
+            <article class="tekst">
+                <h3>Waarom werkt dit?</h3>
+                <p>- De class <b><i>primary</i></b> accepteert alleen <b><i>var(--brand-primary)</i></b> als variabel</p>
+                <p>- Deze variabel komt voor in <b><i>veronica-primary, slam-primary, honderdp-primary en sublime-primary</i></b></p>
+                <p>- Als <b><i>primary veronica-secondary</i></b> ingevoerd wordt, dan gebeurt er niks. Omdat de class <b><i>veronica-secondary</i></b> alleen <b><i>var(--brand-secondary)</i></b> als variabel accepteerd</p>
+                <p>- Dus als je <b><i>veronica-secondary</i></b> wilt gebruiken, dan moet je dat zo aangeven: <b><i>secondary veronica-secondary</i></b></p>
+            </article>
+
+            <!-- waarom is dit handig -->
+            <article class="tekst">
+                <h3>Waarom is dit handig?</h3>
+                <p>Als ik nu een button wil toevoegen dan heb ik de kleuren al opgeslagen in classes. En omdat elke class dezelfde variabel heeft, is het mogelijk om 1 button te maken die voor alle 4 radiozenders zal werken</p>
+            </article>
+
+            <!-- button maken voorbeeld -->
+            <article>
+                <h4>nieuwe button met hover maken</h4>
+                <pre>
+                    <code class="language-css">
+        .button-highlight {
+            background-color: var(--brand-secondary);
+            border: 1px solid var(--brand-secondary);
+        
+            cursor: pointer;
+        }
+
+        .button-highlight:hover {
+            background-color: var(--brand-neutral);
+            color: var(--brand-secondary);
+        }
+                    </code>
+                </pre>
+            </article>
+
+            <!-- buttons voorbeeld -->
+            <article class="tekst">
+                <h4>Voorbeeld in werking</h4>
+                <button class="button-highlight veronica-secondary veronica-neutral"> veronica</button>
+                <button class="button-highlight slam-secondary slam-neutral">slam</button>
+                <button class="button-highlight sublime-secondary sublime-neutral">sublime</button>
+                <button class="button-highlight honderdp-secondary honderdp-neutral">100%.nl</button>
+            </article>
+
+            <!-- witte hover -->
+            <article>
+                <h4>nieuwe hover kleur voor de button</h4>
+                <div class="tekst">
+                    <p>Om de hover achtergrond kleur van zwart naar wit te veranderen. is het niet nodig om de class <b><i>button-highlight</i></b> of <b><i>button-highlight:hover</i></b> in CSS aan te passen</p>
+                    <p>In CSS je kan een nieuwe class maken met <b><i>var(--brand-neutral)</i></b> en een witte kleur</p>
+                </div>
+                <pre>
+                    <code class="language-css">
+        .btn-highlight {
+            --brand-neutral: #ffffff;
+        }
+                    </code>
+                </pre>
+                <p>in HTML moet je dan alleen <b><i>slam-neutral</i></b> veranderen naar <b><i>btn-highlight</i></b></p>
+            </article>
+
+            <!-- niewe button -->
+            <article class="tekst">
+                <button class="button-highlight slam-secondary btn-highlight">slam</button>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

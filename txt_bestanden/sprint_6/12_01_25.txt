@@ -1,0 +1,79 @@
+
+tips & tricks van deze video
+https://www.youtube.com/watch?v=2IV08sP9m3U
+
+- relative padding
+dit doe je met de min() functie in CSS
+https://developer.mozilla.org/en-US/docs/Web/CSS/min
+
+
+- responsive font-sizes
+eerste tip, gebruik rem voor tekst:
+rem: relative to the root font-size
+op default is da6 16px
+vb:
+font-size: 1.5rem;
+16 x 1.5 = 24px
+
+tweede tip gebruik vw voor grote letters zoals headings:
+vb
+font-size: 10vw;
+dit zorgt ervoor dat de heading altijd 10% van de viewport width is
+
+let op: op hele grote schermen is 10vw te groot.
+maak dan ook gebruik van clamp, om een min en max aan te geven zodat het nooit te klein of te grootr zal zijn
+vb:
+font-size: clamp(1.8rem, 10vw, 5rem);
+
+als je op je scherm inzoom of uitzoom maakt met ctrl + "-" of "+". dan verander de groote van de tekst niet.
+omdat vw alleen kijkt naar de viewport
+
+dit kan opgelost worden met calc()
+vb
+font-size: clamp(1.8rem, calc(7vw + 1rem), 5rem);
+nu wordt de heading ook groter en kleiner bij in en uit zoomen
+
+- responsive images
+met max-width: 100%
+hiermee zorg je ervoor de de image nooit groter is dan de grootte van het scherm
+
+de image wordt nu gestretched als het scherm te klein is.
+met:
+height: auto;
+zorg je ervoor dat de image dan altijd "normaal/goed" eruit ziet
+
+als je images hebt met verschillende sizes, kan je aspect-ratio gebruiken om ze allemaal tot dezelfde size te maken.
+vb:
+aspect-ratio: 16 / 9; voor smartphone in landscape mode
+aspect-ratio: 9 / 16; voor smartphone in portrait mode
+
+het kan zijn dat dit je image ook stretched
+met:
+object-fit: cover;
+kan je dan ervoor zorgen dat dat niet gebeurt. het kan zijn dat er een deel van de image afgesneden wordt.
+
+
+- gebruik dvh i.p.v vh
+op smartphones heb je bovenaan een search bar die weg gaat als je scrolled. 
+dvh houdt rekeneing daarmee, vh niet
+
+
+- mobile nav
+als je een nav op beeld wilt laten komen met een animatie dan kan je geen display none gebruiken.
+wat je wel zou kunnen doen is met opacity werken.
+vb een transition van opacity 0 naar opacity 1.
+of met position absolute 
+
+deze 2 manieren zijn beide ontoegankelijk. Omdat je ze nogsteeds kan bereiken met tab ookal zijn ze van je scherm af.
+
+je zou in HTML inert kunnen gebruiken. (inert prevents clicks and focus)
+https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inert
+
+hierdoor kan de gebruiker niet perongelijk op het element komen.
+onthoud dat je dan in JavaScript deze attribute moet weg halen en terug plaatsen afhankelijk van de interactie je je probeert te maken.
+dit kan zo:
+vb
+navbar.removeAttribute('inert')
+navbar.setAttribute('inert')
+
+
