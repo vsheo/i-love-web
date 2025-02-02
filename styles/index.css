@@ -1,306 +1,194 @@
-/* to do */
-/* a altijd op een nieuwe regel */
-/* na stronge altijd een br */
-/* dmv display flex op de p */
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    z-index: 120;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 4em;
+    max-height: 10em;
+    width: 100%;
 
-/* scroll bar met items
-https://codepen.io/cbolson/pen/OJeaYgZ */
-
-/* https://codepen.io/shooft/pen/WNVZYeZ */
-
-/* https://blog.webdevsimplified.com/2022-01/intersection-observer/ */
-
-/* RESET */
-* {
-    box-sizing: border-box;
-    margin: 0;
-
-    list-style-type: none;
-    list-style: none;
-
-    font-family: sans-serif;
-
-    object-fit: cover;
-
-    overflow-x: hidden;
-
-    text-decoration: none;
-
-}
-/* ----------------------------------------------------------------- */
-
-body {
-    --header: rgb(204, 255, 0);
-
-    --sprint1: rgb(0, 255, 89);
-    --sprint2: rgb(51, 255, 0);
-    --sprint3: rgb(115, 255, 0);
-    --sprint4: rgb(195, 255, 0);
-    --sprint5: rgb(229, 255, 0);
-    --sprint6: rgb(255, 230, 0);
-    --sprint7: rgb(255, 123, 0);
-    --sprint8: rgb(255, 72, 0);
-
-    --article: white;
-
-    --box_shadow: 5px 5px 9px gray;
-
-    --a: black;
-    --a_background: rgb(129, 129, 129);
-    --a_hover: white;
-    --a_box_shadow:rgb(178, 178, 178);
-    --a_box_shadow_hover: rgb(99, 99, 99);
-    --button-scale: 1.05;
-}
-
-
-
-/* ----------------------------------------------------------------- */
-
-.hidden {
-    opacity: 0;
-    z-index: 0;
-}
-
-body {
-    header {
-        background-color: var(--header);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        z-index: 100;
-        position: fixed;
-        top: 0;
-        left: 0;
-        min-height: 4em;
-        max-height: 10em;
-        width: 100%;
-
-        h1 {
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-
-        .open-menu {
-            border: none;
-            margin-left: auto;
-            background-color: inherit;
-            z-index: 120;
-        
-            cursor: pointer;
-        
-            &:hover {
-                scale: 1.2;
-                transform-origin: left;
-            }
-        }
+    h1 {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
-    nav {
-        position: fixed;
-        top: 4em;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 110;
-
-
-        ul {
-            height: 100vh;
-            width: 100vw;
-            position: relative;
-
-            li {
-                position: absolute;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                background-color: aliceblue;
-                border-radius: 50%;
-                height: 7em;
-                width: 7em;
-
-                opacity: 0;
-                scale: 0;
+    .open-menu {
+        border: none;
+        margin-left: auto;
+        background-color: inherit;
     
-                animation: scaleOpacityAnimation 1s forwards;
-
-                a {
-                    color: black;
-                }
-            }
-
-            li:nth-of-type(1) {
-                transform: translate(5em, 10em);
-                animation-delay: 0s;
-            }
-
-            li:nth-of-type(2) {
-                transform: translate(20em, 30em);
-                animation-delay: 0.4s;
-            }
-
-            li:nth-of-type(3) {
-                transform: translate(35em, 20em);
-                animation-delay: 0.8s;
-            }
-
-            li:nth-of-type(4) {
-                transform: translate(60em, 25em);
-                animation-delay: 1.2s;
-            }
-
-            li:nth-of-type(5) {
-                transform: translate(60em, 15em);
-                animation-delay: 1.6s;
-            }
-
-            li:nth-of-type(6) {
-                transform: translate(70em, 5em);
-                animation-delay: 1.6s;
-            }
+        cursor: pointer;
+    
+        &:hover {
+            scale: 1.2;
+            transform-origin: left;
         }
     }
 
-    .scroll-up {
+    &.scroll-up {
         transform: translateY(0);
         transition: 0.5s;
     }
 
-    .scroll-down {
+    &.scroll-down {
         transform: translateY(-100%);
         transition: 0.5s;
     }
+}
 
-    main {
-        #sprint1 {
-            /* met to bottom gaat de eerste kleur over naar de tweede kleur */
-            background: linear-gradient(to bottom, var(--sprint1), var(--sprint2));
-        }
-        
-        #sprint2 {
-            background: linear-gradient(to bottom, var(--sprint2), var(--sprint3));
-        }
-        
-        #sprint3 {
-            background: linear-gradient(to bottom, var(--sprint3), var(--sprint4));
-        }
+.hidden {
+    display: none;
+    opacity: 0;
+    z-index: 0;
+}
 
-        #sprint4 {
-            background: linear-gradient(to bottom, var(--sprint4), var(--sprint5));
-        }
+nav {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 110;
 
-        #sprint5 {
-            background: linear-gradient(to bottom, var(--sprint5), var(--sprint6));
-        }
 
-        #sprint6 {
-            background: linear-gradient(to bottom, var(--sprint6), var(--sprint7));
-        }
+    ul {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
 
-        section {
+        li {
+            position: absolute;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
-
-            scroll-behavior: smooth;
-            overflow-y: hidden;
-
-            article {
-                background-color: var(--article);
-                box-shadow: var(--box_shadow);
-                border: 2px solid black;
-                border-radius: 10px;
-                padding: 1em;
-                margin-bottom: 5em;
-                width: 50vw;
-
-                p {
-
-                    margin-top: 1em;
-
-                    strong {
-                        display: flex;
-                        flex-direction: column;
-                    }
-
-                    span {
-                        display: inline-block;
-                        margin-top: 0.5em;
-                    }
-                }
-
-                a {
-                    display: inline-block;
-                    vertical-align: middle;
-                    white-space: nowrap;
-                    background-color: var(--a_background);
-                    color: white;
-                    border-radius: 15px;
-                    max-width: max-content;
-                    padding: 0.3em;
-                    margin-bottom: 0.8em;
-                }
-
-                a:hover {
-                    position: relative;
-                    scale: var(--button-scale);
-                    box-shadow: var(--box_shadow);
-                    transform-origin: bottom left;
-                }
-            }
-
-            /* article is niet te zien */
-            article {
-                opacity: 0;
-            }
-
-            /* de animation brengt de article in beeld */
-            .animation1 {
-                position: relative;
-                opacity: 1;
-                animation: right_slide_in 2s;
-            }
+            text-align: center;
+            background-color: aliceblue;
+            border-radius: 50%;
+            height: 7em;
+            width: 7em;
         }
 
-        section:first-of-type article:first-of-type {
-            margin-top: 10em;
+        li:hover {
+            background-color: lightgrey;
         }
 
-        section:last-child article:last-child {
+        .nav-link:hover {
+            scale: none;
+            padding: 0;
+            border-radius: 0;
+            transform: none;
+            box-shadow: none;
+        }
+
+        li:nth-of-type(1) {
+            transform: translate(10vw, 5vh);
+        }
+        
+        li:nth-of-type(2) {
+            transform: translate(30vw, 15vh);
+        }
+        
+        li:nth-of-type(3) {
+            transform: translate(50vw, 25vh);
+        }
+        
+        li:nth-of-type(4) {
+            transform: translate(70vw, 35vh);
+        }
+        
+        li:nth-of-type(5) {
+            transform: translate(20vw, 45vh);
+        }
+        
+        li:nth-of-type(6) {
+            transform: translate(80vw, 10vh);
+        }
+        
+        li:nth-of-type(7) {
+            transform: translate(15vw, 60vh);
+        }
+        
+        li:nth-of-type(8) {
+            transform: translate(40vw, 55vh);
+        }
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    
+    .sprint {
+        margin: 0 clamp(1rem, 5vw, 2rem);
+
+        article:first-child {
+            margin-top: 5em;
+        }
+
+        article:last-child {
             margin-bottom: 10em;
         }
     }
-}
-
-
-/* https://codepen.io/Andrew-Neely-82/pen/qBzmYNr?editors=1100 */
-
-/* key frames laat weten hoe de animatie uitgevoerd moet worden */
-@keyframes left_slide_in {
-    /* de article wordt eerst uit beeld gehaald */
-    from {
-        translate: -150%;
+    .semester-1-midterm {
+        background: linear-gradient(to bottom, #00ff77, #aaff00);
     }
-    /* de article wordt terug naar de begin positie gebracht */
-    to {
-        translate: 0;
+
+    .semester-1-endterm {
+        background: linear-gradient(to bottom, #aaff00, #ffe100);
+    }
+
+    .semester-2-midterm {
+        background: linear-gradient(to bottom, #ffe100, #ff2a00);
     }
 }
 
-@keyframes scaleOpacityAnimation {
-    0% {
-        opacity: 0;
-        scale: 0;
+article {
+    max-width: clamp(40ch, 60%, 75ch);
+    margin: 0 auto;
+    padding: 2em;
+    border: 2px solid var(--semester-secondary);
+    border-radius: 10px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+
+    /* article is niet te zien */
+    opacity: 0;
+
+
+    background-color: var(--semester-neutral);
+
+    h2 {
+        margin-top: 0.5em;
     }
-    100% {
+
+    h3 {
+        margin-bottom: 0.5em;
+    }
+
+    h4 {
+        margin-top: 0.5em;
+    }
+
+    /* de animation brengt de article in beeld */
+    &.animation1 {
+        position: relative;
         opacity: 1;
-        scale: 1;
+        animation: right_slide_in 2s;
     }
+
+    /* ul + a in styleguide */
+    /* kleuren + fonts in HTML */
 }
+
+
+
+
+
 
 @keyframes right_slide_in {
     from {
@@ -308,34 +196,5 @@ body {
     }
     to {
         translate: 0;
-    }
-}
-
-@keyframes scale_in {
-    from {
-        scale: 0;
-    }
-    to {
-        scale: 1;
-    }
-}
-
-@keyframes scale_rotate_in {
-    from {
-        scale: 0;
-    }
-    to {
-        rotate: 360deg;
-        scale: 1;
-    }
-}
-
-@keyframes scale2_rotate_in {
-    from {
-        scale: 0;
-    }
-    to {
-        
-        scale: 1;
     }
 }

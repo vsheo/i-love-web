@@ -26,7 +26,7 @@ wat je zegt wordt omgezet naar tekst
 7 jaar geleden gemaakt. toen was het iets dat nog niet veel bestond.
 
 1950 de eerste poging op voice recognition
-toen kon het nog alleen bv de letter 4 herkennen
+toen kon het nog alleen bv de een letter of een cijfer herkennen
 
 1980
 ibm by voice
@@ -103,10 +103,3 @@ https://techhub.iodigital.com/tags/voice
 
 
 eigen chatgpt gemaakt zodat hij weet wat er met de informatie in de backend gebeurt
-
-
-Dave Bitter, werkzaam bij het digitale bureau IO, onderzoekt AI-gedreven spraakinterfaces voor het web. 
-Hij heeft projecten zoals Presiparrot en AIVA gebouwd, waarbij spraakherkenning (SpeechRecognition API) en tekst-naar-spraak (SpeechSynthesis API) 
-worden gecombineerd om gebruikersinteracties te verbeteren. AI wordt als een extra databron gezien, waarbij gebruikerservaring centraal staat, 
-vooral door het verminderen van latency. Hij gebruikt tools zoals ElevenLabs voor betere spraakoutput en benadrukt het belang van prestaties om de 
-gebruikerservaring te verbeteren. Meer informatie over zijn werk is te vinden op Project Fugu en Techhub.

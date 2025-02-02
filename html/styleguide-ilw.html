@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love Web - Styleguide</title>
+    <link rel="stylesheet" href="../styles/styleguide-ilw.css">
+    <link rel="stylesheet" href="../styles/i-love-web.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Styleguide</h1>
+
+        <!-- kleuren & classes -->
+        <article class="kleuren-classes">
+            <h2>Kleuren</h2>
+            <span>De kleuren worden elke helft van het semester veranderd. Elke semester heeft dezelfde custom properties, maar met andere kleuren binnen die properties.</span>
+            <pre>
+                <code class="language-css">
+.semester-1-midterm {
+    --semester-primary: #00ff77;
+    --semester-secondary: #222222;
+    --text-primary: #000000;
+    --text-secondary: white;
+}
+
+.semester-1-endterm {
+    --semester-primary: #aaff00;
+    --semester-secondary: #556B2F;
+    --text-primary: #000000;
+    --text-secondary: white;
+}
+                </code>
+            </pre>
+
+            <span>Deze classes bevatten alle kleuren. Om deze kleuren te gebruiken, is een tweede class nodig die gebruikmaakt van de custom properties in de bovenstaande classes.</span>
+            <pre>
+                <code class="language-css">
+.primary {
+    background-color: var(--semester-primary);
+}
+
+.secondary {
+    background-color: var(--semester-secondary);
+}
+
+.neutral {
+    background-color: var(--semester-neutral);
+}
+
+.text-primary {
+    color: var(--text-primary);
+}
+                </code>
+            </pre>
+
+            in html ziet her er zo uit:
+            <pre>
+                <code class="language-html">
+&lt;section class=&quot;semester-1-endterm text-primary primary&quot;&gt;&lt;/section&gt;
+                </code>
+            </pre>
+
+            <div class="up-and-down">
+                <span>Als je in CSS de custom property "--semester-secondary" wilt gebruiken, wordt de waarde ervan overgenomen van de class waartoe het HTML-element behoort. Dus als een container in HTML de class semester-1-midterm heeft, wordt de waarde van "--semester-secondary" uit deze class gehaald. Als het element in de class semester-1-endterm staat, krijgt het een andere kleur. Op deze manier kun je eenvoudig de kleuren per semester aanpassen zonder te veel te veranderen.</span>
+                <span>voorbeeld, we hebben hieronder deze sections, met precies dezelfde css</span>
+            </div>
+            <pre>
+                <code class="language-html">
+<pre><code>&lt;section class="semester-1-midterm text-primary primary"&gt;&lt;/section&gt;</code></pre>
+
+&lt;section class=&quot;semester-1-endterm text-primary primary&quot;&gt;&lt;/section&gt;
+
+&lt;section class=&quot;semester-1-midterm&quot;&gt;&lt;/section&gt;
+&lt;section class=&quot;semester-1-endterm&quot;&gt;&lt;/section&gt;
+                </code>
+            </pre>
+
+            <div class="side-to-side">
+                <section class="semester-1-midterm text-primary primary">Inspecteer mij: De achtergrondkleur wordt aangegeven in de HTML</section>
+                <section class="semester-1-endterm text-primary primary">Inspecteer mij: De achtergrondkleur wordt aangegeven in de HTML</section>
+            </div>
+
+            <div class="side-to-side">
+                <section class="semester-1-midterm kleur-in-css">Inspecteer mij: De achtergrondkleur wordt aangegeven in CSS</section>
+                <section class="semester-1-endterm kleur-in-css">Inspecteer mij: De achtergrondkleur wordt aangegeven in CSS</section>
+            </div>
+        </article>
+
+        <!-- Typopgrafie -->
+        <article class="typografie">
+            <h2 class="titel">Typografie</h2>
+            
+            <span>
+                <h1>h1: De titel van de pagina</h1>
+                <h2>h2: De titel van een check out</h2>
+                <h3>h3: De datum van een checkout</h3>
+                <h4>h4: Een subtitel van een checkout</h4>
+            </span>
+
+            <h2 class="titel">fonts</h2>
+
+            <div class="up-and-down">
+                <span>Voor de 'I Love Web'-pagina wordt het lettertype 'Lora' gebruikt. Dit is ingesteld via een class</span>
+                <span>In de toekomst, als ik een andere class wil gebruiken, kan ik een nieuwe class maken met een ander lettertype en dit per sectie aanroepen.</span>
+                <span>Dit de CSS en HTML voor fonts</span>
+            </div>
+
+            <pre>
+                <code class="language-css">
+.font-lora {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+                </code>
+            </pre>
+
+            <pre>
+                <code class="language-html">
+&lt;body class="font-lora"&gt;&lt;/body&gt;
+                </code>
+            </pre>
+        </article>
+
+        <!-- checkouts schrijven -->
+        <article class="typografie">
+            <h2>check outs</h2>
+
+            <!-- article & p-->
+            <div>
+                <div class="up-and-down">
+                    <span>De container voor een checkout is een article element</span>
+                    <span>Daarin wordt eerst een h2 en h3 element gebruikt om aan te geven van welke sprint deze checkout is en om de datum van vandaag weer te geven.</span>
+                    <span>Daarna worden p elementen gebruikt voor elke alinea</span>
+                    <span>Voorbeeld:</span>
+                </div>
+    
+                <pre>
+                    <code class="language-html">
+&lt;article&gt;
+&lt;h2&gt;Sprint 1: Your Tribe&lt;/h2&gt;
+&lt;h3&gt;Datum: 4/9/24&lt;/h3&gt;
+&lt;p&gt;
+    Vandaag heb ik een breakdownschets gemaakt.
+    Dat is een schets van de website die ik wil bouwen,
+    met daarin elementen die ik zou kunnen gebruiken.
+&lt;/p&gt;
+&lt;p&gt;
+    Ik heb ook gewerkt aan mijn visitekaartje.
+    Ik heb een lijst toegevoegd met behulp van &lt;dt&gt; en &lt;dd&gt;.
+    Deze tags waren in de templatecode.
+    Ik heb ze nu aangepast en op een nieuwe manier ingedeeld met behulp van een &lt;ul&gt;.
+&lt;/p&gt;
+&lt;/article&gt;
+                    </code>
+                </pre>
+            </div>
+
+            <!-- ul -->
+            <div>
+                <h3>Unorderd list</h3>
+                <div class="up-and-down">
+                    <span>HTML input - web output</span>
+                    <span>ul zonde4r class neemt een nieuwe regel voor elke li</span>
+                    <span>ul met de class "dash" krijgt een "-" voor voor elke li</span>
+                </div>
+    
+                <div class="side-to-side">
+                    <pre>
+                        <code class="language-html">
+&lt;ul&gt;
+    &lt;li&gt;sprint&lt;/li&gt;
+    &lt;li&gt;mobiel:
+        &lt;ul&gt;
+            &lt;li&gt;alle radiozenders in 1 oogopzicht&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;desktop:
+        &lt;ul&gt;
+            &lt;li&gt;1 list voor de tijd lijn&lt;/li&gt;
+            &lt;li&gt;1 list voor de week dagen&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+                        </code>
+                    </pre>
+        
+                    <section>
+                        <ul>
+                            <li>sprint</li>
+                            <li>mobiel:
+                                <ul>
+                                    <li>alle radiozenders in 1 oogopzicht</li>
+                                </ul>
+                            </li>
+                            <li>desktop:
+                                <ul>
+                                    <li>1 list voor de tijd lijn</li>
+                                    <li>1 list voor de week dagen</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+    
+                <div class="side-to-side">
+                    <pre>
+                        <code class="language-html">
+&lt;ul class="dash"&gt;
+    &lt;li&gt;sprint&lt;/li&gt;
+    &lt;li&gt;mobiel:
+        &lt;ul&gt;
+            &lt;li&gt;alle radiozenders in 1 oogopzicht&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;desktop:
+        &lt;ul&gt;
+            &lt;li&gt;1 list voor de tijd lijn&lt;/li&gt;
+            &lt;li&gt;1 list voor de week dagen&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+                        </code>
+                    </pre>
+    
+                    <section class="dash">
+                        <ul>
+                            <li>sprint</li>
+                            <li>mobiel:
+                                <ul>
+                                    <li>alle radiozenders in 1 oogopzicht</li>
+                                </ul>
+                            </li>
+                            <li>desktop:
+                                <ul>
+                                    <li>1 list voor de tijd lijn</li>
+                                    <li>1 list voor de week dagen</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+            <!-- anchor tags -->
+            <div>
+                <h3>anchor tags</h3>
+                <div class="up-and-down">
+                    <span>a element zonder class nemen altijd een nieuwe regel</span>
+                    <span>Een a element met de class "a-inline" blijft op dezelfde regel, De link blijft in de tekst</span>
+                </div>
+
+
+                <div class="side-to-side">
+                    <pre>
+                        <code class="language-html">
+&lt;a href="#" &gt;breakdown schets 1&lt;/a&gt;
+&lt;a href="#" &gt;breakdown schets 2&lt;/a&gt;
+                        </code>
+                    </pre>
+
+                    <section>
+                        <a target="blank" href="#" style="color: black;">breakdown schets 1</a>
+                        <a target="blank" href="#" style="color: black;">breakdown schets 2</a>
+                    </section>
+                </div>
+
+                <div class="side-to-side">
+                    <pre>
+                        <code class="language-html">
+&lt;a class="a-inline" href="#" &gt;breakdown schets 1&lt;/a&gt;
+&lt;a class="a-inline" href="#" &gt;breakdown schets 2&lt;/a&gt;
+                        </code>
+                    </pre>
+
+                    <section>
+                        <a class="a-inline" href="#" style="color: black;">breakdown schets 1</a>
+                        <a class="a-inline" href="#" style="color: black;">breakdown schets 2</a>
+                    </section>
+                </div>
+            </div>
+
+        </article>
+    </main>
+</body>
+</html>
+
+

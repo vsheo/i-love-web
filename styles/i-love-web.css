@@ -1,0 +1,197 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+
+
+/* ====================================================== GLOBAL ====================================================== */
+body {
+    --font-size-primary: 1rem;
+
+    /* 18px */
+    --font-size-title-xs: clamp(1rem, calc(1.5vw + 0.75rem), 1.125rem);
+    /* 20px */
+    --font-size-title-s: clamp(1rem, calc(1.5vw + 1rem), 1.25rem);
+    /* 26px */
+    --font-size-title-m: clamp(1rem, calc(1.5vw + 1.75rem), 1.625rem);
+    /* 48px */
+    --font-size-title-l: clamp(2rem, calc(3.3vw + 1rem), 3rem);
+
+    --font-weight-bold: 700;
+    --font-weight-bolder: 900;
+
+    /* article background color */
+    --semester-neutral: #F5F5F5;
+
+    /* link */
+    --box-shadow: 5px 5px 9px gray;
+    --button-scale: 1.05;
+
+    /* animation */
+    --animation-time: 1.3s;
+    --duration: 100ms;
+    --button-scale-click: 0.9;
+}
+
+
+/* ====================================================== KLEUREN ====================================================== */
+.semester-1-midterm {
+    --semester-primary: #00ff77;
+    --semester-secondary: #222222;
+    --text-primary: #000000;
+    --text-secondary: white;
+
+    /* background: linear-gradient(to bottom, #00ff77, #aaff00); */
+}
+
+.semester-1-endterm {
+    --semester-primary: #aaff00;
+    --semester-secondary: #556B2F;
+    --text-primary: #000000;
+    --text-secondary: white;
+
+    /* background: linear-gradient(to bottom, #aaff00, #ffe100); */
+}
+
+.semester-2-midterm {
+    --semester-primary: #ffe100;
+    --semester-secondary: #CC5500;
+    --text-primary: #000000;
+    --text-secondary: white;
+
+    /* background: linear-gradient(to bottom, var(--sprint1), var(--sprint2)); */
+}
+
+.semester-2-endterm {
+    --semester-primary: #ff2a00;
+    --semester-secondary: #F5F5F5;
+    --text-primary: #000000;
+    --text-secondary: white;
+}
+
+
+/* ====================================================== KLEUREN IN CLASSES ====================================================== */
+.primary {
+    background-color: var(--semester-primary);
+}
+
+.secondary {
+    background-color: var(--semester-secondary);
+}
+
+.neutral {
+    background-color: var(--semester-neutral);
+}
+
+.text-primary {
+    color: var(--text-primary);
+}
+
+/* .text-highlight {
+    color: var(--semester-secondary);
+} */
+
+
+
+/* ====================================================== TYPOGRAFIE ====================================================== */
+h1 {
+    font-size: var(--font-size-title-l);
+}
+
+h2 {
+    font-size: var(--font-size-title-m);
+    font-weight: var(--font-weight-bolder);
+}
+
+h3 {
+    font-size: var(--font-size-title-s);
+    font-weight: var(--font-weight-bold);
+}
+
+h4 {
+    font-size: var(--font-size-title-xs);
+    font-weight: var(--font-weight-bolder);
+}
+
+/* semester-1-midterm */
+.font-lora {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+/* semester-1-endterm */
+
+
+/* semester-2-midterm */
+
+
+/* ====================================================== FORMULIEREN ====================================================== */
+ul li {
+    list-style-type: none;
+    list-style: none;
+}
+
+/* streep voor elke li */
+.dash li {
+    position: relative;
+    /* spatie voor "-" */
+    padding-left: 15px;
+}
+
+.dash li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* a voor new line */
+a {
+    text-decoration: none;
+    color: var(--semester-secondary);
+    font-weight: var(--font-weight-bold);
+
+    display: block;
+    white-space: normal;
+    width: max-content;
+}
+
+/* a voor inline */
+.a-inline {
+    display: inline-block;
+}
+
+a:hover {
+    /* position: relative; */
+    padding: 0.3em;
+    border-radius: 15px;
+    background-color: var(--semester-secondary);
+    color: var(--text-secondary);
+    transform: scale(var(--button-scale));
+    box-shadow: var(--box-shadow);
+    transform-origin: bottom left;
+}
+
+a:active {
+    animation: is-clicked var(--animation-time) ease-in;
+    animation-duration: var(--duration);
+}
+
+/* ====================================================== KEYFRAMES ====================================================== */
+/* link/button click animatie */
+@keyframes is-clicked {
+    from {
+        transform: scale(var(--button-scale));
+    }
+
+    to {
+        transform: scale(var(--button-click-scale));
+    }
+}

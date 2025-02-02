@@ -1,27 +1,5 @@
-
-/* RESET */
-* {
-    box-sizing: border-box;
-    margin: 0;
-
-    list-style-type: none;
-    list-style: none;
-
-    font-family: sans-serif;
-
-    object-fit: cover;
-}
-
-/* COLOR */
-:root {
-    --body: #5d5d5d;
-    --main: #a41414;
-    --article: #cacaca;
-}
-
-
 body {
-    background-color: var(--body);
+    background-color: #5d5d5d;
 
     header {
         position: absolute;
@@ -42,7 +20,7 @@ body {
         gap: 2em;
 
         article {
-            background-color: var(--article);
+            background-color: #cacaca;
             border-radius: 5px;
             display: flex;
             overflow-x: auto;
