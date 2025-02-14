@@ -1,0 +1,26 @@
+<!-- 4/9/24 -->
+<article>
+    <h2>Sprint 1: Your Tribe</h2>
+    <h3>Datum: 4/9/24</h3>
+    <p>
+        vandaag heb ik een breakdown schets gemaakt
+        dat is een schets van de website die ik wil bouwen.
+        met daarin elementen die ik zou kunnen gebruiken.
+    </p>
+    <p>
+        Ik heb ook gewerkt aan mijn visitekaartje.
+        Ik heb een list toegevoegd mbv. dt en dd
+        Deze tags waren in de template code.
+        Ik heb ze nu aangepast en op een nieuwe manier ingedeelt m.b.v. een ul.
+    </p>
+    <p>
+        <h4>Wat wil ik nog uitzoeken:</h4>
+        in mijn list als ik hover over text wil ik een pop up tevoorschijn laten komen.
+        In die pop up wil ik vertellen hoe ik de programeertaal heb geleerd en hoe goed ik ben daarin
+    </p>
+    <p>
+        <h4>Verwijzingen:</h4>
+        <a target="blank" href="./assets/visitekaart/breakdown_schets_v1.jpg">breakdown schets 1 en 2</a>
+        <a target="blank" href="./assets/visitekaart/breakdown_schets_v2.jpg">breakdown schets 3</a>
+    </p>
+</article>

@@ -1,0 +1,1 @@
+new app.get voor een pagine met filtererd info

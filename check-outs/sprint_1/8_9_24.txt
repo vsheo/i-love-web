@@ -1,0 +1,24 @@
+<!-- 8/9/24 -->
+<article>
+    <h2>Sprint 1: Your Tribe</h2>
+    <h3>Datum: 8/9/24</h3>
+    <p>
+        Vandaag heb ik gewerkt aan mijn I love web
+        Ik heb de structuur ingedeelt
+        Ik wil nog niet teveel zetten omdat ik weet dat ik meer zal leren over html en css.
+        Ik wil niet vanaf het begin iets hebben dat moeilijk te lezen is,
+        daarom heb ik het voor nu simpel gehouden.
+    </p>
+    <p>
+        Ik heb nu een home pagina, en een semester pagina waar alle sprints voor semester 1 staan
+        Ik kan nu mijn day journal bijhouden en foto's toevoegen.
+    </p>       
+    <p>
+        Ik ben van plan om elke dag screenshots te maken voor een time vault,
+        zodat ik kan zien hoe de website door de dagen heen veranderd.
+    </p>
+    <p>
+        <h4>Verwijzingen:</h4>
+        <a target="blank" href="./assets/i_love_web/home_v1.png">Home pagina versie 1</a>
+    </p>
+</article>
