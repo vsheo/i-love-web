@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squadpage</title>
+		<link rel="stylesheet" href="./styles.css">
+		<script src="./main.js" defer></script>
+  </head>
+  <body>
+	<header>
+		<input id='checkbox-toggle' type='checkbox'>
+        <label class="checkbox-label" for='checkbox-toggle'><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></label>
+
+		<nav class="menu-hamburger" id="navbar">
+			<h2>Filters</h2>
+			<ul>
+				<ul>
+					<li><h3>Squad 1G</h3></li>
+					<li><a href="/details">A naar Z</a></li>
+					<li><a href="/details/?sorteer=andersom">Z naar A</a></li>
+				</ul>
+
+				<ul>
+					<li><h3>Favorite</h3></li>
+					<li><a href="/gerecht">Gerecht</a></li>
+					<li><a href="/coffee">Coffee</a></li>
+					<li><a href="/dier">Dier</a></li>
+					<li><a href="/emoji">Emoji</a></li>
+				</ul>
+				
+			</ul>
+		</nav>
+
+		<!-- als buiten het open hamburger menu geklikt wordt dan gaat het hamburger menu dicht. omdat de overlay en checkbox-label gekoppeld zijn aan dezelfde checkbox -->
+		<label class="overlay" for="checkbox-toggle" aria-hidden="true"></label>
+
+		<h1><a href="/">Squadpage</a></h1>
+		<!-- <a class="random-ilw" style="--fav_color: lightgray" href="{{ products }}">Random I Love Web</a> -->
+	</header>

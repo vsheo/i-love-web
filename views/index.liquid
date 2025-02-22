@@ -1,0 +1,21 @@
+{% render 'partials/head.liquid' %}
+
+{% for entry in data.entries %}
+  <article>
+    <h2>{{ data.sprint }}</h2>
+    <h3>Datum: {{ data.date }}</h3>
+    
+    <h3>{{ entry.title }}</h3>
+    <p>{{ entry.content }}</p>
+
+    {% if entry.links %}
+      <p>
+        {% for link in entry.links %}
+          <a target="_blank" href="{{ link.url }}">{{ link.text }}</a><br>
+        {% endfor %}
+      </p>
+    {% endif %}
+  </article>
+{% endfor %}
+
+{% render 'partials/foot.liquid', squads: squads %}
