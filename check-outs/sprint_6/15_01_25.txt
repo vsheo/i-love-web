@@ -1,27 +1,33 @@
-workshop Programming User Interaction
-https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/programming-user-interaction.md
-
-disney animatie principes
-https://medium.com/@ruthiran_b/disneys-motion-principles-in-designing-interface-animations-9ac7707a2b43
-
-tranistion timing berekenen
-https://cubic-bezier.com/#.17,.67,.83,.67
-
-oklch kleuren voor transitions, omdat het een grotere kleuren palet heeft.
-waardoor je transition mooier lijkt.
-https://oklch.com/
-
-
-interactive button gemaakt met disney principles
-https://codepen.io/vrsh/pen/qEWKWKY?editors=0110
-
-3 nieuwe CSS properties die je nog niet kende
-~ selector
-:not
-:has
-
-beschrijf 2 animatie principes die je nog niet helemaal begrijpt
-
-beschrijf 1 animatie principe dat je toe gaat voegen aan je eigen I Love Web website
-*lees werk voor je assessment
-
+<!-- 15/01/25 -->
+<article>
+    <h2>Sprint 6: The Startup</h2>
+    <h3>Datum: 15/01/25</h3>
+    <p>
+        <a href="https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/programming-user-interaction.md">workshop Programming User Interaction</a>
+    </p>
+    <p>
+        <a href="https://medium.com/@ruthiran_b/disneys-motion-principles-in-designing-interface-animations-9ac7707a2b43">disney animatie principes</a>
+        <a href="https://codepen.io/vrsh/pen/qEWKWKY?editors=0110">interactive button gemaakt met disney principles</a>
+    </p>
+    <p>
+        <h4>usefull sites</h4>
+        <a href="https://cubic-bezier.com/#.17,.67,.83,.67">tranistion timing berekenen</a>
+        oklch kleuren voor transitions, omdat het een grotere kleuren palet heeft. waardoor je transition mooier lijkt
+        <a href="https://oklch.com/">oklch.com</a>
+    </p>
+    <p>
+        <h4>3 nieuwe CSS properties die je nog niet kende</h4>
+        - Oklch is een nieuw kleurenmodel in CSS dat natuurlijke kleuren geeft en meer controle biedt over helderheid, verzadiging en tint dan RGB of hex.<br>
+        - Cubic Bezier is een CSS-timingfunctie die de snelheid van een animatie bepaalt, zodat je kunt kiezen hoe de beweging versnelt of vertraagt.
+    </p>
+    <p>
+        <h4>beschrijf 2 animatie principes die je nog niet helemaal begrijpt</h4>
+        op <a href="https://medium.com/@ruthiran_b/disneys-motion-principles-in-designing-interface-animations-9ac7707a2b43">deze</a> website snap ik nog niet helemaal het verschil tussen "squash & stretch" en "secondary action".
+        Bij een button lijken ze veel op elkaar, want allebei voegen ze extra beweging toe. Maar hoe ze precies anders zijn, begrijp ik nog niet.
+    </p>
+    <p>
+        <h4>beschrijf 1 animatie principe dat je toe gaat voegen aan je eigen I Love Web website.</h4>
+        ik wil eerst Anticipatie gebruiken door de achtergrond van het menu op beeld te krijgen.
+        Daarna Timing gebruiken om de linkjes achter elkaar, met een kleine delay, op beeld te laten komen.
+    </p>
+</article>

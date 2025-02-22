@@ -1,18 +1,27 @@
-wat heb je gedaan
-Ik heb Mediahuis genomen als opdracht.
-Mediahuis is een bedrijf met meedere radio uitzenders.
-Triple, een fronend bedrijf, heeft hun opdracht aangenomen en is ondertussen al in de laaste fase voor dit project.
-Triple is voor ons de opdrachtgever, ze willen dat wij hun website namaken.
-En daarna zelf iets creatief verbij zetten of veranderen.
-Dit kunnen nieuwe interacties, of een andere stijl en layout zijn.
-
-
-3 dingen die je geleerd hebt
-ik heb geleerd wat SCRUM inhoud
-ik heb geleerd hoe ik voor een briefing moet voorbereiden
-wat een debriefing is en hoe ik dat moet aanpakken
-
-formuleer 2 leervragen voor deze week
-Hoe kan ik deze week de website van Veronica, een zender van Mediahuis, op een semantisch correcte manier namaken?
-Hoe kan ik mijn prototypes tot een HI-FI prototype maken?
-
+<!-- 23/9/24 -->
+<article>
+    <h2>Sprint 2: The client</h2>
+    <h3>Datum: 23/9/24</h3>
+    <p>
+        wat heb je gedaan?
+        Ik heb Mediahuis gekozen als mijn project. Mediahuis is een bedrijf met meerdere radiozenders.
+        Het frontend bedrijf Triple heeft de opdracht aangenomen en bevindt zich inmiddels in de laatste fase van het project.
+        Triple is mijn opdrachtgever, en zij willen dat ik hun website na bouw.
+        Vervolgens moet ik er iets creatiefs aan toevoegen of aanpassen.
+        Dit kan een nieuwe interactie, een andere stijl,of een aangepaste layout zijn.
+    </p>
+    <p>
+        3 dingen die ik heb gedaan?
+        Ik heb een project uitgekozen.
+        Ik heb geleerd hoe ik me moet voorbereiden op een briefing.
+        Ik weet nu wat een debriefing is en hoe ik die moet aanpakken.
+    </p>
+    <p>
+        2 leervragen voor deze week,
+        Hoe kan ik deze week de website van Veronica, een zender van Mediahuis, op een semantisch correcte manier namaken?
+    </p>
+    <p>
+        <h4>Verwijzingen:</h4>
+        <a target="blank" href="https://github.com/fdnd-agency/triple/tree/design-challenge">Triple repository</a>
+    </p>
+</article>

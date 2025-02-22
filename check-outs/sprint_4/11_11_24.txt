@@ -1,58 +1,50 @@
-
-opdracht
-https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md
-
-decathlon style guide
-https://zeroheight.com/726f8c765/p/1174b9-guidelines
-
-figma huis stijl
-https://www.figma.com/design/INZhyl3rxr3skj2rwCjVFU/Mediahuis-Design-Guide?node-id=2299-3810&t=V50smtbPvUYNZ8wR-1
-
-en style guide
-https://www.figma.com/design/INZhyl3rxr3skj2rwCjVFU/Mediahuis-Design-Guide?node-id=2296-4071&t=V50smtbPvUYNZ8wR-1
-
-
-
-documenteer wat je vandaag hebt gedaan
-met links en vb en bronnen
-vandaag hebben we de styleguide deeltaak gehad.
-hiervoor moeten we eerst een style guide maken met de team die dezelfde opdrachtgever heeft.
-daarmee kunnen we een style guide maken, waarmee we deze sprint verder zullen werken.
-
-De style guide en style sheet die ik met Julia en Robin heb gemaakt
-style guide: https://www.figma.com/design/INZhyl3rxr3skj2rwCjVFU/Mediahuis-Design-Guide?node-id=2296-4071&t=UO2k9PkzSEk9yCDY-1
-style sheet: https://vsheo.github.io/look-and-feel-styleguide/
-
-
-
-3 dingen die je hebt geleerd
-elk bedrijf heeft een huis stijl
-styles guide makeen
-Ik heb vandaag geleerd dat elk bedrijf een eigen huis stijl heeft. als frontender moeten wij rekening houden hiermee.
-Voor elk project wordt er eerst een stijle sheet gemaakt m.b.v een style guide. 
-Dit wordt gerdaan om ervoor te zorgen dat iedereen binnen de team dezelfde stijl gebruikt.
-
-
-
-hoe pak je met je team deze opdracht aan
-We hebben na de les besloten om er direct aan te werken.
-in een figma bestand hebben we een interface inventory gemaakt.
-hier hebben we gezien dat iedereen een andere stijl had voor dezelfde elementen.
-
-daarna hebben we een style guide gamaakt. 
-hiervoor hebben we de huis stijl van radio veronica overgenomen.
-we hadden door, dat het overzetten van style guide naar een style sheet snel gedaan kon zijn, dus we hebben dat ook direct gedaan.
-
-Thuis zal ik de classnames in het HTML zetten, met ook wat beschrijving.
-
-we moeten nog een beslissing maken als we een andere typografie zullen gebruiken voor de mobiele versie van de desktop.
-nu hebben we alleen een style sheet voor de desktop versie
-We zullen eerst werken met de style sheet die we nu hebben, als het niet goed eruit ziet zullen we bespreken hoe we een mobiele versie gaan maken.
-
-
-
-waar ga je afspraken bijhouden team canvas
-we hebben besloten om onze afspraken in de ReadMe van look-and-feel-styleguide bij te houden.
-de rede waarom ik heb voorgesteld om het in de ReadMe bij te houden is;
-de ReadMe is makkelijker om de afpraken op te zoeken, omdat we vaker in de repositoiry bezig zijn.
-afspraken: https://github.com/vsheo/look-and-feel-styleguide#:~:text=de%20juiste%20toepassing.-,Afspraken,-Er%20gelden%20een
+<!-- 11/11/24 -->
+<article>
+    <h2>Sprint 4: Look and Feel</h2>
+    <h3>Datum: 11/11/24</h3>
+    <p>
+        <h4>documenteer wat je vandaag hebt gedaan</h4>
+        Vandaag hebben we de styleguide deeltaak gehad.
+        hiervoor moeten we eerst een style guide maken met de team die dezelfde opdrachtgever heeft.
+        daarmee kunnen we een style guide maken, waarmee we deze sprint verder zullen werken.
+        
+        De style guide en style sheet die ik met Julia en Robin heb gemaakt
+        <a href="https://www.figma.com/design/INZhyl3rxr3skj2rwCjVFU/Mediahuis-Design-Guide?node-id=2296-4071&t=UO2k9PkzSEk9yCDY-1">style guide</a>
+        <a href="https://vsheo.github.io/look-and-feel-styleguide/">style sheet</a>
+    </p>
+    <p>
+        <h4>3 dingen die je hebt geleerd</h4>
+        elk bedrijf heeft een huis stijl
+        styles guide makeen
+        Ik heb vandaag geleerd dat elk bedrijf een eigen huis stijl heeft. als frontender moeten wij rekening houden
+        hiermee.
+        Voor elk project wordt er eerst een stijle sheet gemaakt m.b.v een style guide.
+        Dit wordt gerdaan om ervoor te zorgen dat iedereen binnen de team dezelfde stijl gebruikt.
+    </p>
+    <p>
+        <h4>hoe pak je met je team deze opdracht aan?</h4>
+        We hebben na de les besloten om er direct aan te werken.
+        in een figma bestand hebben we een interface inventory gemaakt.
+        hier hebben we gezien dat iedereen een andere stijl had voor dezelfde elementen.
+    
+        daarna hebben we een style guide gamaakt.
+        hiervoor hebben we de huis stijl van radio veronica overgenomen.
+        we hadden door, dat het overzetten van style guide naar een style sheet snel gedaan kon zijn, dus we hebben dat ook
+        direct gedaan.
+    
+        Thuis zal ik de classnames in het HTML zetten, met ook wat beschrijving.
+    
+        we moeten nog een beslissing maken als we een andere typografie zullen gebruiken voor de mobiele versie van de
+        desktop.
+        nu hebben we alleen een style sheet voor de desktop versie
+        We zullen eerst werken met de style sheet die we nu hebben, als het niet goed eruit ziet zullen we bespreken hoe we
+        een mobiele versie gaan maken.
+    </p>
+    <p>
+        <h4>Waar gaan we afspraken bijhouden?</h4>
+        we hebben besloten om onze afspraken in de ReadMe van look-and-feel-styleguide bij te houden.
+        de rede waarom ik heb voorgesteld om het in de ReadMe bij te houden is;
+        de ReadMe is makkelijker om de afpraken op te zoeken, omdat we vaker in de repositoiry bezig zijn.
+        <a href="https://github.com/vsheo/look-and-feel-styleguide#:~:text=de%20juiste%20toepassing.-,Afspraken,-Er%20gelden%20een">afspraken</a>
+    </p>
+</article>

@@ -1,15 +1,26 @@
-3 dingen die je vandaag hebt gedaan
-- laptop gebruikt zonder een muis of trackpad, en keyboard shortcuts opgezocht.
-- een sprint review voorbereid, voor morgen met de opdrachtgever
-- uitgezocht wat JavaScript Intersection Observer is en doet
+<!-- 23/10/24 -->
+<article>
+    <h2>Sprint 3: All human</h2>
+    <h3>Datum: 23/10/24</h3>
+    <p>
+        <h4>3 dingen die je vandaag hebt gedaan</h4>
+        Ik heb mijn laptop zonder muis of trackpad gebruikt en keyboard shortcuts opgezocht.
+        Daarnaast heb ik een sprint review voorbereid voor morgen met de opdrachtgever.<br>
+        Ik heb uitgezocht wat de JavaScript Intersection Observer is en hoe deze werkt, voor mijn I Love Web.<br>
+        <a href="https://github.com/vsheo/i-love-web/blob/6deef9743c437ce0e61074ca276ca741c7760a2f/scripts/inter_ob.js#L3C1-L24C3">intersection observer in mijn code</a>
+    </p>
 
-beschrijf 2 verbeteringen die je in je readme hebt gemaakt
-ik heb een qr code toegevoegd waardoor het makkelijker is om te bekijken op een telefoon.'
-uitgelegd hoe de website werkt
+    <p>
+        <h4>beschrijf 2 verbeteringen die je in je readme hebt gemaakt</h4>
+        ik heb een QR-code toegevoegd, zodat de website makkelijker op een telefoon bekeken kan worden. 
+        Ik heb ook uitgelegd hoe de website werkt, zodat gebruikers beter begrijpen wat het al kan doen.
+    </p>
 
-schrijf 1 ding die je anders gaat aanpakken tijdens de komende sprint
-op 1 issue afmaken, niks ernaast doen.
-ik heb vaker gehad waar ik een nieuw probleem tegen komt terwijl ik bezig ben met een issue.
-en dan probeer ik dat eerst op te lossen, daarna ga ik verder met mn issue.
-als ik daarna een commit push, en de issue eraan link, is er veel veranderd dat niet met die issue te maken had.
-ik zal komende sprint nieuwe issues maken i.p.v het gelijk op te lossen.
+    <p>
+        <h4>schrijf 1 ding die je anders gaat aanpakken tijdens de komende sprint</h4>
+        op 1 issue concentreren, niks ernaast doen. ik heb vaker gehad waar ik een nieuw probleem tegen kwam terwijl ik al bezig was met een issue. 
+        Dan probeer ik het nieuw probleem eerst op te lossen, daarna ga ik verder met de vorige issue. 
+        als ik daarna een commit push, en de issue eraan link, is er veel veranderd dat niet met die issue te maken had. 
+        ik zal komende sprint nieuwe issues maken i.p.v het gelijk op te lossen.
+    </p>
+</article>

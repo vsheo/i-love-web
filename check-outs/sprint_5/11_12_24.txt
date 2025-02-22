@@ -1,23 +1,26 @@
-
-workshop JS forms and states: https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/form-states.md
-
-download Firefox, Chrome, Arc, Edge, Vivaldi, Samsung Internet, Polypane, Opera, Dolphin, Zen Browser
-Maar ook Safari Technology Preview, Firefox Nightly, Chrome Canary en Edge Canary
-
-
-
-Wat heb je vandaag geleerd over HTML?
-
-HTML heeft het attribuut required, zodat de gebruiker verplicht is om de velden in te vullen.
-Je kunt HTML-elementen strategisch gebruiken om je JavaScript-code eenvoudiger te maken.
-
-Wat heb je vandaag geleerd over CSS?
-Met CSS-selectoren kun je specifiek de eigenschappen van HTML-elementen aanpassen en bepalen hoe ze eruitzien of zich gedragen.
-
-Wat ga je voor vrijdag nog toevoegen?
-De functionaliteit van "section snap" verder verbeteren.
-"Same-time scroll" implementeren.
-
-Welke functionaliteit wil je vrijdag laten testen?
-Section snap.
-Same-time scroll.
+<!-- 11/12/24 -->
+<article>
+    <h2>Sprint 5: Fix the Flow</h2>
+    <h3>Datum: 11/12/24</h3>
+    <p>
+        <h4>Wat heb je vandaag geleerd over HTML?</h4>
+        HTML heeft het attribuut required, zodat de gebruiker verplicht is om de velden in te vullen.
+        Je kunt HTML-elementen strategisch gebruiken om je JavaScript-code eenvoudiger te maken.
+    </p>
+    <p>
+        <h4>Wat heb je vandaag geleerd over CSS?</h4>
+        Met CSS-selectoren kun je specifiek de eigenschappen van HTML-elementen aanpassen en bepalen hoe ze eruitzien of zich gedragen.
+    </p>
+    <p>
+        <h4>Wat ga je voor vrijdag nog toevoegen?</h4>
+        De functionaliteit van "section snap" verder verbeteren.
+        "Same-time scroll" maken.
+    </p>
+    <p>
+        <h4>Welke functionaliteit wil je vrijdag laten testen?</h4>
+        Section snap en Same-time scroll.
+    </p>
+    <p>
+        <a href="https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/form-states.md" target="_blank">Workshop van vandaag</a>
+    </p>
+</article>

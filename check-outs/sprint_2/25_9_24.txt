@@ -1,20 +1,20 @@
-wat heb ik vandaag gedaan
-prototypes maken
-dit is onderverdeelt in
-sitemaps
-wireframe en wireflows
-en daarna High Fidelity(HiFi) prototypes, die kunnen gemaakt worden met programma's als figma
+<!-- 25/9/24 -->
+<article>
+    <h2>Sprint 2: The client</h2>
+    <h3>Datum: 25/9/24</h3>
+    <p>
+        <h4>wat heb ik vandaag gedaan?</h4>
+        Vandaag heb ik prototypes gemaakt. Dit is onderverdeeld in sitemaps, wireframes en wireflows. 
+        Daarna heb ik High Fidelity (HiFi) prototypes gemaakt, die kunnen worden gemaakt met programma's als Figma.
+    </p>
 
-wat moet ik doen voor aanstaande vrijdag
-een sematiek correcte HTMl code voor de website die ik wil gaan bouwen
+    <p>
+        <h4>wat moet ik doen voor aanstaande vrijdag?</h4>
+        Voor aanstaande vrijdag moet ik semantisch correcte HTML-code schrijven voor de website die ik wil gaan bouwen.
+    </p>
 
-wat wil ik zelf nog doen
-mijn HiFi prototype in figma afmaken
-en breakdown schetsen maken in mijn wireframes.
-
-
-** voeg links toe naar foto's
-
-link naar uitleg:
-https://github.com/fdnd-task/the-client-website/blob/main/docs/prototyping.md
-
+    <p>
+        <h4>wat wil ik zelf nog doen?</h4>
+        Wat ik zelf nog wil doen, is mijn HiFi-prototype in Figma afmaken en breakdown-schetsen maken in mijn wireframes.
+    </p>
+</article>

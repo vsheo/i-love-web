@@ -1,14 +1,22 @@
-readme geanalyseert 
-gekeken wat goed is en wat beter kan
+<!-- 18/12/24 -->
+<article>
+    <h2>Sprint 5: Fix the Flow</h2>
+    <h3>Datum: 18/12/24</h3>
+    <p>
+        <h4>wat heb ik gedaan vandaag?</h4>
+        readme geanalyseert, gekeken wat goed ging en wat beter kan.
+        <a target="_blank" href="https://github.com/Annevd/user-needs">Anne</a>
+        <a target="_blank" href="https://github.com/ambersr/all-human-accessible-website">Amber</a>
+        <a target="_blank" href="https://github.com/TygoWolven/Sprint5-Interactive-Website">Tygo</a>
+        <a href="/assets/mediahuis/sprint_5/readme_analyse.jpg" target="_blank">Whiteboard foto</a>
 
-anne: https://github.com/Annevd/user-needs
-Amber: https://github.com/ambersr/all-human-accessible-website
-tygo: https://github.com/TygoWolven/Sprint5-Interactive-Website
-
-whiteboard foto
-
-read me gemaakt
-aan issue 13 15 en 8 gewerkt
-
-testen issue
-https://github.com/vsheo/fix-the-flow-interactive-website/issues/16
+        Ik heb ook een ReadMe gemaakt en aan mijn issues gewerkt
+    </p>
+    <p>
+        <h4>Links</h4>
+        <a href="https://github.com/vsheo/fix-the-flow-interactive-website#fix-the-flow" target="_blank">ReadMe</a>
+        <a href="https://github.com/vsheo/fix-the-flow-interactive-website/issues/8" target="_blank">issue 8</a>
+        <a href="https://github.com/vsheo/fix-the-flow-interactive-website/issues/13" target="_blank">issue 13</a>
+        <a href="https://github.com/vsheo/fix-the-flow-interactive-website/issues/15" target="_blank">issue 15</a>
+    </p>
+</article>

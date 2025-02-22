@@ -1,11 +1,15 @@
-Workshop Refactoring en Code Conventions
-https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/refactoring-code-conventions.md
-
-HTML ademruimte en inspringen
-https://github.com/fdnd-task/the-client-website/blob/main/docs/code-conventies.md#geef-je-html-ademruimte
-
-Volgorde en nesten van CSS selectors
-https://github.com/fdnd-task/the-client-website/blob/main/docs/code-conventies.md#schrijf-je-css-selectors-in-dezelfde-volgorde-als-de-html
-
-
-HTML refactored en CSS beter/ meer genest
+<!-- 20/01/25 -->
+<article>
+    <h2>Sprint 6: The Startup</h2>
+    <h3>Datum: 20/01/25</h3>
+    <p>
+        <h4>Refactoring en Code Conventions</h4>
+        <a href="https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/refactoring-code-conventions.md">workshop</a>
+        <a href="https://github.com/fdnd-task/the-client-website/blob/main/docs/code-conventies.md#geef-je-html-ademruimte">HTML ademruimte en inspringen</a>
+        <a href="https://github.com/fdnd-task/the-client-website/blob/main/docs/code-conventies.md#schrijf-je-css-selectors-in-dezelfde-volgorde-als-de-html">Volgorde en nesten van CSS selectors</a>
+    </p>
+    <p>
+        Vandaag heb ik mijn HTML refactored en CSS beter/ meer genest.
+        <a href="https://github.com/vsheo/the-startup-responsive-interactive-website/issues/21">issue waar ik dit heb bijgehouden</a>
+    </p>
+</article>

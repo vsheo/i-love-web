@@ -1,4 +1,9 @@
 reviews geschreven samen met kim
+dylan: https://github.com/DivaniNL/connect-your-tribe-squad-page/issues/5
+branco: https://github.com/Brancovanbeek/connect-your-tribe-squad-page/issues/7
+Fatima: https://github.com/FatimaZelay/connect-your-tribe-squad-page/issues/6
+halima: https://github.com/halie404/connect-your-tribe-squad-page/issues/3
+karimna: https://github.com/Karima002/connect-your-tribe-squad-page-/issues/2
 
 
 We love web

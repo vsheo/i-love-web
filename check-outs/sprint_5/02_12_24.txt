@@ -1,22 +1,21 @@
-
-
-wat heb je gedaan?
-
-sprint planning gemaakt
-begonnen met een road map in mijn project board.
-ik heb de planning van sprint 5 overgenomen in mij road map.
-dit lijk op een drukke sprint dus ik heb ook gelijk toegevoegd dat ik tussen maandag en dinsdag schetsen, 
-html first, en mobile first gedaan wilt hebben.
-
-ik heb een user story en wireflow gemaakt, voor een javascript interactie die ik in deze sprint wil gaan maken.
-https://github.com/vsheo/fix-the-flow-interactive-website/issues/4
-
-
-hoe ver ben je met de deeltaak JS fundamentals?
-ik heb de eerste gedaan over variables.
-dit stukje ken ik al, ik zal door de eerste paar oefeningen heen gaan totdat ik wat moeilijkere opdrachten tegen kom
-
-
-Wat wil je nog meer leren over javascript.
-
-
+<!-- 02/12/24 -->
+<article>
+    <h2>Sprint 5: Fix the Flow</h2>
+    <h3>Datum: 02/12/24</h3>
+    <p>
+        <h4>wat heb je gedaan?</h4>
+        sprint planning gemaakt
+        begonnen met een road map in mijn project board.
+        ik heb de planning van sprint 5 overgenomen in mij road map.
+        dit lijk op een drukke sprint dus ik heb ook gelijk toegevoegd dat ik tussen maandag en dinsdag schetsen, 
+        html first, en mobile first gedaan wilt hebben.
+        <h4>User story</h4>
+        ik heb een user story en wireflow gemaakt, voor een javascript interactie die ik in deze sprint wil gaan maken.
+        <a target="_blank" href="https://github.com/vsheo/fix-the-flow-interactive-website/issues/4">user story issue</a>
+    </p>
+    <p>
+        <h4>hoe ver ben je met de deeltaak JS fundamentals?</h4>
+        ik heb de eerste gedaan over variables.
+        dit stukje ken ik al, ik zal door de eerste paar oefeningen heen gaan totdat ik wat moeilijkere opdrachten tegen kom
+    </p>
+</article>

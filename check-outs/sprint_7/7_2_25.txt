@@ -1,4 +1,4 @@
-
+vandaag hadden we code en design reviews, ik heb feedback gegeven aan:
 
 code & design review voor
 https://github.com/Brancovanbeek/connect-your-tribe-profile-card/issues/1#issuecomment-2642497477

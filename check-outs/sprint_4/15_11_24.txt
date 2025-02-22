@@ -1,18 +1,19 @@
-
-vandaag heb ik samen met Julia en Aria code reviews gedaan op de styleguide en stylesheet van bieb in bloei en drop & heal.
-dit hebben we gedaan voor squad G en squad H, dus 4 reviews in tottaal.
-
-github van bieb in bloei squad 1G style guide: https://github.com/kimnikitaschijf/look-and-feel-styleguide
-github van bieb in bloei squad 1H style guide: https://github.com/Sidopjescherm/look-and-feel-styleguide
-
-github van drop and heal squad 1G style guide: https://github.com/Matthijs217/look-and-feel-styleguide
-github van drop and heal squad 1H style guide: https://github.com/RickFDND/look-and-feel-styleguide
-
-
-1 read me
-2 Indeling van de stylesheet
-3 consistente & begrijpelijk Naamgeving
-4 Volledigheid Stylesheet
-5 Custom properties op juiste element
-6 Herhaling code
-
+<!-- 15/11/24 -->
+<article>
+    <h2>Sprint 4: Look and Feel</h2>
+    <h3>Datum: 15/11/24</h3>
+    <p>
+        <h4>Wat heb ik vandaag gedaan?</h4>
+        vandaag heb ik samen met Julia en Aria code reviews gedaan op de styleguide en stylesheet van bieb in bloei en drop & heal.
+        dit hebben we gedaan voor squad G en squad H, dus 4 reviews in tottaal.
+        
+        <h4>Styleguide repositories</h4>
+        <a href="https://github.com/kimnikitaschijf/look-and-feel-styleguide">bieb in bloei squad 1G</a>
+        <a href="https://github.com/Sidopjescherm/look-and-feel-styleguide">bieb in bloei squad 1H</a>
+        <a href="https://github.com/Matthijs217/look-and-feel-styleguide">drop and heal squad 1G</a>
+        <a href="https://github.com/RickFDND/look-and-feel-styleguide">drop and heal squad 1H</a>
+        
+        <h4>issues</h4>
+        <a href="https://vsheo.github.io/i-love-web/html/p_mediahuis.html#:~:text=Sprint%204%20code%20review%20styleguide%20en%20stylesheet">code review issues als foto's</a>
+    </p>
+</article>

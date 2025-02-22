@@ -1,8 +1,13 @@
-vandaag was de laatste les dag voor deze sprint. we hebben na de les een expo.
-ik ben begonnen met het schrijven van de restrospects
-
-naast de restrospect die wij voor sprint 6 moeten inleveren. wil ik ook 1.1.3 – Fix the Flow - Interactive Website opnieuw maken.
-omdat ik deze sprint weer een interactie heb gemaakt, maar dit keer heb ik het beter laten testen.
-en omdat ik meer feedback heb gekregen heb ik ook meer feedback verwerkt.
-
-
+<!-- 24/01/25 -->
+<article>
+    <h2>Sprint 6: The Startup</h2>
+    <h3>Datum: 24/01/25</h3>
+    <p>
+        Vandaag was de laatste lesdag voor deze sprint. Na de les hadden we een expo. Thuis ben ik ben begonnen met het schrijven van de retrospects.
+    </p>
+    <p>
+        Naast de retrospects die we voor sprint 6 moeten inleveren, wil ik ook 1.1.3 - Fix the Flow - Interactive Website opnieuw maken.
+        Omdat ik deze sprint weer een interactie heb gemaakt, maar dit keer heb ik het beter laten testen. 
+        En doordat ik meer feedback heb gekregen, heb ik ook meer feedback verwerkt
+    </p>
+</article>

@@ -1,12 +1,17 @@
-workshop code & design review mobile first
-https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/code-design-review-mobile-first.md
-
-
-hier staan links naar de issues die geschreven zijn door Senne Nadia en ik.
-https://github.com/vsheo/the-startup-responsive-interactive-website/issues/17
-
-tips & tricks voor responsiveness
-https://www.youtube.com/watch?v=2IV08sP9m3U
-
-ik heb issues die ik gekregen heb gelijk verwerkt.
-1 issue neemt wat meer tijd, nieuwe states maken, deze issue los ik morgen op.
+<!-- 10/01/25 -->
+<article>
+    <h2>Sprint 6: The Startup</h2>
+    <h3>Datum: 10/01/25</h3>
+    <p>
+        vandaag hadden wij de workshop code & design review mobile first
+        <a target="_blank" href="https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/code-design-review-mobile-first.md">dit was de opdracht</a>
+    </p>
+    <p>
+        hier staan links naar de issues die geschreven zijn door Senne Nadia en ik.
+        <a target="_blank" href="https://github.com/vsheo/the-startup-responsive-interactive-website/issues/17">issues geschreven zijn door Senne Nadia en ik</a>
+        De issues die ik gekregen heb, heb ik gelijk verwerkt. 1 issue neemt wat meer tijd, nieuwe states maken, deze issue los ik een ander keer op.
+    </p>
+    <p>
+        <a href="https://www.youtube.com/watch?v=2IV08sP9m3U">tips & tricks voor responsiveness</a>
+    </p>
+</article>

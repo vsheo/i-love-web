@@ -1,9 +1,20 @@
-We zijn bezig geweest met mergen voor de squad page.<br>
-Vandaag heb ik aan de campus pagina gewerkt<br><br>
-
-De informatie die op de pagina komt heb ik al toegevoegd.<br>
-Ik ben nog niet helemaal tevreden met de stijl van mijn grid, daar zal ik morgen verder aan werken.<br>
-De kleuren moeten ook nog aangpast worden, maar daarvoor moet ik nog overleggen met Dylan en Colin.<br><br>
-
-Vandaag hadden we een CSS college. Daarna hadden we 2 oefeningen met css transities en transformaties.<br>
-De eerste heb ik af, de tweede moetik nog doen.<br><br>
+<!-- 17/9/24 -->
+<article>
+    <h2>Sprint 1: Your Tribe</h2>
+    <h3>Datum: 17/9/24</h3>
+    <p>
+        We zijn bezig geweest met mergen voor de squad page.
+        Vandaag heb ik aan de campus pagina gewerkt.
+        
+        De informatie die op de pagina komt heb ik al toegevoegd.
+        Ik ben nog niet helemaal tevreden met de stijl van mijn grid, daar zal ik morgen verder aan werken.
+        De kleuren moeten ook nog aangpast worden, maar daarvoor moet ik nog overleggen met Dylan en Colin.
+    </p>
+    <p>
+        <h4>Verwijzingen:</h4>
+        <a target="_blank" href="./assets/squad_page/campus_page_v2.1.png">Campus pagina v1</a>
+    </p>
+        Vandaag hadden we ook een CSS college. Daarna hadden we 2 oefeningen met css transities en transformaties.
+        De eerste heb ik af, met de tweede moet ik nog beginnen.       
+    </p>
+</article>

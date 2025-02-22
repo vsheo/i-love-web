@@ -1,5 +1,5 @@
 https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/squad-page-ontwerpen.md
-spri nt planning en filter sort in json browser
+sprint planning en filter sort in json browser
 
 https://fdnd.directus.app/items/person/?filter={%22bio%22:{%22_contains%22:%22frontend%22}}
 https://fdnd.directus.app/items/person/?filter={%22fav_color%22:%22%239914e1%22}

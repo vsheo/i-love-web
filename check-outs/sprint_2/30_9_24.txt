@@ -1,14 +1,25 @@
-verschillen tussen flow, grid, flexbox positioned, float, multi_column en table layout.
+<!-- 30/9/24 -->
+<article>
+    <h2>Sprint 2: The client</h2>
+    <h3>Datum: 30/9/24</h3>
+    <p>
+        <h4>wat heb je vandaag gedaan?</h4>
+        Vandaag heb ik geleerd wat de verschillen zijn tussen flow, grid, flexbox, positioned, float, multi-column en table layout.
+    </p>
 
-wat heb je vandaag geleerd
-HTML elementen hebben standaard een layout. die kan je met CSS veranderen.
-ik heb ge oefend met layouts (grid, float en flow)
+    <p>
+        <h4>wat heb je vandaag geleerd?</h4>
+        Vandaag heb ik geleerd dat HTML-elementen standaard een layout hebben, die je met CSS kunt veranderen. 
+        Ik heb geoefend met layouts zoals grid, float en flow.
+    </p>
 
-voor de opdracht van de opdrachtgever heb ik grid, flex en position nodig.
-grid voor de grote indeling van mijn website.
-flex om in de grid areas de elementen te plaatsen.
-en als laatst position, om als laatst kleine aanpassingen te maken.
-
-
-https://github.com/vsheo/layout-in-css/issues?q=is%3Aissue+is%3Aclosed
-
+    <p>
+        <h4>De layouts die ik zal gebruiken voor de client website zijn</h4>
+        Grid, flex en position. 
+        Ik gebruik grid voor de grote indeling van mijn website, flex om de elementen in de grid areas te plaatsen, 
+        en position voor kleine aanpassingen.
+    </p>
+    <p>
+        <a href="https://github.com/vsheo/layout-in-css/issues?q=is%3Aissue+is%3Aclosed">link naar de layout deeltaak</a>
+    </p>
+</article>

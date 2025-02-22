@@ -1,6 +1,19 @@
-Vandaag heb ik de foto's op mijn Picture Vault-pagina beter geordend.
-Ik heb ook alle foto's en screenshots die ik nog miste toegevoegd.
-Daarnaast heb ik links vanuit mijn journal naar de Picture Vault toegevoegd.
-
-Ik ben nog niet helemaal tevreden met de indeling van de Picture Vault-pagina.
-Ik ben van plan om een paar foto's te verwijderen en de rest per sprint indelen, zodat de pagina sneller laadt.
+<!-- 20/9/24 -->
+<article >
+    <h2>Sprint 1: Your Tribe</h2>
+    <h3>Datum: 20/9/24</h3>
+    <p>
+        Vandaag heb ik de foto's op mijn Picture Vault-pagina beter geordend.
+        Ik heb ook alle foto's en screenshots die ik nog miste toegevoegd.
+        Daarnaast heb ik links vanuit mijn journal naar de Picture Vault toegevoegd.
+        
+        Ik ben nog niet helemaal tevreden met de indeling van de Picture Vault-pagina.
+        Ik ben van plan om een paar foto's te verwijderen en de rest per sprint indelen, zodat de pagina sneller laadt.
+    </p>
+    <p>
+        <h4>Verwijzingen:</h4>
+        <a target="blank" href="./html/p_visitekaart.html">link naar mijn picture vault visitekaart</a>
+        <a target="blank" href="./html/p_iloveweb.html">link naar mijn picture vault i love web</a>
+        <a target="blank" href="./html/p_squadpage.html">link naar mijn picture vault squad page</a>
+    </p>
+</article>

@@ -1,64 +1,74 @@
-vandaag heb ik een custom font gemaakt:
-lorem ipsum
-
-ik heb geleerd dat er meerdere font op een website kunnen zijn.
-met font family heb krijg je een fallback
-dit betekent als je laptop/ browser de eerste font niet kan lezen, dan wordt de 2de font in de font family gebruikt.
-voorbeeld:
-font-family: "Times New Roman", Times, serif;
-
-
-
-ik heb geleerd dat er in css absolute en relative units zijn.
-van de absolute units gebruiken we alleen px voor het web.
-relative units zijn afhankelijk van een ander element.
-
-absolute length units:
-centimeters(cm): In CSS, 1cm is roughly 37.8 pixels, or about 25.2/64 of an inch.
-
-millimeters(mm): In CSS, 1mm is roughly 3.78 pixels, or 1/10th of a centimeter.
-
-inches(in): In CSS, 1in is roughly 96 pixels, or about 2.54cm.
-
-points(pt): In CSS, 1pt is roughly 1.3333 pixels, or 1/72th of an inch.
-
-picas(pc): In CSS, 1pc is roughly 16 pixels, or 1/6 of an inch.
-
-pixels(px):
-https://www.freecodecamp.org/news/css-unit-guide/#:~:text=units%20in%20CSS%3A-,px,-Pixels%2C%20or%20px
-
-
-
-relative length units:
-em: Relative to the font-size of the element (2em means 2 times the size of the current font)
-https://www.freecodecamp.org/news/css-unit-guide/#:~:text=relative%20length%20units%3A-,em,-The%20CSS%20em
-
-ex: Relative to the x-height of the current font (rarely used)
-
-ch: Relative to the width of the "0" (zero)
-https://www.freecodecamp.org/news/css-unit-guide/#:~:text=is%20rarely%20used.-,ch,-Character%20unit.%20The
-
-rem: Relative to font-size of the root element
-https://www.freecodecamp.org/news/css-unit-guide/#:~:text=the%20targeted%20element.-,rem,-Root%20em.%20This
-
-vw: Relative to 1% of the width of the viewport
-
-vh: Relative to 1% of the height of the viewport
-
-vmin: Relative to 1% of viewport's* smaller dimension
-In CSS, vmin stands for viewport minimum. The vmin function is used to set the size of an element as a percentage of the minimum value between the viewport width or height. 
-For example, if the viewport is 1000px wide and 800px high, if we set the width of an element to 30vmin, it will be 30% of the height. So 30% of 800px is 240px.
-
-vmax: Relative to 1% of viewport's* larger dimension
-In CSS, vmax stands for viewport maximum. The vmax function ranks elements as a percentage of the maximum value between the viewport width or height. 
-For example, as shown above, an element of 30vmax would be 30% of the width, or 300px.
-
-%: The % unit sets the font-size relative to the current font-size
-
-
-meer info over css units: 
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#:~:text=things%20will%20become.-,Absolute%20length%20units,-The%20following%20are
-https://www.w3schools.com/cssref/css_units.php
-
-
-wat ga ik doen?
+<!-- 18/11/24 -->
+<article>
+    <h2>Sprint 4: Look and Feel</h2>
+    <h3>Datum: 18/11/24</h3>
+    <p>vandaag heb ik een custom font gemaakt:</p>
+    <p class="custom_pixel_font">
+        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account 
+        of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, 
+        or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences 
+        that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because 
+        occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever 
+        undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses 
+        to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    </p>
+    <p>
+        ik heb geleerd dat er meerdere font op een website kunnen zijn.
+        met font family heb krijg je een fallback
+        dit betekent als je laptop/ browser de eerste font niet kan lezen, dan wordt de 2de font in de font family gebruikt.
+        voorbeeld:
+        font-family: "Times New Roman", Times, serif;
+    </p>
+    <p>
+        ik heb geleerd dat er in css absolute en relative units zijn.
+        van de absolute units gebruiken we alleen px voor het web.
+        relative units zijn afhankelijk van een ander element.
+    </p>
+    <p>
+        <h4>absolute length units:</h4>
+        <span>centimeters(cm): In CSS, 1cm is roughly 37.8 pixels, or about 25.2/64 of an inch.</span>
+        <span>millimeters(mm): In CSS, 1mm is roughly 3.78 pixels, or 1/10th of a centimeter.</span>
+        <span>inches(in): In CSS, 1in is roughly 96 pixels, or about 2.54cm.</span>
+        <span>points(pt): In CSS, 1pt is roughly 1.3333 pixels, or 1/72th of an inch.</span>
+        <span>picas(pc): In CSS, 1pc is roughly 16 pixels, or 1/6 of an inch.</span>
+        <span>pixels(px): <a href="https://www.freecodecamp.org/news/css-unit-guide/#:~:text=units%20in%20CSS%3A-,px,-Pixels%2C%20or%20px">meer over px</a></span>
+    </p>
+    <p>
+        <h4>relative length units:</h4>
+        <span>
+            em: Relative to the font-size of the element (2em means 2 times the size of the current font)
+            <a href="https://www.freecodecamp.org/news/css-unit-guide/#:~:text=relative%20length%20units%3A-,em,-The%20CSS%20em">meer info</a>
+        </span>
+        <span>
+            ex: Relative to the x-height of the current font (rarely used)
+        </span>
+        <span>
+            ch: Relative to the width of the "0" (zero)
+            <a href="https://www.freecodecamp.org/news/css-unit-guide/#:~:text=is%20rarely%20used.-,ch,-Character%20unit.%20The">meer info</a>
+        </span>
+        <span>
+            rem: Relative to font-size of the root element
+            <a href="https://www.freecodecamp.org/news/css-unit-guide/#:~:text=the%20targeted%20element.-,rem,-Root%20em.%20This">meer info</a>
+        </span>
+        <span>vw: Relative to 1% of the width of the viewport</span>
+        <span>vh: Relative to 1% of the height of the viewport</span>
+        <span>vmin: Relative to 1% of viewport's* smaller dimension</span>
+        <span>
+            In CSS, vmin stands for viewport minimum. The vmin function is used to set the size of an element as a percentage of
+            the minimum value between the viewport width or height.
+            For example, if the viewport is 1000px wide and 800px high, if we set the width of an element to 30vmin, it will be
+            30% of the height. So 30% of 800px is 240px.
+        </span>
+        <span>vmax: Relative to 1% of viewport's* larger dimension</span>
+        <span>
+            In CSS, vmax stands for viewport maximum. The vmax function ranks elements as a percentage of the maximum value
+            between the viewport width or height.
+            For example, as shown above, an element of 30vmax would be 30% of the width, or 300px.
+        </span>
+        <span>%: The % unit sets the font-size relative to the current font-size</span>
+    </p>
+    <p> 
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#:~:text=things%20will%20become.-,Absolute%20length%20units,-The%20following%20are
+        https://www.w3schools.com/cssref/css_units.php">meer info over css units:</a>
+    </p>
+</article>

@@ -1,10 +1,13 @@
-tips voor ReadMe schrijven
-https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/wrap-up.md
-
-Ik heb vandaag mijn readme afgemaakt en ook een screenreader-test gedaan. Sommige issues heb ik gelijk kunnen oplossen, 
-maar een paar hebben meer tijd nodig. Helaas heb ik niet genoeg tijd om dit voor de sprint review aan te passen
-
-issues
-https://github.com/vsheo/the-startup-responsive-interactive-website/issues/22
-
-readme
+<!-- 22/01/25 -->
+<article>
+    <h2>Sprint 6: The Startup</h2>
+    <h3>Datum: 22/01/25</h3>
+    <p>
+        <a href="https://github.com/fdnd-task/the-startup-responsive-interactive-website/blob/main/docs/wrap-up.md">tips voor ReadMe schrijven</a>
+    </p>
+    <p>
+        Ik heb vandaag mijn readme afgemaakt en ook een screenreader-test gedaan. Sommige issues heb ik gelijk kunnen oplossen, 
+        maar een paar hebben meer tijd nodig. Helaas heb ik niet genoeg tijd om dit voor de sprint review aan te passen
+        <a href="https://github.com/vsheo/the-startup-responsive-interactive-website?tab=readme-ov-file#future-ready-design---accessdash">Accessdash ReadMe</a>
+    </p>
+</article>

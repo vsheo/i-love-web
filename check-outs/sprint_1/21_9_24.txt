@@ -1,5 +1,17 @@
-Ik heb vandaag nieuwe fotopagina's gemaakt.
-In plaats van één pagina met alle foto's, heb ik nu één pagina per opdracht (visitekaart, I love web, squad page).
-
-Ik heb ook meteen de links van mijn journalpagina naar de foto's gemaakt. Hiervoor heb ik 'id' tags gebruikt.
-
+<!-- 21/9/24 -->
+<article>
+    <h2>Sprint 1: Your Tribe</h2>
+    <h3>Datum: 21/9/24</h3>
+    <p>
+        Ik heb vandaag nieuwe fotopagina's gemaakt.
+        In plaats van één pagina met alle foto's, heb ik nu één pagina per opdracht (visitekaart, I love web, squad page).
+        
+        Ik heb ook meteen de links van mijn journalpagina naar de foto's gemaakt. Hiervoor heb ik 'id' tags gebruikt.
+    </p>
+    <p>
+        <h4>Verwijzingen:</h4>
+        <a target="blank" href="./html/p_visitekaart.html">link naar mijn picture vault visitekaart</a>
+        <a target="blank" href="./html/p_iloveweb.html">link naar mijn picture vault i love web</a>
+        <a target="blank" href="./html/p_squadpage.html">link naar mijn picture vault squad page</a>
+    </p>
+</article>

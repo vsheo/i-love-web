@@ -1,31 +1,32 @@
-3 dingen geleerd?
-Responsive maken voor telefoone en tablets (media)
+<!-- 11/9/24 -->
+<article>
+<h2>Sprint 1: Your Tribe</h2>
+<h3>Datum: 11/9/24</h3>
+<p>
+    wat heb ik geleerd?
+    Responsive maken voor telefoon en tablets met mediaqueries
+</p>
+<p>
+    dingen die ik interessant vond?
+    Je kan media queery nesten i.p.v helemaal onderaan in je code.
+    Zo kan je code overzichtelijk blijven.
+</p>
+<p>
+    Waaraan heb je gewerkt vandaag?
+    Vandaag hebt ik aan een layout voor een foto collage gewerkt met grid.
+    De indeling is af.
 
-Ik heb geleerd hoe je een side scroller maakt
-Ik heb dit kunnen doen zonder JavaScript. maar ik had moeite om het op de juiste plek te zetten.
-Op een andere manier, dit keer met JavaScript, heb ik het wel werkend kunnen krijgen op de juiste plek.
-
-
-2 dingen interessant?
-Je kan media queery nesten i.p.v helemaal onderaan in je code.
-Zo kan je code overzichtelijk blijven.
-
-1 ding waar je vragen over hebt?
-
-
-Waaraan heb je gewerkt vandaag?
-Vandaag hebt ik aan een layout voor een foto collage gewerkt met grid.
-De indeling is af.
-
-Ik heb met mijn team foto's gemaakt rond Hva amstel campus.
-De foto's zijn in de meeste gevallen te klein voor de grid vakjes die ik nu heb.
-De grid moet ik nu aanpassen naar de formaat van de foto's.
-
-Ik heb ook gewerkt aan een side scroller.
-Ik heb geprobeerd het zonder JavaScript te maken.
-Dat lukte niet helemaal.
-Uiteindelijk  heb ik wel JavaScript, maar mijn JavaScript is wel heel simpel gebleven.
-
-
-
-3 studie vragen:
+    Ik heb met mijn team foto's gemaakt rond Hva amstel campus.
+    De foto's zijn in de meeste gevallen te klein voor de grid vakjes die ik nu heb.
+    De grid moet ik nu aanpassen naar de formaat van de foto's.
+</p>
+<p>
+    Ik heb ook gewerkt aan een side scroller.
+    Ik heb geprobeerd het zonder JavaScript te maken, dat was wel gelukt. Maar ik kreeg het niet op de juiste plek
+    Uiteindelijk heb ik wel JavaScript gebruikt, maar mijn JavaScript is wel heel simpel gebleven.
+</p>
+<p>
+    <h4>Verwijzingen:</h4>
+    <a target="_blank" href="https://divaninl.github.io/squad-page/Viresh/index_v.html">Side scroller</a>
+</p>
+</article>

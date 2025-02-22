@@ -1,8 +1,20 @@
-Vandaag heb ik mijn visitekaartje afgemaakt.
-De terugflip werkte niet, omdat backface-visibility op hidden stond, 
-waardoor ik niet opnieuw kon klikken om de kaart terug te draaien.
-Nu heb ik in JavaScript een timer van 4 seconden ingesteld. Na die 4 seconden draait mijn visitekaartje automatisch terug.
+<!-- 19/9/24 -->
+<article>
+    <h2>Sprint 1: Your Tribe</h2>
+    <h3>Datum: 19/9/24</h3>
+    <p>
+        Vandaag heb ik het laaste probleem met visitekaartje opgelost.
+        De terugflip werkte niet, omdat backface-visibility op hidden stond,
+        waardoor ik niet opnieuw kon klikken om de kaart terug te draaien.
+        Nu heb ik in JavaScript een timer van 4 seconden ingesteld.
+        Na die 4 seconden draait mijn visitekaartje automatisch terug.
 
-De transities heb ik ook wat vloeiender gemaakt op mijn visitekaartje.
-
-Als laatste heb ik mijn I love web aangevuld met foto's en daily check-outs.
+        De transities heb ik ook wat vloeiender gemaakt op mijn visitekaartje.
+        
+        Als laatste heb ik mijn I love web aangevuld met foto's en daily check-outs.
+    </p>
+    <p>
+        <h4>Verwijzingen:</h4>
+        <a target="blank" href="https://vsheo.github.io/your-tribe-profile-card/">Visitekaart final</a>
+    </p>
+</article>

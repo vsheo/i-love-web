@@ -1,7 +1,14 @@
-documenteer wat je vandaag hebt gedaan
-add links, voorbeelden, bronnen, bijvoorbeeld de issues
-
-noem 3 dingen op die je vandaag hebt geleerd.
-niet iedereen ziet hetzelfde, als frontender moet je rekening houden daarmee.
-ik heb vandaag uitgevonden wat keyframes zijn in CSS. ik zocht naar een manier om animaties uit te voeren op mijn articles.
-met keyframes kan ik de article eerst uit beeld plaatsen, en daarna in beeld brengen met een transform.
+<!-- 21/10/24 -->
+<article>
+    <h2>Sprint 3: All human</h2>
+    <h3>Datum: 21/10/24</h3>
+    <p>
+        <h4>wat heb je vandaag geleerd?</h4>
+        niet iedereen ziet hetzelfde, als frontender moet je rekening houden daarmee.
+    </p>
+    <p>
+        ik heb vandaag uitgevonden wat keyframes zijn in CSS. ik zocht naar een manier om animaties uit te voeren op mijn articles.
+        met keyframes kan ik de article eerst uit beeld plaatsen, en daarna in beeld brengen met een transform.<br>
+        <a href="https://github.com/vsheo/i-love-web/blob/6deef9743c437ce0e61074ca276ca741c7760a2f/styles/new_journal.css#L84C1-L94C2">keyframes in mijn code</a>
+    </p>
+</article>

@@ -1,42 +1,21 @@
-beschrijf 3 code conventies van vandaag
-indents in de HTML
-CSS selectors nesten
-css op dezelfde volgorde als html
-media queries nesten, zodat je direct ziet hoe de HTML element veranderd in de laptop versie
-
-schrijf 2 punten waarmee je leesbaarheid van je HTML en CSS kunt verbeteren
-whitespace laten tussen vershillende HTML elementen, zodat er ademruimte is in je code.
-class names gebruiken zodat je vershillen tussen dezelfde elementen kan zien
-
-schrijf op welke conventies je vanaf nu over gaat nemen in je eigen code.
-vanaf nu zal ik CSS selectors nesten. het zorgt ervoor dat ik makkelijker kan lezen wat mijn code aan het doen is.
-ik zal ook ervoor blijven zorgen dan mijn code in HTML en CSS dezelfde volgorde heeft.
-
+<!-- 7/10/24-->
 <article>
-    <h2>Codeconventies en Verbeteringen voor Leesbaarheid</h2>
-
+    <h2>Sprint 2: The Client</h2>
+    <h3>Datum: 07/10/24</h3>
     <p>
-        <strong>Drie Codeconventies van Vandaag:</strong>
-        <br>
-        <strong>Indents in de HTML:</strong>
+        <h4>Drie Codeconventies van Vandaag:</h4>
         Indenten van HTML-code zorgt voor een duidelijke hiërarchie en verbetert de leesbaarheid.<br>
-        <strong>CSS Selectors Nesten:</strong>
         Het nesten van CSS-selectors zorgt voor beter leesbaarheid, en je kan direct zien wat de parent en child elemente n zijn.<br>
-        <strong>CSS op dezelfde volgorde als HTML:</strong>
-        Houd de volgorde van CSS-stijlen gelijk aan de HTML-structuur voor eenvoudiger onderhoud.<br>
-        <strong>Media Queries Nesten:</strong>
-        Nesten van media queries toont direct hoe stijlen veranderen bij verschillende schermformaten.
+        CSS op dezelfde volgorde als HTML structuur voor eenvoudiger onderhoud.<br>
+        Nesten van media queries dit laat zien hoe de stijl verandert bij verschillende schermformaten.
     </p>
     <p>
-        <strong>Twee Punten om de Leesbaarheid van HTML en CSS te Verbeteren:</strong><br>
-        <strong>Whitespace Tussen Elementen:</strong>
-        Witruimtes tussen HTML-elementen zorgen voor ademruimte en overzichtelijkheid.<br>
-        <strong>Class Names Gebruiken:</strong>
-        Duidelijke class names helpen om verschillen tussen elementen te verduidelijken.
+        <h4>Twee Punten om de Leesbaarheid van HTML en CSS te Verbeteren:</h4>
+        Witruimtes tussen HTML-elementen zorgt voor ademruimte en overzichtelijkheid.<br>
+        Class names gebruiken om verschillen tussen dezelfde elementen te zien.
     </p>
     <p>
-        <strong>Conventies om te Implementeren in Mijn Eigen Code:</strong>
-        <br>
+        <h4>Conventies om te Implementeren in Mijn Eigen Code:</h4>
         Ik zal CSS-selectors nesten voor betere leesbaarheid en duidelijkheid.<br>
         Ook blijf ik zorgen dat mijn HTML en CSS in dezelfde volgorde zijn voor betere organisatie.
     </p>

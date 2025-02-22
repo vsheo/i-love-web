@@ -1,12 +1,21 @@
-
-ik heb mobile css af gemaakt en ook de classes van de gedeelde stylesheet in de HTML toegevoegd.
-https://github.com/vsheo/fix-the-flow-interactive-website/issues/3
-
-ik heb je javascript gechreven die de week dagen, tijdlijn, radio nav en de player op beeld brengen.
-https://github.com/vsheo/fix-the-flow-interactive-website/issues/5
-
-ik heb JavaScript geschreven voor het verwisselen van radiozender, maar er is nog een bug, waar soms de class 'hidden' niet werg gehaald wordt.
-als dit gebeurt dan is ert geen programma te zien.
-https://github.com/vsheo/fix-the-flow-interactive-website/issues/4
-
-voor nu ben ik klaar met de mobiele versie, ik ga nu concentreren op CSS en javaScript voor de desktop versie.
+<!-- 05/12/24 -->
+<article>
+    <h2>Sprint 5: Fix the Flow</h2>
+    <h3>Datum: 05/12/24</h3>
+    <p>
+        ik heb mobile css af gemaakt en ook de classes van de gedeelde stylesheet in de HTML toegevoegd.
+        <a target="_blank" href="https://github.com/vsheo/fix-the-flow-interactive-website/issues/3">mobile CSS</a>
+    </p>
+    <p>
+        ik heb je javascript gechreven die de week dagen, tijdlijn, radio nav en de player op beeld brengen.
+        <a target="_blank" href="https://github.com/vsheo/fix-the-flow-interactive-website/issues/5">JS issue: remove hidden</a>
+    </p>
+    <p>
+        ik heb JavaScript geschreven voor het verwisselen van radiozender, maar er is nog een bug, waar soms de class 'hidden' niet weg gehaald wordt.
+        als dit gebeurt dan is er geen programma te zien.
+        <a target="_blank" href="https://github.com/vsheo/fix-the-flow-interactive-website/issues/4">JS issue: mobile nav</a>
+    </p>
+    <p>
+        voor nu ben ik klaar met de mobiele versie, ik ga nu concentreren op CSS en javaScript voor de desktop versie.
+    </p>
+</article>

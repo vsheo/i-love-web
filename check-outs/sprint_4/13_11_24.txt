@@ -1,27 +1,33 @@
-Wat heb ik vandaag gedaan?
-Robin is gestopt met de opleiding, dus ik en Julia verder gaan werken aan onze gezaamlijke stylesheet.
-we hebben nieuwe namen bedacht voor sommige classes.
-we hebben nu alle kleuren als variable opgeslagen in een class
-en we hebben aparte classes voor het veranderen van color, background-color, font-size enz.
-dus we hebben altijd 2 classes nodig om iet te veranderen.
-link naar github gezaamlijke stylesheet https://github.com/vsheo/look-and-feel-styleguide
-
-Voorbeeld
-Om de achterground kleur aan te passen heb je eerst de class brand-primary nodig.
-dit kan de background-color veranderen, maar zelf heeft dit geen kleur.
-Je hebt dan ook de background-color-veronica nodig, deze class heeft alleen de kleur.
-Als deze 2 classes op 1 elememnt staan dan veranderd de achterground kleur.
-
-Als we de kleur willen veranderen dan hoeft dan alleen in background-color-veronica gedaan te worden. 
-voorbeeld ./assets/mediahuis/sprint4/2classes_vb_journal.png
-
-
-
-wat heb ik geleerd.
-ik heb geleerd hoe ik gebruik kan maken van 2 classes om 1 element aan te passen.
-het is lastig om te begrijpen maar als ik later iets wil aan passen dan is het een stuk makkelijker
-
-ik heb ook geleerd dan er een soort rank is tussen style attribute, ID, classes en element namen.
-als er een kleur is op een element en dezelfde element krijgt met ID een andere kleur.
-dan wordt de kleur van de ID teogepast.
-
+<!-- 13/11/24 -->
+<article>
+    <h2>Sprint 4: Look and Feel</h2>
+    <h3>Datum: 13/11/24</h3>
+    <p>
+        <h4>Wat heb ik vandaag gedaan?</h4>
+        Robin is gestopt met de opleiding, dus ik en Julia verder gaan werken aan onze gezaamlijke stylesheet.
+        we hebben nieuwe namen bedacht voor sommige classes.
+        we hebben nu alle kleuren als variable opgeslagen in een class
+        en we hebben aparte classes voor het veranderen van color, background-color, font-size enz.
+        dus we hebben altijd 2 classes nodig om iet te veranderen.
+        <a href="https://github.com/vsheo/look-and-feel-styleguide">github gezaamlijke stylesheet</a>
+    </p>
+    <p>
+        <h4>Voorbeeld</h4>
+        Om de achterground kleur aan te passen heb je eerst de class brand-primary nodig.
+        dit kan de background-color veranderen, maar zelf heeft dit geen kleur.
+        Je hebt dan ook de background-color-veronica nodig, deze class heeft alleen de kleur.
+        Als deze 2 classes op 1 elememnt staan dan veranderd de achterground kleur.
+        
+        Als we de kleur willen veranderen dan hoeft dan alleen in background-color-veronica gedaan te worden.
+        <a target="_blank" href="./assets/mediahuis/sprint_4/2classes_vb_journal.png">voorbeeld</a>
+    </p>
+    <p>
+        <h4>wat heb ik geleerd.</h4>
+        - ik heb geleerd hoe ik gebruik kan maken van 2 classes om 1 element aan te passen.
+        het is lastig om te begrijpen maar als ik later iets wil aan passen dan is het een stuk makkelijker<br>
+    
+        - ik heb ook geleerd dan er een soort rank is tussen style attribute, ID, classes en element namen.
+        als er een kleur is op een element en dezelfde element krijgt met ID een andere kleur.
+        dan wordt de kleur van de ID toegepast.
+    </p>
+</article>

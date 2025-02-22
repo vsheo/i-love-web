@@ -1,2 +1,2 @@
-css animaties mooite gemaakt en een fade in  van tekst nadat de section op plek is
-
+vandaag heb ik de css animatie mooier gemaakt, door eerst de achtergrond zonder tekst van buiten beeld naar de laaste plek te bvrengen met cubic brezier.
+en nadat die animatie klaar is een fade in te doen voor de tekst
