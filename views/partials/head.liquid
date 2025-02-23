@@ -1,40 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="nl">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Squadpage</title>
-		<link rel="stylesheet" href="./styles.css">
-		<script src="./main.js" defer></script>
-  </head>
-  <body>
-	<header>
-		<input id='checkbox-toggle' type='checkbox'>
-        <label class="checkbox-label" for='checkbox-toggle'><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></label>
+    <title>I Love Web</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/i-love-web.css">
 
-		<nav class="menu-hamburger" id="navbar">
-			<h2>Filters</h2>
-			<ul>
-				<ul>
-					<li><h3>Squad 1G</h3></li>
-					<li><a href="/details">A naar Z</a></li>
-					<li><a href="/details/?sorteer=andersom">Z naar A</a></li>
-				</ul>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
-				<ul>
-					<li><h3>Favorite</h3></li>
-					<li><a href="/gerecht">Gerecht</a></li>
-					<li><a href="/coffee">Coffee</a></li>
-					<li><a href="/dier">Dier</a></li>
-					<li><a href="/emoji">Emoji</a></li>
-				</ul>
-				
-			</ul>
-		</nav>
+    <!-- scripts -->
+	<script src="./scripts/inter_ob.js" defer></script>
+	<script src="./scripts/hamburger.js" defer></script>
+	<script src="./scripts/header_scroll.js" defer></script>
+</head>
+<body class="font-lora">
+    <header class="neutral">
+        <h1>Journal</h1>
 
-		<!-- als buiten het open hamburger menu geklikt wordt dan gaat het hamburger menu dicht. omdat de overlay en checkbox-label gekoppeld zijn aan dezelfde checkbox -->
-		<label class="overlay" for="checkbox-toggle" aria-hidden="true"></label>
+        <button class="open-menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+    </header>
 
-		<h1><a href="/">Squadpage</a></h1>
-		<!-- <a class="random-ilw" style="--fav_color: lightgray" href="{{ products }}">Random I Love Web</a> -->
-	</header>
+    <main>
+        <nav class="hidden">
+            <ul>
+                <li><a class="nav-link" href="./html/p_iloveweb.html">I Love Web pictures</a></li>
+                <li><a class="nav-link" href="./html/p_visitekaart.html">visitekaart pictures</a></li>
+                <li><a class="nav-link" href="./html/p_squadpage.html">Squad page pictures</a></li>
+                <li><a class="nav-link" href="./html/p_mediahuis.html">Mediahuis Pictures</a></li>
+                <li><a class="nav-link" href="./html/styleguide-uitleg.html">mediahuis styleguide uitleg</a></li>
+                <li><a class="nav-link" href="./html/p_accessdash.html">Accessdash Pictures</a></li>
+                <li><a class="nav-link" href="./html/styleguide-ilw.html">styleguide - I Love Web</a></li>
+                <li><a class="nav-link" href="./html/js-snippets.html">JavaScript - Snippets</a></li>
+            </ul>
+        </nav>

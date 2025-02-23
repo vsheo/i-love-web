@@ -1,8 +1,29 @@
+# Systeembestanden (Mac & Windows)
 .DS_Store
-logs
-*.logs
+Thumbs.db
+
+# Logbestanden
+logs/
+*.log
 npm-debug.log*
-node_modules
-.npm
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js dependencies
+node_modules/
+.npm/
+
+# Environment variables (gevoelige data)
 .env
+
+# VS Code & IDE bestanden
+.vscode/
+.idea/
+
+# Cache & build bestanden
+.cache/
+dist/
+public/build/
+
+# Members directory (indien onbedoeld)
 members/

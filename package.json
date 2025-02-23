@@ -1,0 +1,30 @@
+{
+  "name": "i-love-web",
+  "version": "1.0.0",
+  "description": "Learning journal, blog, digital gardening",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsheo/i-love-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsheo/i-love-web/issues"
+  },
+  "homepage": "https://github.com/vsheo/i-love-web#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "liquidjs": "^10.21.0",
+    "node-fetch": "^3.3.2"
+  }
+}

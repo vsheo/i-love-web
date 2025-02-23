@@ -16,7 +16,7 @@ app.get('/', async function (request, response) {
   const personResponse = await fetch('https://fdnd.directus.app/items/person/?fields=website,squads.squad_id.name&filter={"squads":{"squad_id":{"name":{"_eq":"1G"}}}}')
   const personResponseJSON = await personResponse.json()
 
-  response.render('head.liquid', {website: personResponseJSON.data})
+  response.render('index.liquid', {website: personResponseJSON.data})
 })
 
 app.post('/', async function (request, response) {
