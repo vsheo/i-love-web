@@ -1,0 +1,39 @@
+{
+    "articles": [
+        {
+            "title": "Sprint 6: The Startup",
+            "date": "12/01/25",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Hier staan een paar tips en tricks voor responsiveness. <a target='_blank' href='https://www.youtube.com/watch?v=2IV08sP9m3U'>tips & tricks voor responsiveness</a>"
+                },
+                {
+                    "type": "paragraph",
+                    "header": "relative padding",
+                    "text": "dit doe je met de min() functie in CSS <a target='_blank' href='https://developer.mozilla.org/en-US/docs/Web/CSS/min'>MDN: min()</a>"
+                },
+                {
+                    "type": "paragraph",
+                    "header": "responsive font-sizes",
+                    "text": "eerste tip, gebruik rem voor tekst.<br>rem: relative to the root font-size. op default is dat 16px<br>vb:<br>font-size: 1.5rem;<br>16 x 1.5 = 24px <br><br> tweede tip gebruik vw voor grote letters zoals headings:<br>vb:<br>font-size: 10vw;<br>dit zorgt ervoor dat de heading altijd 10% van de viewport width is<br><br> let op: op hele grote schermen is 10vw te groot.<br>maak dan ook gebruik van clamp, om een min en max aan te geven zodat het nooit te klein of te grootr zal zijn<br>vb:<br>font-size: clamp(1.8rem, 10vw, 5rem);<br><br> als je op je scherm inzoom of uitzoom maakt met ctrl + '-' of '+'. dan verander de groote van de tekst niet.<br> omdat vw alleen kijkt naar de viewport<br><br> dit kan opgelost worden met calc()<br>vb:<br>font-size: clamp(1.8rem, calc(7vw + 1rem), 5rem);<br>nu wordt bde heading ook groter en kleiner bij in en uit zoomen"
+                },
+                {
+                    "type": "paragraph",
+                    "header": "responsive images",
+                    "text": "met max-width: 100%;<br> hiermee zorg je ervoor de de image nooit groter is dan de grootte van het scherm<br><br> de image wordt nu gestretched als het scherm te klein is.<br>met:<br>height: auto;<br>zorg je ervoor dat de image dan altijd 'normaal/goed' eruit ziet<br><br> als je images hebt met verschillende sizes, kan je aspect-ratio gebruiken om ze allemaal tot dezelfde size te maken.<br>vb:<br>aspect-ratio: 16 / 9; voor smartphone in landscape mode<br>aspect-ratio: 9 / 16; voor smartphone in portrait mode<br><br> het kan zijn dat dit je image ook stretched<br>met:<br>object-fit: cover;<br>kan je dan ervoor zorgen dat dat niet gebeurt. het kan zijn dat er een deel van de image afgesneden wordt.<br>"
+                },
+                {
+                    "type": "paragraph",
+                    "header": "gebruik dvh i.p.v vh",
+                    "text": "op smartphones heb je bovenaan een search bar die weg gaat als je scrolled.<br>dvh houdt rekeneing daarmee, vh niet"
+                },
+                {
+                    "type": "paragraph",
+                    "header": "mobile nav",
+                    "text": "als je een nav op beeld wilt laten komen met een animatie dan kan je geen display none gebruiken.<br> wat je wel zou kunnen doen is met opacity werken.<br>vb een transition van opacity 0 naar opacity 1.<br>of met position absolute <br><br> deze 2 manieren zijn beide ontoegankelijk. Omdat je ze nogsteeds kan bereiken met tab ookal zijn ze van je scherm af.<br><br> je zou in HTML inert kunnen gebruiken. (inert prevents clicks and focus)<br><a target='_blank' href='https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inert'>MDN: inert</a><br><br> hierdoor kan de gebruiker niet perongelijk op het element komen.<br> onthoud dat je dan in JavaScript deze attribute moet weg halen en terug plaatsen afhankelijk van de interactie je je probeert te maken.<br> dit kan zo:<br>vb<br>navbar.removeAttribute('inert')<br>navbar.setAttribute('inert')"
+                }
+            ]
+        }
+    ]
+}

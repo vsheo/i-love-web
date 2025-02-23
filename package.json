@@ -8,8 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "type": "module"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +25,6 @@
     "express": "^4.21.2",
     "liquidjs": "^10.21.0",
     "node-fetch": "^3.3.2"
-  }
+  },
+  "type": "module"
 }
