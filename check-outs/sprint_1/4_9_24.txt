@@ -8,10 +8,7 @@
         met daarin elementen die ik zou kunnen gebruiken.
     </p>
     <p>
-        Ik heb ook gewerkt aan mijn visitekaartje.
-        Ik heb een list toegevoegd mbv. dt en dd
-        Deze tags waren in de template code.
-        Ik heb ze nu aangepast en op een nieuwe manier ingedeelt m.b.v. een ul.
+        Ik heb ook gewerkt aan mijn visitekaartje. Ik heb een list toegevoegd mbv. dt en dd Deze tags waren in de template code. Ik heb ze nu aangepast en op een nieuwe manier ingedeelt m.b.v. een ul.
     </p>
     <p>
         <h4>Wat wil ik nog uitzoeken:</h4>
@@ -20,7 +17,6 @@
     </p>
     <p>
         <h4>Verwijzingen:</h4>
-        <a target="blank" href="./assets/visitekaart/breakdown_schets_v1.jpg">breakdown schets 1 en 2</a>
-        <a target="blank" href="./assets/visitekaart/breakdown_schets_v2.jpg">breakdown schets 3</a>
+        <a target="blank" href="./assets/visitekaart/breakdown_schets_v1.jpg">breakdown schets 1 en 2</a><a target="blank" href="./assets/visitekaart/breakdown_schets_v2.jpg">breakdown schets 3</a>
     </p>
 </article>
