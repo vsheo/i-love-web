@@ -1441,28 +1441,258 @@
             "articles": [
                 {
                     "sprint": "Sprint 7",
-                    "title": "The Client",
-                    "date": "23/9/24",
+                    "title": "Connect Your Tribe",
+                    "date": "03/02/25",
                     "content": [
                         {
                             "type": "paragraph",
-                            "header": "Wat heb je gedaan?",
-                            "text": "Ik heb Mediahuis gekozen als mijn project. Mediahuis is een bedrijf met meerdere radiozenders. Het frontend bedrijf Triple heeft de opdracht aangenomen en bevindt zich inmiddels in de laatste fase van het project. Triple is mijn opdrachtgever, en zij willen dat ik hun website nabouw. Vervolgens moet ik er iets creatiefs aan toevoegen of aanpassen. Dit kan een nieuwe interactie, een andere stijl, of een aangepaste layout zijn."
+                            "header": "Workshop",
+                            "text": "Workshop: <a target=\"_blank\" href=\"https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/sprint-planning.md\">Sprint planning</a>"
                         },
                         {
                             "type": "paragraph",
-                            "header": "3 dingen die ik heb gedaan?",
-                            "text": "Ik heb een project uitgekozen. Ik heb geleerd hoe ik me moet voorbereiden op een briefing. Ik weet nu wat een debriefing is en hoe ik die moet aanpakken."
+                            "header": "JSON Oefening",
+                            "text": "Vandaag heb ik tijdens de les ook geoefend met <a target=\"_blank\" href=\"https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/sprint-planning.md#oefenen-met-json\">JSON</a> Tijdens deze workshop heb node js geinstalleerd en een hello world pagina gemaakt op http://localhost:3000/"
                         },
                         {
                             "type": "paragraph",
-                            "header": "2 leervragen voor deze week",
-                            "text": "Hoe kan ik deze week de website van Veronica, een zender van Mediahuis, op een semantisch correcte manier namaken?"
+                            "header": "Database en Visitekaartje",
+                            "text": "Op deze site kan ik info toevoegen aan een database. Uit deze <a target=\"_blank\" href=\"https://whois.fdnd.nl/admin\">database</a> kan ik info halen en toevoegen aan mijn Visitekaartje voor sprint 7."
                         },
                         {
                             "type": "paragraph",
-                            "header": "Verwijzingen:",
-                            "text": "<a target=\"blank\" href=\"https://github.com/fdnd-agency/triple/tree/design-challenge\">Triple repository</a>"
+                            "header": "Projectboard",
+                            "text": "Ik heb ook een <a target=\"_blank\" href=\"https://github.com/users/vsheo/projects/10/views/1\">projectboard</a> gemaakt met de planning van programma.fdnd erin."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Visitekaartje Ontwerp",
+                            "text": "Daarna ben ik alvast begonnen met mijn nieuwe visitekaartje. Breakdown schetsen en begin aan HTML en CSS. <a target=\"_blank\" href=\"https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/visitekaartje-met-nodejs.md#visitekaartje-herontwerpen-met-nodejs-en-een-rest-api\">Opdracht</a>, <a target=\"_blank\" href=\"\">Redesign Issue</a>"
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 7",
+                    "title": "Connect Your Tribe",
+                    "date": "04/02/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "CSS Challenge",
+                            "text": "Css challenge van Sanne: <a target=\"_blank\" href=\"https://github.com/fdnd-task/css-challenges/blob/main/docs/challenge_has.md\">Challenge has</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Mijn Werk",
+                            "text": "Mijn werk: <a target=\"_blank\" href=\"https://codepen.io/vrsh/pen/PwYvKaR?editors=1100\">Codepen</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb ik geleerd?",
+                            "text": "Vandaag heb ik de CSS challenge van Sanne gevolgd. Ik heb geleerd over :has() in CSS. Gisteren had ik mijn interactie al een deel gemaakt met JavaScript. Vandaag heb ik geprobeerd hetzelfde met :has() en checkboxes te maken in CSS."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Visitekaartje Redesign",
+                            "text": "Visitekaartje redesign sprint 7: <a target=\"_blank\" href=\"https://github.com/vsheo/connect-your-tribe-profile-card/issues/4\">Redesign Issue</a>"
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 7",
+                    "title": "Connect Your Tribe",
+                    "date": "05/02/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Workshop: REST API en Json, Oefenen met Routes en Views",
+                            "text": "Workshop over REST API en Json: <a target=\"_blank\" href=\"https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/rest-api-en-json.md\">REST API en JSON</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Tip",
+                            "text": "Als je niet meer weet hoe die property van het person object heet (was het nou birthdate of birth_date?), zet <code>{{ person | json }}</code> in je code, en bekijk het antwoord in je pagina."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Pro-tip",
+                            "text": "Zorg dat je tijdens het bouwen en debuggen standaard ergens op je pagina een custom made fixed positioned <details><summary>Data</summary><pre>{{ person | json:4 }}</pre></details> element hebt—dan kun je altijd even spieken in je data. Haal die alleen wel weg voordat je je werk live zet :)"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "If Else and For Each met Liquid in HTML",
+                            "text": "Meer over if else en for each met Liquid in HTML: <a target=\"_blank\" href=\"https://shopify.dev/docs/api/liquid/tags/conditional-else\">Conditional Else</a> en <a target=\"_blank\" href=\"https://shopify.dev/docs/api/liquid/tags/iteration-tags\">Iteration Tags</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "For Loop met If Statement",
+                            "text": "For loop met if statement om data uit een array te halen, en 1 voor 1 in een <code>li</code> plakken."
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 7",
+                    "title": "Connect Your Tribe",
+                    "date": "06/02/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "CSS Animatie Verbetering",
+                            "text": "Vandaag heb ik de CSS animatie mooier gemaakt, door eerst de achtergrond zonder tekst van buiten beeld naar de laatste plek te brengen met cubic bezier. En nadat die animatie klaar is, een fade in te doen voor de tekst."
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 7",
+                    "title": "Connect Your Tribe",
+                    "date": "07/02/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb ik gedaan vandaag?",
+                            "text": "Vandaag hadden we code en design reviews, ik heb feedback gegeven aan: <a target=\"_blank\" href=\"https://github.com/Brancovanbeek/connect-your-tribe-profile-card/issues/1#issuecomment-2642497477\">Brancovanbeek</a> <a target=\"_blank\" href=\"https://github.com/RenzoWille/connect-your-tribe-profile-card/issues/2\">RenzoWille</a> <a target=\"_blank\" href=\"https://github.com/Naddybsx/connect-your-tribe-profile-card/issues/5#issuecomment-2642571112\">Naddybsx</a>"
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 7",
+                    "title": "Connect Your Tribe",
+                    "date": "10/02/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Sprint Planning en Filter Sort in JSON Browser",
+                            "text": "Vandaag heb ik de sprint planning en filter sort in de JSON browser doorgenomen."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Links voor filteren, zoeken en sorteren",
+                            "text": "Ik heb de volgende links gebruikt voor filteren, sorteren en zoeken in de JSON browser: <a target=\"_blank\" href=\"https://fdnd.directus.app/items/person/?filter={%22bio%22:{%22_contains%22:%22frontend%22}}\">Filteren met bio bevat frontend</a> <a target=\"_blank\" href=\"https://fdnd.directus.app/items/person/?filter={%22fav_color%22:%22%239914e1%22}\">Filteren op favoriete kleur</a> <a target=\"_blank\" href=\"https://fdnd.directus.app/items/person/?search=frisbee\">Zoeken op frisbee</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "DLC - Convergeren en Divergeren",
+                            "text": "Door de DLC meerdere keren te doorlopen kan je stap voor stap een ontwerpprobleem, of ontwerpvraag, oplossen. Dit heet convergeren en divergeren. Meerdere ideeën uitwerken en analyseren, daarna keuzes maken om tot de beste oplossing te komen."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "info over Sorteren, Filteren en Zoeken",
+                            "text": "<a target=\"_blank\" href=\"https://directus.io/docs/guides/connect/query-parameters#sort\">Sorteren in JSON Browser</a> <a target=\"_blank\" href=\"https://directus.io/docs/guides/connect/filter-rules\">Filteren in JSON Browser</a> <a target=\"_blank\" href=\"https://directus.io/docs/guides/connect/query-parameters#search\">Zoeken in JSON Browser</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Schetsen gemaakt",
+                            "text": "Ik heb vandaag ook verschillende schetsen gemaakt."
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 7",
+                    "title": "Connect Your Tribe",
+                    "date": "12/02/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb ik gedaan?",
+                            "text": "Vandaag heb ik een nieuwe app.get route gemaakt voor een pagina met gefilterde informatie. In de URL heb ik filter en sort toegepast om specifieke data op te halen. Door filter en sort in de URL toe te passen, kan ik de data dynamisch ophalen en weergeven op de pagina."
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 7",
+                    "title": "Connect Your Tribe",
+                    "date": "14/02/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Code & design review",
+                            "text": "Vandaag heb ik samen met Kim code- en designreviews geschreven voor: <a href=\"https://github.com/DivaniNL/connect-your-tribe-squad-page/issues/5\">Dylan</a> <a href=\"https://github.com/Brancovanbeek/connect-your-tribe-squad-page/issues/7\">Branco</a> <a href=\"https://github.com/FatimaZelay/connect-your-tribe-squad-page/issues/6\">Fatima</a> <a href=\"https://github.com/halie404/connect-your-tribe-squad-page/issues/3\">Halima</a> <a href=\"https://github.com/Karima002/connect-your-tribe-squad-page-/issues/2\">Karimna</a>"
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 7",
+                    "title": "Connect Your Tribe",
+                    "date": "14/02/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "We Love Web met Kilian Valkhof",
+                            "text": "Kilian Valkhof begon met websites bouwen toen hij 11 was, met een persoonlijke website gebouwd in Frontpage 2000. In de beginjaren was het internet anders en werkte het soms niet goed in alle browsers. Op 12-jarige leeftijd begon hij geld te verdienen met affiliate marketing en kreeg hij meer ervaring met HTML, CSS, JS en jQuery. Toen de iPhone uitkwam, werd responsive design belangrijk voor het web."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Start van een bedrijf en Tools",
+                            "text": "Op zijn 16e begon hij samen met medestudenten een bedrijf te runnen, en dit gaf hem veel ervaring in de jaren daarna. Hij bouwde verschillende tools en apps, zoals Trimage voor het optimaliseren van afbeeldingen, en F.lux voor het aanpassen van schermhelderheid."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Polypane Browser",
+                            "text": "In 2017 besloot hij Polypane te maken, een browser voor developers, omdat hij het frustrerend vond om websites op verschillende apparaten te testen. Hij ontwikkelde Polypane om deze processen te vereenvoudigen en tijd te besparen."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Polypane Groei",
+                            "text": "In 2018 kreeg hij een dochter, en in 2019 besloot hij fulltime aan Polypane te werken. Na de lancering van versie 1.0 op 14 mei 2019 was Polypane niet meer gratis, wat sommige mensen teleurstelde. Hij werkte hard aan nieuwe features, zoals dark mode en verbeterde lay-outs, en luisterde naar feedback van gebruikers."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Technologie en Side-projects",
+                            "text": "Polypane bevat nu veel functies die oorspronkelijk niet bestonden in andere browsers, zoals een eigen element inspector en tools om makkelijk grids en afbeeldingen te testen. Wat betreft technologie gebruikt Polypane Electron voor cross-platform apps, en de interface is gebouwd met React (hoewel hij nu misschien een andere keuze zou maken vanwege technische uitdagingen)."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Polypane Cloud en Toekomst",
+                            "text": "Door aan Polypane te werken, kreeg hij ideeën voor side-projects, zoals Superposition.design (voor contrastproblemen in browsers) en Polypane Cloud (voor website-wide testing). Hij is ook bezig met een Polypane-versie voor iPad."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Belang van Side-projects",
+                            "text": "Kilian benadrukt het belang van side-projects en dat je niet vast moet komen zitten in één carrièrepad. Hij heeft door het werken aan Polypane veel geleerd en blijft maandelijkse updates brengen voor het product, dat nu bijna 10 jaar oud is. Hij bedankt zijn klanten in release notes wanneer hun feedback wordt gebruikt."
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 7",
+                    "title": "Connect Your Tribe",
+                    "date": "24/02/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Workshop: User Generated Content",
+                            "text": "Vandaag heb ik geleerd hoe ik een post route kan maken, zodat de gebruiker bijvoorbeeld iets kan posten op de website en het kan zien als een comment. De workshop was te vinden op: <a href=\"https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/user-generated-content.md\" target=\"_blank\">User Generated Content Workshop</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Werk aan Issue",
+                            "text": "Ik heb gewerkt aan de volgende issue: <a href=\"https://github.com/kimnikitaschijf/connect-your-tribe-team-squad-page/issues/3\" target=\"_blank\">Issue 3</a>"
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 7",
+                    "title": "Connect Your Tribe",
+                    "date": "26/02/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Kleine aanpassingen en code review",
+                            "text": "Ik heb een paar kleine aanpassingen gemaakt bij de issue: <a href=\"https://github.com/kimnikitaschijf/connect-your-tribe-team-squad-page/issues/3\" target=\"_blank\">Issue 3</a> en het daarna op review geplaatst."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb ik gedaan?",
+                            "text": "Mijn code en die van Kim samengevoegd, en daarna alle 'bugs' eruit gehaald. daarna heb ik Akiko ook geholpen om haar like button samen te voegen met wat ik en Kim al samen gevoegd hadden. Wij wouden een witte like button die rood word als het geklikt werd, dit is ons niet gelukt"
                         }
                     ]
                 }

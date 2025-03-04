@@ -1,6 +1,6 @@
 <!-- 03/02/25 -->
 <article>
-    <h2>Sprint 4: Look and Feel</h2>
+    <h2>Sprint 7: Connect Your Tribe</h2>
     <h3>Datum: 03/02/25</h3>
     <p>
         Workshop: <a class="a-inline" href="https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/sprint-planning.md">Sprint planning</a>
