@@ -23,7 +23,7 @@ app.use(express.urlencoded({extended: true}))
 app.get('/', async function (request, response) {
   try {
     // Pad naar het JSON-bestand in je project
-    const jsonPath = './database/sprint1.json';
+    const jsonPath = './database/checkOut.json';
     
     // Lees het bestand synchronisch met fs
     const data = fs.readFileSync(jsonPath, 'utf8'); 
@@ -32,7 +32,7 @@ app.get('/', async function (request, response) {
     const sprintDataJSON = JSON.parse(data);
 
     // Render de Liquid template met de data
-    response.render('index.liquid', { data: sprintDataJSON.articles });
+    response.render('index.liquid', { data: sprintDataJSON });
   } catch (err) {
     console.error('Error reading the JSON file:', err);
     response.status(500).send('Error reading JSON file');
