@@ -25,7 +25,7 @@
                         {
                             "type": "paragraph",
                             "header": "Verwijzingen:",
-                            "text": "<a href='./assets/visitekaart/breakdown_schets_v1.jpg'>breakdown schets 1 en 2</a><a href='./assets/visitekaart/breakdown_schets_v2.jpg'>breakdown schets 3</a>"
+                            "text": "<a href='https://github.com/vsheo/your-tribe-profile-card/blob/main/visitekaart_bewijslast/breakdown_schets_v1.jpg'>breakdown schets 1 en 2</a><a href='https://github.com/vsheo/your-tribe-profile-card/blob/main/visitekaart_bewijslast/breakdown_schets_v2.jpg'>breakdown schets 3</a>"
                         }
                     ]
                 },
@@ -48,11 +48,6 @@
                             "type": "paragraph",
                             "header": "Wat wil ik nog doen?",
                             "text": "Ik ben van plan om elke dag screenshots te maken voor een time vault, zodat ik kan zien hoe de website door de dagen heen veranderd."
-                        },
-                        {
-                            "type": "paragraph",
-                            "header": "Verwijzingen:",
-                            "text": "<a target='blank' href='./assets/i_love_web/home_v1.png'>Home pagina versie 1</a>"
                         }
                     ]
                 },
@@ -78,7 +73,7 @@
                         {
                             "type": "paragraph",
                             "header": "Verwijzingen:",
-                            "text": "<a target='blank' href='./assets/squad_page/squad_page_breakdown_v1.jpg'>breakdown schets squad page individueel</a><a target='blank' href='./assets/squad_page/squad_page_breakdown_v3.jpg'>breakdown schets squad page samengevoegd</a><a target='blank' href='./assets/squad_page/squad_page_v1.png'>squad page versie 1</a>"
+                            "text": "<a target='blank' href='https://github.com/vsheo/your-tribe-profile-card/blob/main/squad_page_bewijslast/squad_page_breakdown_v2.jpg'>breakdown schets squad page individueel</a><a target='blank' href='https://github.com/vsheo/your-tribe-profile-card/blob/main/squad_page_bewijslast/squad_page_breakdown_v3.jpg'>breakdown schets squad page samengevoegd</a><a target='blank' href='https://github.com/vsheo/your-tribe-profile-card/blob/main/squad_page_bewijslast/squad_page_v1.png'>squad page versie 1</a>"
                         }
                     ]
                 },
@@ -154,11 +149,11 @@
                         {
                             "type": "paragraph",
                             "header": "Verwijzingen:",
-                            "text": "<a target='_blank' href='./assets/squad_page/campus_page_v1.png'>campus pagina</a>"
+                            "text": "<a target='_blank' href='https://github.com/vsheo/your-tribe-profile-card/blob/main/squad_page_bewijslast/campus_page_v1.png'>campus pagina</a>"
                         },
                         {
                             "type": "paragraph",
-                            "text": "ideeen voor mijn eigen i love web: https://vasilis.nl/"
+                            "text": "ideeen voor mijn eigen i love web: <a target='_blank' href='https://vasilis.nl/'>vasilis.nl</a>"
                         }
                     ]
                 },
@@ -194,11 +189,6 @@
                         {
                             "type": "paragraph",
                             "text": "Ik heb een web pagina gemaakt waar ik mijn foto's kan laten zien. Deze pagina is af, ik moet alleen nog foto's toevoegen."
-                        },
-                        {
-                            "type": "paragraph",
-                            "header": "Verwijzingen:",
-                            "text": "<a target='_blank' href='./assets/i_love_web/picture_vault_v1.1.png'>Foto pagina v1</a>"
                         }
                     ]
                 },
@@ -229,7 +219,7 @@
                         {
                             "type": "paragraph",
                             "header": "Verwijzingen:",
-                            "text": "<a target='_blank' href='./assets/squad_page/campus_page_v2.1.png'>Campus pagina v1</a>"
+                            "text": "<a target='_blank' href='https://github.com/vsheo/your-tribe-profile-card/blob/main/squad_page_bewijslast/campus_page_v2.1.png'>Campus pagina v1</a>"
                         },
                         {
                             "type": "paragraph",
@@ -252,11 +242,6 @@
                             "type": "paragraph",
                             "header": "Wat wil ik nog doen?",
                             "text": "Er zijn een paar foto's op de detailpagina die in de breedte zijn gemaakt. Op die plekken hebben we portretfoto's nodig. Morgen zal ik een paar nieuwe foto's maken."
-                        },
-                        {
-                            "type": "paragraph",
-                            "header": "Verwijzingen:",
-                            "text": "<a target='blank' href='./html/p_squadpage.html#final_squad'>Squad page final</a>"
                         }
                     ]
                 },
@@ -288,11 +273,6 @@
                             "type": "paragraph",
                             "header": "Wat heb ik gedaan vandaag?",
                             "text": "Vandaag heb ik de foto's op mijn Picture Vault-pagina beter geordend. Ik heb ook alle foto's en screenshots die ik nog miste toegevoegd. Daarnaast heb ik links vanuit mijn journal naar de Picture Vault toegevoegd. Ik ben nog niet helemaal tevreden met de indeling van de Picture Vault-pagina. Ik ben van plan om een paar foto's te verwijderen en de rest per sprint in te delen, zodat de pagina sneller laadt."
-                        },
-                        {
-                            "type": "paragraph",
-                            "header": "Verwijzingen:",
-                            "text": "<a target='blank' href='./html/p_visitekaart.html'>link naar mijn picture vault visitekaart</a><a target='blank' href='./html/p_iloveweb.html'>link naar mijn picture vault i love web</a><a target='blank' href='./html/p_squadpage.html'>link naar mijn picture vault squad page</a>"
                         }
                     ]
                 },
@@ -306,11 +286,6 @@
                             "type": "paragraph",
                             "header": "Wat heb ik gedaan vandaag?",
                             "text": "Ik heb vandaag nieuwe fotopagina's gemaakt. In plaats van één pagina met alle foto's, heb ik nu één pagina per opdracht (visitekaart, I love web, squad page). Ik heb ook meteen de links van mijn journalpagina naar de foto's gemaakt. Hiervoor heb ik 'id' tags gebruikt."
-                        },
-                        {
-                            "type": "paragraph",
-                            "header": "Verwijzingen:",
-                            "text": "<a target='blank' href='./html/p_visitekaart.html'>link naar mijn picture vault visitekaart</a><a target='blank' href='./html/p_iloveweb.html'>link naar mijn picture vault i love web</a><a target='blank' href='./html/p_squadpage.html'>link naar mijn picture vault squad page</a>"
                         }
                     ]
                 }
