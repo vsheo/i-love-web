@@ -1,0 +1,3 @@
+browserstack kan je gebruiken om je website te testen op verschillende browsers
+https://www.browserstack.com/user/choose-product
+

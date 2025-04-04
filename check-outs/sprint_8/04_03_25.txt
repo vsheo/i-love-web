@@ -1,0 +1,8 @@
+interface inventory gemaakt
+https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md#interface-inventory
+
+interface inventory template
+https://www.figma.com/design/Tox75iooqru0EvV3iLbkHw/Interface-Inventory?node-id=0-1&node-type=canvas&t=sZLKnogq564gwWdl-0
+
+styleguide 
+https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md#styleguide-samenstellen

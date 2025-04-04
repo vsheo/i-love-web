@@ -1,0 +1,33 @@
+<article>
+    <h2>{{ person.name }}</h2>
+    <p>
+        floor rond af naar beneden
+        floor van 1.4 = {{ 1.4 | floor }}
+        floor van 1.5 = {{ 1.5 | floor }}
+        floor van 1.9 = {{ 1.9 | floor }}
+    </p>
+
+    <p>
+        {% for person in persons %}
+            {% assign name = person.name %}
+
+            {{name | join: person.birthdate}}
+            {% assign list = person.name %}
+
+        {% endfor %}
+    </p>
+
+    <p>
+        Take my protein pills and put my helmet on <br/>
+        replace "my" met "your"<br/>
+        {{ "Take my protein pills and put my helmet on" | replace: "my", "your" }}
+    </p>
+
+    <p>
+        reverse persons list
+        {% assign my_array = persons %}
+            {{ person.name }} <br/>
+        {% endfor %}
+    </p>
+
+</article>

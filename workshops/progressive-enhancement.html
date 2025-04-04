@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <!--   tekst -->
+        <h1>Frontend design & development</h1>
+
+        <!--   audio -->
+        <button hidden class="play-pause">▶️</button>
+        <audio controls>
+            <source src="https://fdnd.nl/assets/make-websites.mp3" type="audio/mpeg">
+        </audio>
+    </main>
+</body>
+
+</html>
+
+<style>
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100dvh;
+    }
+
+    h1 {
+        background: linear-gradient(to left, rgb(0, 0, 255), rgb(110, 110, 255) 50%, rgb(85, 85, 85) 75%, #333 75%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+    .play-pause {
+        scale: 2;
+    }
+</style>
+
+<script>
+    const playPause = document.querySelector(".play-pause")
+    const audioTag = document.querySelector("audio")
+
+    // add audio file
+    const audioVanHTMl = document.querySelector('audio')
+
+    playPause.addEventListener("click", () => {
+        if (playPause.textContent == '▶️') {
+            playPause.textContent = '⏸️'
+            audioVanHTMl.play()
+        }
+        else {
+            (playPause.textContent = '▶️')
+            audioVanHTMl.pause()
+        }
+    })
+
+    // helemaal onderaan ingeval er een type fout in js zit
+    // alleen als js werkt is de button op beeld
+    playPause.hidden = false
+    // als js werkt dan is de default audio player op display none
+    audioTag.hidden = true
+</script>

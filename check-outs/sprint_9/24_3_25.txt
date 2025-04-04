@@ -1,0 +1,35 @@
+feature detection:
+heeft te maken met als jou code zal werken in een browser. en code gebruiken afhankelijk van als het wel of niet werkt. 
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection
+
+@supports:
+lets you specify CSS declarations that depend on a browser's support for CSS features.
+https://developer.mozilla.org/en-US/docs/Web/CSS/@supports
+
+progressive enhancement
+Progressive enhancement is a design philosophy that provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code
+
+https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement
+
+
+
+progressive enhancement
+https://codepen.io/vrsh/pen/WbNyJqw?editors=1100
+https://edu.nl/qd47a
+code pen werkt niet op de telefoon
+
+html file in workshops folder
+
+
+tekst
+core functionaliteit: tekst lezen
+
+audio
+core functionaliteit: geluid afspelen
+https://fdnd.nl/assets/make-websites.mp3
+
+
+veergestelde vragen en carrousel gemaakt voor de deeltaak
+
+de fase van de development life cycle
+https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/squad-page-ontwerpen-en-maken.md

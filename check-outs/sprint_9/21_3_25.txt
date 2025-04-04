@@ -1,0 +1,7 @@
+mijn bookmark list interactie gepresenteerd
+
+iemand van mediahuis uit 1h laten zien hoe ik items toevoeg met een post aan de database.
+
+Renzo geholpen met het opzetten van zijn get en post routes
+
+een loader gemaakt die op beeld komt nadat er op een link geklikt wordt.

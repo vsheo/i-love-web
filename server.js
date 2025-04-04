@@ -33,17 +33,25 @@ app.get('/', async function (request, response) {
 
     // Render de Liquid template met de data
     response.render('index.liquid', { data: sprintDataJSON });
-  } catch (err) {
+  }
+  catch (err) {
     console.error('Error reading the JSON file:', err);
     response.status(500).send('Error reading JSON file');
   }
+});
+
+app.get('/filter-test', async function (request, response) {
+  const personsResponse = await fetch('https://fdnd.directus.app/items/person/?fields=*')
+  const personsResponseJSON = await personsResponse.json()
+
+  response.render('filter-test.liquid', {persons: personsResponseJSON.data})
 });
 
 app.post('/', async function (request, response) {
   response.redirect(303, '/')
 })
 
-app.set('port', process.env.PORT || 8080)
+app.set('port', process.env.PORT || 8001)
 
 app.listen(app.get('port'), function () {
   console.log(`Application started on http://localhost:${app.get('port')}`)

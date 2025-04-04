@@ -1,0 +1,96 @@
+feedback aan
+sebastiaan
+https://github.com/Sebastiaan-hva/the-web-is-for-everyone-interactive-functionality/issues/9
+
+saif
+https://github.com/Saif8599/the-web-is-for-everyone-interactive-functionality/issues/9
+
+marcin
+https://github.com/MarsGotBars/the-web-is-for-everyone-interactive-functionality/issues/15
+
+
+
+We love web met Ischa Gast
+
+tim burners: this is for everyone
+
+edge case
+hoeveel gebruiken een keyboard om de web te browsen
+hoeveel gebruiken een screenreader
+hoeveel gebruiken tab index
+
+visueel beperking
+te wienig te veel contrast
+
+audio beperking
+
+cognitief beperking
+adhd
+
+moe
+gebrek aan focus
+
+oud
+geld alle beperkingen
+
+ischa zegd iets moet gebeurenmaar hoe gaan we dat doen
+
+gebruik goede html
+goedekoppen structuur
+
+"lees meer" links zeggen niet waar je heen gaat
+gebruik tekst dat omschrijft waarvoor de link bedoeldt is
+
+contrast
+is een van de meest voorkomende problemen
+
+
+bunq website heeft de belangrijkste knoppen witte tekst op orange achtergrond
+dit komt niet door de test heen
+
+ing heeft ook orange brand colors maar heeft ze aangepast zodat het wel voldoet
+
+let op als je ergens in tabbed, moet er ook een manier zijn om met tab eruit te gaan
+
+een oud collega van hem probeerde een ticket te boeken
+ze zocht naar hulp tijdens reizen op de website
+de link was er wel.
+maar helemaal onderaan de pagina. moeilijk te vinden
+
+een kleueren binde gebruikt geen coolblue omdst hij het niet goed kan gebruiken.
+maar hij gebruikt wel bol.com omdat die beter contrast heeft.
+
+
+doorxichtig tekst zodat screenreader het kan lezen.
+bedoeld voor screen readers normale gebruiker zal het niet zien
+
+
+een blinde persoon kan snel door websites heen, maar alleen als het goed gebouwd is
+
+
+sven is blind, maar hij kan toch gamen op wedstrijd niveau street fighter omdat elke move een ander geluid heeft
+
+
+op schiphol was er een button voor assitensie. maar de persoon was doof en kon niet praten.
+de enige optie was een button en dan praat iemand met je, maar ze hoorde niets.
+ze kon tijdens het boeken aanvragen voor guidence hulp.
+maar het was een heele grote lijzst in het nederlands.
+maar wat als iets niet overeenkomt voor jou.
+waarom kan ik zeggen ik ben blind maar ik heb geen hulp nodig. voor wie is dat.
+
+website van hema heeft geen visuele feedback(focus state) voor tab index
+https://www.hema.nl/?gad_source=1&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1FeXcmpLdggV3IRbNVgNixyATKluivhQATVfEauRu6JkF311O6FEfYaArniEALw_wcB&gclsrc=aw.ds
+
+Ischa maakt websites zelf afhankelijk. zonder dat de klant het vraagt
+
+tools voor accesibility testen
+
+deze website om accesibility te testen
+https://pagespeed.web.dev/
+
+tgpi contrast analyser
+https://www.tpgi.com/color-contrast-checker/
+
+
+https://blog.codeisc.com/2022/03/11/safari-webkit-wsl2-windows10-windows11.html
+epiphany browser in wls voor safari debuggen

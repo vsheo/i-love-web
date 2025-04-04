@@ -1,0 +1,4 @@
+milledoni.css bijgevuld
+
+header gestyled 
+en index.liquid bijna af met one column layout

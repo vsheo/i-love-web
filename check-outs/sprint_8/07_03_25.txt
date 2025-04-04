@@ -1,0 +1,132 @@
+4 linkjes samengevoegd
+
+// https://fdnd-agency.directus.app/items/mh_day?fields=date,shows.mh_shows_id.from,shows.mh_shows_id.until,shows.mh_shows_id.show.name,shows.mh_shows_id.show.radiostation.name,shows.mh_shows_id.show.radiostation.logo,shows.mh_shows_id.show.users.mh_users_id.full_name&filter={%22shows%22:{%22mh_shows_id%22:{%22show%22:{%22radiostation%22:{%22name%22:%22Radio%20Veronica%22}}}}}
+
+
+we love web met cassie
+Beyond Tweening
+https://slides.com/cassiecodes/beyond-tweening/fullscreen?token=UPwX_bd_#/1
+
+Gsap
+gsap.com
+is een API
+een animatie library build for the web
+lets you animate anything
+
+gsap can work with anything you want to animate
+
+ze beantwoord veel gsap forrum vragen
+
+tweens that animate stuff
+
+tween for singular animatio ns
+bv
+gsap.to(".box".{x:200})
+
+css heeft geen concept of timelines
+dus je gebruikt zelf berekende delay
+gsap can squence gebruiken voor meer flexoibiliteit tussen animaties
+
+she likes to think of gsap as a tool box
+
+
+ze ziet vaak dat people use tweens for everything
+
+at gsap performance belangrijk
+
+gsap utils
+under appreciated
+one of cassies favorite bits
+
+werken met random nummers colors enzo kan moeilijk zijn
+met 
+gsap.utils.random(-100, 100)
+gsap.utils.random(0, 500, 5)
+gsap.utils.random("red", "blue", "green")
+
+random in animation maakt het meer natural lijken
+
+utils.mapRange()
+use a number to map it to a range
+get a range of the woidth of the screen and map it to a smaller range you want to use for the animation
+
+util.wrap()
+get an array en get gsap to wrap arround it for you
+ give a x value to move right if its off screen go to the left side of the screen, not visibe. and start again
+
+
+utils.pipe()
+voor snapping naar een bepaalde plek bij een drag movement met muis
+
+newbies use keyframes voor elke step van een animatie
+met ease visualizer kan dat makkelijker
+parse points die je wilt
+voor glitchy animation bijvoorbeeld
+op een graph can je dat dan doemn ipv in keyframes
+
+easing heeft ook progress.
+je kan de animatie hiermee eindigen op de begin positie
+
+
+gsap.to(el, {
+    x:400,
+    yoyo: true,
+})
+
+matchmedia() is ook in Gsap
+mm.add()
+iets dat cassie heeft gevraagd om in gsap libriry te zetten
+een media queery in Gsap
+not just screensizes
+pointer events
+enz??
+very flexible
+
+even more powerfuil
+parse i differente condition en control your animation
+reduceMotion kan je hier gebruiken voor reduce op de motion
+
+gsap doet het zelfde wat css kan maar in minder regels code
+
+timescale is een controll method
+
+controll method
+zoals de youtube video play ding dat laat zien hoe ver de video is
+hierop kan je tappen voor een skip
+of een slide
+
+
+helper function
+if sometjhing is a comman struggle
+theyll add a sulution nin the library
+
+if anyone at gsap fixes a problem theyll add it to the available helpers function
+
+
+container animation
+een scroll trigger in een scroll trigger
+eerste tween trigger een horizontale scroll
+en de \kan anfdere scroll triggers daaraan koppelen
+
+motion path helper
+je kan animeren along een motion pathe
+zodat je path in de browser kan aanpassen
+
+gsap heelft heel veel svg plugins
+
+addPause tot je animatie toevoegen
+dit kan ervoor zorgen
+nij een hover komt er een animatie, zodat je hover blijft die animatie still op de laatste positie
+als je hover weg gaat dan komt de exit animatie
+
+gsap recently acquired by webflow
+
+vroeger was het altijd maar 2 people
+moeilijk api onderhouden met wweinig mensen
+
+nu funded by webflow
+
+gsap.com/demmos
+
+voor voorbeelden
+
