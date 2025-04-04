@@ -7,11 +7,13 @@ import path from 'path';
 const app = express()
 
 app.use(express.static('public'))
+
 const engine = new Liquid();
 app.engine('liquid', engine.express()); 
-app.set('views', './views')
-app.use(express.urlencoded({extended: true}))
 
+app.set('views', './views')
+
+app.use(express.urlencoded({extended: true}))
 
 // app.get('/', async function (request, response) {
 //   const personResponse = await fetch('/database/sprint1.json')
@@ -35,8 +37,8 @@ app.get('/', async function (request, response) {
     response.render('index.liquid', { data: sprintDataJSON });
   }
   catch (err) {
-    console.error('Error reading the JSON file:', err);
-    response.status(500).send('Error reading JSON file');
+    console.error('JSON is kapot:', err);
+    response.status(500).send('JSON werkt niet meer');
   }
 });
 

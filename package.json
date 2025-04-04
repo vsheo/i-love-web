@@ -1,8 +1,9 @@
 {
   "name": "i-love-web",
-  "version": "1.0.0",
-  "description": "Learning journal, blog, digital gardening",
+  "version": "2.0.0",
+  "description": "Mijn I Love Web",
   "main": "server.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
@@ -14,8 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/vsheo/i-love-web.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "viresh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vsheo/i-love-web/issues"
@@ -25,6 +25,5 @@
     "express": "^4.21.2",
     "liquidjs": "^10.21.0",
     "node-fetch": "^3.3.2"
-  },
-  "type": "module"
+  }
 }
