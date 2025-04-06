@@ -1,4 +1,4 @@
-mijn bookmark list interactie gepresenteerd
+ik had een stand up : ik heb mijn bookmark list interactie gepresenteerd
 
 iemand van mediahuis uit 1h laten zien hoe ik items toevoeg met een post aan de database.
 

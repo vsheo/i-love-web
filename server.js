@@ -2,7 +2,9 @@ import express from 'express'
 import { Liquid } from 'liquidjs';
 
 import fs from 'fs';
-import path from 'path';
+import { readdir, readFile } from 'node:fs/promises'
+// const markedUpFileContetnt = await readFile ("content" + req.params.iets)
+import { marked } from 'marked'
 
 const app = express()
 
@@ -15,14 +17,10 @@ app.set('views', './views')
 
 app.use(express.urlencoded({extended: true}))
 
-// app.get('/', async function (request, response) {
-//   const personResponse = await fetch('/database/sprint1.json')
-//   const personResponseJSON = await personResponse.json()
+// const files = await readdir('/database/checkOut.json')
+// console.log(files)
 
-//   response.render('index.liquid', {website: personResponseJSON.data})
-// })
-
-app.get('/', async function (request, response) {
+app.get('/', async function(request, response) {
   try {
     // Pad naar het JSON-bestand in je project
     const jsonPath = './database/checkOut.json';
@@ -55,6 +53,6 @@ app.post('/', async function (request, response) {
 
 app.set('port', process.env.PORT || 8001)
 
-app.listen(app.get('port'), function () {
+app.listen(app.get('port'), '0.0.0.0', function () {
   console.log(`Application started on http://localhost:${app.get('port')}`)
 })

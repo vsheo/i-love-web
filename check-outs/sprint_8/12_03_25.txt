@@ -1,6 +1,7 @@
+dit was de workshop van vandaag
 https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/data-filtering-en-template-filters.md
 
-
+dit zijn de lin kjes die ik heb gemaakt
 Experiment 1: Ik wil alle studenten gesorteerd op name
 https://fdnd.directus.app/items/person/?fields=name&sort=name
 

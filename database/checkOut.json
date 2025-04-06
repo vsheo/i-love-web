@@ -1679,29 +1679,373 @@
             "articles": [
                 {
                     "sprint": "Sprint 8",
-                    "title": "The Client",
-                    "date": "23/9/24",
+                    "title": "Server-Side Rendering",
+                    "date": "03/03/25",
                     "content": [
                         {
                             "type": "paragraph",
                             "header": "Wat heb je gedaan?",
-                            "text": "Ik heb Mediahuis gekozen als mijn project. Mediahuis is een bedrijf met meerdere radiozenders. Het frontend bedrijf Triple heeft de opdracht aangenomen en bevindt zich inmiddels in de laatste fase van het project. Triple is mijn opdrachtgever, en zij willen dat ik hun website nabouw. Vervolgens moet ik er iets creatiefs aan toevoegen of aanpassen. Dit kan een nieuwe interactie, een andere stijl, of een aangepaste layout zijn."
+                            "text": "Ik heb Milledoni gekozen als mijn opdrachtgever. De briefing ontvangen en gelijk de debriefing geschreven."
                         },
                         {
                             "type": "paragraph",
-                            "header": "3 dingen die ik heb gedaan?",
-                            "text": "Ik heb een project uitgekozen. Ik heb geleerd hoe ik me moet voorbereiden op een briefing. Ik weet nu wat een debriefing is en hoe ik die moet aanpakken."
+                            "text": "De briefing voorbereid, de debriefing geschreven, en contact gehad met Milledoni via een WhatsApp-groepchat."
                         },
                         {
                             "type": "paragraph",
-                            "header": "2 leervragen voor deze week",
-                            "text": "Hoe kan ik deze week de website van Veronica, een zender van Mediahuis, op een semantisch correcte manier namaken?"
+                            "text": "Hoe kan ik deze week de website voor Milledoni ontwikkelen volgens de richtlijnen van de briefing en de debriefing?"
                         },
                         {
                             "type": "paragraph",
                             "header": "Verwijzingen:",
-                            "text": "<a target=\"blank\" href=\"https://github.com/fdnd-agency/triple/tree/design-challenge\">Triple repository</a>"
+                            "text": "<a target=\"blank\" href=\"https://github.com/fdnd-task/the-client-website/blob/main/docs/briefing-debriefing.md\">Briefing & Debriefing Document</a> <a target=\"blank\" href=\"https://github.com/fdnd-agency/milledoni/tree/main?tab=readme-ov-file\">FDND Milledoni GitHub Repository</a> <a target=\"blank\" href=\"https://docs.google.com/presentation/d/1lksQueJO-YP5XvwbIFyt84sQ4m9N5SNklDMinXbTvjM/edit#slide=id.g323007664e2_0_100\">Milledoni Presentation</a> <a target=\"blank\" href=\"https://www.figma.com/design/tHCHwBm3Ujv7wR28VU2BSu/Milledoni?node-id=0-1&p=f\">Figma Design Milledoni</a> <a target=\"blank\" href=\"https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/sprint-planning.md\">Workshop van vandaag</a>"
                         }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 8",
+                    "title": "Server-Side Rendering",
+                    "date": "04/03/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb je gedaan?",
+                            "text": "Ik heb een interface inventory gemaakt."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "De interface inventory is opgesteld en het template is beschikbaar voor gebruik."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Hoe kan ik deze week de interface inventory verder integreren in de ontwikkelingsworkflow?"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Verwijzingen:",
+                            "text": "<a target=\"blank\" href=\"https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md#interface-inventory\">Interface Inventory</a> <a target=\"blank\" href=\"https://www.figma.com/design/Tox75iooqru0EvV3iLbkHw/Interface-Inventory?node-id=0-1&node-type=canvas&t=sZLKnogq564gwWdl-0\">Interface Inventory Template</a> <a target=\"blank\" href=\"https://github.com/fdnd-task/look-and-feel-corporate-identity/blob/main/docs/styleguide.md#styleguide-samenstellen\">Styleguide</a>"
+                        }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 8",
+                    "title": "Server-Side Rendering",
+                    "date": "05/03/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb je gedaan?",
+                            "text": "Vandaag heb ik gewerkt aan verschillende fetch URL's om data op te halen en te filteren via de Directus API. Ik heb een sitemap gemaakt en geleerd hoe ik fetch URL's kan gebruiken voor zowel algemene als gedetailleerde data, met behulp van filters om lege waarden te vermijden."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Ik heb verder gewerkt aan het begrijpen van hoe je data analyseert en hoe je velden kunt uitbreiden door gelinkte personen te tonen met hun gegevens, zoals namen, images, en andere velden. Ook heb ik gewerkt met base URL's om specifieke velden en gelinkte data te verkrijgen."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Hoe kan ik deze week verder werken met de Directus API om de data op een efficiënte manier te verwerken en presenteren?"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Verwijzingen:",
+                            "text": "<a target=\"blank\" href=\"https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/templating-met-json.md\">Workshop van vandaag: Data analyseren</a> <a target=\"blank\" href=\"https://github.com/fdnd-task/the-client-website/blob/main/docs/prototyping.md#sitemap\">Sitemap maken</a> <a target=\"blank\" href=\"https://fdnd-agency.directus.app/items/milledoni_products\">Milledoni producten URL</a> <a target=\"blank\" href=\"https://fdnd-agency.directus.app/items/milledoni_products/?fields=name,image,tags\">Index pagina fetch URL</a> <a target=\"blank\" href=\"https://fdnd-agency.directus.app/items/milledoni_products/?fields=name,image,description,url\">Details pagina fetch URL</a> <a target=\"blank\" href=\"https://fdnd-agency.directus.app/items/milledoni_products/?fields=tags&filter[tags][_nnull]\">Andere URL voor tags</a> <a target=\"blank\" href=\"https://fdnd-agency.directus.app/items/milledoni_products/?fields=tags,image,name&filter={\"_or\":[{\"tags\":{\"_neq\":\"null\"}},{\"name\":{\"_neq\":\"null\"}},{\"name\":{\"_neq\":\"null\"}}]}\">Andere fetch URL met OR filter</a>"
+                        }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 8",
+                    "title": "Server-Side Rendering",
+                    "date": "07/03/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Introductie tot GSAP",
+                            "text": "vandaag hadden we de we love web met cassie over de animatiebibliotheek GSAP (GreenSock Animation Platform) en geleerd hoe je deze kunt toepassen voor flexibele en krachtige webanimaties. GSAP biedt veel meer controle dan CSS-animaties, met onder andere tweens, timelines, en responsive matchMedia functionaliteiten."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Tweens en Timelines",
+                            "text": "GSAP gebruikt 'tweens' om individuele animaties te maken, bijvoorbeeld een element horizontaal verplaatsen. Timelines zorgen voor meer controle door meerdere animaties te sequencen zonder handmatig vertragingen te berekenen, iets wat CSS standaard niet ondersteunt."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "GSAP Utils",
+                            "text": "GSAP bevat krachtige utiliteitsfuncties zoals random(), mapRange(), wrap() en pipe(), die animaties natuurlijker en dynamischer maken. Zo kun je eenvoudig willekeurige kleuren genereren of elementen eindeloos laten bewegen over het scherm."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Easing en Yoyo",
+                            "text": "Met easing kun je bepalen hoe een animatie versnelt of vertraagt. Dankzij progressie en yoyo-functionaliteit kun je animaties bijvoorbeeld laten terugkeren naar de startpositie of reageren op hoveracties met een in- en uitgaande animatie."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Responsieve animaties met matchMedia",
+                            "text": "GSAP ondersteunt matchMedia waarmee je animaties kunt afstemmen op mediaqueries zoals schermgrootte of pointer-type. Dit maakt het mogelijk om bijvoorbeeld bewegingsintensiteit aan te passen voor gebruikers met 'reduce motion'-instellingen."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Animatiecontrole",
+                            "text": "Met TimeScale kun je animaties versnellen of vertragen, vergelijkbaar met een videospeler. GSAP biedt ook helperfuncties die inspelen op veelvoorkomende uitdagingen, zoals animatie-pauses en interactie met sliders of knoppen."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Geavanceerde animatiefuncties",
+                            "text": "ScrollTrigger maakt het mogelijk om animaties te koppelen aan scrollacties, en met de Motion Path Helper kun je objecten langs een zelf getekend pad laten bewegen. Deze tools geven veel creatieve vrijheid bij het ontwerpen van interactieve ervaringen."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Samenwerking met Webflow",
+                            "text": "GSAP is recentelijk overgenomen door Webflow, wat de ontwikkeling en ondersteuning van de library heeft versterkt. Voorheen werd het onderhouden door slechts twee personen, maar nu is er meer ruimte voor groei en innovatie."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Voorbeelden en inspiratie",
+                            "text": "Op gsap.com/demos zijn er veel voorbeelden te vinden die laten zien hoe veelzijdig GSAP is. Deze demo’s zijn handig om inspiratie op te doen en zelf aan de slag te gaan met animaties."
+                        }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 8",
+                    "title": "Server-Side Rendering",
+                    "date": "07/03/25",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "header": "Wat heb je gedaan?",
+                        "text": "Tijdens de workshop van vandaag heb ik gewerkt met data filtering en template filters in Directus. Ik heb verschillende experimenten uitgevoerd waarbij ik data filter op naam, geboortedatum en favoriete tags."
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Workshop documentatie: <a target=\"blank\" href=\"https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/data-filtering-en-template-filters.md\">Data Filtering & Template Filters</a>"
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Experiment 1: Ik wil alle studenten gesorteerd op name <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name&sort=name\">Link</a>"
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Experiment 2: Ik wil alle names van studenten die een name hebben die begint met de letter D <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name&sort=name&filter={%20%22name%22:%20{%20%22_istarts_with%22:%20%22D%22%20}%20}\">Link</a>"
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Experiment 3: Ik wil alle names van studenten die een name hebben die begint met de letter D of K <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name&sort=name&filter={%22_or%22:[{%22name%22:{%22_istarts_with%22:%22d%22}},{%22name%22:{%22_istarts_with%22:%22k%22}}]}\">Link</a>"
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Experiment 4: Ik wil alle names en birthdates van studenten die een birthdate hebben ingevuld <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name,birthdate&filter={%22_and%22:[{%22name%22:{%22_neq%22:%22null%22}},{%22birthdate%22:{%22_neq%22:%22null%22}}]}\">Link 1</a> <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name,birthdate&filter={%22_and%22:[{%22name%22:{%22_nnull%22:%22true%22}},{%22birthdate%22:{%22_nnull%22:%22true%22}}]}\">Link 2</a>"
+                      }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 8",
+                    "title": "Server-Side Rendering",
+                    "date": "14/03/25",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "text": "Ik heb geen probleem met de huidige indeling van de studio. Het kan soms druk zijn, maar als ik eenmaal bezig ben met coderen, lukt het me goed om geconcentreerd te blijven. Thuis studeren vind ik soms handiger, vooral omdat ik daar met twee schermen werk. Toch blijf ik liever in de studio als ik veel te doen heb, omdat ik daar het meeste gedaan krijg. Als ik 's middags moet werken, ga ik na de les naar huis."
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "Analyse van de studio",
+                        "text": "We hebben samen gekeken naar wat goed gaat in de studio en wat beter kan. Op het whiteboard hebben we dit overzicht gemaakt:"
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "Wat gaat goed?",
+                        "text": "1. in de studio kunnen we samenwerken\n2. Aquarium is lekker koel\n3. Vier personen per tafel is een fijne bezetting"
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "Wat kan beter?",
+                        "text": "1. Soms is er teveel geluid in de ruimte\n 2. De studio wordt soms te warm\n3. Er is geen plek voor meer dan 4 personen per tafel"
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Nieuwe indeling voor studio en aquarium geschetsed"
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "House rules voor een prettige werkomgeving",
+                        "text": "Ruim je plek op als je klaar bent"
+                      }
+                    ]
+                }                  
+            ]
+        },
+
+        {
+            "name": "Sprint-9",
+            "articles": [
+                {
+                    "sprint": "Sprint 9",
+                    "title": "The Web is for Everyone",
+                    "date": "17/03/25",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "header": "Wat heb je gedaan?",
+                        "text": "Vandaag hadden we een workshop over user generated content. We leerden hoe we progressive enhancement kunnen toepassen door eerst de core functionaliteit te bepalen, te starten met eenvoudige technieken zoals HTML en mobile-first CSS, en daarna verder te verbeteren met JavaScript."
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "We bespraken ook wat een goede website maakt: hij moet responsief, toegankelijk, performant en progressively enhanced zijn. Ik heb daarnaast schetsen en een wireflow gemaakt voor een user story voor Milledoni."
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Hoe kan ik de bookmark-functionaliteit voor Milledoni bouwen volgens het principe van progressive enhancement?"
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "Verwijzingen:",
+                        "text": "<a target=\"blank\" href=\"https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/user-generated-content.md\">Workshop User Generated Content</a> <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/15\">Wireflow voor User Story</a> <a target=\"blank\" href=\"https://fdnd-agency.directus.app/items/milledoni_users?fields=*.*\">Post URL voor Milledoni Bookmarklijst</a>"
+                      }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 9",
+                    "title": "The Web is for Everyone",
+                    "date": "19/03/25",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "header": "Wat heb je gedaan?",
+                        "text": "Ik geleerd over UI states en bepaald welke ik ga toepassen op mijn project. Daarnaast heb ik een werkende form gebouwd met de POST-method. Hiermee kan een gebruiker een cadeau toevoegen aan een lijst of het verwijderen door opnieuw te klikken."
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Ik zal de volgende UI states gebruiken: een loading state bij het openen van de detailpagina (door een loading circle te tonen), een empty state bij het eerste laden van de pagina (met een geblurde afbeelding die daarna scherp wordt), en een error state voor als de data niet laadt (met een foutmelding)."
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Hoe kan ik zorgen dat mijn interface op elk moment een bruikbare en toegankelijke state toont, ongeacht wat er met de data gebeurt?"
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "Verwijzingen:",
+                        "text": "<a target=\"blank\" href=\"https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/#ideal\">Uitleg over UI States</a>"
+                      }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 9",
+                    "title": "The Web is for Everyone",
+                    "date": "20/03/25",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "header": "Wat heb je gedaan?",
+                        "text": "ik heb gewerkt aan deze issues:"
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "<a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/17\">routes voor oplsaan in een bookmark lijst</a> <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/18\">bookmark overzicht & bookmarked cadeau pagina</a>"
+                      }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 9",
+                    "title": "The Web is for Everyone",
+                    "date": "21/03/25",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "header": "Wat heb je gedaan?",
+                        "text": "Ik heb mijn bookmark list interactie gepresenteerd tijdens de stand-up. Kyan uit 1H heb ik laten zien hoe ik met een POST items toevoeg aan de database. Daarnaast heb ik Renzo geholpen met het opzetten van zijn GET en POST routes. Ook heb ik een loader gemaakt die op beeld verschijnt nadat er op een link geklikt wordt."
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "De eerste issue ging over het verbeteren van de empty state en het toevoegen van een fallback voor als data niet beschikbaar is. De tweede issue richtte zich op het tonen van feedback aan de gebruiker na een actie (zoals toevoegen of verwijderen van een item)."
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Hoe kan ik mijn interacties nog intuïtiever maken voor gebruikers, zonder afbreuk te doen aan performance en toegankelijkheid?"
+                      }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 9",
+                    "title": "The Web is for Everyone",
+                    "date": "23/03/25",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "header": "Wat heb je gedaan?",
+                        "text": "Ik heb de loading bar afgemaakt. <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/20\">Issue 20</a> Nieuwe issue gemaakt vopor mn back button, omdat het nu terug gaat naar de home pagina en niet naar de vorige pagina. <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/21\">Issue 21</a>"
+                      }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 9",
+                    "title": "The Web is for Everyone",
+                    "date": "24/03/25",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "header": "Wat heb je gedaan?",
+                        "text": "Ik heb gewerkt aan feature detection en geleerd hoe je code kunt gebruiken afhankelijk van de ondersteuning van de browser. Ik heb de @supports regel gebruikt om CSS-declaraties te specificeren die afhankelijk zijn van de browserondersteuning voor CSS-functies. <a target=\"blank\" href=\"https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection\">Feature Detection</a>, <a target=\"blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/@supports\">@supports</a>"
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Ik heb een progressieve enhancement toegepast door de core functionaliteit eerst te maken en daarna de enhancements maken voor gebruikers van modernere browsers. <a target=\"blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement\">Progressive Enhancement</a>"
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Ik heb de code getest in verschillende browsers en ervoor gezorgd dat de basisfunctionaliteit werkt voor de meeste gebruikers, terwijl ik extra functionaliteit toevoeg voor gebruikers met moderne browsers. <a target=\"blank\" href=\"https://codepen.io/vrsh/pen/WbNyJqw?editors=1100\">CodePen voorbeeld</a>."
+                      },
+                      {
+                        "type": "paragraph",
+                        "text": "Verder heb ik de core functionaliteit voor tekst en audio getest en geoptimaliseerd, en een FAQ-sectie en carrousel gemaakt voor de deeltaak."
+                      }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 9",
+                    "title": "The Web is for Everyone",
+                    "date": "28/03/25",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "header": "Wat heb je gedaan?",
+                        "text": "Tijdens de code en design review heb ik feedback gegeven aan <a target=\"blank\" href=\"https://github.com/Sebastiaan-hva/the-web-is-for-everyone-interactive-functionality/issues/9\">Sebastiaan</a> <a target=\"blank\" href=\"https://github.com/Saif8599/the-web-is-for-everyone-interactive-functionality/issues/9\">Saif</a> <a target=\"blank\" href=\"https://github.com/MarsGotBars/the-web-is-for-everyone-interactive-functionality/issues/15\">Marcin</a>"
+                      }
+                    ]
+                },
+                {
+                    "sprint": "Sprint 9",
+                    "title": "We Love Web met Ischa Gast",
+                    "date": "28/03/25",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "header": "Toegankelijkheidsproblemen",
+                        "text": "Ischa bespreekt het belang van toegankelijkheid op het web voor mensen met verschillende beperkingen. Er wordt ingegaan op visuele, auditieve, cognitieve en ouderdomsbeperkingen en hoe deze de gebruikerservaring kunnen beïnvloeden. Bijvoorbeeld, te veel of te weinig contrast kan problematisch zijn voor visueel beperkte gebruikers."
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "Oplossingen voor Toegankelijkheid",
+                        "text": "Om websites toegankelijker te maken, is het belangrijk om goede HTML en koppenstructuur te gebruiken. Duidelijke linktekst is essentieel, evenals voldoende contrast. Ook moeten websites visuele feedback bieden voor de tabindex om navigatie met het toetsenbord te vergemakkelijken."
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "Voorbeeld van problemen",
+                        "text": "Ischa deelde een voorbeeld van een collega die moeite had met het boeken van een ticket op een website, omdat de hulplink moeilijk te vinden was, helemaal onderaan de pagina. Ook gaf Ischa het voorbeeld van een kleurblinde persoon die Coolblue niet goed kan gebruiken vanwege de kleurkeuzes, maar wel Bol.com, die betere contrasten biedt."
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "Screenreader en toegankelijkheid",
+                        "text": "Ischa benadrukt het belang van doorzichtige tekst voor screenreaders, zodat de inhoud wel leesbaar is voor mensen met een visuele beperking, maar niet zichtbaar voor normale gebruikers. Sven, die blind is, kan bijvoorbeeld op wedstrijdniveau gamen dankzij geluiden die elke beweging aangeven."
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "Andere praktische voorbeelden",
+                        "text": "Een voorbeeld werd gedeeld van Schiphol, waar een assistentiebutton niet effectief was voor dove mensen, aangezien de enige optie was om met iemand te praten. Daarnaast had de HEMA website geen visuele feedback voor de tabindex, waardoor het moeilijk was om met het toetsenbord te navigeren."
+                      },
+                      {
+                        "type": "paragraph",
+                        "header": "Zelfstandige benadering van Ischa",
+                        "text": "Ischa maakt zelf websites toegankelijk, zelfs wanneer de klant daar niet specifiek om vraagt, wat bijdraagt aan een meer inclusieve gebruikerservaring."
+                      }
                     ]
                 }
             ]

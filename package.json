@@ -24,6 +24,7 @@
   "dependencies": {
     "express": "^4.21.2",
     "liquidjs": "^10.21.0",
+    "marked": "^15.0.7",
     "node-fetch": "^3.3.2"
   }
 }
