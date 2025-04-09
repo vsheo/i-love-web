@@ -1,7 +1,7 @@
 // https://www.youtube.com/watch?v=2IbRtjez6ag&t=50s
 
 // alle article selecteren
-const articles = document.querySelectorAll("article")
+const articles = document.querySelectorAll(".check-out")
 
 // intersection observer aanmaken
 const observer = new IntersectionObserver(entries => {

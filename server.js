@@ -40,6 +40,39 @@ app.get('/', async function(request, response) {
   }
 });
 
+app.get('/sprint/:sprintNumber', async function(request, response) {
+  try {
+    // Het nummer van de sprint ophalen uit de URL
+    const sprintNumber = request.params.sprintNumber;
+
+    // Pad naar het JSON-bestand in je project
+    const jsonPath = './database/projectProgress.json';
+
+    // Lees het bestand synchronisch met fs
+    const data = fs.readFileSync(jsonPath, 'utf8'); 
+
+    // Parse de inhoud van het bestand als JSON
+    const contentJSON = JSON.parse(data);
+
+    // Zoek de sectie voor de juiste sprint
+    const sprintData = contentJSON.data.find(sprint => sprint.title.toLowerCase() === sprintNumber.toLowerCase());
+
+    if (!sprintData) {
+      return response.status(404).send('Sprint niet gevonden');
+    }
+
+    // Render de Liquid template met de gevonden sprintdata
+    response.render('progress', { data: sprintData });
+  }
+  catch (err) {
+    console.error('Er is iets mis met de JSON:', err);
+    response.status(500).send('Er is een probleem met de data');
+  }
+});
+
+
+
+
 app.get('/filter-test', async function (request, response) {
   const personsResponse = await fetch('https://fdnd.directus.app/items/person/?fields=*')
   const personsResponseJSON = await personsResponse.json()
