@@ -502,6 +502,176 @@
                     ]
                 }
             ]
+        },
+        {
+            "title": "Sprint 6",
+            "sections": [
+                {
+                    "title": "voorbereiding",
+                    "content": [
+                        {
+                            "caption": "voorbereiding_briefing",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/voorbereiding_briefing_2.jpg",
+                            "alt": "voorbereiding briefing"
+                        },
+                        {
+                            "caption": "aantekeningen_briefing",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/aantekeningen_briefing.jpg",
+                            "alt": "aantekeningen briefing"
+                        },
+                        {
+                            "caption": "desktop_schets",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/desktop_schets.jpg",
+                            "alt": "desktop schets"
+                        },
+                        {
+                            "caption": "desktop_breakdown",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/desktop_breakdown.jpg",
+                            "alt": "desktop breakdown"
+                        },
+                        {
+                            "caption": "mobile_overzicht",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/mobile_overzicht.jpg",
+                            "alt": "mobile overzicht"
+                        },
+                        {
+                            "caption": "mobile_overzicht_breakdown",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/mobile_overzicht_breakdown.jpg",
+                            "alt": "mobile overzicht breakdown"
+                        },
+                        {
+                            "caption": "interaction-wireflow",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/interaction-wireflow.jpg",
+                            "alt": "interaction wireflow"
+                        },
+                        {
+                            "caption": "interaction-breakdown",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/interaction-breakdown.jpg",
+                            "alt": "interaction breakdown"
+                        }
+                    ]
+                },
+                {
+                    "title": "overzicht pagina",
+                    "content": [
+                        {
+                            "caption": "one_column_layout-1",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/one_column_layout-1.png",
+                            "alt": "one column layout 1"
+                        },
+                        {
+                            "caption": "one_column_layout-2",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/one_column_layout-2.png",
+                            "alt": "one column layout 2"
+                        },
+                        {
+                            "caption": "one_column_layout-3",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/one_column_layout-3.png",
+                            "alt": "one column layout 3"
+                        },
+                        {
+                            "caption": "responsive_overzicht-320px",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-320px.mp4",
+                            "alt": "responsive overzicht 320px",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "responsive_overzicht-430px",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-430px.mp4",
+                            "alt": "responsive overzicht 430px",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "responsive_overzicht-510px",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-510px.mp4",
+                            "alt": "responsive overzicht 510px",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "responsive_overzicht-1020px",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-1020px.mp4",
+                            "alt": "responsive overzicht 1020px",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "responsive_overzicht-1250px",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-1250px.mp4",
+                            "alt": "responsive overzicht 1250px",
+                            "type": "video"
+                        }
+                    ]
+                },
+                {
+                    "title": "details pagina",
+                    "content": [
+                        {
+                            "caption": "responsive_details-320px",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-320px.mp4",
+                            "alt": "responsive details 320px",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "responsive_details-440px",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-440px.mp4",
+                            "alt": "responsive details 440px",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "responsive_details-520px",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-520px.mp4",
+                            "alt": "responsive details 520px",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "responsive_details-1250px",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-1250px.mp4",
+                            "alt": "responsive details 1250px",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "responsive_details-1360px",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-1360px.mp4",
+                            "alt": "responsive details 1360px",
+                            "type": "video"
+                        }
+                    ]
+                },
+                {
+                    "title": "Interacties",
+                    "content": [
+                        {
+                            "caption": "menu_interactie_desktop",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/menu_interactie_1.mp4",
+                            "alt": "menu interactie desktop",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "menu_interactie_mobile",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/menu_interactie_2.mp4",
+                            "alt": "menu interactie mobile",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "menu_interactie zonder js",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/menu_interactie_3.mp4",
+                            "alt": "menu interactie zonder js",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "button_interaction_1",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/button_interaction_1.mp4",
+                            "alt": "button interaction 1",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "button_interaction_2",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/button_interaction_2.mp4",
+                            "alt": "button interaction 2",
+                            "type": "video"
+                        }
+                    ]
+                }
+            ]
         }        
     ]
 }
