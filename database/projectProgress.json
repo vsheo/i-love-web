@@ -174,37 +174,37 @@
                     "content": [
                     {
                         "caption": "Site map",
-                        "src": "../assets/mediahuis/sprint_2/t_site_map.jpg",
+                        "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_2/t_site_map.jpg?raw=true",
                         "alt": "site map"
                     },
                     {
                         "caption": "Wireframe + breakdown",
-                        "src": "../assets/mediahuis/sprint_2/t_wireframe.jpg",
+                        "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_2/t_wireframe.jpg?raw=true",
                         "alt": "wireframe"
                     },
                     {
                         "caption": "Figma mobile versie",
-                        "src": "../assets/mediahuis/sprint_2/figma_mobile_sp2.png",
+                        "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_2/figma_mobile_sp2.png?raw=true",
                         "alt": "figma overzicht pagina mobile"
                     },
                     {
                         "caption": "Figma desktop versie",
-                        "src": "../assets/mediahuis/sprint_2/figma_desk_sp2.png",
+                        "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_2/figma_desk_sp2.png?raw=true",
                         "alt": "figma overzicht pagina desktop"
                     },
                     {
                         "caption": "Voorstel 1 aan de opdrachtgever",
-                        "src": "../assets/mediahuis/sprint_2/figma_voorstel_1.png",
+                        "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_2/figma_voorstel_1.png?raw=true",
                         "alt": "voorstel 1"
                     },
                     {
                         "caption": "Voorstel 2 aan de opdrachtgever",
-                        "src": "../assets/mediahuis/sprint_2/figma_voorstel_2.png",
+                        "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_2/figma_voorstel_2.png?raw=true",
                         "alt": "voorstel 2"
                     },
                     {
                         "caption": "Voorstel 3 aan de opdrachtgever",
-                        "src": "../assets/mediahuis/sprint_2/figma_voorstel_3.png",
+                        "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_2/figma_voorstel_3.png?raw=true",
                         "alt": "voorstel 3"
                     }
                     ]
@@ -214,7 +214,7 @@
                     "content": [
                         {
                             "caption": "Resultaat sprint 2",
-                            "src": "../assets/mediahuis/sprint_2/resultaat_sp2.mp4",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_2/resultaat_sp2.mp4?raw=true",
                             "alt": "resultaat sprint 2",
                             "type": "video"
                         }
@@ -230,27 +230,27 @@
                     "content": [
                         {
                             "caption": "Mobile figma 1",
-                            "src": "../assets/mediahuis/sprint_3/figma_mobile_sp3_1.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_3/figma_mobile_sp3_1.png?raw=true",
                             "alt": "mobile figma v1"
                         },
                         {
                             "caption": "Mobile figma 2",
-                            "src": "../assets/mediahuis/sprint_3/figma_mobile_sp3_2.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_3/figma_mobile_sp3_2.png?raw=true",
                             "alt": "mobile figma v2"
                         },
                         {
                             "caption": "Desktop figma 1",
-                            "src": "../assets/mediahuis/sprint_3/figma_desk_sp3_1.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_3/figma_desk_sp3_1.png?raw=true",
                             "alt": "desktop figma v1"
                         },
                         {
                             "caption": "Desktop figma 2",
-                            "src": "../assets/mediahuis/sprint_3/figma_desk_sp3_2.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_3/figma_desk_sp3_2.png?raw=true",
                             "alt": "desktop figma v2"
                         },
                         {
                             "caption": "Figma desktop overzicht pagina",
-                            "src": "../assets/mediahuis/sprint_3/figma_overzicht_pagina.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_3/figma_overzicht_pagina.png?raw=true",
                             "alt": "overzicht desktop figma"
                         }
                     ]
@@ -260,7 +260,7 @@
                     "content": [
                         {
                             "caption": "Resultaat sprint 3",
-                            "src": "../assets/mediahuis/sprint_3/resultaat_sp3.mp4",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_3/resultaat_sp3.mp4?raw=true",
                             "alt": "resultaat sprint 3",
                             "type": "video"
                         }
@@ -276,42 +276,42 @@
                     "content": [
                         {
                             "caption": "breakdown mobile 1",
-                            "src": "../assets/mediahuis/sprint_4/breakdown_m_1.jpg",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/breakdown_m_1.jpg?raw=true",
                             "alt": "breakdown mobile 1"
                         },
                         {
                             "caption": "breakdown mobile 2",
-                            "src": "../assets/mediahuis/sprint_4/breakdown_m_2.jpg",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/breakdown_m_2.jpg?raw=true",
                             "alt": "breakdown mobile 2"
                         },
                         {
                             "caption": "breakdown desktop 1",
-                            "src": "../assets/mediahuis/sprint_4/breakdown_d_1.jpg",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/breakdown_d_1.jpg?raw=true",
                             "alt": "breakdown desktop 1"
                         },
                         {
                             "caption": "figma mobile 1",
-                            "src": "../assets/mediahuis/sprint_4/figma_m_1.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/figma_m_1.png?raw=true",
                             "alt": "figma mobile 1"
                         },
                         {
                             "caption": "figma mobile 2",
-                            "src": "../assets/mediahuis/sprint_4/figma_m_2.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/figma_m_2.png?raw=true",
                             "alt": "figma mobile 2"
                         },
                         {
                             "caption": "figma mobile 3",
-                            "src": "../assets/mediahuis/sprint_4/figma_m_3.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/figma_m_3.png?raw=true",
                             "alt": "figma mobile 3"
                         },
                         {
                             "caption": "figma desktop 1",
-                            "src": "../assets/mediahuis/sprint_4/figma_d_1.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/figma_d_1.png?raw=true",
                             "alt": "figma desktop 1"
                         },
                         {
                             "caption": "figma desktop 2",
-                            "src": "../assets/mediahuis/sprint_4/figma_d_2.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/figma_d_2.png?raw=true",
                             "alt": "figma desktop 2"
                         }
                     ]
@@ -321,12 +321,12 @@
                     "content": [
                         {
                             "caption": "html first 1",
-                            "src": "../assets/mediahuis/sprint_4/html_first_1.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/html_first_1.png?raw=true",
                             "alt": "html first 1"
                         },
                         {
                             "caption": "html first 2",
-                            "src": "../assets/mediahuis/sprint_4/html_first_2.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/html_first_2.png?raw=true",
                             "alt": "html first 2"
                         }
                     ]
@@ -336,17 +336,17 @@
                     "content": [
                         {
                             "caption": "mobile 1",
-                            "src": "../assets/mediahuis/sprint_4/mobile_1.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/mobile_1.png?raw=true",
                             "alt": "mobile 1"
                         },
                         {
                             "caption": "mobile 2",
-                            "src": "../assets/mediahuis/sprint_4/mobile_2.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/mobile_2.png?raw=true",
                             "alt": "mobile 2"
                         },
                         {
                             "caption": "mobile 3",
-                            "src": "../assets/mediahuis/sprint_4/mobile_3.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/mobile_3.png?raw=true",
                             "alt": "mobile 3"
                         }
                     ]
@@ -356,17 +356,17 @@
                     "content": [
                         {
                             "caption": "desktop 1",
-                            "src": "../assets/mediahuis/sprint_4/desktop_1.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/desktop_1.png?raw=true",
                             "alt": "desktop 1"
                         },
                         {
                             "caption": "desktop 2",
-                            "src": "../assets/mediahuis/sprint_4/desktop_2.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/desktop_2.png?raw=true",
                             "alt": "desktop 2"
                         },
                         {
                             "caption": "desktop 3",
-                            "src": "../assets/mediahuis/sprint_4/desktop_3.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/desktop_3.png?raw=true",
                             "alt": "desktop 3"
                         }
                     ]
@@ -376,18 +376,18 @@
                     "content": [
                         {
                             "caption": "HTML validator",
-                            "src": "../assets/mediahuis/sprint_4/html_validator.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/html_validator.png?raw=true",
                             "alt": "html validator sprint 4"
                         },
                         {
                             "caption": "mobile sprint 4",
-                            "src": "../assets/mediahuis/sprint_4/mobile_video.mp4",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/mobile_video.mp4?raw=true",
                             "alt": "mobile video sprint 4",
                             "type": "video"
                         },
                         {
                             "caption": "desktop sprint 4",
-                            "src": "../assets/mediahuis/sprint_4/laptop_video.mp4",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_4/laptop_video.mp4?raw=true",
                             "alt": "desktop video sprint 4",
                             "type": "video"
                         }
@@ -403,17 +403,17 @@
                     "content": [
                         {
                             "caption": "start pagina interactie schets",
-                            "src": "../assets/mediahuis/sprint_5/UIW_hidden_1.jpg",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/UIW_hidden_1.jpg?raw=true",
                             "alt": "start pagina interactie schets"
                         },
                         {
                             "caption": "start pagina interactie breakdown",
-                            "src": "../assets/mediahuis/sprint_5/UIW_hidden_2.jpg",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/UIW_hidden_2.jpg?raw=true",
                             "alt": "start pagina interactie breakdown schets"
                         },
                         {
                             "caption": "start pagina interactie resultaat",
-                            "src": "../assets/mediahuis/sprint_5/mobile_meer_info.mp4",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/mobile_meer_info.mp4?raw=true",
                             "alt": "start pagina interactie resultaat",
                             "type": "video"
                         }
@@ -424,17 +424,17 @@
                     "content": [
                         {
                             "caption": "nav interactie schets",
-                            "src": "../assets/mediahuis/sprint_5/UIW_nav_3.jpg",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/UIW_nav_3.jpg?raw=true",
                             "alt": "nav interactie schets"
                         },
                         {
                             "caption": "nav interactie breakdown schets",
-                            "src": "../assets/mediahuis/sprint_5/UIW_nav_breakdown.jpg",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/UIW_nav_breakdown.jpg?raw=true",
                             "alt": "nav interactie breakdown schets"
                         },
                         {
                             "caption": "navigatie menu resultaat",
-                            "src": "../assets/mediahuis/sprint_5/mobile_radio_nav.mp4",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/mobile_radio_nav.mp4?raw=true",
                             "alt": "navigatie menu resultaat",
                             "type": "video"
                         }
@@ -445,12 +445,12 @@
                     "content": [
                         {
                             "caption": "sametime scrolling interactie",
-                            "src": "../assets/mediahuis/sprint_5/UIW_scrolling.jpg",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/UIW_scrolling.jpg?raw=true",
                             "alt": "sametime scrolling interactie"
                         },
                         {
                             "caption": "sametime scrolling resultaat",
-                            "src": "../assets/mediahuis/sprint_5/desktop_sametime_scroll.mp4",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/desktop_sametime_scroll.mp4?raw=true",
                             "alt": "sametime scrolling resultaat",
                             "type": "video"
                         }
@@ -461,12 +461,12 @@
                     "content": [
                         {
                             "caption": "mobile site 1",
-                            "src": "../assets/mediahuis/sprint_5/mobile_1.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/mobile_1.png?raw=true",
                             "alt": "mobile site 1"
                         },
                         {
                             "caption": "mobile site 2",
-                            "src": "../assets/mediahuis/sprint_5/mobile_2.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/mobile_2.png?raw=true",
                             "alt": "mobile site 2"
                         }
                     ]
@@ -476,7 +476,7 @@
                     "content": [
                         {
                             "caption": "desktop site 1",
-                            "src": "../assets/mediahuis/sprint_5/desktop_1.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/desktop_1.png?raw=true",
                             "alt": "desktop site 1"
                         }
                     ]
@@ -486,17 +486,17 @@
                     "content": [
                         {
                             "caption": "HTML validator",
-                            "src": "../assets/mediahuis/sprint_5/html_validator.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/html_validator.png?raw=true",
                             "alt": "HTML validator sprint 5"
                         },
                         {
                             "caption": "lighthouse test 1",
-                            "src": "../assets/mediahuis/sprint_5/lighthouse_test_1.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/lighthouse_test_1.png?raw=true",
                             "alt": "lighthouse test 1"
                         },
                         {
                             "caption": "lighthouse test 2",
-                            "src": "../assets/mediahuis/sprint_5/lighthouse_test_2.png",
+                            "src": "https://github.com/vsheo/fix-the-flow-interactive-website/blob/main/mediahuis_bewijslast/sprint_5/lighthouse_test_2.png?raw=true",
                             "alt": "lighthouse test 2"
                         }
                     ]
@@ -511,42 +511,42 @@
                     "content": [
                         {
                             "caption": "voorbereiding_briefing",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/voorbereiding_briefing_2.jpg",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/voorbereiding_briefing_2.jpg?raw=true",
                             "alt": "voorbereiding briefing"
                         },
                         {
                             "caption": "aantekeningen_briefing",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/aantekeningen_briefing.jpg",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/aantekeningen_briefing.jpg?raw=true",
                             "alt": "aantekeningen briefing"
                         },
                         {
                             "caption": "desktop_schets",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/desktop_schets.jpg",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/desktop_schets.jpg?raw=true",
                             "alt": "desktop schets"
                         },
                         {
                             "caption": "desktop_breakdown",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/desktop_breakdown.jpg",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/desktop_breakdown.jpg?raw=true",
                             "alt": "desktop breakdown"
                         },
                         {
                             "caption": "mobile_overzicht",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/mobile_overzicht.jpg",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/mobile_overzicht.jpg?raw=true",
                             "alt": "mobile overzicht"
                         },
                         {
                             "caption": "mobile_overzicht_breakdown",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/mobile_overzicht_breakdown.jpg",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/mobile_overzicht_breakdown.jpg?raw=true",
                             "alt": "mobile overzicht breakdown"
                         },
                         {
                             "caption": "interaction-wireflow",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/interaction-wireflow.jpg",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/interaction-wireflow.jpg?raw=true",
                             "alt": "interaction wireflow"
                         },
                         {
                             "caption": "interaction-breakdown",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/interaction-breakdown.jpg",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/interaction-breakdown.jpg?raw=true",
                             "alt": "interaction breakdown"
                         }
                     ]
@@ -556,46 +556,46 @@
                     "content": [
                         {
                             "caption": "one_column_layout-1",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/one_column_layout-1.png",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/one_column_layout-1.png?raw=true",
                             "alt": "one column layout 1"
                         },
                         {
                             "caption": "one_column_layout-2",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/one_column_layout-2.png",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/one_column_layout-2.png?raw=true",
                             "alt": "one column layout 2"
                         },
                         {
                             "caption": "one_column_layout-3",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/one_column_layout-3.png",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/one_column_layout-3.png?raw=true",
                             "alt": "one column layout 3"
                         },
                         {
                             "caption": "responsive_overzicht-320px",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-320px.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-320px.mp4?raw=true",
                             "alt": "responsive overzicht 320px",
                             "type": "video"
                         },
                         {
                             "caption": "responsive_overzicht-430px",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-430px.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-430px.mp4?raw=true",
                             "alt": "responsive overzicht 430px",
                             "type": "video"
                         },
                         {
                             "caption": "responsive_overzicht-510px",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-510px.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-510px.mp4?raw=true",
                             "alt": "responsive overzicht 510px",
                             "type": "video"
                         },
                         {
                             "caption": "responsive_overzicht-1020px",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-1020px.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-1020px.mp4?raw=true",
                             "alt": "responsive overzicht 1020px",
                             "type": "video"
                         },
                         {
                             "caption": "responsive_overzicht-1250px",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-1250px.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_overzicht-1250px.mp4?raw=true",
                             "alt": "responsive overzicht 1250px",
                             "type": "video"
                         }
@@ -606,31 +606,31 @@
                     "content": [
                         {
                             "caption": "responsive_details-320px",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-320px.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-320px.mp4?raw=true",
                             "alt": "responsive details 320px",
                             "type": "video"
                         },
                         {
                             "caption": "responsive_details-440px",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-440px.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-440px.mp4?raw=true",
                             "alt": "responsive details 440px",
                             "type": "video"
                         },
                         {
                             "caption": "responsive_details-520px",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-520px.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-520px.mp4?raw=true",
                             "alt": "responsive details 520px",
                             "type": "video"
                         },
                         {
                             "caption": "responsive_details-1250px",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-1250px.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-1250px.mp4?raw=true",
                             "alt": "responsive details 1250px",
                             "type": "video"
                         },
                         {
                             "caption": "responsive_details-1360px",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-1360px.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/responsive_details-1360px.mp4?raw=true",
                             "alt": "responsive details 1360px",
                             "type": "video"
                         }
@@ -641,31 +641,31 @@
                     "content": [
                         {
                             "caption": "menu_interactie_desktop",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/menu_interactie_1.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/menu_interactie_1.mp4?raw=true",
                             "alt": "menu interactie desktop",
                             "type": "video"
                         },
                         {
                             "caption": "menu_interactie_mobile",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/menu_interactie_2.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/menu_interactie_2.mp4?raw=true",
                             "alt": "menu interactie mobile",
                             "type": "video"
                         },
                         {
                             "caption": "menu_interactie zonder js",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/menu_interactie_3.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/menu_interactie_3.mp4?raw=true",
                             "alt": "menu interactie zonder js",
                             "type": "video"
                         },
                         {
                             "caption": "button_interaction_1",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/button_interaction_1.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/button_interaction_1.mp4?raw=true",
                             "alt": "button interaction 1",
                             "type": "video"
                         },
                         {
                             "caption": "button_interaction_2",
-                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/button_interaction_2.mp4",
+                            "src": "https://vsheo.github.io/the-startup-responsive-interactive-website/assets/bewijslast/button_interaction_2.mp4?raw=true",
                             "alt": "button interaction 2",
                             "type": "video"
                         }
