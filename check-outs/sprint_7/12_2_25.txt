@@ -1,2 +1,0 @@
-een nieuwe app.get route gemaakt voor een pagina met filtererd info
-en in mijn URL heb ik filter en sort toegepast

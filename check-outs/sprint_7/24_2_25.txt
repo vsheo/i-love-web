@@ -1,9 +1,0 @@
-workshop vandaag
-https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/user-generated-content.md
-
-geleerd hoe ik een post route kan maken
-zodat de gebruiker bijvoorbeeld iets kan posten op de website en het kan zien als een een comment
-
-
-gewerkt aan deze issue
-https://github.com/kimnikitaschijf/connect-your-tribe-team-squad-page/issues/3

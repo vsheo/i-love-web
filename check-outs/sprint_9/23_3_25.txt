@@ -1,8 +1,0 @@
-wat heb ik gedaan
-
-ik heb de loading bar afgemaakt.
-https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/20
-
-de back button gaat nu terug naar de vorige pagina en niet naar de home pagina
-https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/21
-

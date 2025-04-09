@@ -1,8 +1,0 @@
-nog een paar kleine aanpassingen gemaak bij deze issue, en het daarna op review geplaatst
-https://github.com/kimnikitaschijf/connect-your-tribe-team-squad-page/issues/3
-
-
-vode samen gevoegd
-met kim naast elkaar code refoacotred en buggs gefixed
-
-akiko geholpen met haal like button samen te voegen in index.liquid en server.js
