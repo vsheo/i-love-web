@@ -133,23 +133,10 @@ h4 {
 
 
 /* ====================================================== FORMULIEREN ====================================================== */
+/* algemeen */
 ul li {
     list-style-type: none;
     list-style: none;
-}
-
-/* streep voor elke li */
-.dash li {
-    position: relative;
-    /* spatie voor "-" */
-    padding-left: 15px;
-}
-
-.dash li::before {
-    content: "-";
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 /* a voor new line */
@@ -163,26 +150,44 @@ a {
     width: max-content;
 }
 
-/* a voor inline */
-.a-inline {
-    display: inline-block;
+/* index check out template */
+.check-out {
+    /* streep voor elke li */
+    .dash li {
+        position: relative;
+        /* spatie voor "-" */
+        padding-left: 15px;
+    }
+    
+    .dash li::before {
+        content: "-";
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    /* a voor inline */
+    .a-inline {
+        display: inline-block;
+    }
+    
+    a:hover {
+        /* position: relative; */
+        padding: 0.3em;
+        border-radius: 15px;
+        background-color: var(--semester-secondary);
+        color: var(--text-secondary);
+        transform: scale(var(--button-scale));
+        box-shadow: var(--box-shadow);
+        transform-origin: bottom left;
+    }
+
+    a:active {
+        animation: is-clicked var(--animation-time) ease-in;
+        animation-duration: var(--duration);
+    }
 }
 
-a:hover {
-    /* position: relative; */
-    padding: 0.3em;
-    border-radius: 15px;
-    background-color: var(--semester-secondary);
-    color: var(--text-secondary);
-    transform: scale(var(--button-scale));
-    box-shadow: var(--box-shadow);
-    transform-origin: bottom left;
-}
-
-a:active {
-    animation: is-clicked var(--animation-time) ease-in;
-    animation-duration: var(--duration);
-}
 
 /* ====================================================== KEYFRAMES ====================================================== */
 /* link/button click animatie */
