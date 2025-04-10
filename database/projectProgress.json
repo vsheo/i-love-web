@@ -2,7 +2,7 @@
     "data":
     [
         {
-            "title": "sprint 1",
+            "title": "sprint 1: Your Tribe",
             "sections": [
                 {
                     "title": "visitekaartje",
@@ -167,7 +167,7 @@
             ]
         },
         {
-            "title": "Sprint 2",
+            "title": "Sprint 2: The Client",
             "sections": [
                 {
                     "title": "screenshots",
@@ -223,7 +223,7 @@
             ]
         },
         {
-            "title": "Sprint 3",
+            "title": "Sprint 3: All Human",
             "sections": [
                 {
                     "title": "screenshots",
@@ -269,7 +269,7 @@
             ]
         },
         {
-            "title": "Sprint 4",
+            "title": "Sprint 4: Look & Feel",
             "sections": [
                 {
                     "title": "schetsen Lo-Fi & Hi-Fi",
@@ -396,7 +396,7 @@
             ]
         },
         {
-            "title": "Sprint 5",
+            "title": "Sprint 5: Fix the Flow",
             "sections": [
                 {
                     "title": "start pagina schets + resultaat",
@@ -504,7 +504,7 @@
             ]
         },
         {
-            "title": "Sprint 6",
+            "title": "Sprint 6: The Startup",
             "sections": [
                 {
                     "title": "voorbereiding",
@@ -672,12 +672,327 @@
                     ]
                 }
             ]
-        }        
+        },
+        {
+            "title": "Sprint 7: connect your tribe",
+            "sections": [
+                {
+                    "title": "Profile card",
+                    "content": [
+                        {
+                            "caption": "visitekaart breakdown 1",
+                            "src": "https://github.com/vsheo/connect-your-tribe-profile-card/blob/main/bewijslast/breakdown_vk7_v1.jpg?raw=true",
+                            "alt": "breakdown_vk7_v1.jpg"
+                        },
+                        {
+                            "caption": "visitekaart breakdown 2",
+                            "src": "https://github.com/vsheo/connect-your-tribe-profile-card/blob/main/bewijslast/breakdown_vk7_v2.jpg?raw=true",
+                            "alt": "breakdown_vk7_v2.jpg"
+                        },
+                        {
+                            "caption": "visitekaart v1",
+                            "src": "https://github.com/vsheo/connect-your-tribe-profile-card/blob/main/bewijslast/kaartrje-v1.png?raw=true",
+                            "alt": "kaartrje-v1.png"
+                        },
+                        {
+                            "caption": "interactie v1",
+                            "src": "https://github.com/vsheo/connect-your-tribe-profile-card/blob/main/bewijslast/interactie_js_v1.mp4?raw=true",
+                            "alt": "interactie_js_v1.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "visitekaart v2",
+                            "src": "https://github.com/vsheo/connect-your-tribe-profile-card/blob/main/bewijslast/kaartje-v2.png?raw=true",
+                            "alt": "kaartrje-v2.png"
+                        },
+                        {
+                            "caption": "visitekaart v2",
+                            "src": "https://github.com/vsheo/connect-your-tribe-profile-card/blob/main/bewijslast/kaartjev2-video.mp4?raw=true",
+                            "alt": "kaartjev2-video.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "visitekaart v2",
+                            "src": "https://github.com/vsheo/connect-your-tribe-profile-card/blob/main/bewijslast/kaartje-v2-animaties.mp4?raw=true",
+                            "alt": "kaartjev2-video.mp4",
+                            "type": "video"
+                        }
+                    ]
+                },
+                {
+                    "title": "Squad page schetsen",
+                    "content": [
+                        {
+                            "caption": "visitekaart breakdown 1.1",
+                            "src": "https://github.com/vsheo/connect-your-tribe-squad-page/blob/main/bewijslast/6-schetsen-1.1.jpg?raw=true",
+                            "alt": "6-schetsen-1.1.jpg"
+                        },
+                        {
+                            "caption": "visitekaart breakdown 1.2",
+                            "src": "https://github.com/vsheo/connect-your-tribe-squad-page/blob/main/bewijslast/6-schetsen-1.2.jpg?raw=true",
+                            "alt": "6-schetsen-1.2.jpg"
+                        },
+                        {
+                            "caption": "filter ideeën",
+                            "src": "https://github.com/vsheo/connect-your-tribe-squad-page/blob/main/bewijslast/filter-ideeën.jpg?raw=true",
+                            "alt": "filter-ideeën.jpg"
+                        },
+                        {
+                            "caption": "nieuw breakdown",
+                            "src": "https://github.com/vsheo/connect-your-tribe-squad-page/blob/main/bewijslast/new_breakdown.jpg?raw=true",
+                            "alt": "new_breakdown.jpg"
+                        },
+                        {
+                            "caption": "nieuw schets",
+                            "src": "https://github.com/vsheo/connect-your-tribe-squad-page/blob/main/bewijslast/new_schets.jpg?raw=true",
+                            "alt": "new_schets.jpg"
+                        }
+                    ]
+                },
+                {
+                    "title": "Squad page animaties en interacties",
+                    "content": [
+                        {
+                            "caption": "cirkel animatie v1",
+                            "src": "https://github.com/vsheo/connect-your-tribe-squad-page/blob/main/bewijslast/profile-cirkel-test.mp4?raw=true",
+                            "alt": "profile-cirkel-test.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "cirkel animatie v2",
+                            "src": "https://github.com/vsheo/connect-your-tribe-squad-page/blob/main/bewijslast/click_issue.mp4?raw=true",
+                            "alt": "click_issue.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "styled cirkel animatie",
+                            "src": "https://github.com/vsheo/connect-your-tribe-squad-page/blob/main/bewijslast/cirkel_animatie.mp4?raw=true",
+                            "alt": "cirkel_animatie.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "animatie hover & click",
+                            "src": "https://github.com/vsheo/connect-your-tribe-squad-page/blob/main/bewijslast/animatie_hover%26click.mp4?raw=true",
+                            "alt": "animatie_hover&click.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "stop animatie button",
+                            "src": "https://github.com/vsheo/connect-your-tribe-squad-page/blob/main/bewijslast/stop_animatie_button.mp4?raw=true",
+                            "alt": "stop_animatie_button.mp4",
+                            "type": "video"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sprint 8: Server-Side Rendering",
+            "sections": [
+                {
+                    "title": "voorbereiding",
+                    "content": [
+                        {
+                            "caption": "briefing vragen",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/briefing_vragen.jpg?raw=true",
+                            "alt": "briefing_vragen.jpg"
+                        },
+                        {
+                            "caption": "briefing notes 1",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/briefing_notes_1.jpg?raw=true",
+                            "alt": "briefing_notes_1.jpg"
+                        },
+                        {
+                            "caption": "briefing notes 2",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/briefing_notes_2.jpg?raw=true",
+                            "alt": "briefing_notes_2.jpg"
+                        },
+                        {
+                            "caption": "mobile schetsen",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/mobile_schetsen.jpg?raw=true",
+                            "alt": "mobile_schetsen.jpg"
+                        },
+                        {
+                            "caption": "mobile breakdown",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/mobile_breakdown.jpg?raw=true",
+                            "alt": "mobile_breakdown.jpg"
+                        },
+                        {
+                            "caption": "mobile wireflow",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/mobile_wireflow.jpg?raw=true",
+                            "alt": "mobile_wireflow.jpg"
+                        },
+                        {
+                            "caption": "desktop schetsen",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/desktop_schetsen.jpg?raw=true",
+                            "alt": "desktop_schetsen.jpg"
+                        },
+                        {
+                            "caption": "desktop breakdown 1",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/desktop_breakdown.jpg?raw=true",
+                            "alt": "desktop_breakdown.jpg"
+                        },
+                        {
+                            "caption": "desktop wireflow",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/desktop_wireflow.jpg?raw=true",
+                            "alt": "desktop_wireflow.jpg"
+                        },
+                        {
+                            "caption": "sitemap met url hints",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/sitemap_url_hints.jpg?raw=true",
+                            "alt": "sitemap_url_hints.jpg"
+                        }
+                    ]
+                },
+                {
+                    "title": "prototype naar html",
+                    "content": [
+                        {
+                            "caption": "index pagina",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/index_prototype_naar_html.png?raw=true",
+                            "alt": "index_prototype_naar_html.png"
+                        },
+                        {
+                            "caption": "details pagina 1",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/details_prototype_naar_html_1.png?raw=true",
+                            "alt": "details_prototype_naar_html_1.png"
+                        },
+                        {
+                            "caption": "details pagina 2",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/details_prototype_naar_html_2.png?raw=true",
+                            "alt": "details_prototype_naar_html_2.png"
+                        },
+                        {
+                            "caption": "index one column 1",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/styled_index_one_column_1.png?raw=true",
+                            "alt": "styled_index_one_column_1.png"
+                        },
+                        {
+                            "caption": "index one column 2",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/styled_index_one_column_2.png?raw=true",
+                            "alt": "styled_index_one_column_2.png"
+                        },
+                        {
+                            "caption": "details one column 1",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/styled_details_one_column_1.png?raw=true",
+                            "alt": "styled_details_one_column_1.png"
+                        },
+                        {
+                            "caption": "details one column 2",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/styled_details_one_column_2.png?raw=true",
+                            "alt": "styled_details_one_column_2.png"
+                        }
+                    ]
+                },
+                {
+                    "title": "resultaat sprint 8",
+                    "content": [
+                        {
+                            "caption": "responsive index 1",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/responsive_index_video_1.mp4?raw=true",
+                            "alt": "responsive_index_video_1.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "responsive index 2",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/responsive_index_video_2.mp4?raw=true",
+                            "alt": "responsive_index_video_2.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "index naar details",
+                            "src": "https://github.com/vsheo/server-side-rendering-server-side-website/blob/main/bewijslast/index_naar_details.mp4?raw=true",
+                            "alt": "index_naar_details.mp4",
+                            "type": "video"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sprint 9: The Web is for Everyone",
+            "sections": [
+                {
+                    "title": "schetsen",
+                    "content": [
+                        {
+                            "caption": "user story wireflow",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/user-story-wireflow.jpg?raw=true",
+                            "alt": "user-story-wireflow.jpg"
+                        },
+                        {
+                            "caption": "bookmarks overzicht pagina",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/user-story-extra-functionaliteit.jpg?raw=true",
+                            "alt": "user-story-extra-functionaliteit.jpg"
+                        },
+                        {
+                            "caption": "wireflow post get",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/wireflow_post_get.jpg?raw=true",
+                            "alt": "wireflow_post_get.jpg"
+                        }
+                    ]
+                },
+                {
+                    "title": "pagina's",
+                    "content": [
+                        {
+                            "caption": "responsive index",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/responsive-index-video.mp4?raw=true",
+                            "alt": "responsive-index-video.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "responsive details",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/responsive-details-video.mp4?raw=true",
+                            "alt": "responsive-details-video.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "bookmark overzicht pagina",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/resp-bk-overzicht.png?raw=true",
+                            "alt": "resp-bk-overzicht.png"
+                        },
+                        {
+                            "caption": "bookmark lijst pagina",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/resp-bk-lijst-normaal.png?raw=true",
+                            "alt": "resp-bk-lijst-normaal.png"
+                        },
+                        {
+                            "caption": "bookmark lijst pagina leeg",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/empty-bookmark-list.png?raw=true",
+                            "alt": "empty-bookmark-list.png"
+                        },
+                        {
+                            "caption": "error 404 pagina",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/error-404-pagina.png?raw=true",
+                            "alt": "error-404-pagina.png"
+                        }
+                    ]
+                },
+                {
+                    "title": "interacties",
+                    "content": [
+                        {
+                            "caption": "loading state op links",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/loading-state.mp4?raw=true",
+                            "alt": "loading-state.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "add to bookmarks index",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/add-to-bookmarks.mp4?raw=true",
+                            "alt": "add-to-bookmarks.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "add to bookmarks details",
+                            "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/success-details.mp4?raw=true",
+                            "alt": "success-details.mp4",
+                            "type": "video"
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
-
-
-
-
-
-
