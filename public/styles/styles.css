@@ -8,8 +8,8 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    min-height: 4em;
-    max-height: 10em;
+    /* min-height: 4em; */
+    height: 4em;
     width: 100%;
 
     h1 {
@@ -18,17 +18,16 @@ header {
         transform: translateX(-50%);
     }
 
-    .open-menu {
-        border: none;
-        margin-left: auto;
-        background-color: inherit;
-    
-        cursor: pointer;
-    
-        &:hover {
-            scale: 1.2;
-            transform-origin: left;
+    #checkbox-open-menu {
+        &:checked {
+            & ~ .menu {
+                right: 0;
+            }
         }
+    }
+
+    .button-open-menu {
+        margin-right: 1em;
     }
 
     &.scroll-up {
@@ -42,77 +41,42 @@ header {
     }
 }
 
-.hidden {
-    display: none;
-    opacity: 0;
-    z-index: 0;
-}
-
-nav {
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 110;
-
+.menu {
+    position: absolute;
+    background-color: var(--semester-neutral);
+    height: 100dvh;
+    top: 4em;
+    right: -15em;
+    transition: right 0.3s ease;
 
     ul {
-        height: 100vh;
-        width: 100vw;
-        position: relative;
+        margin: 1em 0 0 1em;
 
-        li {
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            background-color: aliceblue;
-            border-radius: 50%;
-            height: 7em;
-            width: 7em;
-        }
+        li{
+            padding: 0 1em 0 0;
+            margin: 1em 0 0 0;
 
-        li:hover {
-            background-color: lightgrey;
-        }
+            details {
+                border: none;
+                cursor: pointer;
 
-        .nav-link:hover {
-            scale: none;
-            padding: 0;
-            border-radius: 0;
-            transform: none;
-            box-shadow: none;
-        }
+                &:hover {
+                    color: rgb(21, 24, 198);
+                }
 
-        li:nth-of-type(1) {
-            transform: translate(10vw, 5vh);
-        }
-        
-        li:nth-of-type(2) {
-            transform: translate(30vw, 15vh);
-        }
-        
-        li:nth-of-type(3) {
-            transform: translate(50vw, 25vh);
-        }
-        
-        li:nth-of-type(4) {
-            transform: translate(70vw, 35vh);
-        }
-        
-        li:nth-of-type(5) {
-            transform: translate(20vw, 45vh);
-        }
-        
-        li:nth-of-type(6) {
-            transform: translate(80vw, 10vh);
-        }
-        
-        li:nth-of-type(7) {
-            transform: translate(15vw, 60vh);
-        }
-        
-        li:nth-of-type(8) {
-            transform: translate(40vw, 55vh);
+                a {
+                    margin: 0.5em 0 0 2em;
+                    scale: none;
+
+                    &:hover {
+                        color: rgb(21, 24, 198);
+                    }
+
+                    &:active {
+                        scale: 0.7;
+                    }
+                }
+            }
         }
     }
 }
