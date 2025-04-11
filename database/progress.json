@@ -2,7 +2,8 @@
     "data":
     [
         {
-            "title": "sprint 1: Your Tribe",
+            "slug": "sprint-1-Your-Tribe",
+            "sprintTitle": "sprint 1: Your Tribe",
             "sections": [
                 {
                     "title": "visitekaartje",
@@ -167,7 +168,8 @@
             ]
         },
         {
-            "title": "Sprint 2: The Client",
+            "slug": "Sprint-2-The-Client",
+            "sprintTitle": "Sprint 2: The Client",
             "sections": [
                 {
                     "title": "screenshots",
@@ -223,7 +225,8 @@
             ]
         },
         {
-            "title": "Sprint 3: All Human",
+            "slug": "Sprint-3-All-Human",
+            "sprintTitle": "Sprint 3: All Human",
             "sections": [
                 {
                     "title": "screenshots",
@@ -269,7 +272,8 @@
             ]
         },
         {
-            "title": "Sprint 4: Look & Feel",
+            "slug": "Sprint-4-Look-&-Feel",
+            "sprintTitle": "Sprint 4: Look & Feel",
             "sections": [
                 {
                     "title": "schetsen Lo-Fi & Hi-Fi",
@@ -396,7 +400,8 @@
             ]
         },
         {
-            "title": "Sprint 5: Fix the Flow",
+            "slug": "Sprint-5-Fix-the-Flow",
+            "sprintTitle": "Sprint 5: Fix the Flow",
             "sections": [
                 {
                     "title": "start pagina schets + resultaat",
@@ -504,7 +509,8 @@
             ]
         },
         {
-            "title": "Sprint 6: The Startup",
+            "slug": "Sprint-6-The-Startup",
+            "sprintTitle": "Sprint 6: The Startup",
             "sections": [
                 {
                     "title": "voorbereiding",
@@ -674,7 +680,8 @@
             ]
         },
         {
-            "title": "Sprint 7: connect your tribe",
+            "slug": "Sprint-7-connect-your-tribe",
+            "sprintTitle": "Sprint 7: connect your tribe",
             "sections": [
                 {
                     "title": "Profile card",
@@ -787,7 +794,8 @@
             ]
         },
         {
-            "title": "Sprint 8: Server-Side Rendering",
+            "slug": "Sprint-8-Server-Side-Rendering",
+            "sprintTitle": "Sprint 8: Server Side Rendering",
             "sections": [
                 {
                     "title": "voorbereiding",
@@ -910,7 +918,8 @@
             ]
         },
         {
-            "title": "Sprint 9: The Web is for Everyone",
+            "slug": "Sprint-9-The-Web-is-for-Everyone",
+            "sprintTitle": "Sprint 9: The Web is for Everyone",
             "sections": [
                 {
                     "title": "schetsen",

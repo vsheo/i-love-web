@@ -10,8 +10,8 @@ const app = express()
 
 app.use(express.static('public'))
 
-const engine = new Liquid();
-app.engine('liquid', engine.express()); 
+const engine = new Liquid()
+app.engine('liquid', engine.express())
 
 app.set('views', './views')
 
@@ -23,52 +23,49 @@ app.use(express.urlencoded({extended: true}))
 app.get('/', async function(request, response) {
   try {
     // Pad naar het JSON-bestand in je project
-    const jsonPath = './database/checkOut.json';
+    const jsonPath = './database/checkOut.json'
     
     // Lees het bestand synchronisch met fs
-    const data = fs.readFileSync(jsonPath, 'utf8'); 
+    const data = fs.readFileSync(jsonPath, 'utf8')
 
     // Parse de inhoud van het bestand als JSON
-    const sprintDataJSON = JSON.parse(data);
+    const sprintDataJSON = JSON.parse(data)
 
     // Render de Liquid template met de data
-    response.render('index.liquid', { data: sprintDataJSON });
+    response.render('index.liquid', { data: sprintDataJSON })
   }
   catch (err) {
-    console.error('JSON is kapot:', err);
-    response.status(500).send('JSON werkt niet meer');
+    console.error('JSON is kapot:', err)
+    response.status(500).send('JSON werkt niet meer')
   }
 });
 
-app.get('/sprint/:sprintNumber', async function(request, response) {
+app.get('/progress/:slug', async function (request, response) {
+  // haal de slug op uit de url
+  const slug = request.params.slug
+  // console.log(sprintName)
+
   try {
-    // Het nummer van de sprint ophalen uit de URL
-    const sprintNumber = request.params.sprintNumber;
-
     // Pad naar het JSON-bestand in je project
-    const jsonPath = './database/projectProgress.json';
-
+    const jsonPath = './database/progress.json'
+    
     // Lees het bestand synchronisch met fs
-    const data = fs.readFileSync(jsonPath, 'utf8'); 
+    const progressData = fs.readFileSync(jsonPath, 'utf8')
 
     // Parse de inhoud van het bestand als JSON
-    const contentJSON = JSON.parse(data);
+    const progressDataJSON = JSON.parse(progressData)
 
-    // Zoek de sectie voor de juiste sprint
-    const sprintData = contentJSON.data.find(sprint => sprint.title.toLowerCase() === sprintNumber.toLowerCase());
+    // zoek sprint data
+    const sprintData = progressDataJSON.data.find(sprint => sprint.slug == slug)
 
-    if (!sprintData) {
-      return response.status(404).send('Sprint niet gevonden');
-    }
-
-    // Render de Liquid template met de gevonden sprintdata
-    response.render('progress', { data: sprintData });
+    // Render de Liquid template met de data
+    response.render('progress.liquid', { data: sprintData })
   }
   catch (err) {
-    console.error('Er is iets mis met de JSON:', err);
-    response.status(500).send('Er is een probleem met de data');
+    console.error('JSON is kapot:', err)
+    response.status(500).send('JSON werkt niet meer')
   }
-});
+})
 
 
 
