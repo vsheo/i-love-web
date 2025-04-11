@@ -47,48 +47,50 @@ articles.forEach(article => {
 })
 // ------------------------------------------------------------------------ intersection observer ------------------------------------------------------------------------
 // ------------------------------------------------------------------------ progress carousel ------------------------------------------------------------------------
-/* Schrijf hier eventueel je client-side JavaScript */
-const prev = document.querySelector('.previous')
-const next = document.querySelector('.next')
-const snapElements = document.querySelectorAll('.content li')
+// op de pagina zijn er meerdere containers
+// elke container heeft zijn eigen buttone en li
+// door de queery selectors in per container uit te voeren, werken de prev & next buttons alleen voor de li in dezefde container
+document.querySelectorAll(".container").forEach((container) => {
+    const prev = container.querySelector(".previous");
+    const next = container.querySelector(".next");
+    const snapElements = container.querySelectorAll(".content li");
 
-// aantal li in de list
-let listLength = snapElements.length
-// console.log(listLength)
+    // aantal li in de list
+    let listLength = snapElements.length;
+    // console.log(listLength)
 
-// eerste li in de ul
-let currentPosition = 0
+    // eerste li in de ul
+    let currentPosition = 0;
 
-if (next && prev) {
-    next.addEventListener("click", () => {
-        currentPosition++
-        
-        if (currentPosition > listLength - 1) {
-            currentPosition = 0
-        }
-    
-        if (snapElements[currentPosition]) {
-            snapElements[currentPosition].scrollIntoView({ behavior: 'smooth' })
-    
-            indicatorElements[currentPosition - 1].classList.remove('selected')
-            indicatorElements[currentPosition].classList.add('selected')
-        }
-    });
-    
-    prev.addEventListener("click", () => {
-        currentPosition--
-    
-        if (currentPosition < 0 ) {
-            currentPosition = listLength - 1
-        }
-    
-        if (snapElements[currentPosition]) {
-            snapElements[currentPosition].scrollIntoView({ behavior: 'smooth' })
-    
-            indicatorElements[currentPosition + 1].classList.remove('selected')
-            indicatorElements[currentPosition].classList.add('selected')
-        }
-    });
+    if (next && prev) {
+        next.addEventListener("click", () => {
+            currentPosition++;
+
+            if (currentPosition > listLength - 1) {
+                currentPosition = 0;
+            }
+
+            if (snapElements[currentPosition]) {
+                snapElements[currentPosition].scrollIntoView({
+                    behavior: "smooth",
+                });
+            }
+        });
+
+        prev.addEventListener("click", () => {
+            currentPosition--;
+
+            if (currentPosition < 0) {
+                currentPosition = listLength - 1;
+            }
+
+            if (snapElements[currentPosition]) {
+                snapElements[currentPosition].scrollIntoView({
+                    behavior: "smooth",
+                });
+            }
+        });
+    }
 
     // on snap event
     // scroll eventlistener op de scroll container
@@ -96,7 +98,8 @@ if (next && prev) {
 
     prev.hidden = false
     next.hidden = false
-}
+});
+
 // ------------------------------------------------------------------------ progress carousel ------------------------------------------------------------------------
 // ------------------------------------------------------------------------ menu details ------------------------------------------------------------------------
 const allDetails = document.querySelectorAll(".menu details")
