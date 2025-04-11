@@ -37,7 +37,7 @@ app.get("/", async function (request, response) {
     }
 });
 
-app.get("/:slug", async function (request, response) {
+app.get("/journal/:slug", async function (request, response) {
     // haal de slug op uit de url
     const slug = request.params.slug;
     // console.log(slug);
@@ -74,6 +74,16 @@ app.get("/progress/:slug", async function (request, response) {
         response.status(500).send("JSON werkt niet meer");
     }
 });
+
+
+// json & liquid testen
+app.get("/test", async function (request, response) {
+	const jsonPath = "./database/dataTest.json";
+	const data = fs.readFileSync(jsonPath, "utf8");
+	const dataJSON = JSON.parse(data);
+	response.render("checkouttemplate.liquid", { data: dataJSON.data[0].data });
+  });
+  
 
 
 app.post("/", async function (request, response) {

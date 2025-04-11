@@ -1,0 +1,134 @@
+{
+    "data": [
+        {
+            "title": "stuctuur van checkOut.json",
+            "data": [
+                {
+                    "slug": "sprint-1",
+                    "semesterClass": "semester-1-midterm",
+                    "articles": [
+                        {
+                            "sprint": "a-inline",
+                            "title": "test",
+                            "date": "4/9/24",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "header": "wat heb ik vandaag gedaan?",
+                                    "text": [
+                                        "vandaag heb ik een breakdown schets",
+                                        {
+                                            "anchor": "breakdown schets",
+                                            "href": "https://www.google.com/",
+                                            "class": "a-inline"
+                                        },
+                                        "gemaakt dat is een schets van de website die ik wil bouwen. met daarin elementen die ik zou kunnen gebruiken."
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "header": "Wat wil ik nog uitzoeken:",
+                                    "text": "in mijn list als ik hover over text wil ik een pop up tevoorschijn laten komen. In die pop up wil ik vertellen hoe ik de programeertaal heb geleerd en hoe goed ik ben daarin"
+                                }
+                            ]
+                        },
+                        {
+                            "sprint": "a onder elkaar",
+                            "title": "test",
+                            "date": "4/9/24",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "header": "wat heb ik vandaag gedaan?",
+                                    "text": [
+                                        "vandaag heb ik aan deze issues gewerkt",
+                                        {
+                                            "anchor": "breakdown schets",
+                                            "href": "https://www.google.com/"
+                                        },
+                                        {
+                                            "anchor": "prototype naar html",
+                                            "href": "https://www.google.com/"
+                                        },
+                                        {
+                                            "anchor": "onbe colum layout",
+                                            "href": "https://www.google.com/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sprint": "oude anchor tags",
+                            "title": "test",
+                            "date": "28/03/25",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "header": "Wat heb je gedaan?",
+                                "text": "Tijdens de code en design review heb ik feedback gegeven aan <a target=\"blank\" href=\"https://github.com/Sebastiaan-hva/the-web-is-for-everyone-interactive-functionality/issues/9\">Sebastiaan</a> <a target=\"blank\" href=\"https://github.com/Saif8599/the-web-is-for-everyone-interactive-functionality/issues/9\">Saif</a> <a target=\"blank\" href=\"https://github.com/MarsGotBars/the-web-is-for-everyone-interactive-functionality/issues/15\">Marcin</a>"
+                              }
+                            ]
+                        },
+                        {
+                            "sprint": "dash li",
+                            "title": "test",
+                            "date": "4/9/24",
+                            "content": [
+                                {
+                                    "type": "puntenlijst",
+                                    "header": "wat heb ik vandaag gedaan?",
+                                    "text": [
+                                        "vandaag heb ik aan deze issues gewerkt",
+                                        {
+                                            "anchor": "breakdown schets",
+                                            "href": "https://www.google.com/"
+                                        },
+                                        {
+                                            "anchor": "prototype naar html",
+                                            "href": "https://www.google.com/"
+                                        },
+                                        {
+                                            "text": "naar de winkel gegaan"
+                                        },
+                                        {
+                                            "anchor": "one colum layout",
+                                            "href": "https://www.google.com/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "stuctuur van progress.json",
+            "data": [
+                {
+                    "slug": "sprint-1-Your-Tribe",
+                    "sprintTitle": "sprint 1: Your Tribe",
+                    "sections": [
+                        {
+                            "title": "visitekaartje",
+                            "content": [
+                                {
+                                    "caption": "Breakdown schets 1 en 2",
+                                    "src": "https://github.com/vsheo/your-tribe-profile-card/blob/main/visitekaart_bewijslast/breakdown_schets_v1.jpg?raw=true",
+                                    "alt": "breakdown_schets_v1"
+                                },
+                                {
+                                    "caption": "add to bookmarks details",
+                                    "src": "https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/blob/main/bewijslast/success-details.mp4?raw=true",
+                                    "alt": "success-details.mp4",
+                                    "type": "video"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
