@@ -1,28 +1,46 @@
 {% render 'partials/head.liquid' %}
 
-<!-- {{ data | json }} -->
+{% comment %} {{ data | json }} {% endcomment %}
 <main class="main-check-outs">
-	<!-- <section class="{{ data.sprint.name }} text-primary primary"> -->
-	<section class="check-out semester-1-midterm text-primary primary">
+	<aside class="sprint-filters">
+		<details>
+			<summary>Filters</summary>
+			<ul>
+				<li><a href="/sprint-1">print 1</a></li>
+				<li><a href="/sprint-2">print 2</a></li>
+				<li><a href="/sprint-3">print 3</a></li>
+				<li><a href="/sprint-4">print 4</a></li>
+				<li><a href="/sprint-5">print 5</a></li>
+				<li><a href="/sprint-6">print 6</a></li>
+				<li><a href="/sprint-7">print 7</a></li>
+				<li><a href="/sprint-8">print 8</a></li>
+				<li><a href="/sprint-9">print 9</a></li>
+			</ul>
+		</details>
+	</aside>
 
-		{% for sprint in data.sprints %}
-			{% for checkout in sprint.articles %}
-			<article class="check-out">
-				<h2>{{ checkout.sprint }}: {{ checkout.title }}</h2>
-				<h3>Datum: {{ checkout.date }}</h3>
-				{% for paragraph in checkout.content %}
-				<p>
-					{% if paragraph.header %}
-					<h4>{{ paragraph.header }}</h4>
-					{% endif %}
-					{{ paragraph.text | raw }}
-				</p>
+	{% for sprint in data %}
+		<section class="all-check-outs text-primary primary {{ sprint.semesterClass }}">
+
+				{% for checkout in sprint.articles %}
+					<article class="check-out">
+						<h2>{{ checkout.sprint }}: {{ checkout.title }}</h2>
+						<h3>Datum: {{ checkout.date }}</h3>
+
+						{% for paragraph in checkout.content %}
+							<p>
+								{% if paragraph.header %}
+									<h4>{{ paragraph.header }}</h4>
+								{% endif %}
+
+								{{ paragraph.text | raw }}
+							</p>
+						{% endfor %}
+					</article>
 				{% endfor %}
-			</article>
-			{% endfor %}
-		{% endfor %}
+		</section>
+	{% endfor %}
 
-	</section>
 </main>
 
 {% render 'partials/foot.liquid', squads: squads %}

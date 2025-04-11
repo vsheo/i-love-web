@@ -46,6 +46,7 @@ body {
     --text-primary: #000000;
     --text-secondary: white;
 
+    /* --semester-background-next: #aaff00; */
     /* background: linear-gradient(to bottom, #00ff77, #aaff00); */
 }
 
@@ -55,6 +56,7 @@ body {
     --text-primary: #000000;
     --text-secondary: white;
 
+    /* --semester-background-next: #ffe100; */
     /* background: linear-gradient(to bottom, #aaff00, #ffe100); */
 }
 
@@ -64,7 +66,8 @@ body {
     --text-primary: #000000;
     --text-secondary: white;
 
-    /* background: linear-gradient(to bottom, var(--sprint1), var(--sprint2)); */
+    /* --semester-background-next: #ff2a00; */
+    /* background: linear-gradient(to bottom, #ffe100, #ff2a00); */
 }
 
 .semester-2-endterm {
@@ -72,12 +75,17 @@ body {
     --semester-secondary: #F5F5F5;
     --text-primary: #000000;
     --text-secondary: white;
+
+    /* --semester-background-next: #F5F5F5; */
+    /* background: linear-gradient(to bottom, #ff2a00, #ff00cc); */
+
 }
 
 
 /* ====================================================== KLEUREN IN CLASSES ====================================================== */
 .primary {
     background-color: var(--semester-primary);
+    /* background: linear-gradient(to bottom, var(--semester-primary), var(--semester-background-next)); */
 }
 
 .secondary {

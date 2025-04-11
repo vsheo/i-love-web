@@ -1,7 +1,8 @@
 {
-    "sprints": [
+    "data": [
         {
-            "name": "sprint-1",
+            "slug": "sprint-1",
+            "semesterClass": "semester-1-midterm",
             "articles": [
                 {
                     "sprint": "Sprint 1",
@@ -293,7 +294,8 @@
         },
 
         {
-            "name": "Sprint-2",
+            "slug": "sprint-2",
+            "semesterClass": "semester-1-midterm",
             "articles": [
                 {
                     "sprint": "Sprint 2",
@@ -446,7 +448,8 @@
         },
 
         {
-            "name": "Sprint-3",
+            "slug": "sprint-3",
+            "semesterClass": "semester-1-midterm",
             "articles": [
                 {
                     "sprint": "Sprint 3",
@@ -566,7 +569,8 @@
         },
 
         {
-            "name": "Sprint-4",
+            "slug": "sprint-4",
+            "semesterClass": "semester-1-endterm",
             "articles": [
                 {
                     "sprint": "Sprint 4",
@@ -863,7 +867,8 @@
         },
 
         {
-            "name": "Sprint-5",
+            "slug": "sprint-5",
+            "semesterClass": "semester-1-endterm",
             "articles": [
                 {
                     "sprint": "Sprint 5",
@@ -1077,7 +1082,8 @@
         },
 
         {
-            "name": "Sprint-6",
+            "slug": "sprint-6",
+            "semesterClass": "semester-1-endterm",
             "articles": [
                 {
                     "sprint": "Sprint 6",
@@ -1412,7 +1418,8 @@
         },
 
         {
-            "name": "Sprint-7",
+            "slug": "sprint-7",
+            "semesterClass": "semester-2-midterm",
             "articles": [
                 {
                     "sprint": "Sprint 7",
@@ -1675,7 +1682,8 @@
         },
 
         {
-            "name": "Sprint-8",
+            "slug": "sprint-8",
+            "semesterClass": "semester-2-midterm",
             "articles": [
                 {
                     "sprint": "Sprint 8",
@@ -1875,7 +1883,8 @@
         },
 
         {
-            "name": "Sprint-9",
+            "slug": "sprint-9",
+            "semesterClass": "semester-2-midterm",
             "articles": [
                 {
                     "sprint": "Sprint 9",

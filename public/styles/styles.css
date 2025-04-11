@@ -86,10 +86,21 @@ header {
     flex-direction: column;
     scroll-behavior: smooth;
     overflow-y: hidden;
-    
-    .sprint {
-        margin: 0 clamp(1rem, 5vw, 2rem);
 
+    .sprint-filters {
+        position: fixed;
+        z-index: 201;
+        background-color: #f5f5f5;
+        padding: 1em 1em 1em 2em;
+
+        ul {
+            li {
+                margin-top: 0.5em;
+            }
+        }
+    }
+
+    .all-check-outs {
         article:first-child {
             margin-top: 5em;
         }
@@ -98,19 +109,8 @@ header {
             margin-bottom: 10em;
         }
     }
-    .semester-1-midterm {
-        background: linear-gradient(to bottom, #00ff77, #aaff00);
-    }
 
-    .semester-1-endterm {
-        background: linear-gradient(to bottom, #aaff00, #ffe100);
-    }
-
-    .semester-2-midterm {
-        background: linear-gradient(to bottom, #ffe100, #ff2a00);
-    }
-
-    article {
+    .check-out {
         max-width: clamp(40ch, 60%, 75ch);
         margin: 0 auto;
         padding: 2em;
@@ -121,29 +121,28 @@ header {
     
         /* article is niet te zien */
         opacity: 0;
-    
-    
+
         background-color: var(--semester-neutral);
-    
+
         h2 {
             margin-top: 0.5em;
         }
-    
+
         h3 {
             margin-bottom: 0.5em;
         }
-    
+
         h4 {
             margin-top: 0.5em;
         }
-    
+
         /* de animation brengt de article in beeld */
         &.animation1 {
             position: relative;
             opacity: 1;
             animation: right_slide_in 2s;
         }
-    
+
         /* ul + a in styleguide */
         /* kleuren + fonts in HTML */
     }
