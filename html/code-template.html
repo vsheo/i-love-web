@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Permalink Codeblok - Met Prism.js</title>
+
+    <!-- Prism.js CSS voor syntax highlighting -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
+
+    <!-- Prism.js JavaScript voor syntax highlighting -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f6f8fa;
+            color: #24292f;
+        }
+
+        h1 {
+            color: #24292f;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        /* GitHub-stijl voor codeblokken */
+        pre {
+            background-color: #2d2d2d; /* Donkere achtergrond zoals GitHub */
+            color: #f8f8f2; /* Witte tekstkleur */
+            padding: 20px;
+            border-radius: 5px;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 1rem;
+            line-height: 1.5;
+            overflow-x: auto;
+            border: 1px solid #e1e4e8; /* Lichte rand zoals GitHub */
+        }
+    </style>
+</head>
+<body>
+    <h1>GitHub Permalink Codeblok - Met Prism.js</h1>
+
+    <h2>Bekijk de aangegeven regels van het bestand</h2>
+    <p>De onderstaande code komt uit de specifieke regels 24 tot 48 van het bestand:</p>
+
+    <!-- GitHub Codeblok -->
+    <pre><code id="github-code-block" class="language-javascript">Loading...</code></pre>
+
+    <script>
+        // URL naar het raw bestand op GitHub
+        const fileUrl = 'https://raw.githubusercontent.com/vsheo/i-love-web/main/public/scripts/main.js';
+
+        // De regels die we willen tonen (bijv. 24 tot 48)
+        const startLine = 24;
+        const endLine = 48;
+
+        // Functie om de code op te halen en specifieke regels in het codeblok te plaatsen
+        fetch(fileUrl)
+            .then(response => response.text())
+            .then(data => {
+                // Split de inhoud op in regels
+                const lines = data.split('\n');
+                
+                // Haal de aangegeven regels eruit (let op dat we een 0-index gebruiken, dus 24 - 48 betekent regels 23 tot 47)
+                const selectedLines = lines.slice(startLine - 1, endLine); 
+
+                // Voeg de geselecteerde regels samen en plaats ze in het codeblok
+                const codeSnippet = selectedLines.join('\n');
+                document.getElementById('github-code-block').textContent = codeSnippet;
+
+                // Prism.js appliceren op het codeblok na het laden van de inhoud
+                Prism.highlightElement(document.getElementById('github-code-block'));
+            })
+            .catch(error => {
+                console.error('Fout bij het ophalen van het bestand:', error);
+                document.getElementById('github-code-block').textContent = 'Er is een fout opgetreden bij het laden van de code.';
+            });
+    </script>
+</body>
+</html>
