@@ -1,10 +1,4 @@
-{% render 'partials/head.liquid' %}
-
-{% comment %} {{ data | json }} {% endcomment %}
-
-<main class="main-check-outs">
-
-{% for sprint in data %}
+{% for sprint in checkoutData %}
     <section class="all-check-outs text-primary primary {{ sprint.semesterClass }}">
 
         {% for checkout in sprint.articles %}
@@ -68,8 +62,3 @@
         {% endfor %}
     </section>
 {% endfor %}
-
-</main>
-
-
-{% render 'partials/foot.liquid' %}

@@ -77,11 +77,11 @@ app.get("/progress/:slug", async function (request, response) {
 
 
 // json & liquid testen
-app.get("/test", async function (request, response) {
+app.get("/checkout-test", async function (request, response) {
 	const jsonPath = "./database/dataTest.json";
 	const data = fs.readFileSync(jsonPath, "utf8");
 	const dataJSON = JSON.parse(data);
-	response.render("checkouttemplate.liquid", { data: dataJSON.data[0].data });
+	response.render("checkout-test.liquid", { data: dataJSON.data[0].data });
   });
   
 

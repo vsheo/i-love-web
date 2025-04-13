@@ -1,0 +1,12 @@
+{% render 'partials/head.liquid' %}
+
+{% comment %} {{ data | json }} {% endcomment %}
+
+<main class="main-check-outs">
+
+{% render 'partials/checkout-template.liquid', checkoutData: data%}
+
+</main>
+
+
+{% render 'partials/foot.liquid' %}
