@@ -4,10 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Love Web - Styleguide</title>
-    <link rel="stylesheet" href="../styles/styleguide-ilw.css">
     <link rel="stylesheet" href="../styles/i-love-web.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <style>
+        * {
+    color: black;
+}
+
+/* Center the article and give it some padding */
+article {
+    max-width: 60em;
+    margin: 0 auto;           /* Center horizontally */
+    padding: 20px;
+    text-align: center;       /* Center text inside article */
+}
+
+span {
+    display: inline-block; /* or block or flex */
+    max-width: clamp(40ch, 60%, 75ch);
+    text-align: start;
+}
+
+
+/* Style for pre and code blocks */
+pre {
+    background-color: #f7f7f7;  /* Light grey background */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    overflow-x: auto;           /* Allow horizontal scrolling for long code */
+}
+
+code {
+    display: block;
+    white-space: pre-wrap;     /* Ensure text wraps if it overflows */
+    word-wrap: break-word;     /* Allow breaking long words */
+}
+
+/* Flexbox to align items side by side */
+.side-to-side {
+    display: flex;             /* Enable flexbox */
+    justify-content: space-between;  /* Distribute items evenly */
+    gap: 10px;                 /* Space between the items */
+    margin-top: 1em;
+}
+
+.up-and-down {
+    display: flex;             /* Enable flexbox */
+    flex-direction: column;       /* Stack items vertically */
+    align-items: center;
+    gap: 10px;                 /* Space between the items */
+    margin-top: 1em;
+    text-align: start;
+}
+
+/* Styling for the section elements */
+section {
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    flex: 1;                   /* Allow sections to grow */
+    text-align: start;
+}
+
+.kleur-in-css {
+    background-color: var(--semester-primary);
+    color: var(--semester-secondary);
+}
+
+.typografie {
+    .titel {
+        margin: 1em 0;
+    }
+}
+
+    </style>
 </head>
 <body>
     <main>
