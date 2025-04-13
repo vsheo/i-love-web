@@ -4,6 +4,7 @@
         {
             "slug": "sprint-1-Your-Tribe",
             "sprintTitle": "sprint 1: Your Tribe",
+            "semesterClass": "semester-1-midterm",
             "sections": [
                 {
                     "title": "visitekaartje",
@@ -170,6 +171,7 @@
         {
             "slug": "Sprint-2-The-Client",
             "sprintTitle": "Sprint 2: The Client",
+            "semesterClass": "semester-1-midterm",
             "sections": [
                 {
                     "title": "screenshots",
@@ -227,6 +229,7 @@
         {
             "slug": "Sprint-3-All-Human",
             "sprintTitle": "Sprint 3: All Human",
+            "semesterClass": "semester-1-midterm",
             "sections": [
                 {
                     "title": "screenshots",
@@ -274,6 +277,7 @@
         {
             "slug": "Sprint-4-Look-&-Feel",
             "sprintTitle": "Sprint 4: Look & Feel",
+            "semesterClass": "semester-1-endterm",
             "sections": [
                 {
                     "title": "schetsen Lo-Fi & Hi-Fi",
@@ -402,6 +406,7 @@
         {
             "slug": "Sprint-5-Fix-the-Flow",
             "sprintTitle": "Sprint 5: Fix the Flow",
+            "semesterClass": "semester-1-endterm",
             "sections": [
                 {
                     "title": "start pagina schets + resultaat",
@@ -511,6 +516,7 @@
         {
             "slug": "Sprint-6-The-Startup",
             "sprintTitle": "Sprint 6: The Startup",
+            "semesterClass": "semester-1-endterm",
             "sections": [
                 {
                     "title": "voorbereiding",
@@ -682,6 +688,7 @@
         {
             "slug": "Sprint-7-connect-your-tribe",
             "sprintTitle": "Sprint 7: connect your tribe",
+            "semesterClass": "semester-2-midterm",
             "sections": [
                 {
                     "title": "Profile card",
@@ -796,6 +803,7 @@
         {
             "slug": "Sprint-8-Server-Side-Rendering",
             "sprintTitle": "Sprint 8: Server Side Rendering",
+            "semesterClass": "semester-2-midterm",
             "sections": [
                 {
                     "title": "voorbereiding",
@@ -920,6 +928,7 @@
         {
             "slug": "Sprint-9-The-Web-is-for-Everyone",
             "sprintTitle": "Sprint 9: The Web is for Everyone",
+            "semesterClass": "semester-2-midterm",
             "sections": [
                 {
                     "title": "schetsen",

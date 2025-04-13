@@ -1,44 +1,41 @@
 {% render 'partials/head.liquid' %}
 
-<main class="main-progress">
+<main class="main-progress  primary {{ data.semesterClass }}">
 	{% comment %} {{ data | json }} {% endcomment %}
 	<h2>{{ data.sprintTitle }}</h2>
 
 	{% for section in data.sections %}
-		<h3>{{ section.title }}</h3>
-	
-		<section class="container">
-			<button class="previous" hidden><svg fill="#000000" height="50px" width="50px" version="1.1" id="XMLID_287_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve" transform="rotate(180)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="next"> <g> <polygon points="6.8,23.7 5.4,22.3 15.7,12 5.4,1.7 6.8,0.3 18.5,12 "></polygon> </g> </g> </g></svg></button>
+	<h3>{{ section.title }}</h3>
 
-			<ul class="content">
-				{% for group in section.content %}
-					<li class="snap-element">
-						<figure>
-							{% if group.caption %}
-								<figcaption>{{ group.caption }}</figcaption>
-							{% endif %}
+	<section class="container">
+		<button class="previous" hidden><svg fill="#000000" height="50px" width="50px" version="1.1" id="XMLID_287_"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"xml:space="preserve" transform="rotate(180)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><g id="next"><g><polygon points="6.8,23.7 5.4,22.3 15.7,12 5.4,1.7 6.8,0.3 18.5,12 "></polygon></g></g></g></svg></button>
 
-							{% if group.type == 'video' %}
-								<video controls>
-									<source src="{{ group.src }}" type="video/mp4">
-									Jouw browser ondersteunt dit videoformaat niet.
-								</video>
+		<ul class="content">
+			{% for group in section.content %}
+			<li class="snap-element">
+				<figure>
+					{% if group.caption %}
+					<figcaption>{{ group.caption }}</figcaption>
+					{% endif %}
 
-							{% else %}
-								<img src="{{ group.src }}" alt="{{ group.alt }}">
-							{% endif %}
-						</figure>
-					</li>
-				{% endfor %}
-			</ul>
+					{% if group.type == 'video' %}
+					<video controls>
+						<source src="{{ group.src }}" type="video/mp4">
+						Jouw browser ondersteunt dit videoformaat niet.
+					</video>
 
-			<button class="next" hidden><svg fill="#000000" height="50px" width="50px" version="1.1" id="XMLID_287_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="next"> <g> <polygon points="6.8,23.7 5.4,22.3 15.7,12 5.4,1.7 6.8,0.3 18.5,12 "></polygon> </g> </g> </g></svg></button>
-		</section>
+					{% else %}
+					<img src="{{ group.src }}" alt="{{ group.alt }}">
+					{% endif %}
+				</figure>
+			</li>
+			{% endfor %}
+		</ul>
+
+		<button class="next" hidden><svg fill="#000000" height="50px" width="50px" version="1.1" id="XMLID_287_"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><g id="next"><g><polygon points="6.8,23.7 5.4,22.3 15.7,12 5.4,1.7 6.8,0.3 18.5,12 "></polygon></g></g></g></svg></button></section>
 	{% endfor %}
-	
+
 
 </main>
 
 {% render 'partials/foot.liquid', squads: squads %}
-
-
