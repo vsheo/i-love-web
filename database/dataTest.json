@@ -41,11 +41,12 @@
                                     "type": "paragraph",
                                     "header": "wat heb ik vandaag gedaan?",
                                     "text": [
-                                        "vandaag heb ik aan deze issues gewerkt",
+                                        "vandaag heb ik een breakdown schets",
                                         {
                                             "anchor": "breakdown schets",
                                             "href": "https://www.google.com/"
                                         },
+                                        "gemaakt dat is een schets van de website die ik wil bouwen. met daarin elementen die ik zou kunnen gebruiken.",
                                         {
                                             "anchor": "prototype naar html",
                                             "href": "https://www.google.com/"
@@ -76,7 +77,7 @@
                             "date": "4/9/24",
                             "content": [
                                 {
-                                    "type": "puntenlijst",
+                                    "type": "list",
                                     "header": "wat heb ik vandaag gedaan?",
                                     "text": [
                                         "vandaag heb ik aan deze issues gewerkt",
@@ -97,6 +98,41 @@
                                         }
                                     ]
                                 }
+                            ]
+                        },
+                        {
+                            "sprint": "dash li met a-inline",
+                            "title": "test",
+                            "date": "4/9/24",
+                            "content": [
+                              {
+                                "type": "list",
+                                "header": "wat heb ik vandaag gedaan?",
+                                "text": [
+                                  {
+                                    "text": [
+                                      "vandaag heb ik een ",
+                                      {
+                                        "anchor": "breakdown schets",
+                                        "href": "https://www.google.com/",
+                                        "class": "a-inline"
+                                      },
+                                      " gemaakt dat is een schets van de website die ik wil bouwen."
+                                    ]
+                                  },
+                                  {
+                                    "anchor": "prototype naar html",
+                                    "href": "https://www.google.com/"
+                                  },
+                                  {
+                                    "text": "naar de winkel gegaan"
+                                  },
+                                  {
+                                    "anchor": "one column layout",
+                                    "href": "https://www.google.com/"
+                                  }
+                                ]
+                              }
                             ]
                         }
                     ]

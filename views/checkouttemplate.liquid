@@ -18,25 +18,45 @@
                             <h4>{{ paragraph.header }}</h4>
                         {% endif %}
 
-                        {% if paragraph.type == 'puntenlijst' %}
-                            <!-- Als het type 'puntenlijst' is, maak een <ul> met de 'dash' klasse -->
+                        {% comment %} als paragraph een list is, m aak een puntenlijst {% endcomment %}
+                        {% if paragraph.type == 'list' %}
                             <ul class="dash">
-                                {% assign first_item = true %} <!-- Flag voor het eerste item -->
                                 {% for item in paragraph.text %}
-                                    <li class="{% if first_item %}{% assign first_item = false %}{% else %}dash{% endif %}">
-                                        {% if item.anchor %}
+                                    <li class="dash">
+
+                                        {% if item.text %}
+                                            {% comment %} als er text en een a-inline is {% endcomment %}
+                                            {% for part in item.text %}
+                                                {% if part.anchor %}
+                                                    <a href="{{ part.href }}" class="{{ part.class }}">{{ part.anchor }}</a>
+                                                {% comment %} als er alleen text is {% endcomment %}
+                                                {% else %}
+                                                    {{ part }}
+                                                {% endif %}
+                                            {% endfor %}
+
+                                        {% comment %} Als het een link is zonder text {% endcomment %}
+                                        {% elsif item.anchor %}
                                             <a href="{{ item.href }}" class="{{ item.class }}">{{ item.anchor }}</a>
+
+                                        {% comment %} als het alleen text is {% endcomment %}
                                         {% else %}
                                             {{ item.text }}
                                         {% endif %}
+
                                     </li>
                                 {% endfor %}
                             </ul>
+
+                        {% comment %} als het text is met linkjes inline of onder elkaar. (geen puntenlijst) {% endcomment %}
                         {% else %}
-                            <!-- Anders gewoon de tekst weergeven -->
+                        {% comment %} loop door alles dat in paragraph.text/content.text staat {% endcomment %}
                             {% for item in paragraph.text %}
+                                {% comment %} als er een link is maak een achor tag {% endcomment %}
                                 {% if item.anchor %}
+                                    {% comment %} als item.class niet bestaat, dan is dit leeg (leeg is onder elkaar) {% endcomment %}
                                     <a href="{{ item.href }}" class="{{ item.class }}">{{ item.anchor }}</a>
+                                {% comment %} als de item geen link is, print de tekst {% endcomment %}
                                 {% else %}
                                     {{ item }}
                                 {% endif %}
@@ -48,8 +68,6 @@
         {% endfor %}
     </section>
 {% endfor %}
-    
-
 
 </main>
 
