@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "slug": "sprint-1",
+            "semesterClass": "semester-1-midterm",
+            "articles": [
+                {
+                    "sprint": "alles test",
+                    "title": "test",
+                    "date": "4/9/24",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "a-inline",
+                            "text": [
+                                "vandaag heb ik een breakdown schets",
+                                {
+                                    "anchor": "breakdown schets",
+                                    "href": "https://www.google.com/",
+                                    "class": "a-inline"
+                                },
+                                "gemaakt dat is een schets van de website die ik wil bouwen. met daarin elementen die ik zou kunnen gebruiken."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "tekst only",
+                            "text": "in mijn list als ik hover over text wil ik een pop up tevoorschijn laten komen. In die pop up wil ik vertellen hoe ik de programeertaal heb geleerd en hoe goed ik ben daarin"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "a-inline & a zonder class",
+                            "text": [
+                                "vandaag heb ik een breakdown schets",
+                                {
+                                    "anchor": "breakdown schets",
+                                    "href": "https://www.google.com/"
+                                },
+                                "gemaakt dat is een schets van de website die ik wil bouwen. met daarin elementen die ik zou kunnen gebruiken.",
+                                {
+                                    "anchor": "prototype naar html",
+                                    "href": "https://www.google.com/"
+                                },
+                                {
+                                    "anchor": "onbe colum layout",
+                                    "href": "https://www.google.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "oude inline a",
+                            "text": "Tijdens de code en design review heb ik feedback gegeven aan <a target=\"blank\" href=\"https://github.com/Sebastiaan-hva/the-web-is-for-everyone-interactive-functionality/issues/9\">Sebastiaan</a> <a target=\"blank\" href=\"https://github.com/Saif8599/the-web-is-for-everyone-interactive-functionality/issues/9\">Saif</a> <a target=\"blank\" href=\"https://github.com/MarsGotBars/the-web-is-for-everyone-interactive-functionality/issues/15\">Marcin</a>"
+                        },
+                        {
+                            "type": "list",
+                            "header": "dash li met a-inline",
+                            "text": [
+                                {
+                                    "text": [
+                                        "vandaag heb ik een ",
+                                        {
+                                        "anchor": "breakdown schets",
+                                        "href": "https://www.google.com/",
+                                        "class": "a-inline"
+                                        },
+                                        " gemaakt dat is een schets van de website die ik wil bouwen."
+                                    ]
+                                },
+                                {
+                                    "anchor": "prototype naar html",
+                                    "href": "https://www.google.com/"
+                                },
+                                {
+                                    "text": "naar de winkel gegaan"
+                                },
+                                {
+                                    "anchor": "one column layout",
+                                    "href": "https://www.google.com/"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

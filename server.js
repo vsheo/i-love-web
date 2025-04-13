@@ -26,7 +26,7 @@ const data = fs.readFileSync(jsonPath, "utf8");
 // Parse de inhoud van het bestand als JSON
 const sprintDataJSON = JSON.parse(data);
 
-
+// index pagina
 app.get("/", async function (request, response) {
     try {
         // Render de Liquid template met de data
@@ -37,6 +37,7 @@ app.get("/", async function (request, response) {
     }
 });
 
+// index pagina filtered op sprint
 app.get("/journal/:slug", async function (request, response) {
     // haal de slug op uit de url
     const slug = request.params.slug;
@@ -57,6 +58,7 @@ app.get("/journal/:slug", async function (request, response) {
     }
 });
 
+// pictures pagina per sprint
 app.get("/progress/:slug", async function (request, response) {
     const slug = request.params.slug;
 
@@ -75,6 +77,25 @@ app.get("/progress/:slug", async function (request, response) {
     }
 });
 
+// code uitleg pagina
+app.get("/samenvattingen", async function (request, response) {
+    // const slug = request.params.slug;
+
+    try {
+        // const jsonPath = "./database/progress.json";
+        // const progressData = fs.readFileSync(jsonPath, "utf8");
+        // const progressDataJSON = JSON.parse(progressData);
+        // const sprintData = progressDataJSON.data.find(
+        //     (sprint) => sprint.slug == slug
+        // );
+
+        response.render("summary.liquid");
+    } catch (err) {
+        console.error("JSON is kapot:", err);
+        response.status(500).send("JSON werkt niet meer");
+    }
+});
+
 
 // json & liquid testen
 app.get("/checkout-test", async function (request, response) {
@@ -82,7 +103,7 @@ app.get("/checkout-test", async function (request, response) {
 	const data = fs.readFileSync(jsonPath, "utf8");
 	const dataJSON = JSON.parse(data);
 	response.render("checkout-test.liquid", { data: dataJSON.data[0].data });
-  });
+});
   
 
 
