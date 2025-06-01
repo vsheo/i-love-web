@@ -78,7 +78,7 @@
                         }
                     ]
                 },
-        
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -100,7 +100,7 @@
                         }
                     ]
                 },
-        
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -132,7 +132,7 @@
                         }
                     ]
                 },
-        
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -158,7 +158,7 @@
                         }
                     ]
                 },
-        
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -176,7 +176,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -193,7 +193,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -206,7 +206,7 @@
                         }
                     ]
                 },
-        
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -228,7 +228,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -246,7 +246,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -264,7 +264,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -277,7 +277,7 @@
                         }
                     ]
                 },
-        
+
                 {
                     "sprint": "Sprint 1",
                     "title": "Your Tribe",
@@ -324,7 +324,7 @@
                         }
                     ]
                 },
-        
+
                 {
                     "sprint": "Sprint 2",
                     "title": "The Client",
@@ -347,7 +347,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 2",
                     "title": "The Client",
@@ -370,7 +370,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 2",
                     "title": "The Client",
@@ -397,8 +397,8 @@
                             "text": "<a href=\"https://github.com/vsheo/layout-in-css/issues?q=is%3Aissue+is%3Aclosed\">link naar de layout deeltaak</a>"
                         }
                     ]
-                },                
-        
+                },
+
                 {
                     "sprint": "Sprint 2",
                     "title": "The Client",
@@ -421,7 +421,7 @@
                         }
                     ]
                 },
-        
+
                 {
                     "sprint": "Sprint 2",
                     "title": "The Client",
@@ -468,7 +468,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 3",
                     "title": "All human",
@@ -491,7 +491,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 3",
                     "title": "All human",
@@ -524,7 +524,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 3",
                     "title": "All human",
@@ -599,7 +599,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 4",
                     "title": "Look and Feel",
@@ -622,7 +622,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 4",
                     "title": "Look and Feel",
@@ -645,7 +645,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 4",
                     "title": "Look and Feel",
@@ -729,7 +729,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 4",
                     "title": "Look and Feel",
@@ -825,11 +825,7 @@
                         },
                         {
                             "type": "list",
-                            "items": [
-                                "kleur",
-                                "typografie",
-                                "vorm en stijl"
-                            ]
+                            "items": ["kleur", "typografie", "vorm en stijl"]
                         },
                         {
                             "type": "paragraph",
@@ -846,7 +842,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 4",
                     "title": "Look and Feel",
@@ -892,7 +888,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 5",
                     "title": "Fix the Flow",
@@ -1029,7 +1025,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 5",
                     "title": "Fix the Flow",
@@ -1077,7 +1073,7 @@
                             "text": "Ik heb vandaag de sprint review gehad, het ging best wel goed. Ik heb een issue gemaakt met de feedback van de opdrachtgever <a href=\"https://github.com/vsheo/fix-the-flow-interactive-website/issues/18\" target=\"_blank\">Feedback opdrachtgever</a> Ik heb ook een Lighthouse-test en een screenreader-test uitgevoerd. Een aantal van de problemen die daarbij naar voren kwamen, heb ik direct geprobeerd op te lossen. <a href=\"https://github.com/vsheo/fix-the-flow-interactive-website/issues/16\" target=\"_blank\">Issue 16: testen</a>"
                         }
                     ]
-                }                
+                }
             ]
         },
 
@@ -1109,7 +1105,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 6",
                     "title": "The Startup",
@@ -1307,7 +1303,7 @@
                         }
                     ]
                 },
-                
+
                 {
                     "sprint": "Sprint 6",
                     "title": "The Startup",
@@ -1817,31 +1813,31 @@
                     "title": "Server-Side Rendering",
                     "date": "07/03/25",
                     "content": [
-                      {
-                        "type": "paragraph",
-                        "header": "Wat heb je gedaan?",
-                        "text": "Tijdens de workshop van vandaag heb ik gewerkt met data filtering en template filters in Directus. Ik heb verschillende experimenten uitgevoerd waarbij ik data filter op naam, geboortedatum en favoriete tags."
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Workshop documentatie: <a target=\"blank\" href=\"https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/data-filtering-en-template-filters.md\">Data Filtering & Template Filters</a>"
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Experiment 1: Ik wil alle studenten gesorteerd op name <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name&sort=name\">Link</a>"
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Experiment 2: Ik wil alle names van studenten die een name hebben die begint met de letter D <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name&sort=name&filter={%20%22name%22:%20{%20%22_istarts_with%22:%20%22D%22%20}%20}\">Link</a>"
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Experiment 3: Ik wil alle names van studenten die een name hebben die begint met de letter D of K <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name&sort=name&filter={%22_or%22:[{%22name%22:{%22_istarts_with%22:%22d%22}},{%22name%22:{%22_istarts_with%22:%22k%22}}]}\">Link</a>"
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Experiment 4: Ik wil alle names en birthdates van studenten die een birthdate hebben ingevuld <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name,birthdate&filter={%22_and%22:[{%22name%22:{%22_neq%22:%22null%22}},{%22birthdate%22:{%22_neq%22:%22null%22}}]}\">Link 1</a> <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name,birthdate&filter={%22_and%22:[{%22name%22:{%22_nnull%22:%22true%22}},{%22birthdate%22:{%22_nnull%22:%22true%22}}]}\">Link 2</a>"
-                      }
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb je gedaan?",
+                            "text": "Tijdens de workshop van vandaag heb ik gewerkt met data filtering en template filters in Directus. Ik heb verschillende experimenten uitgevoerd waarbij ik data filter op naam, geboortedatum en favoriete tags."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Workshop documentatie: <a target=\"blank\" href=\"https://github.com/fdnd-task/server-side-rendering-server-side-website/blob/main/docs/data-filtering-en-template-filters.md\">Data Filtering & Template Filters</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Experiment 1: Ik wil alle studenten gesorteerd op name <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name&sort=name\">Link</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Experiment 2: Ik wil alle names van studenten die een name hebben die begint met de letter D <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name&sort=name&filter={%20%22name%22:%20{%20%22_istarts_with%22:%20%22D%22%20}%20}\">Link</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Experiment 3: Ik wil alle names van studenten die een name hebben die begint met de letter D of K <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name&sort=name&filter={%22_or%22:[{%22name%22:{%22_istarts_with%22:%22d%22}},{%22name%22:{%22_istarts_with%22:%22k%22}}]}\">Link</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Experiment 4: Ik wil alle names en birthdates van studenten die een birthdate hebben ingevuld <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name,birthdate&filter={%22_and%22:[{%22name%22:{%22_neq%22:%22null%22}},{%22birthdate%22:{%22_neq%22:%22null%22}}]}\">Link 1</a> <a target=\"blank\" href=\"https://fdnd.directus.app/items/person/?fields=name,birthdate&filter={%22_and%22:[{%22name%22:{%22_nnull%22:%22true%22}},{%22birthdate%22:{%22_nnull%22:%22true%22}}]}\">Link 2</a>"
+                        }
                     ]
                 },
                 {
@@ -1849,36 +1845,36 @@
                     "title": "Server-Side Rendering",
                     "date": "14/03/25",
                     "content": [
-                      {
-                        "type": "paragraph",
-                        "text": "Ik heb geen probleem met de huidige indeling van de studio. Het kan soms druk zijn, maar als ik eenmaal bezig ben met coderen, lukt het me goed om geconcentreerd te blijven. Thuis studeren vind ik soms handiger, vooral omdat ik daar met twee schermen werk. Toch blijf ik liever in de studio als ik veel te doen heb, omdat ik daar het meeste gedaan krijg. Als ik 's middags moet werken, ga ik na de les naar huis."
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "Analyse van de studio",
-                        "text": "We hebben samen gekeken naar wat goed gaat in de studio en wat beter kan. Op het whiteboard hebben we dit overzicht gemaakt:"
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "Wat gaat goed?",
-                        "text": "1. in de studio kunnen we samenwerken\n2. Aquarium is lekker koel\n3. Vier personen per tafel is een fijne bezetting"
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "Wat kan beter?",
-                        "text": "1. Soms is er teveel geluid in de ruimte\n 2. De studio wordt soms te warm\n3. Er is geen plek voor meer dan 4 personen per tafel"
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Nieuwe indeling voor studio en aquarium geschetsed"
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "House rules voor een prettige werkomgeving",
-                        "text": "Ruim je plek op als je klaar bent"
-                      }
+                        {
+                            "type": "paragraph",
+                            "text": "Ik heb geen probleem met de huidige indeling van de studio. Het kan soms druk zijn, maar als ik eenmaal bezig ben met coderen, lukt het me goed om geconcentreerd te blijven. Thuis studeren vind ik soms handiger, vooral omdat ik daar met twee schermen werk. Toch blijf ik liever in de studio als ik veel te doen heb, omdat ik daar het meeste gedaan krijg. Als ik 's middags moet werken, ga ik na de les naar huis."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Analyse van de studio",
+                            "text": "We hebben samen gekeken naar wat goed gaat in de studio en wat beter kan. Op het whiteboard hebben we dit overzicht gemaakt:"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Wat gaat goed?",
+                            "text": "1. in de studio kunnen we samenwerken\n2. Aquarium is lekker koel\n3. Vier personen per tafel is een fijne bezetting"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Wat kan beter?",
+                            "text": "1. Soms is er teveel geluid in de ruimte\n 2. De studio wordt soms te warm\n3. Er is geen plek voor meer dan 4 personen per tafel"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Nieuwe indeling voor studio en aquarium geschetsed"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "House rules voor een prettige werkomgeving",
+                            "text": "Ruim je plek op als je klaar bent"
+                        }
                     ]
-                }                  
+                }
             ]
         },
 
@@ -1891,24 +1887,24 @@
                     "title": "The Web is for Everyone",
                     "date": "17/03/25",
                     "content": [
-                      {
-                        "type": "paragraph",
-                        "header": "Wat heb je gedaan?",
-                        "text": "Vandaag hadden we een workshop over user generated content. We leerden hoe we progressive enhancement kunnen toepassen door eerst de core functionaliteit te bepalen, te starten met eenvoudige technieken zoals HTML en mobile-first CSS, en daarna verder te verbeteren met JavaScript."
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "We bespraken ook wat een goede website maakt: hij moet responsief, toegankelijk, performant en progressively enhanced zijn. Ik heb daarnaast schetsen en een wireflow gemaakt voor een user story voor Milledoni."
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Hoe kan ik de bookmark-functionaliteit voor Milledoni bouwen volgens het principe van progressive enhancement?"
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "Verwijzingen:",
-                        "text": "<a target=\"blank\" href=\"https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/user-generated-content.md\">Workshop User Generated Content</a> <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/15\">Wireflow voor User Story</a> <a target=\"blank\" href=\"https://fdnd-agency.directus.app/items/milledoni_users?fields=*.*\">Post URL voor Milledoni Bookmarklijst</a>"
-                      }
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb je gedaan?",
+                            "text": "Vandaag hadden we een workshop over user generated content. We leerden hoe we progressive enhancement kunnen toepassen door eerst de core functionaliteit te bepalen, te starten met eenvoudige technieken zoals HTML en mobile-first CSS, en daarna verder te verbeteren met JavaScript."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "We bespraken ook wat een goede website maakt: hij moet responsief, toegankelijk, performant en progressively enhanced zijn. Ik heb daarnaast schetsen en een wireflow gemaakt voor een user story voor Milledoni."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Hoe kan ik de bookmark-functionaliteit voor Milledoni bouwen volgens het principe van progressive enhancement?"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Verwijzingen:",
+                            "text": "<a target=\"blank\" href=\"https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/user-generated-content.md\">Workshop User Generated Content</a> <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/15\">Wireflow voor User Story</a> <a target=\"blank\" href=\"https://fdnd-agency.directus.app/items/milledoni_users?fields=*.*\">Post URL voor Milledoni Bookmarklijst</a>"
+                        }
                     ]
                 },
                 {
@@ -1916,24 +1912,24 @@
                     "title": "The Web is for Everyone",
                     "date": "19/03/25",
                     "content": [
-                      {
-                        "type": "paragraph",
-                        "header": "Wat heb je gedaan?",
-                        "text": "Ik geleerd over UI states en bepaald welke ik ga toepassen op mijn project. Daarnaast heb ik een werkende form gebouwd met de POST-method. Hiermee kan een gebruiker een cadeau toevoegen aan een lijst of het verwijderen door opnieuw te klikken."
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Ik zal de volgende UI states gebruiken: een loading state bij het openen van de detailpagina (door een loading circle te tonen), een empty state bij het eerste laden van de pagina (met een geblurde afbeelding die daarna scherp wordt), en een error state voor als de data niet laadt (met een foutmelding)."
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Hoe kan ik zorgen dat mijn interface op elk moment een bruikbare en toegankelijke state toont, ongeacht wat er met de data gebeurt?"
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "Verwijzingen:",
-                        "text": "<a target=\"blank\" href=\"https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/#ideal\">Uitleg over UI States</a>"
-                      }
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb je gedaan?",
+                            "text": "Ik geleerd over UI states en bepaald welke ik ga toepassen op mijn project. Daarnaast heb ik een werkende form gebouwd met de POST-method. Hiermee kan een gebruiker een cadeau toevoegen aan een lijst of het verwijderen door opnieuw te klikken."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Ik zal de volgende UI states gebruiken: een loading state bij het openen van de detailpagina (door een loading circle te tonen), een empty state bij het eerste laden van de pagina (met een geblurde afbeelding die daarna scherp wordt), en een error state voor als de data niet laadt (met een foutmelding)."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Hoe kan ik zorgen dat mijn interface op elk moment een bruikbare en toegankelijke state toont, ongeacht wat er met de data gebeurt?"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Verwijzingen:",
+                            "text": "<a target=\"blank\" href=\"https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/#ideal\">Uitleg over UI States</a>"
+                        }
                     ]
                 },
                 {
@@ -1941,15 +1937,15 @@
                     "title": "The Web is for Everyone",
                     "date": "20/03/25",
                     "content": [
-                      {
-                        "type": "paragraph",
-                        "header": "Wat heb je gedaan?",
-                        "text": "ik heb gewerkt aan deze issues:"
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "<a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/17\">routes voor oplsaan in een bookmark lijst</a> <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/18\">bookmark overzicht & bookmarked cadeau pagina</a>"
-                      }
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb je gedaan?",
+                            "text": "ik heb gewerkt aan deze issues:"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "<a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/17\">routes voor oplsaan in een bookmark lijst</a> <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/18\">bookmark overzicht & bookmarked cadeau pagina</a>"
+                        }
                     ]
                 },
                 {
@@ -1957,19 +1953,19 @@
                     "title": "The Web is for Everyone",
                     "date": "21/03/25",
                     "content": [
-                      {
-                        "type": "paragraph",
-                        "header": "Wat heb je gedaan?",
-                        "text": "Ik heb mijn bookmark list interactie gepresenteerd tijdens de stand-up. Kyan uit 1H heb ik laten zien hoe ik met een POST items toevoeg aan de database. Daarnaast heb ik Renzo geholpen met het opzetten van zijn GET en POST routes. Ook heb ik een loader gemaakt die op beeld verschijnt nadat er op een link geklikt wordt."
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "De eerste issue ging over het verbeteren van de empty state en het toevoegen van een fallback voor als data niet beschikbaar is. De tweede issue richtte zich op het tonen van feedback aan de gebruiker na een actie (zoals toevoegen of verwijderen van een item)."
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Hoe kan ik mijn interacties nog intuïtiever maken voor gebruikers, zonder afbreuk te doen aan performance en toegankelijkheid?"
-                      }
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb je gedaan?",
+                            "text": "Ik heb mijn bookmark list interactie gepresenteerd tijdens de stand-up. Kyan uit 1H heb ik laten zien hoe ik met een POST items toevoeg aan de database. Daarnaast heb ik Renzo geholpen met het opzetten van zijn GET en POST routes. Ook heb ik een loader gemaakt die op beeld verschijnt nadat er op een link geklikt wordt."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "De eerste issue ging over het verbeteren van de empty state en het toevoegen van een fallback voor als data niet beschikbaar is. De tweede issue richtte zich op het tonen van feedback aan de gebruiker na een actie (zoals toevoegen of verwijderen van een item)."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Hoe kan ik mijn interacties nog intuïtiever maken voor gebruikers, zonder afbreuk te doen aan performance en toegankelijkheid?"
+                        }
                     ]
                 },
                 {
@@ -1977,11 +1973,11 @@
                     "title": "The Web is for Everyone",
                     "date": "23/03/25",
                     "content": [
-                      {
-                        "type": "paragraph",
-                        "header": "Wat heb je gedaan?",
-                        "text": "Ik heb de loading bar afgemaakt. <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/20\">Issue 20</a> Nieuwe issue gemaakt vopor mn back button, omdat het nu terug gaat naar de home pagina en niet naar de vorige pagina. <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/21\">Issue 21</a>"
-                      }
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb je gedaan?",
+                            "text": "Ik heb de loading bar afgemaakt. <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/20\">Issue 20</a> Nieuwe issue gemaakt vopor mn back button, omdat het nu terug gaat naar de home pagina en niet naar de vorige pagina. <a target=\"blank\" href=\"https://github.com/vsheo/the-web-is-for-everyone-interactive-functionality/issues/21\">Issue 21</a>"
+                        }
                     ]
                 },
                 {
@@ -1989,23 +1985,23 @@
                     "title": "The Web is for Everyone",
                     "date": "24/03/25",
                     "content": [
-                      {
-                        "type": "paragraph",
-                        "header": "Wat heb je gedaan?",
-                        "text": "Ik heb gewerkt aan feature detection en geleerd hoe je code kunt gebruiken afhankelijk van de ondersteuning van de browser. Ik heb de @supports regel gebruikt om CSS-declaraties te specificeren die afhankelijk zijn van de browserondersteuning voor CSS-functies. <a target=\"blank\" href=\"https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection\">Feature Detection</a>, <a target=\"blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/@supports\">@supports</a>"
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Ik heb een progressieve enhancement toegepast door de core functionaliteit eerst te maken en daarna de enhancements maken voor gebruikers van modernere browsers. <a target=\"blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement\">Progressive Enhancement</a>"
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Ik heb de code getest in verschillende browsers en ervoor gezorgd dat de basisfunctionaliteit werkt voor de meeste gebruikers, terwijl ik extra functionaliteit toevoeg voor gebruikers met moderne browsers. <a target=\"blank\" href=\"https://codepen.io/vrsh/pen/WbNyJqw?editors=1100\">CodePen voorbeeld</a>."
-                      },
-                      {
-                        "type": "paragraph",
-                        "text": "Verder heb ik de core functionaliteit voor tekst en audio getest en geoptimaliseerd, en een FAQ-sectie en carrousel gemaakt voor de deeltaak."
-                      }
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb je gedaan?",
+                            "text": "Ik heb gewerkt aan feature detection en geleerd hoe je code kunt gebruiken afhankelijk van de ondersteuning van de browser. Ik heb de @supports regel gebruikt om CSS-declaraties te specificeren die afhankelijk zijn van de browserondersteuning voor CSS-functies. <a target=\"blank\" href=\"https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection\">Feature Detection</a>, <a target=\"blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/@supports\">@supports</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Ik heb een progressieve enhancement toegepast door de core functionaliteit eerst te maken en daarna de enhancements maken voor gebruikers van modernere browsers. <a target=\"blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement\">Progressive Enhancement</a>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Ik heb de code getest in verschillende browsers en ervoor gezorgd dat de basisfunctionaliteit werkt voor de meeste gebruikers, terwijl ik extra functionaliteit toevoeg voor gebruikers met moderne browsers. <a target=\"blank\" href=\"https://codepen.io/vrsh/pen/WbNyJqw?editors=1100\">CodePen voorbeeld</a>."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Verder heb ik de core functionaliteit voor tekst en audio getest en geoptimaliseerd, en een FAQ-sectie en carrousel gemaakt voor de deeltaak."
+                        }
                     ]
                 },
                 {
@@ -2013,11 +2009,11 @@
                     "title": "The Web is for Everyone",
                     "date": "28/03/25",
                     "content": [
-                      {
-                        "type": "paragraph",
-                        "header": "Wat heb je gedaan?",
-                        "text": "Tijdens de code en design review heb ik feedback gegeven aan <a target=\"blank\" href=\"https://github.com/Sebastiaan-hva/the-web-is-for-everyone-interactive-functionality/issues/9\">Sebastiaan</a> <a target=\"blank\" href=\"https://github.com/Saif8599/the-web-is-for-everyone-interactive-functionality/issues/9\">Saif</a> <a target=\"blank\" href=\"https://github.com/MarsGotBars/the-web-is-for-everyone-interactive-functionality/issues/15\">Marcin</a>"
-                      }
+                        {
+                            "type": "paragraph",
+                            "header": "Wat heb je gedaan?",
+                            "text": "Tijdens de code en design review heb ik feedback gegeven aan <a target=\"blank\" href=\"https://github.com/Sebastiaan-hva/the-web-is-for-everyone-interactive-functionality/issues/9\">Sebastiaan</a> <a target=\"blank\" href=\"https://github.com/Saif8599/the-web-is-for-everyone-interactive-functionality/issues/9\">Saif</a> <a target=\"blank\" href=\"https://github.com/MarsGotBars/the-web-is-for-everyone-interactive-functionality/issues/15\">Marcin</a>"
+                        }
                     ]
                 },
                 {
@@ -2025,36 +2021,930 @@
                     "title": "We Love Web met Ischa Gast",
                     "date": "28/03/25",
                     "content": [
-                      {
-                        "type": "paragraph",
-                        "header": "Toegankelijkheidsproblemen",
-                        "text": "Ischa bespreekt het belang van toegankelijkheid op het web voor mensen met verschillende beperkingen. Er wordt ingegaan op visuele, auditieve, cognitieve en ouderdomsbeperkingen en hoe deze de gebruikerservaring kunnen beïnvloeden. Bijvoorbeeld, te veel of te weinig contrast kan problematisch zijn voor visueel beperkte gebruikers."
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "Oplossingen voor Toegankelijkheid",
-                        "text": "Om websites toegankelijker te maken, is het belangrijk om goede HTML en koppenstructuur te gebruiken. Duidelijke linktekst is essentieel, evenals voldoende contrast. Ook moeten websites visuele feedback bieden voor de tabindex om navigatie met het toetsenbord te vergemakkelijken."
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "Voorbeeld van problemen",
-                        "text": "Ischa deelde een voorbeeld van een collega die moeite had met het boeken van een ticket op een website, omdat de hulplink moeilijk te vinden was, helemaal onderaan de pagina. Ook gaf Ischa het voorbeeld van een kleurblinde persoon die Coolblue niet goed kan gebruiken vanwege de kleurkeuzes, maar wel Bol.com, die betere contrasten biedt."
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "Screenreader en toegankelijkheid",
-                        "text": "Ischa benadrukt het belang van doorzichtige tekst voor screenreaders, zodat de inhoud wel leesbaar is voor mensen met een visuele beperking, maar niet zichtbaar voor normale gebruikers. Sven, die blind is, kan bijvoorbeeld op wedstrijdniveau gamen dankzij geluiden die elke beweging aangeven."
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "voorbeelden",
-                        "text": "Een voorbeeld werd gedeeld van Schiphol, waar een assistentiebutton niet effectief was voor dove mensen, aangezien de enige optie was om met iemand te praten. Daarnaast had de HEMA website geen visuele feedback voor de tabindex, waardoor het moeilijk was om met het toetsenbord te navigeren."
-                      },
-                      {
-                        "type": "paragraph",
-                        "header": "Zelfstandige benadering van Ischa",
-                        "text": "Ischa maakt zelf websites toegankelijk, zelfs wanneer de klant daar niet specifiek om vraagt, wat bijdraagt aan een meer inclusieve gebruikerservaring."
-                      }
+                        {
+                            "type": "paragraph",
+                            "header": "Toegankelijkheidsproblemen",
+                            "text": "Ischa bespreekt het belang van toegankelijkheid op het web voor mensen met verschillende beperkingen. Er wordt ingegaan op visuele, auditieve, cognitieve en ouderdomsbeperkingen en hoe deze de gebruikerservaring kunnen beïnvloeden. Bijvoorbeeld, te veel of te weinig contrast kan problematisch zijn voor visueel beperkte gebruikers."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Oplossingen voor Toegankelijkheid",
+                            "text": "Om websites toegankelijker te maken, is het belangrijk om goede HTML en koppenstructuur te gebruiken. Duidelijke linktekst is essentieel, evenals voldoende contrast. Ook moeten websites visuele feedback bieden voor de tabindex om navigatie met het toetsenbord te vergemakkelijken."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Voorbeeld van problemen",
+                            "text": "Ischa deelde een voorbeeld van een collega die moeite had met het boeken van een ticket op een website, omdat de hulplink moeilijk te vinden was, helemaal onderaan de pagina. Ook gaf Ischa het voorbeeld van een kleurblinde persoon die Coolblue niet goed kan gebruiken vanwege de kleurkeuzes, maar wel Bol.com, die betere contrasten biedt."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Screenreader en toegankelijkheid",
+                            "text": "Ischa benadrukt het belang van doorzichtige tekst voor screenreaders, zodat de inhoud wel leesbaar is voor mensen met een visuele beperking, maar niet zichtbaar voor normale gebruikers. Sven, die blind is, kan bijvoorbeeld op wedstrijdniveau gamen dankzij geluiden die elke beweging aangeven."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "voorbeelden",
+                            "text": "Een voorbeeld werd gedeeld van Schiphol, waar een assistentiebutton niet effectief was voor dove mensen, aangezien de enige optie was om met iemand te praten. Daarnaast had de HEMA website geen visuele feedback voor de tabindex, waardoor het moeilijk was om met het toetsenbord te navigeren."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Zelfstandige benadering van Ischa",
+                            "text": "Ischa maakt zelf websites toegankelijk, zelfs wanneer de klant daar niet specifiek om vraagt, wat bijdraagt aan een meer inclusieve gebruikerservaring."
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "slug": "sprint-10",
+            "semesterClass": "semester-2-endterm",
+            "articles": [
+                {
+                    "sprint": "sprint 10",
+                    "title": "Sprint Planning en Reflecties",
+                    "date": "14/4/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Sprint Planning",
+                            "text": [
+                                "De ",
+                                {
+                                    "anchor": "sprint planning",
+                                    "href": "https://github.com/fdnd-task/user-experience-enhanced-website/blob/main/docs/sprint-planning.md",
+                                    "class": "a-inline"
+                                },
+                                " is opgesteld in de project board."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Sprint 9 Feedback",
+                            "text": "De feedback uit sprint 9 is omgezet in losse issues:"
+                        },
+                        {
+                            "type": "list",
+                            "header": "Issues",
+                            "text": [
+                                {
+                                    "anchor": "Issue 1",
+                                    "href": "https://github.com/vsheo/user-experience-enhanced-website/issues/1"
+                                },
+                                {
+                                    "anchor": "Issue 2",
+                                    "href": "https://github.com/vsheo/user-experience-enhanced-website/issues/2"
+                                },
+                                {
+                                    "anchor": "Issue 3",
+                                    "href": "https://github.com/vsheo/user-experience-enhanced-website/issues/3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Progressive Enhancement",
+                            "text": [
+                                "Ik heb gekeken naar welke progressive enhancement-componenten ik in deze sprint wil maken. Mijn doel is om elke week één component te ontwikkelen: "
+                            ]
+                        },
+                        {
+                            "type": "list",
+                            "header": "Component issues",
+                            "text": [
+                                {
+                                    "anchor": "Issue 4",
+                                    "href": "https://github.com/vsheo/user-experience-enhanced-website/issues/4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Workshop: Performance",
+                            "text": [
+                                "De ",
+                                {
+                                    "anchor": "performance workshop",
+                                    "href": "https://github.com/fdnd-task/user-experience-enhanced-website/blob/main/docs/performance.md",
+                                    "class": "a-inline"
+                                },
+                                " is gevolgd."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Break the Web",
+                            "text": "Ik heb onderzoek gedaan voor de opdracht Break the Web:"
+                        },
+                        {
+                            "type": "list",
+                            "header": "Onderzoek en presentatie",
+                            "text": [
+                                {
+                                    "anchor": "Onderzoek in de wiki",
+                                    "href": "https://github.com/vsheo/i-love-web/wiki/sprint-10:-break-the-web-opdracht"
+                                },
+                                {
+                                    "anchor": "Presentatie",
+                                    "href": "https://docs.google.com/presentation/d/17Bk9n4BWrym93VX8d7geexIlbbmX90hzyDMVm_c8evk/edit?slide=id.g34bac3c03a9_2_45#slide=id.g34bac3c03a9_2_45"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Web Vitals Metrics",
+                            "text": "Web Vitals is een meetsysteem dat door Google is ontwikkeld om de snelheid en prestaties van websites inzichtelijk te maken."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Core Web Vitals",
+                            "text": "De Core Web Vitals zijn de drie belangrijkste statistieken die de gebruikerservaring meten op het gebied van performance:"
+                        },
+                        {
+                            "type": "list",
+                            "header": "De drie statistieken",
+                            "text": [
+                                {
+                                    "text": "Loading performance"
+                                },
+                                {
+                                    "text": "Interactivity"
+                                },
+                                {
+                                    "text": "Visual stability"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Inzicht in gebruikerservaring",
+                            "text": "Deze statistieken geven inzicht in hoe goed de gebruikerservaring is tijdens het laden en gebruiken van de website."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Drie manieren om te testen",
+                            "text": "Lighthouse – Voor snel inzicht in de prestaties van je website op jouw apparaat."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "PageSpeed Insights – Geeft inzicht in prestaties voor een breder publiek, met data van echte gebruikers."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "WebPageTest (waterfall charts) – Biedt een diepgaande analyse van alles wat er in de browser gebeurt tijdens het laden van de pagina."
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 10",
+                    "title": "User Experience",
+                    "date": "22/4/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Workshop van vandaag",
+                            "text": [
+                                "Workshop van vandaag: ",
+                                {
+                                    "anchor": "perceived performance",
+                                    "href": "https://github.com/fdnd-task/user-experience-enhanced-website/blob/main/docs/perceived-performance.md",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": [
+                                {
+                                    "anchor": "Cheating The UX",
+                                    "href": "https://stephaniewalter.design/blog/cheating-ux-perceived-performance-and-user-experience/",
+                                    "class": "a-inline"
+                                },
+                                " manieren om de website sneller laten lijken voor de gebruiker"
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Visual time response",
+                            "text": "De volgende tijdsintervallen beschrijven hoe gebruikers reactietijd ervaren:"
+                        },
+                        {
+                            "type": "list",
+                            "text": [
+                                {
+                                    "text": "Instant response <300ms: Als een interactie niet langer duurt dan 300 miliseconden ervaart de gebruiker dat als 'instant response', de interface reageert direct. Dit geldt bijvoorbeeld voor button states zoals :hover en :focus."
+                                },
+                                {
+                                    "text": "Normal Delay 300ms - 2s: Als een interactie of het laden van content sneller gaat dan 2 seconden, is er geen extra feedback nodig. De gebruiker zal dan niet het gevoel krijgen dat iets te lang duurt."
+                                },
+                                {
+                                    "text": "System is thinking 2 - 5s: Als het laden van content langer duurt dan 2 seconden, dan zal je de gebruiker feedback moeten geven dat er iets gebeurt, zoals een loading spinner."
+                                },
+                                {
+                                    "text": "Do something extra >5s: Duurt een interactie of het laden van content langer dan 5 seconden? Dan zul je de gebruiker duidelijk moeten maken waarom iets zo lang duurt. Bijvoorbeeld bij het uploaden van content zorg je ervoor dat in de interface duidelijk is wat er gebeurt en hoe lang het nog duurt."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Illusies en slimme animaties",
+                            "text": [
+                                "Ease-out animaties\n",
+                                "Gebruik Ease-out animaties als de interface direct moet reageren, zoals voor button states en het menu."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": [
+                                "Ease-in animaties\n",
+                                "Gebruik Ease-in animaties voor het tonen van informatie zoals prompt, modal, succes states en error meldingen"
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Progress bar",
+                            "text": [
+                                "Als je een progress bar naar het einde toe laat versnellen, zal de gebruiker het gevoel krijgen dat iets sneller is geladen."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 10",
+                    "title": "User Experience",
+                    "date": "23/4/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "DPR & Viewport",
+                            "text": [
+                                "DPR betekent Device Pixel Ratio, dat is eigenlijk hoe scherp je scherm pixels weergeeft. Wil je weten wat jouw viewport of dpt is? Check dan even deze site: ",
+                                {
+                                    "anchor": "whatismyviewport.com",
+                                    "href": "https://whatismyviewport.com/",
+                                    "class": "a-inline"
+                                },
+                                ". Super handig om te snappen hoe je site zich aan verschillende schermen aanpast."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Responsive Images",
+                            "text": [
+                                "Als je een website bouwt, wil je natuurlijk dat je afbeeldingen er goed uitzien op elk apparaat zonder onnodig veel data te gebruiken. Deze gids dat uit: ",
+                                {
+                                    "anchor": "Responsive Images The Simple Way",
+                                    "href": "https://cloudfour.com/thinks/responsive-images-the-simple-way/",
+                                    "class": "a-inline"
+                                },
+                                ". Ook CSS heeft een tool hiervoor: ",
+                                {
+                                    "anchor": "image-set",
+                                    "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/image/image-set",
+                                    "class": "a-inline"
+                                },
+                                ", daarmee kun je verschillende resoluties makkelijk instellen."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 10",
+                    "title": "User Experience",
+                    "date": "06/5/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Workshop van vandaag",
+                            "text": [
+                                "Vandaag hebben we gewerkt aan client-side scripting voor betere gebruikerservaring. Check de uitleg hier: ",
+                                {
+                                    "anchor": "Client-Side Scripting for UX",
+                                    "href": "https://github.com/fdnd-task/user-experience-enhanced-website/blob/main/docs/client-side-scripting-for-ux.md",
+                                    "class": "a-inline"
+                                },
+                                "."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "View Transitions",
+                            "text": [
+                                "View transitions zijn een mooie manier om overgangen tussen paginas of states soepel en vloeiend te maken."
+                            ]
+                        },
+                        {
+                            "type": "list",
+                            "text": [
+                                {
+                                    "anchor": "Getting Started with View Transitions",
+                                    "href": "https://daverupert.com/2023/05/getting-started-view-transitions/",
+                                    "class": "a-inline"
+                                },
+                                {
+                                    "anchor": "View Transitions Handling Aspect Ratio Changes",
+                                    "href": "https://jakearchibald.com/2024/view-transitions-handling-aspect-ratio-changes/",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 10",
+                    "title": "We Love Web met Niels Leenheer",
+                    "date": "25/4/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Introductie",
+                            "text": [
+                                "Niels Leenheer werkt bij een bedrijf dat kassasystemen maakt voor kapsalons, maar hij is van oorsprongkelijk webdeveloper. Zijn achtergrond is half informatica en half kunstacademie. Vroeger werden webontwikkelaars vaak webmasters genoemd. Zijn eerste website bestond uit een afbeelding van He-Man en een noscript tag."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Eerste ervaringen met het web",
+                            "text": [
+                                "De noscript tag toont content wanneer JavaScript niet beschikbaar is. Je kunt meerdere noscript tags plaatsen, maar een noscript binnen een andere telt als één. Deze tag is niet te stylen omdat hij niet gerenderd wordt als JavaScript uitstaat. De inhoud komt wel in de DOM maar blijft onzichtbaar. Dit maakt noscript een uniek HTML-element."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Resilience van HTML",
+                            "text": [
+                                "HTML is tolerant voor fouten en blijft meestal werken ondanks onjuiste code. Browsers negeren onbekende of foutieve tags zonder foutmelding. Dit zorgt ervoor dat het web toegankelijk is. Javascript is minder tolerant en kan door fouten stoppen met werken."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Geschiedenis en fundamenten van het web",
+                            "text": [
+                                "Tim Berners-Lee maakte de eerste browser die ook een editor was. Hiermee kon je websites maken en bekijken. Oude websites werken nog steeds omdat browsers onbekende tags negeren. Backwards compatibility is een kernprincipe van HTML. Zelfs browsers als Mosaic tonen nog steeds websites zonder CSS en JavaScript."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Verouderde en oude HTML-tags",
+                            "text": [
+                                "Sommige oude tags zoals blink zijn verdwenen uit moderne browsers. Dit effect is nu alleen na te maken met CSS of JavaScript. De marquee tag wordt nog wel ondersteund maar nauwelijks gebruikt. Dit laat zien dat niet alle oude tags backward compatible zijn. De meeste oude tags worden wel netjes genegeerd."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Hoe werkt het parsen van HTML?",
+                            "text": [
+                                "Browsers gebruiken een tokenizer en tree builder om HTML te verwerken. De tokenizer leest HTML teken voor teken en maakt tokens aan. De tree builder bouwt de DOM en vult ontbrekende tags aan. Verkeerd geneste tags worden gecorrigeerd door de browser. Zo zorgt de browser dat fouten niet zichtbaar zijn."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Aanbevelingen voor moderne webontwikkeling",
+                            "text": [
+                                "Gebruik standaard HTML-elementen zoals button in plaats van custom elementen. Dit verbetert compatibiliteit en toegankelijkheid. Veel mensen delen content via platforms als Facebook en Instagram. Daardoor bepaalt een klein aantal bedrijven wat gebruikers zien. Dit maakt het web minder open dan vroeger."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Moderne uitdagingen in webontwikkeling",
+                            "text": [
+                                "Frameworks en polyfills helpen nieuwe functies in oudere browsers te ondersteunen. Dit werkt echter alleen tot een bepaald punt. Het fundament van HTML zorgt dat oude content nog steeds zichtbaar is. Moderne browsers zijn tolerant en herstellen veel fouten. Zo blijft het web ook na tientallen jaren bruikbaar."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 10",
+                    "title": "Nodemon opzetten",
+                    "date": "23/4/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "text": "Download de nieuwste versie van Node.js (https://nodejs.org/en) op je laptop of computer."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Fork deze repository en Clone jouw fork naar je laptop."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Open de repository in Visual Studio Code (of een andere code editor)."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Open de terminal in VSCode en installeer node in de repository:"
+                        },
+                        {
+                            "type": "list",
+                            "text": [
+                                { "text": "npm install" },
+                                { "text": "npm install -D nodemon" }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Controleer of je deze code in je package.json hebt staan:"
+                        },
+                        {
+                            "type": "list",
+                            "text": [
+                                { "text": "\"scripts\": {" },
+                                { "text": "  \"start\": \"node server.js\"," },
+                                { "text": "  \"dev\": \"nodemon server.js\"" },
+                                { "text": "}" }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Zodra de installatie klaar is, voer je het volgende commando uit om de website op localhost te starten:"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Voor gewone start, waarbij je de server handmatig opnieuw moet opstarten bij wijzigingen:"
+                        },
+                        {
+                            "type": "list",
+                            "text": [{ "text": "npm start" }]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Als je de server start met nodemon, wordt de server automatisch opnieuw gestart bij wijzigingen in server.js:"
+                        },
+                        {
+                            "type": "list",
+                            "text": [{ "text": "npm run dev" }]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Na het starten zie je in de terminal een localhost-link. Klik erop of open deze in je browser."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Als je de server wilt stoppen, dan kan dat met deze command:"
+                        },
+                        {
+                            "type": "list",
+                            "text": [{ "text": "Ctrl + C" }]
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "slug": "sprint-11",
+            "semesterClass": "semester-2-endterm",
+            "articles": [
+                {
+                    "sprint": "sprint 11",
+                    "title": "Pleasurable UI",
+                    "date": "12/5/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Workshop sprint planning",
+                            "text": [
+                                "Workshop over sprint planning gedaan. Link naar de uitleg: ",
+                                {
+                                    "anchor": "sprint planning",
+                                    "href": "https://github.com/fdnd-task/pleasurable-ui/blob/main/docs/sprint-planning.md",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "wat heb ik gedaan? / ga ik doen?",
+                            "text": [
+                                "Vandaag wil ik de single page view transition van deze workshop proberen te verwerken in mijn website: ",
+                                {
+                                    "anchor": "client-side scripting for UX",
+                                    "href": "https://github.com/fdnd-task/user-experience-enhanced-website/blob/main/docs/client-side-scripting-for-ux.md",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": "Mijn portflow van sprint 10 nog een keer overlezen en ingeleverd."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Samen met Nadia en Akiko de sprint planning gemaakt. Issue: ",
+                                {
+                                    "anchor": "sprint planning",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/2",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Project board aangemaakt, deadlines aangegeven, must-have en nice-to-have verdeeld en issues toegewezen: ",
+                                {
+                                    "anchor": "project board",
+                                    "href": "https://github.com/users/vsheo/projects/14/views/1",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "server js",
+                            "text": [
+                                "Ik heb de fetch URL geschreven ",
+                                {
+                                    "anchor": "issue 28",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/28",
+                                    "class": "a-inline"
+                                },
+                                ", en de POST en GET routes gemaakt op een branch. Daarna een pull request aan gevraagd het team: ",
+                                {
+                                    "anchor": "pull request",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/pull/36",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 11",
+                    "title": "Pleasurable UI",
+                    "date": "13/5/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Route voor favoriete pagina",
+                            "text": [
+                                "Ik heb een route aangemaakt voor de favoriete pagina. Issue: ",
+                                {
+                                    "anchor": "issue 33",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/33",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Opslaan en verwijderen van bookmarks",
+                            "text": [
+                                "Een functie geschreven waarmee bookmarks opgeslagen of verwijderd kunnen worden. Issue: ",
+                                {
+                                    "anchor": "issue 38",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/38",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Server DRY maken",
+                            "text": "De server is nu DRY geschreven omdat we herbruikbare functies hebben om POST en DELETE acties uit te voeren, en ook een functie om alle bookmarks op te halen."
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 11",
+                    "title": "Pleasurable UI",
+                    "date": "14/5/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Workshop over feature branches en pull requests",
+                            "text": [
+                                "Vandaag hebben we gewerkt met feature branches en pull requests. Uitleg is hier te vinden: ",
+                                {
+                                    "anchor": "Feature Branches en Pull Requests",
+                                    "href": "https://github.com/fdnd-task/pleasurable-ui/blob/main/docs/feature-branches-en-pull-requests.md",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Issue opgelost",
+                            "text": [
+                                "Ik heb een issue opgelost die Nadia voor mij had gemaakt: ",
+                                {
+                                    "anchor": "issue 41",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/41",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 11",
+                    "title": "Pleasurable UI",
+                    "date": "15/5/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Eigen issue en pull request",
+                            "text": [
+                                "Ik heb gewerkt aan deze issue: ",
+                                {
+                                    "anchor": "Issue #5",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/5",
+                                    "class": "a-inline"
+                                },
+                                ". Na het afronden heb ik meteen een pull request gemaakt en de ontvangen feedback direct verwerkt."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Reviews op team pull requests",
+                            "text": [
+                                "Ik heb ook pull requests van mijn teamleden gereviewd:",
+                                {
+                                    "anchor": "Pull Request van Nadia",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/pull/48",
+                                    "class": "a-inline"
+                                },
+                                " en ",
+                                {
+                                    "anchor": "Pull Request van Akiko",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/pull/46",
+                                    "class": "a-inline"
+                                },
+                                "."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 11",
+                    "title": "Pleasurable UI",
+                    "date": "16/5/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Code en design review",
+                            "text": [
+                                "Samen met Nadia heb ik een code en design review geschreven voor ",
+                                {
+                                    "anchor": "bieb in bloei 1H",
+                                    "href": "https://github.com/saschavanvliet/pleasurable-ui/issues/25",
+                                    "class": "a-inline"
+                                },
+                                "."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Branch samengevoegd namens Akiko",
+                            "text": [
+                                "Akiko was ziek, dus ik heb samen met Nadia haar branch code verwerkt en samengevoegd met onze code op de home pagina:",
+                                {
+                                    "anchor": "Pull request 53",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/pull/53",
+                                    "class": "a-inline"
+                                },
+                                ", ",
+                                {
+                                    "anchor": "Pull request 50",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/pull/50",
+                                    "class": "a-inline"
+                                },
+                                " en ",
+                                {
+                                    "anchor": "Pull request 54",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/pull/54",
+                                    "class": "a-inline"
+                                },
+                                "."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Documentatie",
+                            "text": "Ik heb alvast de server.js uitgelegd in de readme."
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 10",
+                    "title": "Pleasurable UI",
+                    "date": "19/5/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Workshop pleasurable user interface",
+                            "text": [
+                                "De workshop over pleasurable user interface kun je hier vinden: ",
+                                {
+                                    "anchor": "workshop pleasurable user interface",
+                                    "href": "https://github.com/fdnd-task/pleasurable-ui/blob/main/docs/pleasurable-is-in-the-details.md",
+                                    "class": "a-inline"
+                                },
+                                "."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Interacties in Figma ontwerpen",
+                            "text": [
+                                "Pleasurable UI ontwerpen workshop: ",
+                                {
+                                    "anchor": "interacties in figma ontwerpen opdracht",
+                                    "href": "https://github.com/fdnd-task/pleasurable-ui/blob/main/docs/pleasurable-is-in-the-details.md#pleasurable-ui-ontwerpen",
+                                    "class": "a-inline"
+                                },
+                                "."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Disney animatie principes",
+                            "text": [
+                                "Ik heb deze ",
+                                {
+                                    "anchor": "Disney animatie principes",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/57",
+                                    "class": "a-inline"
+                                },
+                                " gekozen voor een button interactie en daarna een prototype gemaakt in Figma."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 11",
+                    "title": "Pleasurable UI",
+                    "date": "20/5/25",
+                    "content": [
+                        {
+                            "type": "list",
+                            "header": "Figma prototypes gemaakt voor:",
+                            "text": [
+                                {
+                                    "anchor": "micro interactie",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/70"
+                                },
+                                {
+                                    "anchor": "pleasurable laag",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/73"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": [
+                                "En begonnen met de html, basis css en js voor de carousel onderaan op de details pagina. Zie issue ",
+                                {
+                                    "anchor": "#15",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/15",
+                                    "class": "a-inline"
+                                },
+                                "."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 11",
+                    "title": "Pleasurable UI",
+                    "date": "21/5/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "text": "Ik heb gewerkt in feature branches aan:"
+                        },
+                        {
+                            "type": "list",
+                            "text": [
+                                {
+                                    "anchor": "bookmark loader",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/79"
+                                },
+                                {
+                                    "anchor": "CSS carrousel",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/80"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Ik moet nog de view transition van de home naar de details pagina maken."
+                        }
+                    ]
+                },
+                {
+                    "sprint": "kalok yeung insights",
+                    "title": "Over Kalok Yeung",
+                    "date": "01/06/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Over Kalok Yeung",
+                            "text": "Kalok Yeung is een designer die veel samenwerkt met front-end developers om het design van websites te verbeteren. Hij focust op gebruikservaring en hoe je interacties met de gebruiker emotioneel kunt versterken."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Oxytocine triggeren met design",
+                            "text": "Kalok legt uit dat je via design oxytocine kunt triggeren, een hormoon dat zorgt voor verbondenheid en vertrouwen. Dit bereik je bijvoorbeeld door zachte UI-elementen: afgeronde hoeken, voldoende witruimte tussen en binnen elementen. Dit zorgt voor een professionele en aangename uitstraling. Ook subtiele motion zoals hover effecten en overgang animaties verbetert de interactie en het gevoel bij de gebruiker."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Motion en soft UI",
+                            "text": "Beweging moet functioneel zijn en iets toevoegen aan de gebruikerservaring, niet alleen decoratief. Subtiele animaties bij klikken of hoveren maken interacties prettiger. Door herbruikbare elementen te gebruiken, kan je animaties consistent toepassen, bijvoorbeeld een animatie die een subtitel verandert van h2 naar h1 tijdens een view transition. Physics in animaties, zoals een natuurlijke vertraging bij het verslepen van een video-tijdlijn, zorgt voor een organisch gevoel."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Geluid in design",
+                            "text": "Geluid wordt vaak over het hoofd gezien, maar het kan een positieve impact hebben op de gebruikerservaring. Bijvoorbeeld subtiele geluiden bij het hoveren of klikken op buttons, of een tik-geluid bij het scrollen door een lijst. Deze geluiden versterken de beleving en maken de website memorabel."
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Content en interactie",
+                            "text": "Om ervoor te zorgen dat mensen content lezen, is het belangrijk om tekst niet als grote blokken aan te bieden. Een chat-achtige interface werkt goed, waarbij vragen en antwoorden visueel gescheiden zijn. Ook interactieve filters, bijvoorbeeld op basis van hoe iemand zich voelt, maken content persoonlijker. Complexe processen kunnen simpel worden gemaakt, bijvoorbeeld door een camera op een bonnetje te richten en alleen relevante feedback te tonen, zoals prijs en currency"
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "AI en creativiteit",
+                            "text": "Kalok gebruikt AI alleen voor het beantwoorden van e-mails, niet voor ontwerpen. Hij gelooft dat AI geen echte creativiteit kan vervangen omdat ontwerpen die door AI gemaakt worden vaak levenloos aanvoelen."
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 11",
+                    "title": "Pleasurable UI",
+                    "date": "25/5/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "text": "In het weekend heb ik gewerkt aan:"
+                        },
+                        {
+                            "type": "list",
+                            "text": [
+                                {
+                                    "anchor": "you may also like gedeelte op de details pagina",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/15"
+                                },
+                                {
+                                    "anchor": "CSS carrousel",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/80"
+                                },
+                                {
+                                    "anchor": "where to find table",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/13"
+                                },
+                                {
+                                    "anchor": "error 404 pagina",
+                                    "href": "https://github.com/vsheo/pleasurable-ui/issues/18"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Deze issues heb ik afgerond en op review geplaatst. De feedback heb ik al verwerkt. Morgen begin ik samen met het team met het mergen."
+                        }
+                    ]
+                },
+                {
+                    "sprint": "sprint 11",
+                    "title": "Pleasurable UI",
+                    "date": "26/5/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "text": "Voorbeeld ontwerp keuzes overbrengen:"
+                        },
+                        {
+                            "type": "list",
+                            "text": [
+                                {
+                                    "anchor": "voorbeeld 1",
+                                    "href": "https://github.com/users/lisagjh/projects/13/views/14?visibleFields=%5B%22Title%22%2C%22Status%22%2C%22Labels%22%2C133392529%2C133392554%2C%22Parent+issue%22%2C184698587%5D&pane=issue&itemId=111038260&issue=lisagjh%7Ci-love-web%7C261"
+                                },
+                                {
+                                    "anchor": "voorbeeld 2",
+                                    "href": "https://github.com/users/lisagjh/projects/13/views/14?pane=issue&itemId=111743727&issue=lisagjh%7Ci-love-web%7C270"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Ik heb de sticky header issue aangenomen en afgemaakt:"
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "Ik heb de structuur van de README gemaakt, de inhoudsopgave, en wat ik kon invullen heb ik al gedaan. Ik wacht nog op mergen omdat mijn code in branches staat, maar ik wacht nog op reviews voordat ik het naar de main kan mergen."
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "README",
+                            "anchor": "README",
+                            "href": "https://github.com/vsheo/pleasurable-ui#milledoni"
+                        }
                     ]
                 }
             ]

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout shift voorbeeld</title>
+    <style>
+        img {
+            width: 7em;
+        }
+
+        button {
+            width: 7em;
+            height: 5em;
+
+            &:active {
+                scale: 0.8;
+                background-color: red;
+                color: white;
+            }
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://picsum.photos/4000">
+    <h2>hier boven is een image</h2>
+    <div>
+        <button>next image</button>
+        <button>Like image</button>
+    </div>
+</body>
+</html>

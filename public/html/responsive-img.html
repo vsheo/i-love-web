@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive images</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <!-- Opdracht: picture element -->
+    <picture>
+        <source type="image/avif" srcset="/assets/images/cat.avif">
+        <source type="image/webp" srcset="/assets/images/cat.webp">
+        <img src="/assets/images/cat.jpg" alt="Plaatje" width="400" height="300" decoding="async">
+    </picture>
+
+    <!-- Opdracht: Resolution switching -->
+    <picture>
+        <source media="(min-width: 600px)" type="image/avif" srcset="/assets/images/cat.avif">
+        <!-- cat@2x.avif dit is een code conventie, deze image is dus 2x meer pixels als de originele -->
+        <source type="image/avif" srcset="/assets/images/cat.avif, /assets/images/cat@2x.avif 2x">
+        <source type="image/webp" srcset="/assets/images/cat.webp, /assets/images/cat@2x.webp 2x">
+        <img src="/assets/images/cat.jpg" srcset="/assets/images/cat.jpg 2x" alt="Plaatje" width="400" height="300" decoding="async">
+    </picture>
+
+    <!-- Opdracht: Art direction -->
+    <picture>
+        <source media="(orientation: portrait)" type="image/avif" srcset="/assets/images/cat.avif" width="300" height="400">
+        <source type="image/avif" srcset="/assets/images/cat.avif">
+        <source type="image/webp" srcset="/assets/images/cat.webp">
+        <img src="/assets/images/cat.jpg" alt="Plaatje" width="400" height="300" decoding="async">
+    </picture>
+
+    <!-- Opdracht: Responsive Images met de Directus API in je project -->
+    <picture>
+        <!-- milledoni heeft geen assets voor images -->
+        <source type="image/avif" srcset='https://fdnd-agency.directus.app/as/milledoni_products/?fields=image&filter={"id":{"_eq":"1091"}}?format=avif'>
+        <!-- <source type="image/webp" srcset="https://fdnd-agency.directus.app/assets{{ bla.image }}?format=webp"> -->
+        <img src='https://fdnd-agency.directus.app/items/milledoni_products/?fields=image&filter={"id":{"_eq":"1091"}}' width="" height="" alt="alt text">
+     </picture>
+</body>
+</html>
+
+<!-- ander manier voor responsive images -->
+<!-- https://www.logerie.nl/ -->

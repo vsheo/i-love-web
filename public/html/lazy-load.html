@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lazy load images</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        div {
+            background-color: lightgray;
+            width: 20em;
+            height: 20em;
+            margin-bottom: 60vh;
+
+        }
+
+        img {
+            width: 20em;
+        }
+    </style>
+</head>
+<body>
+    <div><img loading="lazy" src="https://picsum.photos/1000"></div>
+    <div><img loading="lazy" src="https://picsum.photos/2000"></div>
+    <div><img loading="lazy" src="https://picsum.photos/3000"></div>
+    <div><img loading="lazy" src="https://picsum.photos/4000"></div>
+    <div><img loading="lazy" src="https://picsum.photos/5000"></div>
+</body>
+</html>

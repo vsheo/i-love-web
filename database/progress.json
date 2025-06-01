@@ -1011,6 +1011,94 @@
                     ]
                 }
             ]
+        },
+        {
+            "slug": "Sprint-10-User-Experience",
+            "sprintTitle": "Sprint 10: User Experience",
+            "semesterClass": "semester-2-endterm",
+            "sections": [
+                {
+                    "title": "improvements",
+                    "content": [
+                        {
+                            "caption": "details horizontale scroll",
+                            "src": "https://github.com/vsheo/user-experience-enhanced-website/blob/main/bewijslast-sprint-10/gift-container-details-new.png?raw=true",
+                            "alt": "gift-container-details-new.png"
+                        },
+                        {
+                            "caption": "skeleton state",
+                            "src": "https://github.com/vsheo/user-experience-enhanced-website/blob/main/bewijslast-sprint-10/skeleton-state-2.png?raw=true",
+                            "alt": "skeleton-state-2.png"
+                        }
+                    ]
+                },
+                {
+                    "title": "responsiveness",
+                    "content": [
+                        {
+                            "caption": "index pagina",
+                            "src": "https://github.com/vsheo/user-experience-enhanced-website/blob/main/bewijslast-sprint-10/Resp-Index-Video.mp4?raw=true",
+                            "alt": "Resp-Index-Video.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "detail pagina",
+                            "src": "https://github.com/vsheo/user-experience-enhanced-website/blob/main/bewijslast-sprint-10/Resp-Detail-Video.mp4?raw=true",
+                            "alt": "Resp-Detail-Video.mp4",
+                            "type": "video"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slug": "Sprint-11-Pleasurable-UI",
+            "sprintTitle": "Sprint 11: Pleasurable UI",
+            "semesterClass": "semester-2-endterm",
+            "sections": [
+                {
+                    "title": "carrousel schetsen",
+                    "content": [
+                        {
+                            "caption": "carrousel breakdown",
+                            "src": "https://github.com/vsheo/user-experience-enhanced-website/blob/main/bewijslast-sprint-11/css-carrousel-bd.jpg?raw=true",
+                            "alt": "gift-container-details-new.png"
+                        }
+                    ]
+                },
+                {
+                    "title": "carrousel",
+                    "content": [
+                        {
+                            "caption": "carrousel v1",
+                            "src": "https://github.com/vsheo/user-experience-enhanced-website/blob/main/bewijslast-sprint-11/carrousel-v1.png?raw=true",
+                            "alt": "carrousel-v1.png"
+                        },
+                        {
+                            "caption": "carrousel v2",
+                            "src": "https://github.com/vsheo/user-experience-enhanced-website/blob/main/bewijslast-sprint-11/carrousel-v2.1.png?raw=true",
+                            "alt": "carrousel-v2.1.png"
+                        },
+                        {
+                            "caption": "carrousel v2.2",
+                            "src": "https://github.com/vsheo/user-experience-enhanced-website/blob/main/bewijslast-sprint-11/carrousel-v2.2.png?raw=true",
+                            "alt": "carrousel-v2.2.png"
+                        },
+                        {
+                            "caption": "carrousel v3",
+                            "src": "https://github.com/vsheo/user-experience-enhanced-website/blob/main/bewijslast-sprint-11/Carrousel-v3.mp4?raw=true",
+                            "alt": "Carrousel-v3.mp4",
+                            "type": "video"
+                        },
+                        {
+                            "caption": "carrousel final",
+                            "src": "https://github.com/vsheo/user-experience-enhanced-website/blob/main/bewijslast-sprint-11/carrousel.mp4?raw=true",
+                            "alt": "carrousel.mp4",
+                            "type": "video"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
