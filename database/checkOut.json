@@ -2948,6 +2948,257 @@
                     ]
                 }
             ]
+        },
+
+        {
+            "slug": "sprint-12",
+            "semesterClass": "semester-2-endterm",
+            "articles": [
+                {
+                    "sprint": "Sprint 12",
+                    "title": "Proof of Concept",
+                    "date": "22/06/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "Briefing van Triple",
+                            "text": [
+                                "Voor deze sprint werk ik samen met ",
+                                {
+                                    "anchor": "Triple",
+                                    "href": "https://www.wearetriple.com/",
+                                    "class": "a-inline"
+                                },
+                                ". We hebben tijdens de briefing een opdracht gekregen waarin we een Pokédex website moeten maken met de ",
+                                {
+                                    "anchor": "PokeAPI",
+                                    "href": "https://pokeapi.co/",
+                                    "class": "a-inline"
+                                },
+                                ". Triple leverde een ",
+                                {
+                                    "anchor": "Figma bestand en MoSCoW-lijst",
+                                    "href": "https://github.com/vsheo/proof-of-concept/tree/main/FDND%20Sprint%2012",
+                                    "class": "a-inline"
+                                },
+                                " aan die als basis dienen voor het ontwerp en de planning. In de briefing werd duidelijk dat de must-haves prioriteit hebben."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Debriefing gestuurd",
+                            "text": [
+                                "Na de briefing hebben we een debriefing gestuurd waarin we onze interpretatie van de opdracht bevestigden. Die vind je hier: ",
+                                {
+                                    "anchor": "Debriefing PDF",
+                                    "href": "https://github.com/vsheo/proof-of-concept/blob/main/bewijslast/Briefing%20-%20samengevoeg.pdf",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Eerste stappen",
+                            "text": [
+                                "Ik heb meteen een ",
+                                {
+                                    "anchor": "projectboard",
+                                    "href": "https://github.com/users/vsheo/projects/15",
+                                    "class": "a-inline"
+                                },
+                                " aangemaakt waarin ik de must-have issues heb uitgewerkt. Daarna ben ik gestart met het maken van schetsen en een HTML-first aanpak voor de basisstructuur van de Pokédex: ",
+                                {
+                                    "anchor": "HTML-first issue",
+                                    "href": "https://github.com/vsheo/proof-of-concept/issues/3",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 12",
+                    "title": "Proof of Concept",
+                    "date": "4/06/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                {
+                                    "anchor": "workshop over progressive enhancement",
+                                    "href": "https://github.com/fdnd-task/proof-of-concept/blob/main/docs/progressive-enhancement.md",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Programma jaar 2: elke maandag, woensdag en vrijdag van 13.30 tot 17.30 zijn er workshops en op één van die dagen in de ochtend (9.30) is er mentorship. Op dinsdag en donderdag werken we samen met eerstejaars studenten aan het project."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "Styleguide en layout",
+                            "text": [
+                                "Ik heb een ",
+                                {
+                                    "anchor": "styleguide gemaakt",
+                                    "href": "https://github.com/vsheo/proof-of-concept/issues/22",
+                                    "class": "a-inline"
+                                },
+                                " met daarin mijn keuzes voor kleuren en typografie. daarna heb ik de ",
+                                {
+                                    "anchor": "one column layout voor de indexpagina",
+                                    "href": "https://github.com/vsheo/proof-of-concept/issues/23",
+                                    "class": "a-inline"
+                                },
+                                " gemaakt."
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "header": "pokeAPI",
+                            "text": [
+                                "Daarna ben ik begonnen met het lezen van de ",
+                                {
+                                    "anchor": "documentatie van de PokeAPI",
+                                    "href": "https://pokeapi.co/docs/v2",
+                                    "class": "a-inline"
+                                },
+                                "Deze API werkt heel anders dan Directus: er zijn veel geneste endpoints en je moet vaak meerdere fetches doen om de juiste data op te halen."
+                            ]
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 12",
+                    "title": "Proof of Concept",
+                    "date": "5/06/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "server.js en data ophalen",
+                            "text": [
+                                "Gisteren en vandaag heb ik gewerkt aan het opzetten van server.js: ",
+                                {
+                                    "anchor": "issue #5",
+                                    "href": "https://github.com/vsheo/proof-of-concept/issues/5",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        },
+
+                                                {
+                            "type": "paragraph",
+                            "header": "code coventies",
+                            "text": [
+                                "Hier is een samenvatting van codeconventies:",
+                                {
+                                    "anchor": "wiki",
+                                    "href": "https://github.com/vsheo/i-love-web/wiki/sprint-12:-16%E2%80%906%E2%80%9025",
+                                    "class": "a-inline"
+                                }
+                            ]
+                        }
+                    ]
+                },
+
+                {
+                    "sprint": "Sprint 12",
+                    "title": "We love web met Hidde de Vries",
+                    "date": "13/06/25",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Display: Green gaat over klimaatverandering en wat je kunt doen om duurzamer te leven. Bijvoorbeeld: je telefoon voor meer jaren gebruiken of kleren laten uitdrogen. Tegelijkertijd zijn er minder duurzame acties zoals airco in de auto gebruiken."
+                            ]
+                        },
+
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Hidde is lid van de Web Sustainability Interest Group, die naast WCAG nu ook Web Sustainability Guidelines ontwikkelt. IT-emissies zijn groter dan die van vliegtuigen. Als internet een land was, zou het de 13e grootste uitstoter zijn."
+                            ]
+                        },
+
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "De Web Sustainability Guidelines richten zich op user experience design, web development, hosting, infrastructuur en business strategie. Deze richtlijnen zijn gebaseerd op impact en helpen bij het verduurzamen van websites."
+                            ]
+                        },
+
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Duurzaamheid op het web hangt af van servers, die altijd aan staan en stroom verbruiken. Ook netwerken spelen een rol door alle uploads en downloads. Daarnaast zijn er de devices van gebruikers zoals laptops, telefoons en tablets."
+                            ]
+                        },
+
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Websites worden steeds groter, met een gemiddelde mediagrootte van 2678kb nu, tegenover 400kb tien jaar geleden."
+                            ]
+                        },
+
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Het verminderen van data, zoals afbeeldingen en videos, en lazy loading helpen om emissies te verlagen. Daarnaast is het belangrijk om een carbon budget te bespreken en acties te ondernemen als je erover gaat."
+                            ]
+                        },
+
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Eenvoudige websites zonder CSS en JavaScript kunnen onder de 0,5kb blijven. Gebruik liever web platform features in plaats van zware libraries. Ondersteun ook oudere devices door progressive enhancement toe te passen."
+                            ]
+                        },
+
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Kies voor groene hosting providers, dit kan je controleren via ",
+                                {
+                                    "anchor": "thegreenwebfoundation.org",
+                                    "href": "https://www.thegreenwebfoundation.org/"
+                                }
+                            ]
+                        },
+
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Gebruik alleen noodzakelijke features, want AI verbruikt veel energie. Laat gebruikers zelf kiezen voor minder CO2-intensieve functies op je website."
+                            ]
+                        },
+
+                        {
+                            "type": "paragraph",
+                            "header": "",
+                            "text": [
+                                "Gebruik media queries zoals prefers-reduced-data om energie te besparen. Analyseer ook je fonts en CSS om onnodige data te vermijden. Dit helpt de website efficiënter en duurzamer te maken."
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
