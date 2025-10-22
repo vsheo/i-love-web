@@ -1,34 +1,27 @@
 {
-  "name": "i-love-web",
-  "version": "2.0.0",
-  "description": "Mijn I Love Web",
-  "main": "server.js",
-  "type": "module",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vsheo/i-love-web.git"
-  },
-  "author": "viresh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vsheo/i-love-web/issues"
-  },
-  "homepage": "https://github.com/vsheo/i-love-web#readme",
-  "dependencies": {
-    "express": "^4.21.2",
-    "liquidjs": "^10.21.0",
-    "marked": "^15.0.7",
-    "node-fetch": "^3.3.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-  }
+    "name": "i-love-web",
+    "version": "1.0.0",
+    "description": "Learning journal, blog, digital gardening",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "start": "npx @11ty/eleventy --serve",
+        "build": "npx @11ty/eleventy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vsheo/i-love-web.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vsheo/i-love-web/issues"
+    },
+    "homepage": "https://github.com/vsheo/i-love-web#readme",
+    "dependencies": {
+        "@11ty/eleventy": "^3.1.2"
+    }
 }

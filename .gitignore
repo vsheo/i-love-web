@@ -27,3 +27,9 @@ public/build/
 
 # Members directory (indien onbedoeld)
 members/
+
+# dependencies installed by npm
+node_modules
+
+# build artefacts
+public
