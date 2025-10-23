@@ -8,7 +8,13 @@ const baseURL = "https://raw.githubusercontent.com/wiki/vsheo/i-love-web/";
 const sprintStart = 13;
 const sprintEnd = 20;
 
-const outputDir = path.join(process.cwd(), "fetched-check-outs");
+// const outputDir = path.join(process.cwd(), "fetched-check-outs");
+const outputDir = path.join(
+    process.cwd(),
+    "src",
+    "check-outs",
+    "fetched-check-outs"
+);
 
 // Zorg dat de map bestaat
 if (!fs.existsSync(outputDir)) {
@@ -51,8 +57,27 @@ async function fetchMarkdownFiles(urls) {
         const fileName = path.basename(url);
         const outputPath = path.join(outputDir, fileName);
 
-        fs.writeFileSync(outputPath, mdContent, "utf-8");
-        console.log(`Saved ${fileName} to fetched-check-outs/`);
+        // 🔥 Extract sprint & checkout nummers uit bestandsnaam
+        const match = fileName.match(/sprint-(\d+)-checkout-(\d+)/);
+        const sprint = match ? match[1] : "unknown";
+        const checkout = match ? match[2] : "unknown";
+
+        // 🔥 Voeg frontmatter toe aan het begin van het bestand
+        const frontMatter = `---
+title: sprint ${sprint} checkout ${checkout}
+layout: base.njk
+templateEngineOverride: njk,md
+tags: ["sprint ${sprint}"]
+---
+`;
+
+        // Combineer frontmatter + originele markdown
+        const fullContent = frontMatter + mdContent;
+
+        fs.writeFileSync(outputPath, fullContent, "utf-8");
+        console.log(
+            `✅ Saved ${fileName} with frontmatter to fetched-check-outs/`
+        );
     }
 }
 

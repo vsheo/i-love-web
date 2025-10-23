@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ post.slug }}</title>
-</head>
-<body>
-  {{ content | safe }}
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ post.slug }}</title>
+        <link rel="stylesheet" href="/css-js/style.css"/>
+        <link rel="stylesheet" href="/css-js/ilw.css"/>
+        <script src="/css-js/main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            {% include "nav.njk" %}
+        </header>
+        <main>
+			{{ content | safe }}
+        </main>
+    </body>
 </html>

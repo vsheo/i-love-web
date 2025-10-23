@@ -26,6 +26,7 @@
         "@11ty/eleventy": "^3.1.2",
         "@11ty/eleventy-fetch": "^5.1.0",
         "axios": "^1.12.2",
+        "cheerio": "^1.1.2",
         "node-fetch": "^3.3.2"
     }
 }
