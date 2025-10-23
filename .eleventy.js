@@ -17,7 +17,7 @@ export default function(eleventyConfig) {
 
           if (/h[1-6]/.test(tag)) {
             // start nieuw article **na de heading**
-            currentArticle = $("<article></article>");
+            currentArticle = $('<article class="neutral"></article>');
             $(el).after(currentArticle);
 
             // voeg eventueel grid-spacer direct na heading

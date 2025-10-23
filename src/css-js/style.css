@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--color-text-highlight);
+}
+
 body {
     font-family: sans-serif;
-    background-color: gray;
+    background-color: var(--light-2);
 }
 
 header {
@@ -18,11 +26,12 @@ header {
     width: 100vw;
     align-items: center;
     padding: 0 2em;
-    background-color: rgb(90, 90, 125);
-    border-bottom: 1px solid red;
+    background-color: var(--dark-2);
     z-index: 11;
+    box-shadow: 1px 1px 15px 3px var(--dark-2);
 
-    a {
+
+    &>a {
         padding: 1em;
 
         &:hover {
@@ -35,7 +44,7 @@ header {
     }
 
     &:has(input[type="checkbox"]:checked) svg {
-        color: brown;
+        color: var(--color-text-highlight);
     }
 
     &:has(input[type="checkbox"]:checked) nav {
@@ -60,12 +69,12 @@ nav {
     transition: right 500ms ease-out;
 
     ul {
-        width: 220px;
-        background-color: bisque;
+        width: 240px;
+        background-color: var(--dark-2);
         z-index: 10;
 
         &>li {
-            padding: 1em;
+            padding: 0.7em;
         }
     }
 }
@@ -100,6 +109,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1rem 0.5rem 1rem 0;
     width: 100%;
     justify-self: center;
+    overflow-wrap: anywhere;
     /* text-align: center; */
 
     @media (min-width: 475px) {
@@ -118,13 +128,13 @@ h1, h2, h3, h4, h5, h6 {
         &::after {
             content: '';
             position: absolute;
-            bottom: 0;
+            bottom: -10px;
             /* lijn onder de heading */
             left: 0;
             width: 90vw;
             /* over de hele heading */
             height: 2px;
-            background-color: black;
+            background-color: var(--color-light);
         }
     }
 }
@@ -147,9 +157,11 @@ article {
     flex-direction: column;
     padding: 1em;
     box-sizing: border-box;
-    background-color: beige;
-    width: clamp(28ch, 75vw, 70ch);
+    background-color: var(--dark-2);
+    width: clamp(28ch, 65vw, 75ch);
     border-radius: 15px;
+    outline: 1px solid var(--light-2);
+    box-shadow: 1px 1px 5px 5px var(--dark-1);
 
     @media (min-width: 925px) {
         grid-column: 2;
@@ -157,19 +169,24 @@ article {
         justify-self: center;
         align-items: start;
     }
+
+    img {
+        align-self: center;
+        width: clamp(240px, 65vw, 400px);
+        height: auto;
+    }
+
+    p {
+        margin: 0.5em 0 0 0;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 1.5em;
+        
+        li p {
+            overflow-wrap: anywhere;
+        }
+    }
 }
 
-img {
-    align-self: center;
-    width: clamp(240px, 65vw, 400px);
-    height: auto;
-}
-
-p {
-    margin: 0.5em 0 0 0;
-}
-
-ul {
-    list-style-type: disc;
-    padding-left: 1.5em;
-}
