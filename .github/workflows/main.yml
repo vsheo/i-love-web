@@ -1,36 +1,48 @@
 name: Build Eleventy
 
 on:
-    push:
-      branches:
-        - main
-    workflow_dispatch:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-    build:
-      runs-on: ubuntu-latest
-      strategy:
-        matrix:
-          node-version: [20.x]
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
 
-      steps:
-        - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v2
 
-        - name: Use Node.js ${{ matrix.node-version }}
-          uses: actions/setup-node@v3
-          with:
-            node-version: ${{ matrix.node-version }}
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
 
-        - name: Install dependencies & build
-          run: |
-            npm ci
-            npm run build
+      - name: Cache Node modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
-        - name: Add .nojekyll
-          run: touch public/.nojekyll
+      - name: Install dependencies
+        run: npm ci
 
-        - name: Deploy
-          uses: peaceiris/actions-gh-pages@v3
-          with:
-            publish_dir: ./public
-            github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch markdown checkouts
+        run: node src/check-outs/fetch-checkouts.js
+
+      - name: Build Eleventy
+        run: npx @11ty/eleventy
+
+      - name: Add .nojekyll
+        run: touch public/.nojekyll
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./public
+          github_token: ${{ secrets.GITHUB_TOKEN }}
