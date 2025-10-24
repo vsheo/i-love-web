@@ -33,3 +33,12 @@ node_modules
 
 # build artefacts
 public
+
+# Eleventy cache
+.cache/
+
+# Output folder
+public/
+
+# Fetched check-outs
+src/check-outs/fetched-check-outs/
