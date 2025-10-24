@@ -57,12 +57,12 @@ async function fetchMarkdownFiles(urls) {
         const fileName = path.basename(url);
         const outputPath = path.join(outputDir, fileName);
 
-        // 🔥 Extract sprint & checkout nummers uit bestandsnaam
+        // Extract sprint & checkout nummers uit bestandsnaam
         const match = fileName.match(/sprint-(\d+)-checkout-(\d+)/);
         const sprint = match ? match[1] : "unknown";
         const checkout = match ? match[2] : "unknown";
 
-        // 🔥 Voeg frontmatter toe aan het begin van het bestand
+        // Voeg frontmatter toe aan het begin van het bestand
         const frontMatter = `---
 title: sprint ${sprint} checkout ${checkout}
 layout: base.njk
@@ -76,7 +76,7 @@ tags: ["sprint ${sprint}"]
 
         fs.writeFileSync(outputPath, fullContent, "utf-8");
         console.log(
-            `✅ Saved ${fileName} with frontmatter to fetched-check-outs/`
+            `Saved ${fileName} with frontmatter to fetched-check-outs/`
         );
     }
 }

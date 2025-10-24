@@ -3,16 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <title>{{ post.slug }}</title>
-        <link rel="stylesheet" href="/css-js/style.css"/>
         <link rel="stylesheet" href="/css-js/ilw.css"/>
+        <link rel="stylesheet" href="/css-js/style.css"/>
         <script src="/css-js/main.js" defer></script>
+        <link rel="stylesheet" href="/css-js/prism-vsc-dark-plus.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.js"></script>
     </head>
     <body class="neutral">
         <header>
             {% include "nav.njk" %}
         </header>
         <main>
-			{{ content | safe }}
+            {{ content | safe }}
         </main>
     </body>
 </html>
