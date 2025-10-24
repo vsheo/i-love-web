@@ -57,6 +57,6 @@ export default function (eleventyConfig) {
             input: "src",
             output: "public",
         },
-        pathPrefix: "/"
+        pathPrefix: "/i-love-web/"
     };
 }
