@@ -1,4 +1,4 @@
-name: Build Eleventy
+name: Build & Deploy Eleventy
 
 on:
   push:
@@ -41,7 +41,7 @@ jobs:
       - name: Add .nojekyll
         run: touch public/.nojekyll
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./public
