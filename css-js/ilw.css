@@ -1,0 +1,137 @@
+body {
+    --color-light: hsl(0 0% 100%);
+    --color-dark: hsl(0, 0%, 0%);
+    --color-text-highlight: oklch(97.02% 0.000 0);
+    --color-neutral: oklch(38.74% 0.150 266.36);
+    --color-accent-primary: oklch(69.58% 0.160 55.54);
+    --color-accent-secondary: oklch(32.11% 0.000 0);
+
+    @supports (color: oklch(56.24% 0.173 40.93)) {
+        --color-light: hsl(0 0% 100%);
+        --color-dark: hsl(0, 0%, 0%);
+        --color-text-highlight: oklch(78.09% 0.143 51.46);
+        --color-neutral: oklch(38.74% 0.150 266.36);
+        --color-accent-primary: oklch(69.58% 0.160 55.54);
+        --color-accent-secondary: oklch(32.11% 0.000 0);
+    }
+
+    color: var(--color-light);
+
+    /* font */
+    font-family: 'SpaceMono', monospace;
+    font-size: var(--font-size-primary);
+    font-weight: var(--font-weight-regular);
+    
+    /* font-size */
+    --font-size-primary: 1rem;
+    /* 64px */
+    --font-size-title-page: clamp(3rem, calc(8.5vw + 1rem), 4rem);
+    /* 36px */
+    --font-size-title-article: clamp(2rem, calc(5vw + 1rem), 2.25rem);
+    /* 28px */
+    --font-size-title-paragraph: clamp(1.35rem, calc(3vw + 1rem), 1.75rem);
+
+    /* font-weight */
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+
+/* ====================================================== COLORS ====================================================== */
+.primary,
+.neutral,
+.accent-primary,
+.accent-secondary {
+    --dark-2: color-mix(in hsl, var(--color) 90%, black 10%);
+    --dark-1: color-mix(in hsl, var(--color) 95%, black 5%);
+    --light-1: color-mix(in hsl, var(--color) 90%, white 10%);
+    --light-2: color-mix(in hsl, var(--color) 80%, white 20%);
+
+    @supports (color: oklch(56.24% 0.173 40.93)) {
+        --dark-2: oklch(from var(--color) calc(l - 0.10) calc(c - 0.02) h);
+        --dark-1: oklch(from var(--color) calc(l - 0.04) calc(c - 0.01) h);
+        --light-1: oklch(from var(--color) calc(l + 0.02) calc(c + 0.01) h);
+        --light-2: oklch(from var(--color) calc(l + 0.04) calc(c + 0.02) h);
+    }
+}
+
+.primary {
+    --color: var(--oklch-primary, var(--color-primary));
+}
+
+.dark {
+    --color: var(--oklch-dark, var(--color-dark));
+}
+
+.neutral {
+    --color: var(--oklch-neutral, var(--color-neutral));
+}
+
+.accent-primary {
+    --color: var(--oklch-accent-primary, var(--color-accent-primary));
+}
+
+.accent-secondary {
+    --color: var(--oklch-accent-secondary, var(--color-accent-secondary));
+}
+
+/* ====================================================== FONTS ====================================================== */
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('fonts/SpaceMono-Regular.ttf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('fonts/SpaceMono-Italic.ttf') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('fonts/SpaceMono-Bold.ttf') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('fonts/SpaceMono-BoldItalic.ttf') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+h1, h2, h3, h4 {
+    line-height: 2.5rem;
+
+}
+
+h1 {
+    font-size: var(--font-size-title-page);
+    font-weight: var(--font-weight-regular);
+    font-style: italic;
+}
+
+h2 {
+    font-size: var(--font-size-title-article);
+    font-weight: var(--font-weight-bold);
+}
+
+h3 {
+    font-size: var(--font-size-title-paragraph);
+    font-weight: var(--font-weight-bold);
+}
+
+/* h4 {
+    font-size: var(--font-size-title-paragraph);
+    font-weight: var(--font-weight-bold);
+    font-style: italic;
+} */
