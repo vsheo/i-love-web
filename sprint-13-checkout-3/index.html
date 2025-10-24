@@ -104,8 +104,59 @@
 <label for="hamburger" aria-hidden="true"></label>
         </header>
         <main>
-            <h2>Blog Posts</h2><article class="neutral"><ul>
-</ul><img src="" alt="Random cat"></article><span class="grid-spacer" aria-hidden="true"></span>
+            <h1>03/09/2025</h1><article class="neutral"><p><a href="https://github.com/fdnd-task/your-tribe-for-life-squad-page/blob/main/docs/live-rendering.md">Workshop live rendering</a></p></article><span class="grid-spacer" aria-hidden="true"></span>
+
+<h2><a href="https://github.com/fdnd-task/your-tribe-for-life-squad-page/blob/main/docs/live-rendering.md#directus-endpoint">directus filter links oefenen</a></h2><article class="neutral"><p><a href="https://directus.io/docs/guides/connect/query-parameters">documentatie 1</a><br>
+<a href="https://directus.io/docs/guides/connect/filter-rules#available-operators">documentatie 2</a></p><ul>
+<li>
+<p>https://fdnd.directus.app/items/person?fields=name&amp;sort=name</p>
+</li>
+<li>
+<p>https://fdnd.directus.app/items/person?fields=name&amp;filter={ "name": { "_starts_with": "D" }}</p>
+</li>
+<li>
+<p>https://fdnd.directus.app/items/person?fields=name&amp;filter={ "name": { "_nstarts_with": "K" }}</p>
+</li>
+<li>
+<p>https://fdnd.directus.app/items/person?fields=name,birthdate&amp;filter={ "birthdate": { "_lt": "01_01_2000" }}</p>
+</li>
+<li>
+<p>https://fdnd.directus.app/items/person?fields=name,birthdate&amp;filter={ "birthdate": { "_between": ["01_01_2000", "01_01_2008"] }}</p>
+</li>
+</ul><p>of</p><ul>
+<li>
+<p>https://fdnd.directus.app/items/person?fields=name,birthdate&amp;filter={ "birthdate": { "_between": "01_01_2000,01_01_2008"}}</p>
+</li>
+<li>
+<p>https://fdnd.directus.app/items/person?aggregate[count]=fav_tag&amp;groupBy[]=fav_tag</p>
+</li>
+</ul><p>7 kan niet omdat je niet in een array kan filteren</p></article><span class="grid-spacer" aria-hidden="true"></span>
+
+
+
+
+
+<h2>svelte code along v Dorien</h2><article class="neutral"><ul>
+<li>
+<p><code>npx sv create live-rendering</code><br>
+door de interface gaan en kiezen wat je nodig hebt</p>
+</li>
+<li>
+<p><code>cd live-rendering</code></p>
+</li>
+</ul></article><span class="grid-spacer" aria-hidden="true"></span>
+
+<h3>data uit directus ophalen</h3><article class="neutral"><p>in route map maakt je je routes map, maakt een nieuwe pagina aan op je site</p><p>om data op te halen moeten we een server bestant aan maken:</p><ul>
+<li><code>+page.server.js</code></li>
+<li>en daarna met <code>$props()</code> data naar je page file te brengen</li>
+</ul><p>map maken die naar details pagina gaat</p><ul>
+<li><code>[id]</code><br>
+omdat het gaat naar de detail pagina van die persoon met deze id, dit is een eigen code conventie</li>
+</ul></article><span class="grid-spacer" aria-hidden="true"></span>
+
+
+
+
 
 
         </main>
