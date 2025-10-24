@@ -41,12 +41,31 @@ header {
         }
     }
 
+    label:hover {
+        svg {
+            --bun: #b87f2a;
+            --sesame: #fff8dc;
+            --patty: #8b3a2f;
+            --cheese: #ffea00;
+            --stroke: black;
+        }
+    }
+
+    svg {
+        --sesame: white;
+        --stroke: currentColor;
+    }
+
     input {
         clip-path: inset(50%);
     }
 
     &:has(input[type="checkbox"]:checked) svg {
-        color: var(--color-text-highlight);
+        --bun: #b87f2a;
+        --sesame: #fff8dc;
+        --patty: #8b3a2f;
+        --cheese: #ffea00;
+        --stroke: black;
     }
 
     &:has(input[type="checkbox"]:checked) nav {
@@ -54,7 +73,7 @@ header {
         right: 0;
     }
 
-    &:has(input[type="checkbox"]:checked) label {
+    &:has(input[type="checkbox"]:checked) label:nth-of-type(2) {
         opacity: 1;
         visibility: visible;
     }
@@ -103,7 +122,8 @@ main {
     padding: 1em;
 
     @media (min-width: 925px) {
-        grid-template-columns: 15em 1fr;
+        grid-template-columns: 23.125em 1fr;
+        justify-items: start;
     }
 }
 
@@ -169,7 +189,6 @@ article {
     @media (min-width: 925px) {
         grid-column: 2;
         place-self: start;
-        justify-self: center;
         align-items: start;
     }
 
