@@ -5,8 +5,8 @@ import markdownItAttrs from "markdown-it-attrs";
 
 export default function (eleventyConfig) {
     eleventyConfig.addPlugin(syntaxHighlight);
-    eleventyConfig.addPassthroughCopy("./src/css-js");
-    eleventyConfig.addWatchTarget("./src/css-js/");
+    eleventyConfig.addPassthroughCopy("./src/assets");
+    eleventyConfig.addWatchTarget("./src/assets/");
 
     eleventyConfig.addTransform(
         "wrapContentAfterHeadings",

@@ -4,14 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ title or "Rishi" }}</title>
-        <link rel="stylesheet" href="/i-love-web/css-js/ilw.css"/>
-        <link rel="stylesheet" href="/i-love-web/css-js/home.css"/>
-        <script src="{{ pathPrefix }}css-js/scripts.js" defer></script>
+        <link rel="stylesheet" href="/i-love-web/assets/ilw.css"/>
+        <link rel="stylesheet" href="/i-love-web/assets/home.css"/>
+        <script src="{{ pathPrefix }}assets/scripts.js" defer></script>
     </head>
     <body class="neutral">
         <header>
-            <h1>Portfolio</h1>
+            <h1>{{ title }}</h1>
+            {% include "nav.njk" %}
         </header>
-        {{ content | safe }}
+        <main>
+            {{ content | safe }}
+        </main>
     </body>
 </html>
