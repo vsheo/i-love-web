@@ -108,13 +108,13 @@ main {
     gap: 1em;
 
     @media (min-width: 725px) {
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        /* grid-template-columns: 1fr 1fr 1fr; */
-    }
-
-    @media (min-width: 725px) {
         grid-row: 3;
         grid-column: 2/4;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    @media (min-width: 1140px) {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     h2 {
