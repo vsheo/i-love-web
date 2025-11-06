@@ -11,10 +11,9 @@
     <body class="neutral">
         <header>
             <h1>{{ title }}</h1>
-            {% include "nav.njk" %}
         </header>
         <main>
-            {{ content | safe }}
+            {% include "homeLinks.njk" %}
         </main>
     </body>
 </html>

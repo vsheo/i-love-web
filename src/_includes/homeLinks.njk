@@ -1,0 +1,21 @@
+{% set sprints = range(13, 21) -%}
+<ul>
+    {% for sprint in sprints -%}
+        {% set collectionName = "sprint " ~ sprint -%}
+        {% if collections[collectionName] and collections[collectionName] | length > 0 -%}
+            <li>
+                <details>
+                    <summary>Sprint {{ sprint }}</summary>
+                    <ul>
+                        {% for post in collections[collectionName] -%}
+                            <li>
+                                <a href="/i-love-web{{ post.url }}">{{ post.data.title }}</a>
+                            </li>
+                        {% endfor -%}
+                    </ul>
+                </details>
+            </li>
+        {% endif -%}
+    {% endfor -%}
+</ul>
+
