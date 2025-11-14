@@ -110,59 +110,66 @@
 <label class="overlay" for="hamburger" aria-hidden="true"></label>
         </header>
         <main>
-            <h1>03/09/2025</h1><article class="neutral"><p><a href="https://github.com/fdnd-task/your-tribe-for-life-squad-page/blob/main/docs/live-rendering.md">Workshop live rendering</a></p></article><span class="grid-spacer" aria-hidden="true"></span>
-
-<h2><a href="https://github.com/fdnd-task/your-tribe-for-life-squad-page/blob/main/docs/live-rendering.md#directus-endpoint">directus filter links oefenen</a></h2><article class="neutral"><p><a href="https://directus.io/docs/guides/connect/query-parameters">documentatie 1</a><br>
-<a href="https://directus.io/docs/guides/connect/filter-rules#available-operators">documentatie 2</a></p><ul>
-<li>
-<p>https://fdnd.directus.app/items/person?fields=name&amp;sort=name</p>
-</li>
-<li>
-<p>https://fdnd.directus.app/items/person?fields=name&amp;filter={ "name": { "_starts_with": "D" }}</p>
-</li>
-<li>
-<p>https://fdnd.directus.app/items/person?fields=name&amp;filter={ "name": { "_nstarts_with": "K" }}</p>
-</li>
-<li>
-<p>https://fdnd.directus.app/items/person?fields=name,birthdate&amp;filter={ "birthdate": { "_lt": "01_01_2000" }}</p>
-</li>
-<li>
-<p>https://fdnd.directus.app/items/person?fields=name,birthdate&amp;filter={ "birthdate": { "_between": ["01_01_2000", "01_01_2008"] }}</p>
-</li>
-</ul><p>of</p><ul>
-<li>
-<p>https://fdnd.directus.app/items/person?fields=name,birthdate&amp;filter={ "birthdate": { "_between": "01_01_2000,01_01_2008"}}</p>
-</li>
-<li>
-<p>https://fdnd.directus.app/items/person?aggregate[count]=fav_tag&amp;groupBy[]=fav_tag</p>
-</li>
-</ul><p>7 kan niet omdat je niet in een array kan filteren</p></article><span class="grid-spacer" aria-hidden="true"></span>
-
-
-
-
-
-<h2>svelte code along v Dorien</h2><article class="neutral"><ul>
-<li>
-<p><code>npx sv create live-rendering</code><br>
-door de interface gaan en kiezen wat je nodig hebt</p>
-</li>
-<li>
-<p><code>cd live-rendering</code></p>
-</li>
-</ul></article><span class="grid-spacer" aria-hidden="true"></span>
-
-<h3>data uit directus ophalen</h3><article class="neutral"><p>in route map maakt je je routes map, maakt een nieuwe pagina aan op je site</p><p>om data op te halen moeten we een server bestant aan maken:</p><ul>
-<li><code>+page.server.js</code></li>
-<li>en daarna met <code>$props()</code> data naar je page file te brengen</li>
-</ul><p>map maken die naar details pagina gaat</p><ul>
-<li><code>[id]</code><br>
-omdat het gaat naar de detail pagina van die persoon met deze id, dit is een eigen code conventie</li>
+            <h1>Corner-shape</h1><article class="neutral"><p><a href="https://css-tricks.com/what-can-we-actually-do-with-corner-shape/">corner-shape</a><br>
+is een CSS-property die samenwerkt met border-radius. Zonder border-radius heeft corner-shape geen effect.</p><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/corner-shape">mdn documentatie</a></p><p>Net als bij border-radius kun je per hoek een andere waarde instellen:<br>
+<code>corner-shape: notch round notch round;</code></p><p>De volgorde is (van links naar rechts):</p><ul>
+<li>top-left</li>
+<li>top-right</li>
+<li>bottom-right</li>
+<li>bottom-left</li>
+</ul><p>Beschikbare vormen:</p><ul>
+<li>round (default)</li>
+<li>bevel – alsof er een hoekje is afgesneden</li>
+<li>scoop – een omgekeerde cirkel</li>
+<li>notch – een vierkant stukje eruit</li>
+<li>squircle (hier zie ik niet echt vershil met de default)</li>
+</ul><p>Je kunt ook de <code>border-radius</code> aanpassen om de vorm van de corner-shape te veranderen.<br>
+bijvoorbeeld met:</p><ul>
+<li>border-top-left-radius: 50px;</li>
+<li>border-top-right-radius: 48px 50%;</li>
+<li>border-bottom-left-radius: 16px;</li>
+<li>border-bottom-right-radius: 80px;</li>
+<li>border-radius: 16px 48px 48px 16px;</li>
+<li>border-radius: 25% 10%;</li>
 </ul></article><span class="grid-spacer" aria-hidden="true"></span>
 
 
 
 
+
+
+
+
+
+<h2>Pseudo-elementen</h2><article class="neutral"><p>Met <code>::before</code> en <code>::after</code> kan je extra lagen toevoegen aan hetzelfde element. Die pseudo-elementen kunnen hun eigen corner-shape krijgen, zodat je verschillende combinaties en creatieve vormen kan maken.</p><img width="452" height="344" alt="image" src="https://github.com/user-attachments/assets/251d3374-5528-4d6b-a9db-23720eeba491"></article><span class="grid-spacer" aria-hidden="true"></span>
+
+
+<h2>Border</h2><article class="neutral"><p>Als een element een border heeft, volgt de border automatisch de vorm die door corner-shape gemaakt is.</p><img width="385" height="156" alt="image" src="https://github.com/user-attachments/assets/021f13a2-5ce8-4bc2-85fa-c13c527652ea"><img width="409" height="287" alt="image" src="https://github.com/user-attachments/assets/72a4cff1-b4fb-4cfe-bc9a-72881d5d2201"></article><span class="grid-spacer" aria-hidden="true"></span>
+
+
+
+<h3>Je kan met <code>:hover</code> of <code>:active</code> states de corners een andere vorm geven.</h3><article class="neutral"><p>Op deze overgang kan je ook een transitions toevoegen.</p><p><a href="https://github.com/user-attachments/assets/51411d7f-4151-483f-a30f-50621037dec3">2025-09-19 18-56-07.webm</a></p><p><a href="https://github.com/user-attachments/assets/970e65b0-40ee-463d-bbf9-5483d6358795">2025-09-19 19-09-13.webm</a></p></article><span class="grid-spacer" aria-hidden="true"></span>
+
+
+
+<h3>Met @keyframes kan je de corner-shape animeren.</h3><article class="neutral"><p><a href="https://github.com/user-attachments/assets/44331e22-e7d3-4a84-9954-d065028d07a7">2025-09-19 18-58-30.webm</a></p></article><span class="grid-spacer" aria-hidden="true"></span>
+
+<h2>breadcrumb menu</h2><article class="neutral"><p>Dit is ook een handige manier om een breadcrumbs menu te maken.<br>
+Hiervoor heb ik een <code>ul</code>, waarbij elk <code>li</code> element (behalve het laatste) een bevel krijgt.</p><p>In elk li kan je een link plaatsen. De corner-shape met bevel vormt dan een pijltje dat naar de volgende link wijst.<br>
+<img width="1406" height="275" alt="image" src="https://github.com/user-attachments/assets/fd221ccf-0a15-4f0b-b9cd-152de38a9f08"></p></article><span class="grid-spacer" aria-hidden="true"></span>
+
+
+<h2>conclusie</h2><article class="neutral"><p>Na ongeveer een uurtje te experimenteren merk ik dat corner-shape heel eenvoudig te leren is. Het is een super handig om elementen meer karakter te geven, en ik ga het zeker vaker gebruiken.</p><p>Voor nu zie ik deze toepassingen:</p><ul>
+<li>Buttons een andere vorm geven, ipv mijn standaard border-radius om de randen wat ronder te maken</li>
+<li>Aandacht trekken naar buttons mbv een keyframe animaties</li>
+<li>misschien ook een loading state op de button plaatsen, nadat het geklikt wordt</li>
+<li>een active effect die de vorm van de button veranderd als de gebruiker erop klikt</li>
+<li>Breadcrumbs-menu’s mooier te maken.</li>
+</ul></article><span class="grid-spacer" aria-hidden="true"></span>
+
+
+
+<h2>codepen</h2><article class="neutral"><p><a href="https://codepen.io/vrsh/pen/bNEGMJO?editors=1100">link naar de codepen</a> waar ik dit alles getest heb</p></article><span class="grid-spacer" aria-hidden="true"></span>
 
 
         </main>
