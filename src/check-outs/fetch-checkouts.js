@@ -6,13 +6,18 @@ const baseURL = "https://raw.githubusercontent.com/wiki/vsheo/i-love-web/";
 const sprintStart = 13;
 const sprintEnd = 20;
 
-const outputDir = path.join(process.cwd(), "src", "check-outs", "fetched-checkouts");
+const outputDir = path.join(
+  process.cwd(),
+  "src",
+  "check-outs",
+  "fetched-checkouts"
+);
 
 // Zorg dat de map bestaat
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
 async function generateUrls() {
-  const urls = [];
+  const urls = ['https://raw.githubusercontent.com/wiki/vsheo/i-love-web/Living-standards-S14.md', 'https://raw.githubusercontent.com/wiki/vsheo/i-love-web/Prettier‐code‐formatter.md'];
   for (let sprint = sprintStart; sprint <= sprintEnd; sprint++) {
     let checkoutIndex = 1;
     while (true) {
