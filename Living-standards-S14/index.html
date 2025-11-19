@@ -11,10 +11,28 @@
         <header>
             <a href="/i-love-web/">Home</a>
 <!-- Hamburger menu -->
-<label class="hamburger"><input type="checkbox" id="hamburger" name="hamburger"> <svg viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg" fill="none"> <path fill="var(--bun)" stroke="var(--stroke)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 4c-4.623 0-8.432 1.756-8.942 6-.066.55.39 1 .942 1h16c.552 0 1.008-.45.942-1-.51-4.244-4.319-6-8.942-6z"></path> <path stroke="var(--sesame)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7.5h0 M12 6.5h0 M15 7.5h0"></path> <path fill="var(--cheese)" stroke="var(--cheese)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.8 11.8 L15 14.2 L17.2 11.8 Z"></path> <path fill="var(--patty)" stroke="var(--stroke)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m15 15 3.379-3.379a2.121 2.121 0 0 1 1.5-.621H20a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v0a2 2 0 0 1 2-2h4.515a6 6 0 0 1 4.242 1.757L15 15z"></path> <path fill="var(--bun)" stroke="var(--stroke)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 15h18v2a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-2z"></path> </svg> </label>
+<label class="hamburger"><input type="checkbox" id="hamburger" name="hamburger">
+    <svg viewBox="0 0 24 24" width="48" height="48" xmlns="http://www.w3.org/2000/svg" fill="none">
+        <path fill="var(--bun)" stroke="var(--stroke)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 4c-4.623 0-8.432 1.756-8.942 6-.066.55.39 1 .942 1h16c.552 0 1.008-.45.942-1-.51-4.244-4.319-6-8.942-6z"></path>
+        <path stroke="var(--sesame)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7.5h0 M12 6.5h0 M15 7.5h0"></path>
+        <path fill="var(--cheese)" stroke="var(--cheese)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.8 11.8 L15 14.2 L17.2 11.8 Z"></path>
+        <path fill="var(--patty)" stroke="var(--stroke)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m15 15 3.379-3.379a2.121 2.121 0 0 1 1.5-.621H20a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v0a2 2 0 0 1 2-2h4.515a6
+                6 0 0 1 4.242 1.757L15 15z"></path>
+        <path fill="var(--bun)" stroke="var(--stroke)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 15h18v2a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-2z"></path>
+    </svg>
+</label>
 <!-- Sprints -->
 <nav>
-    <ul>
+    <ul class="details-container">
+        <li>
+            <details>
+                <summary>Blogs</summary>
+                <ul>
+                    <li><a href="/i-love-web/Prettier‐code‐formatter/">Prettier code formatter</a></li>
+                    <li><a href="/i-love-web/Living-standards-S14/">Cornershape</a></li>
+                </ul>
+            </details>
+        </li>
         <li>
                     <details>
                         <summary>Sprint 13</summary>
@@ -24,12 +42,6 @@
                                 </li>
                             <li>
                                     <a href="/i-love-web/sprint-13-checkout-2/">sprint 13 checkout 2</a>
-                                </li>
-                            <li>
-                                    <a href="/i-love-web/sprint-13-checkout-10/">sprint 13 checkout 10</a>
-                                </li>
-                            <li>
-                                    <a href="/i-love-web/sprint-13-checkout-11/">sprint 13 checkout 11</a>
                                 </li>
                             <li>
                                     <a href="/i-love-web/sprint-13-checkout-3/">sprint 13 checkout 3</a>
@@ -42,6 +54,12 @@
                                 </li>
                             <li>
                                     <a href="/i-love-web/sprint-13-checkout-6/">sprint 13 checkout 6</a>
+                                </li>
+                            <li>
+                                    <a href="/i-love-web/sprint-13-checkout-10/">sprint 13 checkout 10</a>
+                                </li>
+                            <li>
+                                    <a href="/i-love-web/sprint-13-checkout-11/">sprint 13 checkout 11</a>
                                 </li>
                             <li>
                                     <a href="/i-love-web/sprint-13-checkout-7/">sprint 13 checkout 7</a>
@@ -110,8 +128,8 @@
 <label class="overlay" for="hamburger" aria-hidden="true"></label>
         </header>
         <main>
-            <h1>Corner-shape</h1><article class="neutral"><p><a href="https://css-tricks.com/what-can-we-actually-do-with-corner-shape/">corner-shape</a><br>
-is een CSS-property die samenwerkt met border-radius. Zonder border-radius heeft corner-shape geen effect.</p><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/corner-shape">mdn documentatie</a></p><p>Net als bij border-radius kun je per hoek een andere waarde instellen:<br>
+            <article class="neutral"><h1>Corner-shape</h1><p><a href="https://css-tricks.com/what-can-we-actually-do-with-corner-shape/">corner-shape</a>
+is een CSS-property die samenwerkt met border-radius. Zonder border-radius heeft corner-shape geen effect.</p><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/corner-shape">mdn documentatie</a></p><p>Net als bij border-radius kun je per hoek een andere waarde instellen:
 <code>corner-shape: notch round notch round;</code></p><p>De volgorde is (van links naar rechts):</p><ul>
 <li>top-left</li>
 <li>top-right</li>
@@ -123,7 +141,7 @@ is een CSS-property die samenwerkt met border-radius. Zonder border-radius heeft
 <li>scoop – een omgekeerde cirkel</li>
 <li>notch – een vierkant stukje eruit</li>
 <li>squircle (hier zie ik niet echt vershil met de default)</li>
-</ul><p>Je kunt ook de <code>border-radius</code> aanpassen om de vorm van de corner-shape te veranderen.<br>
+</ul><p>Je kunt ook de <code>border-radius</code> aanpassen om de vorm van de corner-shape te veranderen.
 bijvoorbeeld met:</p><ul>
 <li>border-top-left-radius: 50px;</li>
 <li>border-top-right-radius: 48px 50%;</li>
@@ -131,7 +149,7 @@ bijvoorbeeld met:</p><ul>
 <li>border-bottom-right-radius: 80px;</li>
 <li>border-radius: 16px 48px 48px 16px;</li>
 <li>border-radius: 25% 10%;</li>
-</ul></article><span class="grid-spacer" aria-hidden="true"></span>
+</ul></article>
 
 
 
@@ -141,35 +159,35 @@ bijvoorbeeld met:</p><ul>
 
 
 
-<h2>Pseudo-elementen</h2><article class="neutral"><p>Met <code>::before</code> en <code>::after</code> kan je extra lagen toevoegen aan hetzelfde element. Die pseudo-elementen kunnen hun eigen corner-shape krijgen, zodat je verschillende combinaties en creatieve vormen kan maken.</p><img width="452" height="344" alt="image" src="https://github.com/user-attachments/assets/251d3374-5528-4d6b-a9db-23720eeba491"></article><span class="grid-spacer" aria-hidden="true"></span>
+<article class="neutral"><h2>Pseudo-elementen</h2><p>Met <code>::before</code> en <code>::after</code> kan je extra lagen toevoegen aan hetzelfde element. Die pseudo-elementen kunnen hun eigen corner-shape krijgen, zodat je verschillende combinaties en creatieve vormen kan maken.</p><img width="452" height="344" alt="image" src="https://github.com/user-attachments/assets/251d3374-5528-4d6b-a9db-23720eeba491"></article>
 
 
-<h2>Border</h2><article class="neutral"><p>Als een element een border heeft, volgt de border automatisch de vorm die door corner-shape gemaakt is.</p><img width="385" height="156" alt="image" src="https://github.com/user-attachments/assets/021f13a2-5ce8-4bc2-85fa-c13c527652ea"><img width="409" height="287" alt="image" src="https://github.com/user-attachments/assets/72a4cff1-b4fb-4cfe-bc9a-72881d5d2201"></article><span class="grid-spacer" aria-hidden="true"></span>
-
-
-
-<h3>Je kan met <code>:hover</code> of <code>:active</code> states de corners een andere vorm geven.</h3><article class="neutral"><p>Op deze overgang kan je ook een transitions toevoegen.</p><p><a href="https://github.com/user-attachments/assets/51411d7f-4151-483f-a30f-50621037dec3">2025-09-19 18-56-07.webm</a></p><p><a href="https://github.com/user-attachments/assets/970e65b0-40ee-463d-bbf9-5483d6358795">2025-09-19 19-09-13.webm</a></p></article><span class="grid-spacer" aria-hidden="true"></span>
+<article class="neutral"><h2>Border</h2><p>Als een element een border heeft, volgt de border automatisch de vorm die door corner-shape gemaakt is.</p><img width="385" height="156" alt="image" src="https://github.com/user-attachments/assets/021f13a2-5ce8-4bc2-85fa-c13c527652ea"><img width="409" height="287" alt="image" src="https://github.com/user-attachments/assets/72a4cff1-b4fb-4cfe-bc9a-72881d5d2201"></article>
 
 
 
-<h3>Met @keyframes kan je de corner-shape animeren.</h3><article class="neutral"><p><a href="https://github.com/user-attachments/assets/44331e22-e7d3-4a84-9954-d065028d07a7">2025-09-19 18-58-30.webm</a></p></article><span class="grid-spacer" aria-hidden="true"></span>
-
-<h2>breadcrumb menu</h2><article class="neutral"><p>Dit is ook een handige manier om een breadcrumbs menu te maken.<br>
-Hiervoor heb ik een <code>ul</code>, waarbij elk <code>li</code> element (behalve het laatste) een bevel krijgt.</p><p>In elk li kan je een link plaatsen. De corner-shape met bevel vormt dan een pijltje dat naar de volgende link wijst.<br>
-<img width="1406" height="275" alt="image" src="https://github.com/user-attachments/assets/fd221ccf-0a15-4f0b-b9cd-152de38a9f08"></p></article><span class="grid-spacer" aria-hidden="true"></span>
+<article class="neutral"><h3>Je kan met <code>:hover</code> of <code>:active</code> states de corners een andere vorm geven.</h3><p>Op deze overgang kan je ook een transitions toevoegen.</p><p><a href="https://github.com/user-attachments/assets/51411d7f-4151-483f-a30f-50621037dec3">2025-09-19 18-56-07.webm</a></p><p><a href="https://github.com/user-attachments/assets/970e65b0-40ee-463d-bbf9-5483d6358795">2025-09-19 19-09-13.webm</a></p></article>
 
 
-<h2>conclusie</h2><article class="neutral"><p>Na ongeveer een uurtje te experimenteren merk ik dat corner-shape heel eenvoudig te leren is. Het is een super handig om elementen meer karakter te geven, en ik ga het zeker vaker gebruiken.</p><p>Voor nu zie ik deze toepassingen:</p><ul>
+
+<article class="neutral"><h3>Met @keyframes kan je de corner-shape animeren.</h3><p><a href="https://github.com/user-attachments/assets/44331e22-e7d3-4a84-9954-d065028d07a7">2025-09-19 18-58-30.webm</a></p></article>
+
+<article class="neutral"><h2>breadcrumb menu</h2><p>Dit is ook een handige manier om een breadcrumbs menu te maken.
+Hiervoor heb ik een <code>ul</code>, waarbij elk <code>li</code> element (behalve het laatste) een bevel krijgt.</p><p>In elk li kan je een link plaatsen. De corner-shape met bevel vormt dan een pijltje dat naar de volgende link wijst.
+<img width="1406" height="275" alt="image" src="https://github.com/user-attachments/assets/fd221ccf-0a15-4f0b-b9cd-152de38a9f08"></p></article>
+
+
+<article class="neutral"><h2>conclusie</h2><p>Na ongeveer een uurtje te experimenteren merk ik dat corner-shape heel eenvoudig te leren is. Het is een super handig om elementen meer karakter te geven, en ik ga het zeker vaker gebruiken.</p><p>Voor nu zie ik deze toepassingen:</p><ul>
 <li>Buttons een andere vorm geven, ipv mijn standaard border-radius om de randen wat ronder te maken</li>
 <li>Aandacht trekken naar buttons mbv een keyframe animaties</li>
 <li>misschien ook een loading state op de button plaatsen, nadat het geklikt wordt</li>
 <li>een active effect die de vorm van de button veranderd als de gebruiker erop klikt</li>
 <li>Breadcrumbs-menu’s mooier te maken.</li>
-</ul></article><span class="grid-spacer" aria-hidden="true"></span>
+</ul></article>
 
 
 
-<h2>codepen</h2><article class="neutral"><p><a href="https://codepen.io/vrsh/pen/bNEGMJO?editors=1100">link naar de codepen</a> waar ik dit alles getest heb</p></article><span class="grid-spacer" aria-hidden="true"></span>
+<article class="neutral"><h2>codepen</h2><p><a href="https://codepen.io/vrsh/pen/bNEGMJO?editors=1100">link naar de codepen</a> waar ik dit alles getest heb</p></article>
 
 
         </main>

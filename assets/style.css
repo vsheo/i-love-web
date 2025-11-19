@@ -3,14 +3,10 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-flow: row;
+  gap: 2em;
   justify-items: center;
   margin-top: 5em;
   padding: 1em;
-
-  @media (min-width: 925px) {
-    grid-template-columns: 23.125em 1fr;
-    justify-items: start;
-  }
 }
 
 h1,
@@ -37,31 +33,6 @@ h6 {
     align-self: start;
     margin: 2rem 0 1rem 1rem;
     position: relative;
-
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: -10px;
-      /* lijn onder de heading */
-      left: 0;
-      width: 90vw;
-      /* over de hele heading */
-      height: 2px;
-      background-color: var(--color-light);
-    }
-  }
-}
-
-.grid-spacer {
-  display: none;
-  grid-column: 2 / -1;
-  height: 0;
-  width: 0;
-  pointer-events: none;
-  user-select: none;
-
-  @media (min-width: 925px) {
-    display: block;
   }
 }
 
@@ -73,15 +44,9 @@ article {
   background-color: var(--dark-2);
   width: clamp(28ch, 65vw, 75ch);
   overflow-wrap: anywhere;
-  border-radius: 15px;
+  border-radius: var(--radius);
   outline: 1px solid var(--light-2);
   box-shadow: 1px 1px 5px 5px var(--dark-1);
-
-  @media (min-width: 925px) {
-    grid-column: 2;
-    place-self: start;
-    align-items: start;
-  }
 
   img {
     align-self: center;
@@ -108,7 +73,7 @@ pre[class*="language-"] {
   width: clamp(240px, 65vw, 670px);
   max-width: 100%;
   background-color: var(--dark-2);
-  border-radius: 15px;
+  border-radius: var(--child-radius);
   outline: 2px solid var(--light-2);
   box-shadow: 2px 2px 5px 5px var(--dark-1);
   overflow: hidden;
