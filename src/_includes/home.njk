@@ -13,24 +13,27 @@
             <h1>{{ title }}</h1>
         </header>
         <main>
-            {% set sprints = range(13, 21) -%}
-            <ul>
-                {% for sprint in sprints -%}
-                    {% set collectionName = "sprint " ~ sprint -%}
-                    {% if collections[collectionName] and collections[collectionName] | length > 0 -%}
-                        <li>
-                            <ul>
-                                <li>Sprint {{ sprint }}</li>
-                                {% for post in collections[collectionName] -%}
-                                    <li>
-                                        <a href="/i-love-web{{ post.url }}">{{ post.data.title }}</a>
-                                    </li>
-                                {% endfor -%}
-                            </ul>
-                        </li>
-                    {% endif -%}
-                {% endfor -%}
-            </ul>
+            <section class="link-container">
+                <h2>Blogs</h2>
+                <ul>
+                    <li><a href="/i-love-web/Prettier‐code‐formatter/">Prettier code formatter</a></li>
+                    <li><a href="/i-love-web/Living-standards-S14/">Cornershape</a></li>
+                </ul>
+            </section>
+            {% set sprints = range(13, 16) %}
+            {% for sprint in sprints %}
+                {% set collectionName = "sprint " ~ sprint %}
+                <section class="link-container">
+                    <h2>Sprint {{ sprint }}</h2>
+                    <ul>
+                        {% for post in collections[collectionName] %}
+                            <li>
+                                <a href="/i-love-web{{ post.url }}">{{ post.data.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+            {% endfor %}
         </main>
     </body>
 </html>

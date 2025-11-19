@@ -22,17 +22,12 @@ export default function (eleventyConfig) {
             const tag = el.tagName.toLowerCase();
 
             if (/h[1-6]/.test(tag)) {
+              // Nieuw article vóór de heading
               currentArticle = $('<article class="neutral"></article>');
-              $(el).after(
-                '<span class="grid-spacer" aria-hidden="true"></span>'
-              );
-              $(el).after(currentArticle);
-            } else if (tag === "pre") {
-              currentArticle = null;
+              $(el).before(currentArticle);
 
-              const newArticle = $('<article class="neutral"></article>');
-              $(el).after(newArticle);
-              currentArticle = newArticle;
+              // Voeg de heading in het article
+              currentArticle.append($(el));
             } else if (currentArticle) {
               currentArticle.append($(el));
             }
@@ -45,14 +40,6 @@ export default function (eleventyConfig) {
       return content;
     }
   );
-
-  const md = markdownIt({
-    html: true,
-    breaks: true,
-    linkify: true,
-  }).use(markdownItAttrs);
-
-  eleventyConfig.setLibrary("md", md);
 
   return {
     dir: {
