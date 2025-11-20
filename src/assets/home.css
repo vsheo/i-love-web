@@ -17,21 +17,19 @@ main {
   padding: 0 clamp(1em, 10vw, 5em);
 }
 
+header {
+  place-items: center;
+}
+
 .link-container {
+  align-self: start;
   width: 15em;
-  height: 15em;
   overflow: hidden;
   background-color: var(--dark-1);
   box-shadow: 1px 1px 10px 0 var(--dark-2);
   padding: 1em;
   border: 2px solid var(--dark-2);
   border-radius: var(--radius);
-  transition: height 200ms ease-out;
-
-  &:hover {
-    height: 22em;
-    transition: height 200ms ease-out;
-  }
 
   ul {
     display: flex;
