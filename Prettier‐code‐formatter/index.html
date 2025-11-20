@@ -41,13 +41,10 @@
                                     <a href="/i-love-web/sprint-13-checkout-1/">sprint 13 checkout 1</a>
                                 </li>
                             <li>
-                                    <a href="/i-love-web/sprint-13-checkout-2/">sprint 13 checkout 2</a>
-                                </li>
-                            <li>
                                     <a href="/i-love-web/sprint-13-checkout-10/">sprint 13 checkout 10</a>
                                 </li>
                             <li>
-                                    <a href="/i-love-web/sprint-13-checkout-11/">sprint 13 checkout 11</a>
+                                    <a href="/i-love-web/sprint-13-checkout-2/">sprint 13 checkout 2</a>
                                 </li>
                             <li>
                                     <a href="/i-love-web/sprint-13-checkout-3/">sprint 13 checkout 3</a>
@@ -69,6 +66,9 @@
                                 </li>
                             <li>
                                     <a href="/i-love-web/sprint-13-checkout-9/">sprint 13 checkout 9</a>
+                                </li>
+                            <li>
+                                    <a href="/i-love-web/sprint-13-checkout-11/">sprint 13 checkout 11</a>
                                 </li>
                             </ul>
                     </details>
@@ -153,10 +153,7 @@ You can use this to see which files have changes and then format only those file
 
 <article class="neutral"><h2><a href="https://prettier.io/docs/editors">Editor integration</a></h2><p>If you have the <code>Prettier - Code formatter</code> extension in VS Code, you can configure it to format on save. Combined with auto save, you won’t have to run these commands manually, formatting will happen automatically.</p><p>This can be done locally, which means everyone would have to set it up manually.<br>
 Or, you can create a <code>.vscode/settings.json</code> file in the root of your project.
-This achieves the same without requiring team members or future members to configure it manually, making it easy for everyone to use the Prettier code formatter correctly.</p></article>
-
-
-<article class="neutral"><h3><a href="https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code#configure-prettier-for-team-environments">prettier code formatter for team projects</a></h3><p>first make a folder named:</p><pre class="language-console"><code class="language-console">.vscode</code></pre><p>in that folder add this file:</p><pre class="language-console"><code class="language-console">settings.json</code></pre><p>in this file add the following code:</p><pre class="language-JSON"><code class="language-JSON">{
+This achieves the same without requiring team members or future members to configure it manually, making it easy for everyone to use the Prettier code formatter correctly.</p><h3><a href="https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code#configure-prettier-for-team-environments">prettier code formatter for team projects</a></h3><p>first make a folder named:</p><pre class="language-console"><code class="language-console">.vscode</code></pre><p>in that folder add this file:</p><pre class="language-console"><code class="language-console">settings.json</code></pre><p>in this file add the following code:</p><pre class="language-JSON"><code class="language-JSON">{
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true
 }</code></pre></article>
@@ -166,16 +163,19 @@ This achieves the same without requiring team members or future members to confi
 
 
 
-<article class="neutral"><h2>after installing Prettier</h2><p>After setting this up in my project, I noticed that the formatter did not run automatically. I had to format everything manually using:</p><pre class="language-console"><code class="language-console">npx prettier . --write</code></pre><p>This confirmed that Prettier was correctly installed, but it was not formatting on save.</p><p>In vscode, I had to enable <code>editor: format On Save</code> in the settings. Now, when I save a file, all the code is formatted automatically.</p><p>We already enable this feature in <code>.vscode/settings.json</code>, but because vscode user settings, locally, have higher priority, if someone turns it off in their personal VS Code settings, it will not work.</p></article>
 
 
 
-
-
-<article class="neutral"><h3>solution</h3><p>Open VS Code settings using the shortcut: <code>Ctrl , +</code>
+<article class="neutral"><h2>after installing Prettier</h2><p>After setting this up in my project, I noticed that the formatter did not run automatically. I had to format everything manually using:</p><pre class="language-console"><code class="language-console">npx prettier . --write</code></pre><p>This confirmed that Prettier was correctly installed, but it was not formatting on save.</p><p>In vscode, I had to enable <code>editor: format On Save</code> in the settings. Now, when I save a file, all the code is formatted automatically.</p><p>We already enable this feature in <code>.vscode/settings.json</code>, but because vscode user settings, locally, have higher priority, if someone turns it off in their personal VS Code settings, it will not work.</p><h3>solution</h3><p>Open VS Code settings using the shortcut: <code>Ctrl , +</code>
 Search for</p><pre class="language-console"><code class="language-console">editor: format on save</code></pre><p>and enable this option.<br>
 everytime you manual save, <code>ctrl S</code>, your code gets formatted</p><p>For now, I don’t see a way to automatically format on auto-save.
 If I figure it out in the future, I will update this.</p></article>
+
+
+
+
+
+
 
 
 
