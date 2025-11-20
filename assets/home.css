@@ -31,6 +31,10 @@ header {
   border: 2px solid var(--dark-2);
   border-radius: var(--radius);
 
+  h2 {
+    margin-bottom: 0.5em;
+  }
+
   ul {
     display: flex;
     flex-direction: column;
