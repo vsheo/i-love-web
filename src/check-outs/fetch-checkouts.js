@@ -17,7 +17,7 @@ const outputDir = path.join(
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
 async function generateUrls() {
-  const urls = ['https://raw.githubusercontent.com/wiki/vsheo/i-love-web/Living-standards-S14.md', 'https://raw.githubusercontent.com/wiki/vsheo/i-love-web/Prettier‐code‐formatter.md'];
+  const urls = ['https://raw.githubusercontent.com/wiki/vsheo/i-love-web/Living-standards-S14.md', 'https://raw.githubusercontent.com/wiki/vsheo/i-love-web/Prettier‐code‐formatter.md', 'https://raw.githubusercontent.com/wiki/vsheo/i-love-web/CSS-color-generator.md'];
   for (let sprint = sprintStart; sprint <= sprintEnd; sprint++) {
     let checkoutIndex = 1;
     while (true) {

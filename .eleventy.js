@@ -9,37 +9,44 @@ export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/assets/");
 
   eleventyConfig.addTransform(
-    "wrapContentAfterHeadings",
-    (content, outputPath) => {
-      if (outputPath && outputPath.endsWith(".html")) {
-        const $ = load(content);
+  "wrapContentAfterHeadings",
+  (content, outputPath) => {
+    if (outputPath && outputPath.endsWith(".html")) {
+      const $ = load(content, { decodeEntities: false }); // behoud speciale tekens
 
-        $("main").each((_, mainEl) => {
-          let currentArticle = null;
-          const children = $(mainEl).children().toArray();
+      const main = $("main");
+      if (main.length) {
+        let currentArticle = null;
+        const children = main.children().toArray();
 
-          children.forEach((el) => {
-            const tag = el.tagName.toLowerCase();
+        children.forEach((el) => {
+          const tag = el.tagName.toLowerCase();
 
-            if (/h[1-6]/.test(tag)) {
-              // Nieuw article vóór de heading
-              currentArticle = $('<article class="neutral"></article>');
-              $(el).before(currentArticle);
-
-              // Voeg de heading in het article
-              currentArticle.append($(el));
-            } else if (currentArticle) {
-              currentArticle.append($(el));
-            }
-          });
+          if (/h[1-2]/.test(tag)) {
+            currentArticle = $('<article class="neutral"></article>');
+            $(el).before(currentArticle);
+            currentArticle.append($(el));
+          } else if (currentArticle) {
+            currentArticle.append($(el));
+          }
         });
 
-        return $.html();
+        // Escaping van code blocks binnen <main>
+        main.find("pre > code").each((_, el) => {
+          const code = $(el).html();
+          $(el).text(code); // veilig tonen
+        });
+
+        // Alleen de inhoud van main vervangen
+        $("main").html(main.html());
       }
 
-      return content;
+      return $.root().html(); // of content met aangepaste main
     }
-  );
+
+    return content;
+  }
+);
 
   return {
     dir: {
